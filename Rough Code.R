@@ -30,15 +30,17 @@ library(FactoMineR)
 ## Load the data
 ################################
 
+postcode_data <- read_csv("7_PostcodeData2018.csv")
+RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") # R's for some reasons renamed all the variables. how do i go back to original names?
+suburbdata <- read_csv("9_SuburbData2018.csv")
+
 Alcohol_Violence <- read_excel("1_Alcohol Related Violence.xls")
-healthdata <- read_excel("2_AlcoholConsumptionHealthNSW.xls")
 Alcohol_Assualts <- read.csv("3_EDITED - Incidents of Assault (Non-domestic assault) occurring during Weekends Nights from January 2009 to December 2018.csv")
 Domestic_Violence <- read.csv("4_EDITED - Incidents of Assault occurring during Weekends Nights on Residential Premises from January 2009 to December 2018.csv")
 NSWcrimes <- read_excel("5_Incident_by_NSW.xlsm")
 OPT <- read_excel("6_Offences on public transport.xls")
-postcode_data <- read_csv("7_PostcodeData2018.csv")
-RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") # R's for some reasons renamed all the variables. how do i go back to original names?
-suburbdata <- read_csv("9_SuburbData2018.csv")
+
+healthdata <- read_excel("2_AlcoholConsumptionHealthNSW.xls")
 
 ################################
 ## Basic Data Read
