@@ -1,11 +1,11 @@
 # STD_AT2_Code
 Code for Acquiring and Merging Data
-#echo "# STD_AT2_Code" >> README.md
-##git init
-#git add README.md
-#git commit -m "first commit"
-#git remote add origin https://github.com/JKaur1992/STD_AT2_Code.git
-#git push -u origin master
+echo "# STD_AT2_Code" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/JKaur1992/STD_AT2_Code.git
+git push -u origin master
 
 
 setwd("C:/Users/jkaur/Desktop/MDSI/Statistical Thinking/AT2/Data")
