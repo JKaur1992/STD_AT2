@@ -11,6 +11,8 @@ setwd("C:/Users/jkaur/Desktop/MDSI/Statistical Thinking/AT2/Data")
 library(tidyverse)
 library(Amelia)
 library(readxl)
+
+## these are just extra packages that i don't know if we'll need yet. I just cc'd them from my DAM Assignments for EDA.
 library('ggplot2') # visualization
 library('ggthemes') # visualization
 library('scales') # visualization
@@ -25,7 +27,7 @@ library(PerformanceAnalytics)
 library(FactoMineR)
 
 ################################
-## Load the Crime data
+## Load the data
 ################################
 
 Alcohol_Assualts <- read.csv("EDITED - Incidents of Assault (Non-domestic assault) occurring during Weekends Nights from January 2009 to December 2018.csv")
