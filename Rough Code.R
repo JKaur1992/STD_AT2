@@ -54,9 +54,10 @@ dim(postcode_data)
 str(postcode_data)
 names(postcode_data)
 
-#NEED TO ADD A COLUMN for violence type and then MERGE the datasets
-rbind(Alcohol_Assualts, Domestic_Violence)
-cbind(Alcohol_Assualts, Domestic_Violence)
+#For Annual Alcohol related Domestic and Non-Domestic Crime data, NEED TO ADD A COLUMN for violence type - Domestic and Non-Domestic 
+## THEN MERGE the datasets.
+total_alcohol <- rbind(Alcohol_Assualts, Domestic_Violence) ## this is the merging code
+
 
 ##################################################
 ## Check for missing values
