@@ -12,7 +12,7 @@ library(tidyverse)
 library(Amelia)
 library(readxl)
 
-## these are just extra packages that i don't know if we'll need yet. I just cc'd them from my DAM Assignments for EDA.
+## these are just extra packages that i don't know if we'll need yet. I just copied them from my DAM Assignments for EDA.
 library('ggplot2') # visualization
 library('ggthemes') # visualization
 library('scales') # visualization
