@@ -30,10 +30,15 @@ library(FactoMineR)
 ## Load the data
 ################################
 
-Alcohol_Assualts <- read.csv("EDITED - Incidents of Assault (Non-domestic assault) occurring during Weekends Nights from January 2009 to December 2018.csv")
-Domestic_Violence <- read.csv("EDITED - Incidents of Assault occurring during Weekends Nights on Residential Premises from January 2009 to December 2018.csv")
-postcode_data <- read_csv("PostcodeData2018.csv")
-Alcohol_Violence <- read_excel("Alcohol Related Violence.xls")
+Alcohol_Violence <- read_excel("1_Alcohol Related Violence.xls")
+healthdata <- read_excel("2_AlcoholConsumptionHealthNSW.xls")
+Alcohol_Assualts <- read.csv("3_EDITED - Incidents of Assault (Non-domestic assault) occurring during Weekends Nights from January 2009 to December 2018.csv")
+Domestic_Violence <- read.csv("4_EDITED - Incidents of Assault occurring during Weekends Nights on Residential Premises from January 2009 to December 2018.csv")
+NSWcrimes <- read_excel("5_Incident_by_NSW.xlsm")
+OPT <- read_excel("6_Offences on public transport.xls")
+postcode_data <- read_csv("7_PostcodeData2018.csv")
+RCIdata <- read_excel("8_RCI_offencebymonth.xlsm")
+suburbdata <- read_csv("9_SuburbData2018.csv")
 
 ################################
 ## Basic Data Read
