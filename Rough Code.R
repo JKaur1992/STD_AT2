@@ -56,6 +56,7 @@ names(postcode_data)
 
 #NEED TO ADD A COLUMN for violence type and then MERGE the datasets
 rbind(Alcohol_Assualts, Domestic_Violence)
+cbind(Alcohol_Assualts, Domestic_Violence)
 
 ##################################################
 ## Check for missing values
