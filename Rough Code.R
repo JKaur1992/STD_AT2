@@ -37,7 +37,7 @@ Domestic_Violence <- read.csv("4_EDITED - Incidents of Assault occurring during 
 NSWcrimes <- read_excel("5_Incident_by_NSW.xlsm")
 OPT <- read_excel("6_Offences on public transport.xls")
 postcode_data <- read_csv("7_PostcodeData2018.csv")
-RCIdata <- read_excel("8_RCI_offencebymonth.xlsm")
+RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") # R's for some reasons renamed all the variables. how do i go back to original names?
 suburbdata <- read_csv("9_SuburbData2018.csv")
 
 ################################
@@ -63,7 +63,7 @@ names(postcode_data)
 ## NEED TO ADD A COLUMN for violence type - Domestic and Non-Domestic 
 ## THEN MERGE the datasets.
 total_alcohol <- rbind(Alcohol_Assualts, Domestic_Violence) ## this is the merging code
-
+suburb_data <- rbind(RCIdata, suburbdata) ## this isn't working due to renaming of the variables in RCI file. maybe just skip the RCI file?
 
 ##################################################
 ## Check for missing values
