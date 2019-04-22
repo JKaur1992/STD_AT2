@@ -1,0 +1,73 @@
+ Sex, year, Local Health Districts, Number of Respondents, Actual estimate (Per cent), UL 95% CI, LL 95% CI
+ Persons,2015, Sydney,962,26.1,30.5,21.7
+ Persons,2015, South Western Sydney,893,16,20.2,11.9
+ Persons,2015, South Eastern Sydney,805,25.1,30.4,19.8
+ Persons,2015, Illawarra Shoalhaven,880,27.6,33.3,21.8
+ Persons,2015, Western Sydney,936,14.2,18,10.3
+ Persons,2015, Nepean Blue Mountains,788,28.5,36.9,20.1
+ Persons,2015, Northern Sydney,925,24.4,29,19.9
+ Persons,2015, Central Coast,849,25.1,30.9,19.2
+ Persons,2015, Hunter New England,929,28.4,33.3,23.6
+ Persons,2015, Northern NSW,832,33.5,40.5,26.4
+ Persons,2015, Mid North Coast,878,31,40.3,21.7
+ Persons,2015, Southern NSW,817,31.9,38.2,25.5
+ Persons,2015, Murrumbidgee,837,28.4,34.3,22.5
+ Persons,2015, Western NSW,825,28.4,33.8,22.9
+ Persons,2015, Far West,864,25.1,30.8,19.4
+ Persons,2015, All LHDs,"13,270",24.3,25.8,22.7
+ Persons,2016, Sydney,851,33.6,37.9,29.3
+ Persons,2016, South Western Sydney,910,17,20.2,13.9
+ Persons,2016, South Eastern Sydney,880,35.3,39.3,31.2
+ Persons,2016, Illawarra Shoalhaven,898,31.1,36.5,25.6
+ Persons,2016, Western Sydney,885,17.8,20.8,14.7
+ Persons,2016, Nepean Blue Mountains,859,24.6,30,19.3
+ Persons,2016, Northern Sydney,862,29.2,32.8,25.5
+ Persons,2016, Central Coast,888,29.2,36.1,22.3
+ Persons,2016, Hunter New England,885,30.6,34.9,26.3
+ Persons,2016, Northern NSW,902,31.6,38.9,24.4
+ Persons,2016, Mid North Coast,895,34.2,41.8,26.6
+ Persons,2016, Southern NSW,857,29,36.6,21.4
+ Persons,2016, Murrumbidgee,875,27.9,35.5,20.3
+ Persons,2016, Western NSW,863,29.8,37.1,22.6
+ Persons,2016, Far West,863,42.5,52.3,32.7
+ Persons,2016, All LHDs,"13,428",27.8,29.1,26.5
+ Persons,2017, Sydney,814,28.8,32.9,24.7
+ Persons,2017, South Western Sydney,886,17.5,20.7,14.2
+ Persons,2017, South Eastern Sydney,868,32.6,36.5,28.7
+ Persons,2017, Illawarra Shoalhaven,877,30.9,36.6,25.2
+ Persons,2017, Western Sydney,854,13.5,16.2,10.8
+ Persons,2017, Nepean Blue Mountains,849,24.9,30.3,19.6
+ Persons,2017, Northern Sydney,847,26.7,30.4,22.9
+ Persons,2017, Central Coast,853,28,33.9,22
+ Persons,2017, Hunter New England,893,32.3,36.3,28.2
+ Persons,2017, Northern NSW,860,26,31.7,20.3
+ Persons,2017, Mid North Coast,867,31.8,39,24.7
+ Persons,2017, Southern NSW,847,29.6,37.6,21.7
+ Persons,2017, Murrumbidgee,858,30.7,37.7,23.7
+ Persons,2017, Western NSW,885,30.1,36.5,23.8
+ Persons,2017, Far West,862,28.3,35.4,21.2
+ Persons,2017, All LHDs,"13,177",26.1,27.4,24.9
+,,,,,,
+Copyright notice:,,,,,,
+"This work is copyright NSW Ministry of Health, 2015. It may be reproduced in whole or in part,",,,,,,
+subject to the inclusion of an acknowledgement of the source. Commercial usage or sale is prohibited.,,,,,,
+,,,,,,
+Suggested citation:,,,,,,
+Centre for Epidemiology and Evidence. Health Statistics New South Wales. Sydney: NSW Ministry of Health. Available at: www.healthstats.nsw.gov.au. Accessed (insert date of access).,,,,,,
+,,,,,,
+Produced By:,,,,,,
+"Centre for Epidemiology and Evidence (http://www.health.nsw.gov.au/epidemiology/Pages/default.aspx), Population Health Division, NSW Ministry of Health (http://www.health.nsw.gov.au/).",,,,,,
+,,,,,,
+Note:,,,,,,
+"To assist monitoring immediate risk of alcohol-related injury, as defined by Guideline 2 of the 2009 National Health and Medical Research Council Guidelines, this indicator provides information on the proportion of adults who consumed more than 4 standard drinks on a single occasion in the last four weeks (see Methods tab for further information).",,,,,,
+,,,,,,
+"The indicator shows self-reported data collected through Computer Assisted Telephone Interviewing (CATI). Estimates were weighted to adjust for differences in the probability of selection among respondents and were benchmarked to the estimated residential population using the latest available Australian Bureau of Statistics mid-year population estimates. Adults are defined as persons aged 16 years and over in the NSW Population Health Survey. In order to address diminishing coverage of the population by landline telephone numbers (&lt;85% since 2010), a mobile phone number sampling frame was introduced into the 2012 survey. ",,,,,,
+ LL/UL 95%CI = lower and upper limits of the 95% confidence interval for the point estimate.,,,,,,
+,,,,,,
+"Data for some Local Health Districts (LHDs) may not be included individually due to low numbers. All LHDs includes these LHDs where numbers are low, and records where the LHD was missing or not stated. Albury Local Government Area (LGA) is included in All LHDs. ",,,,,,
+,,,,,,
+Source:,,,,,,
+"NSW Population Health Survey (SAPHaRI). Centre for Epidemiology and Evidence, NSW Ministry of Health.",,,,,,
+,,,,,,
+File Created:,,,,,,
+22/04/2019,,,,,,
