@@ -1,6 +1,6 @@
 library(tidyverse)
-library(Amelia)
 library(readxl)
+library(Amelia)
 
 ## these are just extra packages that i don't know if we'll need yet. I just copied them from my DAM Assignments for EDA.
 library('ggplot2') # visualization
@@ -8,7 +8,6 @@ library('ggthemes') # visualization
 library('scales') # visualization
 library('dplyr') # data manipulation
 library('mice') # imputation
-library('randomForest') # classification algorithm
 library(gtools) # for discretisation
 library(corrplot)
 library(Hmisc)
