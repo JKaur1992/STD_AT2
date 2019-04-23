@@ -1,13 +1,3 @@
-echo "# STD_AT2_Code" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/JKaur1992/STD_AT2_Code.git
-git push -u origin master
-
-
-setwd("C:/Users/jkaur/Desktop/MDSI/Statistical Thinking/AT2/Data")
-
 library(tidyverse)
 library(Amelia)
 library(readxl)
@@ -31,7 +21,6 @@ library(FactoMineR)
 ################################
 
 postcode_data <- read_csv("7_PostcodeData2018.csv")
-RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") # R's for some reasons renamed all the variables. how do i go back to original names?
 suburbdata <- read_csv("9_SuburbData2018.csv")
 
 Alcohol_Violence <- read_excel("1_Alcohol Related Violence.xls")
@@ -39,12 +28,28 @@ Alcohol_Assualts <- read.csv("3_EDITED - Incidents of Assault (Non-domestic assa
 Domestic_Violence <- read.csv("4_EDITED - Incidents of Assault occurring during Weekends Nights on Residential Premises from January 2009 to December 2018.csv")
 NSWcrimes <- read_excel("5_Incident_by_NSW.xlsm")
 OPT <- read_excel("6_Offences on public transport.xls")
+RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") # R's for some reasons renamed all the variables. how do i go back to original names?
 
 healthdata <- read_excel("2_AlcoholConsumptionHealthNSW.xls")
 
 ################################
 ## Basic Data Read
 ################################
+
+sumamry(postcode_data)
+dim(postcode_data)
+str(postcode_data)
+names(postcode_data)
+
+summary(suburbdata)
+dim(suburbdata)
+str(suburbdata)
+names(suburbdata)
+
+summary(RCIdata)
+dim(RCIdata)
+str(RCIdata)
+names(RCIdata)
 
 summary(Alcohol_Assualts)
 dim(Alcohol_Assualts)
@@ -56,11 +61,6 @@ dim(Domestic_Violence)
 str(Domestic_Violence)
 names(Domestic_Violence)
 
-sumamry(postcode_data)
-dim(postcode_data)
-str(postcode_data)
-names(postcode_data)
-
 #For Annual Alcohol related Domestic and Non-Domestic Crime data, 
 ## NEED TO ADD A COLUMN for violence type - Domestic and Non-Domestic 
 ## THEN MERGE the datasets.
@@ -71,24 +71,28 @@ suburb_data <- rbind(RCIdata, suburbdata) ## this isn't working due to renaming 
 ## Check for missing values
 ##################################################
 
+missmap(postcode_data, col=c("blue", "red"), legend=FALSE)
+missmap(suburbdata, col=c("blue", "red"), legend=FALSE)
+
 missmap(Alcohol_Assualts, col=c("blue", "red"), legend=FALSE)
 missmap(Domestic_Violence, col=c("blue", "red"), legend=FALSE)
-missmap(postcode_data, col=c("blue", "red"), legend=FALSE)
+missmap(RCIdata, col=c("blue", "red"), legend=FALSE)
 
 ##OR
 
+missmap(postcode_data, main = "Missing values vs observed")
+missmap(suburbdata, main = "Missing values vs observed")
+
 missmap(Alcohol_Assualts, main = "Missing values vs observed")
 missmap(Domestic_Violence, main = "Missing values vs observed")
-missmap(postcode_data, main = "Missing values vs observed")
+missmap(RCIdata, main = "Missing values vs observed")
 
 ########################################
 ##Data engineering
 ########################################
 
 # select() allows you to rapidly zoom in on a useful subset using operations based on the names of the variables. 
-select(postcode_data, Postcode, May 2014)
-select(flights, year:day)
-select(flights, -(year:day))
+select(postcode_data, Postcode, March 2014:Dec 2014) ## The variable need to be re-named so they can be used.
 
 # Create a subset for Variable=X and Variable=Y
 sub = subset(postcode_data, Offence category == "Liquor", select = Postcode:Dec 2018) ##NEED TO SWAP SPACES WITH _
