@@ -122,11 +122,8 @@ names(alcohol_freq_hosp)
 str(alcohol_freq_hosp)
 str(alcohol_hospitalisations)
 
-
+#subset/filter postcode_data to keep data from Jan-08 to Dec-18
 names(postcode_data)
-# RENAME offence category in "postcode_data"
-
-postcode_data <- rename(postcode_data, `Offence category` = "Offence_category")
 select(postcode_data, Postcode, "May-14")
 sub = subset(postcode_data, Offence = "Liquor", select="Dec-18")
 sub
