@@ -1,3 +1,5 @@
+setwd("~/GitHub/STD_AT2")
+
 library(tidyverse)
 library(readxl)
 library(Amelia)
