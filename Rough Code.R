@@ -21,8 +21,10 @@ alcohol_frequency <- read_csv("beh_alcfreq_lhn_trend.csv")
 names(postcode_data)
 names(suburbdata)
 names(alcohol_hospitalisations)
+names(alcohol_consumption)
+names(alcohol_frequency)
 
-sumamry(postcode_data)
+summary(postcode_data)
 summary(suburbdata)
 summary(alcohol_consumption)
 summary(alcohol_hospitalisations)
@@ -62,15 +64,14 @@ alcohol_hospitalisations <- rename(alcohol_hospitalisations, hospitalisation_num
 alcohol_hospitalisations <- rename(alcohol_hospitalisations, hospitalisation_rate = "Rate per 100,000 population")
 alcohol_hospitalisations <- rename(alcohol_hospitalisations, LHD = "Local Health Districts")
 
-
+#####################################################################
 # Clean the alcohol consumption data        
 # Remove NA rows (from comment data at end of .csv files)        
 alcohol_consumption <- alcohol_consumption %>%
   filter (year !=(is.na (year)))
 #Consumption data is by year... the other two are by financial year... let's forget using consumption for now and use the freq instead
+#####################################################################
 
-
-names(alcohol_frequency)
 # Clean the alcohol frequency data
 # Remove the NA's /blank data (from all the comments at the end of the csv file)
 alcohol_frequency <- alcohol_frequency %>%
