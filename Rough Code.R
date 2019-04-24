@@ -123,7 +123,7 @@ str(alcohol_freq_hosp)
 str(alcohol_hospitalisations)
 
 #subset/filter postcode_data to keep data from Jan-08 to Dec-18
+#filter postcode_data to keep data from Jan-08 to Dec-18 and then filter further for liquor offences
 names(postcode_data)
-select(postcode_data, Postcode, "May-14")
-sub = subset(postcode_data, Offence = "Liquor", select="Dec-18")
+sub = select(postcode_data, Postcode, Offence, "Jan-08" : "Dec-18")
 sub
