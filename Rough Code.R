@@ -50,29 +50,33 @@ missmap(alcohol_frequency, main = "Missing values vs observed")
 ##Data Cleaning and Prep
 ########################################
 
-# Clean the "alcohol hospitalisations" data
+# Filter the "postcode_data" and rename the dates
+postcode_data <- rename (postcode_data, March 2014 = "March_2014")
+
+
+# Clean the "alcohol_hospitalisations" data
 # Remove the NA's /blank data (from all the comments at the end of the csv file)
+names(alcohol_hospitalisations)
 alcohol_hospitalisations <- alcohol_hospitalisations %>%
   filter (year !="") %>%
   filter ("State comparison" != "Rest of NSW")%>% # Remove the state comparison aggregate from each LHD's data
   filter ("State comparison" != "Total NSW")
 
-# Remove the columns we don't want from alcohol hospitalisations data, and rename the remaining to be more friendly
-names(alcohol_hospitalisations)
+# Remove the columns we don't want from alcohol_hospitalisations data, and rename the remaining to be more friendly
 alcohol_hospitalisations <- select (alcohol_hospitalisations, -c("State comparison","LL 95% CI","UL 95% CI"))
 alcohol_hospitalisations <- rename(alcohol_hospitalisations, hospitalisation_num = Number)
 alcohol_hospitalisations <- rename(alcohol_hospitalisations, hospitalisation_rate = "Rate per 100,000 population")
 alcohol_hospitalisations <- rename(alcohol_hospitalisations, LHD = "Local Health Districts")
 
 #####################################################################
-# Clean the alcohol consumption data        
+# Clean the alcohol_consumption data        
 # Remove NA rows (from comment data at end of .csv files)        
 alcohol_consumption <- alcohol_consumption %>%
   filter (year !=(is.na (year)))
 #Consumption data is by year... the other two are by financial year... let's forget using consumption for now and use the freq instead
 #####################################################################
 
-# Clean the alcohol frequency data
+# Clean the alcohol_frequency data
 # Remove the NA's /blank data (from all the comments at the end of the csv file)
 alcohol_frequency <- alcohol_frequency %>%
   filter (year !="") 
