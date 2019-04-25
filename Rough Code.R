@@ -3,6 +3,11 @@ setwd("~/GitHub/STD_AT2")
 library(tidyverse)
 library(readxl)
 library(Amelia)
+library(httr)
+library(rsdmx)
+library(jsonlite)
+library(dplyr)
+library(lubridate)
 
 ################################
 ## Load the data
@@ -13,6 +18,25 @@ postcode_data <- read_csv("7_PostcodeData2018.csv")
 alcohol_consumption <- read_csv("beh_alc_lhn_trend.csv")
 alcohol_hospitalisations <- read_csv("beh_alcafhos_lhn_trend.csv")
 alcohol_frequency <- read_csv("beh_alcfreq_lhn_trend.csv")
+
+####################################################
+##RCIdata## from https://data.gov.au/dataset/ds-dga-6cdf7a25-4f2d-4bae-b3b5-61175e2b3b13/distribution/dist-dga-839fd4c3-6b4a-4658-8671-dd974b5b4bb1/details?q=
+
+options(stringsAsFactors = TRUE)
+
+url <- "http://data.gov.au/storage/f/2013-09-12T23%3A32%3A36.918Z/rci-offencebymonth.csv"
+RCIdata <- GET(url = url)
+status_code(RCIdata)
+str(content(RCIdata))
+head(RCIdata$content)
+RCIdata <- rawToChar(RCIdata$content)
+nchar(RCIdata)
+
+RCIdata <- content(RCIdata, as = "text", encoding = "UTF-8")
+df <- fromJSON(RCIdata,flatten = TRUE)
+df
+
+#########################################################
 
 ################################
 ## Basic Data Read
