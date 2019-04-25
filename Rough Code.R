@@ -8,6 +8,7 @@ library(rsdmx)
 library(jsonlite)
 library(dplyr)
 library(lubridate)
+library(ckanr)
 
 ################################
 ## Load the data
@@ -35,12 +36,13 @@ RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") ## to download as excel
 ## crime data by suburbs from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
 ## suburbdata <- read_csv("9_SuburbData2018.csv")
 
-## to load directly from website
+####### other ways to load RCI data
+
+## 1. load directly from website
 ## RCIdata <- read_excel("https://www.bocsar.nsw.gov.au/Documents/Datasets/RCI_offencebymonth.xlsm") # this link isn't working
 ## RCIdata <- read_csv("http://data.gov.au/storage/f/2013-09-12T23%3A32%3A36.918Z/rci-offencebymonth.csv") ## this is data is only until 2012!!
 
-##RCIdata## from 
-#https://data.gov.au/dataset/ds-dga-6cdf7a25-4f2d-4bae-b3b5-61175e2b3b13/distribution/dist-dga-839fd4c3-6b4a-4658-8671-dd974b5b4bb1/details?q=
+## 2. loading using API
 
 options(stringsAsFactors = TRUE)
 
@@ -58,6 +60,8 @@ df
 ##############ANOTHER WAY#######################
 
 RCIurl <- GET (url = "http://www.data.gov.au/api/3/action/group_list")
+RCIurl <- GET (url = "http://demo.ckan.org/api/3/action/package_list")
+## RCIurl <- GET (url = "http://www.data.gov.au/api/3/action/datastore_search?resource_id=1d5b2851-52e9-4327-a81b-19149c63f736&limit=5")
 status_code(RCIurl)
 str(content(RCIurl))
 head(RCIurl$content)
@@ -100,6 +104,7 @@ missmap(alcohol_consumption, main = "Missing values vs observed")
 missmap(alcohol_hospitalisations, main = "Missing values vs observed")
 missmap(alcohol_frequency, main = "Missing values vs observed")
 missmap(alcohol_deaths, main = "Missing values vs observed")
+
 ########################################
 ##Data Cleaning and Prep
 ########################################
