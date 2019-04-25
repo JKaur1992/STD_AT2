@@ -185,9 +185,6 @@ alcohol_frequency <- rename(alcohol_frequency, freq_less_weekly =  "Less than we
 alcohol_frequency <- rename(alcohol_frequency, freq_never =  Never)
 alcohol_frequency <- rename(alcohol_frequency, freq_weekly = Weekly)
 
-
-
-
 names(alcohol_frequency)
 names(alcohol_hospitalisations)
 names(alcohol_deaths)
