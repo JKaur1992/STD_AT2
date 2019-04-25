@@ -44,7 +44,7 @@ RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") ## to download as excel
 
 options(stringsAsFactors = TRUE)
 
-url <- "http://data.gov.au/storage/f/2013-09-12T23%3A32%3A36.918Z/rci-offencebymonth.csv"
+url <- "https://www.bocsar.nsw.gov.au/Documents/Datasets/RCI_offencebymonth.xlsm"
 RCIurl <- GET(url = url)
 status_code(RCIurl)
 str(content(RCIurl))
