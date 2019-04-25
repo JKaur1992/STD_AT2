@@ -59,6 +59,7 @@ df <- fromJSON(RCIurl,flatten = TRUE)
 df
 
 ## method 2 - this seems to work but can't make anything from the outcome though
+# options(stringsAsFactors = TRUE)
 RCIurl <- GET (url = "http://www.data.gov.au/api/3/action/group_list")
 status_code(RCIurl)
 str(content(RCIurl))
@@ -69,6 +70,7 @@ nchar(RCI)
 ## RCI <- content(RCI, as = "text", encoding = "UTF-8")
 df <- fromJSON(RCI,flatten = TRUE) 
 df
+class(RCI)
 
 ## method 3
 ## RCIurl <- GET (url = "https://data.nsw.gov.au/data/api/3/action/datastore_create?resource_id=1d5b2851-52e9-4327-a81b-19149c63f736") # to create API
