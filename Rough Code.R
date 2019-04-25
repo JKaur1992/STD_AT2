@@ -207,9 +207,19 @@ alcohol_hospitalisations <- alcohol_hospitalisations %>%
 
 alcohol_hospitalisations
 
+#subset/filter postcode_data to keep data from Jan-08 to Dec-18
+#filter postcode_data to keep data from Jan-08 to Dec-18 and then filter further for liquor offences
+names(postcode_data)
+subset = select(postcode_data, Postcode, Offence, "Jan-08" : "Dec-18")
+alcohol_offences <- filter(subset, Offence == 'Liquor offences')
+alcohol_offences <- rename(alcohol_offences, Postcode =  "area") ## rename all the LGA/LHD/Postcode to Area to combine them?
+alcohol_offences
+
+##################################################
+## Merging Datasets
+##################################################
+
 ## Now Join the Frequency and Hospitalisations and Deaths data - join by LHD, year, sex
-
-
 alcohol_freq_hosp <- alcohol_hospitalisations %>%
   full_join(alcohol_frequency)
 
@@ -224,10 +234,14 @@ alcohol_freq_hosp_death  <-   filter (alcohol_freq_hosp_death, !( year =="2001-2
 # alcohol_freq_hosp_death  <-   filter (alcohol_freq_hosp_death, LHD == 'Sydney LHD')
 alcohol_freq_hosp_death
 
-#subset/filter postcode_data to keep data from Jan-08 to Dec-18
-#filter postcode_data to keep data from Jan-08 to Dec-18 and then filter further for liquor offences
-names(postcode_data)
-subset = select(postcode_data, Postcode, Offence, "Jan-08" : "Dec-18")
-alcohol_offences <- filter(subset, Offence == 'Liquor offences')
-alcohol_offences
+# Merge hospital data and offence data
+names(alcohol_freq_hosp_death)
+names(alcohol_offences)
+mergeCols <- c("LHD") #wouldn't work here though since we first need re-name all the different location variables -> AREA
 
+# just adiding some merging commands for now - 
+# inner <- merge(alcohol_offences, alcohol_freq_hosp_death, by = mergeCols) #wouldn't work untile column renamed
+# left  <- merge(alcohol_offences, alcohol_freq_hosp_death, by = mergeCols, all.x = TRUE) #wouldn't work untile column renamed
+# right <- merge(alcohol_offences, alcohol_freq_hosp_death, by = mergeCols, all.y = TRUE) #wouldn't work untile column renamed
+cross <- merge(alcohol_freq_hosp_death, alcohol_offences, by = NULL)
+natural <- merge(alcohol_freq_hosp_death, alcohol_offences)
