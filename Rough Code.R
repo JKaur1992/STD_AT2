@@ -35,6 +35,9 @@ RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") ## to download as excel.
 #forgot that this dataset is changing dates into random numbers. 
 #either resolve this or exclude this data
 
+# LGA and Postcode mapping file
+mapping <- read_csv("Australia_lga_postcode_mappings_2016.csv")
+
 ###############################################################################################################################################
 ## crime data by suburbs from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
 ## suburbdata <- read_csv("9_SuburbData2018.csv")
@@ -245,3 +248,7 @@ mergeCols <- c("LHD") #wouldn't work here though since we first need re-name all
 # right <- merge(alcohol_offences, alcohol_freq_hosp_death, by = mergeCols, all.y = TRUE) #wouldn't work untile column renamed
 cross <- merge(alcohol_freq_hosp_death, alcohol_offences, by = NULL)
 natural <- merge(alcohol_freq_hosp_death, alcohol_offences)
+
+#Merge mapping and violence files
+mergeCols <- c("Postcode")
+inner <- merge(alcohol_offences, mapping, by = mergeCols)
