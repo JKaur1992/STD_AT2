@@ -44,26 +44,21 @@ RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") ## to download as excel
 ## RCIdata <- read_csv("http://data.gov.au/storage/f/2013-09-12T23%3A32%3A36.918Z/rci-offencebymonth.csv") ## this is data is only until 2012!!
 
 ## 2. loading using API
-## method 1
-
-options(stringsAsFactors = TRUE)
-
-url <- "https://data.nsw.gov.au/data/api/3/action/datastore_create?resource_id=1d5b2851-52e9-4327-a81b-19149c63f736"
+## method 1 - doesn't really work
+# options(stringsAsFactors = TRUE)
+url <- "https://www.bocsar.nsw.gov.au/Documents/Datasets/RCI_offencebymonth.xlsm"
+# url <- "https://data.nsw.gov.au/data/api/3/action/datastore_create?resource_id=1d5b2851-52e9-4327-a81b-19149c63f736" - doesn't work
 RCIurl <- GET(url = url)
-status_code(RCIurl)
+status_code(RCIurl) #got 200 which is good
 str(content(RCIurl))
 head(RCIurl$content)
-RCIdata <- rawToChar(RCIurl$content)
-nchar(RCIurl)
+RCI <- rawToChar(RCIurl$content) # doesn't work from here
+nchar(RCI)
 RCIurl <- content(RCIurl, as = "text", encoding = "UTF-8")
 df <- fromJSON(RCIurl,flatten = TRUE)
 df
 
-##############ANOTHER WAY#######################
-
-
-## RCIurl <- GET (url = "https://data.nsw.gov.au/data/api/3/action/datastore_create?resource_id=1d5b2851-52e9-4327-a81b-19149c63f736") # to create API
-## RCIurl <- GET (url = "http://www.data.gov.au/api/3/action/datastore_search?resource_id=1d5b2851-52e9-4327-a81b-19149c63f736&limit=5") # to insert API
+## method 2 - this seems to work but can't make anything from the outcome though
 RCIurl <- GET (url = "http://www.data.gov.au/api/3/action/group_list")
 status_code(RCIurl)
 str(content(RCIurl))
@@ -72,8 +67,14 @@ RCI <- rawToChar(RCIurl$content)
 nchar(RCI)
 ## substr(RCI, 1, 100)
 ## RCI <- content(RCI, as = "text", encoding = "UTF-8")
-df <- fromJSON(RCI,flatten = TRUE)
+df <- fromJSON(RCI,flatten = TRUE) 
 df
+
+## method 3
+## RCIurl <- GET (url = "https://data.nsw.gov.au/data/api/3/action/datastore_create?resource_id=1d5b2851-52e9-4327-a81b-19149c63f736") # to create API
+## RCIurl <- GET (url = "http://www.data.gov.au/api/3/action/datastore_search?resource_id=1d5b2851-52e9-4327-a81b-19149c63f736&limit=5") # to insert API
+
+
 
 ################################################################################################################################################
 
