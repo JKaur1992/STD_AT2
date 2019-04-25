@@ -13,36 +13,61 @@ library(lubridate)
 ## Load the data
 ################################
 
-postcode_data <- read_csv("7_PostcodeData2018.csv")
-## suburbdata <- read_csv("9_SuburbData2018.csv")
 # alcohol consumption data from http://www.healthstats.nsw.gov.au/Indicator/beh_alc_age/beh_alc_lhn_trend:
 alcohol_consumption <- read_csv("beh_alc_lhn_trend.csv")
+
 # alcohol hospitalisations data from http://www.healthstats.nsw.gov.au/Indicator/beh_alcafhos/beh_alcafhos_lhn_trend
 alcohol_hospitalisations <- read_csv("beh_alcafhos_lhn_trend.csv")
-# alcohol freq data from: www.healthstats.nsw.gov.au/Indicator/beh_alcfreq/beh_alcfreq_lhn_trend
+
+# alcohol freq data from www.healthstats.nsw.gov.au/Indicator/beh_alcfreq/beh_alcfreq_lhn_trend
 alcohol_frequency <- read_csv("beh_alcfreq_lhn_trend.csv")
+
 # alcohol deaths data from http://www.healthstats.nsw.gov.au/Indicator/beh_alcafdth/beh_alcafdth_lhn_trend
 alcohol_deaths <-  read_csv("beh_alcafdth_lhn_trend.csv")
 
+# crime data by postcode from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
+postcode_data <- read_csv("7_PostcodeData2018.csv")
 
-####################################################
-##RCIdata## from https://data.gov.au/dataset/ds-dga-6cdf7a25-4f2d-4bae-b3b5-61175e2b3b13/distribution/dist-dga-839fd4c3-6b4a-4658-8671-dd974b5b4bb1/details?q=
+# crime data by LGA from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
+RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") ## to download as excel
+
+###############################################################################################################################################
+## crime data by suburbs from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
+## suburbdata <- read_csv("9_SuburbData2018.csv")
+
+## to load directly from website
+## RCIdata <- read_excel("https://www.bocsar.nsw.gov.au/Documents/Datasets/RCI_offencebymonth.xlsm") # this link isn't working
+## RCIdata <- read_csv("http://data.gov.au/storage/f/2013-09-12T23%3A32%3A36.918Z/rci-offencebymonth.csv") ## this is data is only until 2012!!
+
+##RCIdata## from 
+#https://data.gov.au/dataset/ds-dga-6cdf7a25-4f2d-4bae-b3b5-61175e2b3b13/distribution/dist-dga-839fd4c3-6b4a-4658-8671-dd974b5b4bb1/details?q=
 
 options(stringsAsFactors = TRUE)
 
 url <- "http://data.gov.au/storage/f/2013-09-12T23%3A32%3A36.918Z/rci-offencebymonth.csv"
-RCIdata <- GET(url = url)
-status_code(RCIdata)
-str(content(RCIdata))
-head(RCIdata$content)
-RCIdata <- rawToChar(RCIdata$content)
-nchar(RCIdata)
-
-RCIdata <- content(RCIdata, as = "text", encoding = "UTF-8")
-df <- fromJSON(RCIdata,flatten = TRUE)
+RCIurl <- GET(url = url)
+status_code(RCIurl)
+str(content(RCIurl))
+head(RCIurl$content)
+RCIdata <- rawToChar(RCIurl$content)
+nchar(RCIurl)
+RCIurl <- content(RCIurl, as = "text", encoding = "UTF-8")
+df <- fromJSON(RCIurl,flatten = TRUE)
 df
 
-#########################################################
+##############ANOTHER WAY#######################
+
+RCIurl <- GET (url = "http://www.data.gov.au/api/3/action/group_list")
+status_code(RCIurl)
+str(content(RCIurl))
+head(RCIurl$content)
+RCIdata <- rawToChar(RCIurl$content)
+nchar(RCIurl)
+RCIurl <- content(RCIurl, as = "text", encoding = "UTF-8")
+df <- fromJSON(RCIurl,flatten = TRUE)
+df
+
+################################################################################################################################################
 
 ################################
 ## Basic Data Read
@@ -52,6 +77,7 @@ df
 
 summary(postcode_data)
 ## summary(suburbdata)
+summary(RCIdata)
 summary(alcohol_consumption)
 summary(alcohol_hospitalisations)
 summary(alcohol_frequency)
