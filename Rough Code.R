@@ -31,7 +31,9 @@ alcohol_deaths <-  read_csv("beh_alcafdth_lhn_trend.csv")
 postcode_data <- read_csv("7_PostcodeData2018.csv")
 
 # crime data by LGA from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
-RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") ## to download as excel
+RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") ## to download as excel. 
+#forgot that this dataset is changing dates into random numbers. 
+#either resolve this or exclude this data
 
 ###############################################################################################################################################
 ## crime data by suburbs from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
@@ -70,7 +72,11 @@ nchar(RCI)
 ## RCI <- content(RCI, as = "text", encoding = "UTF-8")
 df <- fromJSON(RCI,flatten = TRUE) 
 df
-class(RCI)
+
+group_show('communications', as = 'table')$users
+tag_list('aviation', as = 'table')
+tag_show('Aviation')$packages[[1]][1:3]
+organization_list()
 
 ## method 3
 ## RCIurl <- GET (url = "https://data.nsw.gov.au/data/api/3/action/datastore_create?resource_id=1d5b2851-52e9-4327-a81b-19149c63f736") # to create API
@@ -157,6 +163,7 @@ alcohol_consumption <- alcohol_consumption %>%
 #Consumption data is by year... the other two are by financial year... let's forget using consumption for now and use the freq instead
 #####################################################################
 
+#####################################################################
 names(alcohol_frequency)
 # Clean the alcohol frequency data
 # Remove the NA's /blank data (from all the comments at the end of the csv file)
@@ -214,10 +221,13 @@ names(alcohol_freq_hosp_death)
 
 str(alcohol_freq_hosp_death)
 alcohol_freq_hosp_death  <-   filter (alcohol_freq_hosp_death, !( year =="2001-2002" | year == "2002-2003"| year == "2003-2004"| year =="2004-2005" | year =="2005-2006" | year =="2006-2007" ))
+# alcohol_freq_hosp_death  <-   filter (alcohol_freq_hosp_death, LHD == 'Sydney LHD')
+alcohol_freq_hosp_death
 
 #subset/filter postcode_data to keep data from Jan-08 to Dec-18
 #filter postcode_data to keep data from Jan-08 to Dec-18 and then filter further for liquor offences
 names(postcode_data)
-subset = select(postcode_data, Postcode, Offence, "Jan-08" : "Dec-18") %>%
-  filter(Offence category == "Liquor")
-subset
+subset = select(postcode_data, Postcode, Offence, "Jan-08" : "Dec-18")
+alcohol_offences <- filter(subset, Offence == 'Liquor offences')
+alcohol_offences
+
