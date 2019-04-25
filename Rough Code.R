@@ -76,8 +76,6 @@ class(RCI)
 ## RCIurl <- GET (url = "https://data.nsw.gov.au/data/api/3/action/datastore_create?resource_id=1d5b2851-52e9-4327-a81b-19149c63f736") # to create API
 ## RCIurl <- GET (url = "http://www.data.gov.au/api/3/action/datastore_search?resource_id=1d5b2851-52e9-4327-a81b-19149c63f736&limit=5") # to insert API
 
-
-
 ################################################################################################################################################
 
 ################################
@@ -96,6 +94,7 @@ summary(alcohol_deaths)
 
 str(postcode_data)
 ## str(suburbdata)
+## str(RCIdata)
 str(alcohol_consumption)
 str(alcohol_hospitalisations)
 str(alcohol_frequency)
@@ -219,5 +218,6 @@ alcohol_freq_hosp_death  <-   filter (alcohol_freq_hosp_death, !( year =="2001-2
 #subset/filter postcode_data to keep data from Jan-08 to Dec-18
 #filter postcode_data to keep data from Jan-08 to Dec-18 and then filter further for liquor offences
 names(postcode_data)
-sub = select(postcode_data, Postcode, Offence, "Jan-08" : "Dec-18")
-sub
+subset = select(postcode_data, Postcode, Offence, "Jan-08" : "Dec-18") %>%
+  filter(Offence category == "Liquor")
+subset
