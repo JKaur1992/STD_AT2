@@ -250,9 +250,9 @@ alcohol_freq_hosp_death
 # Merge hospital data and offence data
 names(alcohol_freq_hosp_death)
 names(alcohol_offences)
-mergeCols <- c("year") #wouldn't work here though since we first need re-name all the different location variables -> AREA
+mergeCols <- c("year") #year variable needs to be in the same format for it to work
 
-# just adiding some merging commands for now - 
+# just adiding some sample merging commands for now - 
 # inner <- merge(alcohol_offences, alcohol_freq_hosp_death, by = mergeCols) #wouldn't work untile column renamed
 inner <- merge(alcohol_offences, alcohol_freq_hosp_death, by = year)
 # left  <- merge(alcohol_offences, alcohol_freq_hosp_death, by = mergeCols, all.x = TRUE) #wouldn't work untile column renamed
