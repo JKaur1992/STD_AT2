@@ -223,7 +223,10 @@ alcohol_offences
 alcohol_offences <- alcohol_offences %>% 
   gather(key = year, value = violence_count, "Jan-08" : "Dec-18")
 
-# I also need to split months and years into separate columns - HOW????
+# I also need to split months and years into separate columns - SHOULD I and HOW????
+
+# filter mapping data for NSW
+mapping <- filter(mapping, State == 'New South Wales')
 
 ##################################################
 ## Merging Datasets
