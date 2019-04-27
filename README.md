@@ -11,6 +11,15 @@
 <i>Variables in Cleaned Data:</i> Enter names of data columns in finalised cleaned file <br>
 <i>Comments:</i> Enter any comments that may be helpful to know when we use or interpret the data</p>
 
+<p><B>Data: LGA to LHD Mapping</B> </br>
+<i>Input File:</i> LGAtoLDH.xlsx </br>
+<i>Source:</i> Constructed from unique variables for LHD and LGA in our other data sets, and merged with info found at health NSW sites </br> 
+<i>Measure Description:</i> No measures - mapping names only <br>
+<i>Notes from source:</i> https://www.health.nsw.gov.au/lhd/Documents/lhd-wall-map.pdf <br>
+<i>Variables in Input File:</i>LGA; LHD <br>
+<i>Variables in Cleaned Data:</i> LGA; LHD <br>
+<i>Comments:</i> LGA = Local Govt Area; LHD = Local Health District.  Some LGA names have changed since the health NSW site was published, so combined with a web search to find new names to create final file.  File will be used for merging other data sets</p>
+
 <p><B>Data: Alcohol Frequency</B> </br>
 <i>Input File:</i> beh_alcfreq_lhn_trend.csv </br>
 <i>Source:</i> www.healthstats.nsw.gov.au/Indicator/beh_alcfreq/beh_alcfreq_lhn_trend <br>
