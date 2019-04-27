@@ -1,7 +1,8 @@
 # STD_AT2
 ## Definition of Data Sources that are being utilised
 
-<p>Copy the below as a template to enter your data</p>
+<p>Copy the below as a template to enter your data into the dictionary</p>
+START TEMPLATE ----------------------</br>
 <p><B>Data: Enter Name</B> </br>
 <i>Input File:</i> Enter filename thats in the repo </br>
 <i>Source:</i> Enter URL or source API etc <br>
@@ -10,6 +11,7 @@
 <i>Variables in Input File:</i> Enter names of data columns in source file <br>
 <i>Variables in Cleaned Data:</i> Enter names of data columns in finalised cleaned file <br>
 <i>Comments:</i> Enter any comments that may be helpful to know when we use or interpret the data</p>
+---------------------------------------END TEMPLATE<br/>
 
 <p><B>Data: LGA to LHD Mapping</B> </br>
 <i>Input File:</i> LGAtoLDH.xlsx </br>
