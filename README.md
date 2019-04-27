@@ -18,7 +18,7 @@
 <i>Notes from source:</i> NSW Population Health Survey (SAPHaRI). Centre for Epidemiology and Evidence, NSW Ministry of Health. <br>
 <i>Variables in Input File:</i> Local Health Districts; year; Sex; Drinking frequency; Number of Respondents; Actual estimate (Per cent); LL 95% CI; UL 95% CI <br>
 <i>Variables in Cleaned Data:</i> Local Health Districts; year; Sex; freq_daily; freq_less_weekly; freq_never; freq_weekly <br>
-<i>Comments:</i> Only available by Local Health District, not available by LGA. Rate of respondents by frequency converted into variables in columns for use in regression models </p>
+<i>Comments:</i> Only available by Local Health District, not available by LGA. Rate of respondents by frequency converted into variables in columns for use in regression models. Data is based on a financial type year basis (e.g. 2002-03). </p>
 
 <p><B>Data: Alcohol Hospitalisations </B> </br>
 <i>Input File:</i> beh_alcafhos_lhn_trend.csv </br>
