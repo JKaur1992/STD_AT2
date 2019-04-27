@@ -39,6 +39,9 @@ RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") ## to download as excel.
 # LGA and Postcode mapping file
 mapping <- read_csv("Australia_lga_postcode_mappings_2016.csv")
 
+# LGA to LHD mapping file
+LGA_LHD_Map <- read_excel("LGAtoLHD.xlsx") 
+
 ###############################################################################################################################################
 ## crime data by suburbs from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
 ## suburbdata <- read_csv("9_SuburbData2018.csv")
