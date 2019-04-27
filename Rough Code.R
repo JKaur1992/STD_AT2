@@ -4,6 +4,7 @@ library(tidyverse)
 library(readxl)
 library(Amelia)
 library(dplyr)
+library(tidyr)
 
 library(httr)
 library(rsdmx)
@@ -215,8 +216,17 @@ alcohol_hospitalisations
 names(postcode_data)
 subset = select(postcode_data, Postcode, Offence, "Jan-08" : "Dec-18")
 alcohol_offences <- filter(subset, Offence == 'Liquor offences')
-alcohol_offences <- rename(alcohol_offences, Postcode =  "area") ## rename all the LGA/LHD/Postcode to Area to combine them?
+## alcohol_offences <- rename(alcohol_offences, Postcode =  "area") ## rename all the LGA/LHD/Postcode to Area to combine them?
 alcohol_offences
+
+# Use "gather" to create a new variable / column for year - this will bring hospital and violence data into same format time wise
+alcohol_offences <- alcohol_offences %>% 
+  gather(key = year, value = violence_count, "Jan-08" : "Dec-18")
+
+# I also need to split months and years into separate columns - SHOULD I and HOW????
+
+# filter mapping data for NSW
+mapping <- filter(mapping, State == 'New South Wales')
 
 ##################################################
 ## Merging Datasets
@@ -240,10 +250,11 @@ alcohol_freq_hosp_death
 # Merge hospital data and offence data
 names(alcohol_freq_hosp_death)
 names(alcohol_offences)
-mergeCols <- c("LHD") #wouldn't work here though since we first need re-name all the different location variables -> AREA
+mergeCols <- c("year") #year variable needs to be in the same format for it to work
 
-# just adiding some merging commands for now - 
+# just adiding some sample merging commands for now - 
 # inner <- merge(alcohol_offences, alcohol_freq_hosp_death, by = mergeCols) #wouldn't work untile column renamed
+inner <- merge(alcohol_offences, alcohol_freq_hosp_death, by = year)
 # left  <- merge(alcohol_offences, alcohol_freq_hosp_death, by = mergeCols, all.x = TRUE) #wouldn't work untile column renamed
 # right <- merge(alcohol_offences, alcohol_freq_hosp_death, by = mergeCols, all.y = TRUE) #wouldn't work untile column renamed
 cross <- merge(alcohol_freq_hosp_death, alcohol_offences, by = NULL)
