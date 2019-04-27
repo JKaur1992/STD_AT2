@@ -6,7 +6,7 @@ Copy the below as a template to enter your data
 <p><i>Input File:</i> Enter filename thats in the repo </br>
 <i>Source:</i> Enter URL our source API etc <br>
 <i>Measure Description:</i> Enter Description <br>
-<i>Notes from source: Enter any explanatory notes <br>
+<i>Notes from source:</i> Enter any explanatory notes <br>
 <i>Variables in Input File:</i> Enter names of data columns in source file <br>
 <i>Variables in Cleaned Data:</i> Enter names of data columns in finalised cleaned file <br>
 <i>Comments:</i> Enter any comments that may be helpful to know when we use or interpret the data</p>
