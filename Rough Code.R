@@ -1,3 +1,4 @@
+rm(list=ls()) #for clearing the environment
 setwd("~/GitHub/STD_AT2")
 
 library(tidyverse)
@@ -216,14 +217,25 @@ alcohol_hospitalisations
 names(postcode_data)
 subset = select(postcode_data, Postcode, Offence, "Jan-08" : "Dec-18")
 alcohol_offences <- filter(subset, Offence == 'Liquor offences')
-## alcohol_offences <- rename(alcohol_offences, Postcode =  "area") ## rename all the LGA/LHD/Postcode to Area to combine them?
 alcohol_offences
 
 # Use "gather" to create a new variable / column for year - this will bring hospital and violence data into same format time wise
 alcohol_offences <- alcohol_offences %>% 
   gather(key = year, value = violence_count, "Jan-08" : "Dec-18")
+alcohol_offences
 
-# I also need to split months and years into separate columns - SHOULD I and HOW????
+# Bring RCI data into same format as offences data
+
+RCIdata <- rename(RCIdata, offence =  'Offence category') # rename the variable so it's more friendly.
+RCIdata = select(RCIdata, LGA, Offence, "Jan-08" : "Dec-18")
+RCIdata <- filter(RCIdata, Offence == 'Liquor offences')
+alcohol_offences
+
+RCIdata <- RCIdata %>% 
+  gather(key = year, value = violence_count, "Jan-08" : "Dec-18")
+RCIdata
+
+# I also need to split months and years into separate columns so it aligns - SHOULD I and HOW????
 
 # filter mapping data for NSW
 mapping <- filter(mapping, State == 'New South Wales')
