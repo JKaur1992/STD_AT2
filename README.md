@@ -21,7 +21,7 @@
 <i>Comments:</i> Only available by Local Health District, not available by LGA. Rate of respondents by frequency converted into variables in columns for use in regression models </p>
 
 <p><B>Data: Alcohol Hospitalisations </B> </br>
-<i>Input File:</i> beh_alcafdth_lhn_trend.csv </br>
+<i>Input File:</i> beh_alcafhos_lhn_trend.csv </br>
 <i>Source:</i> http://www.healthstats.nsw.gov.au/Indicator/beh_alcafhos/beh_alcafhos_lhn_trend </br>
 <i>Measure Description:</i> Alcohol attributable deaths 2001-2002 to 2015-2016 </br>
 <i>Notes from source:</i> NSW Population Health Survey (SAPHaRI). Centre for Epidemiology and Evidence, NSW Ministry of Health. </br>
