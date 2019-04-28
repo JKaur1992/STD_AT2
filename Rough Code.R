@@ -227,9 +227,9 @@ alcohol_offences
 # Bring RCI data into same format as offences data
 
 RCIdata <- rename(RCIdata, offence =  'Offence category') # rename the variable so it's more friendly.
-RCIdata = select(RCIdata, LGA, Offence, "Jan-08" : "Dec-18")
-RCIdata <- filter(RCIdata, Offence == 'Liquor offences')
-alcohol_offences
+RCIdata = select(RCIdata, LGA, offence, "Jan-08" : "Dec-18")
+RCIdata <- filter(RCIdata, offence == 'Liquor offences')
+RCIdata
 
 RCIdata <- RCIdata %>% 
   gather(key = year, value = violence_count, "Jan-08" : "Dec-18")
