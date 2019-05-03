@@ -49,3 +49,20 @@ START TEMPLATE ----------------------</br>
 <i>Variables in Cleaned Data:</i> Local Health Districts; year; sex; death_num; death_rate  </br>
 <i>Comments:</i> Data is based on a financial type year basis (e.g. 2002-03).  Also available by LGA – chose to use the Local Health District data so it can be joined to frequency data  </p>
 
+<p><B>Data: RCI_offencebymonth Data</B> </br>
+<i>Input File:</i> 7_PostcodeData2018.csv </br>
+<i>Source:</i> https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx  </br>
+<i>Measure Description:</i> Monthly data on all criminal incidents recorded by NSW police Jan-1995 and Dec-2018 allocated by Postcode  </br>
+<i>Notes from Source:</i> This data is sourced from BOCSAR and is updated either annually or quarterly. This is for public use so no legal ramifications associated. This data was released on 6th March 2019 so quite latest and up-to-date. </br>
+<i>Variables in Input File:</i> Postcode; offence category; subcategory; month/year (time as variable)  </br>
+<i>Variables in Cleaned Data:</i> Postcode; offence category; subcategory; time of year as month-year, crime volume  </br>
+<i>Comments:</i>   </p>
+
+<p><B>Data: Postcode Data</B> </br>
+<i>Input File:</i> 8_RCI_offencebymonth.xlsm </br>
+<i>Source:</i> https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx  </br>
+<i>Measure Description:</i> Monthly data on all criminal incidents recorded by NSW police Jan-1995 and Dec-2018 allocated by Local Government Areas or LGA  </br>
+<i>Notes from Source:</i> This data is sourced from BOCSAR and is updated either annually or quarterly. This is for public use so no legal ramifications associated. This data was released on 6th March 2019 so quite latest and up-to-date. </br>
+<i>Variables in Input File:</i> Postcode; offence category; subcategory; month/year (time as variable)  </br>
+<i>Variables in Cleaned Data:</i> Postcode; offence category; subcategory; time of year as month-year, crime volume  </br>
+<i>Comments:</i> This file seems corrupted as the names of months are changed into random numbers. This will need to be sorted for it to be useful. Once this is done, it can be merged with Postcode data and LGA-Postcode alignment file from Cuong to have coherent data.   </p>
