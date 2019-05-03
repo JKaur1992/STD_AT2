@@ -7,12 +7,6 @@ library(Amelia)
 library(dplyr)
 library(tidyr)
 
-library(httr)
-library(rsdmx)
-library(jsonlite)
-library(lubridate)
-library(ckanr)
-
 ################################
 ## Load the data
 ################################
@@ -55,6 +49,11 @@ LGA_LHD_Map <- read_excel("LGAtoLHD.xlsx")
 ## RCIdata <- read_csv("http://data.gov.au/storage/f/2013-09-12T23%3A32%3A36.918Z/rci-offencebymonth.csv") ## this is data is only until 2012!!
 
 ## 2. loading using API
+library(httr)
+library(rsdmx)
+library(jsonlite)
+library(lubridate)
+library(ckanr)
 ## method 1 - doesn't really work
 # options(stringsAsFactors = TRUE)
 url <- "https://www.bocsar.nsw.gov.au/Documents/Datasets/RCI_offencebymonth.xlsm"
