@@ -265,27 +265,30 @@ alcohol_freq_hosp_death
 
 #Merge Postcode/LGA and LHD/LGA files
 mapping <- rename(mapping, LGA =  'LGA region')
-mergeCols <- c("LGA")
-inner <- merge(LGA_LHD_Map, mapping, by = mergeCols)
+mergeCol.1 <- c("LGA")
+basic_merge <- merge(LGA_LHD_Map, mapping, by = mergeCol.1)
 
-#Merge mapping and violence files
-mergeCols <- c("Postcode")
-inner <- merge(alcohol_offences, mapping, by = mergeCols)
+#Merge this merged file into violence files
+mergeCol.2 <- c("Postcode")
+offence_data <- merge(alcohol_offences, basic_merge, by = mergeCol.2)
 
-#Merge LGA_LHD_Map with hospital data
-mergeCols <- c("Postcode")
-inner <- merge(alcohol_offences, mapping, by = mergeCols)
+#Merge this merged file into hospital data
+mergeCol.3 <- c("LHD")
+hospital_data <- merge(alcohol_freq_hosp_death, basic_merge, by = mergeCol.3)
 
 # Merge hospital data and offence data
-names(alcohol_freq_hosp_death)
-names(alcohol_offences)
-mergeCols <- c("year") #year variable needs to be in the same format for it to work
+mergeCols <- c("year","LGA", "LHD", "Postcode", "State") #year variable needs to be in the same format for it to work. atm, none of the merge codes below work
+mergeCols <- c("LGA", "LHD", "Postcode", "State") #year variable needs to be in the same format for it to work
 
 # just adiding some sample merging commands for now - 
-# inner <- merge(alcohol_offences, alcohol_freq_hosp_death, by = mergeCols) #wouldn't work untile column renamed
-inner <- merge(alcohol_offences, alcohol_freq_hosp_death, by = year)
-# left  <- merge(alcohol_offences, alcohol_freq_hosp_death, by = mergeCols, all.x = TRUE) #wouldn't work untile column renamed
-# right <- merge(alcohol_offences, alcohol_freq_hosp_death, by = mergeCols, all.y = TRUE) #wouldn't work untile column renamed
-# cross <- merge(alcohol_freq_hosp_death, alcohol_offences, by = NULL) #not giving the outpu we need
-natural <- merge(alcohol_freq_hosp_death, alcohol_offences) #not giving the outpu we need
+# 
+inner <- merge(offence_data, hospital_data, by = mergeCols)
+#
+inner <- merge(offence_data, hospital_data, by = year)
+# left  <- merge(offence_data, hospital_data, by = mergeCols, all.x = TRUE) #doesn't work for either codes above
+# 
+right <- merge(offence_data, hospital_data, by = mergeCols, all.y = TRUE)
+# 
+cross <- merge(offence_data, hospital_data, by = NULL)
+# natural <- merge(offence_data, hospital_data) #doesn't work
 
