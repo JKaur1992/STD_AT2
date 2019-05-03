@@ -283,11 +283,9 @@ mergeCols <- c("LGA", "LHD", "Postcode", "State") #year variable needs to be in 
 # just adiding some sample merging commands for now - 
 # 
 inner <- merge(offence_data, hospital_data, by = mergeCols)
-#
-inner <- merge(offence_data, hospital_data, by = year)
+# inner <- merge(offence_data, hospital_data, by = year)
 # left  <- merge(offence_data, hospital_data, by = mergeCols, all.x = TRUE) #doesn't work for either codes above
-# 
-right <- merge(offence_data, hospital_data, by = mergeCols, all.y = TRUE)
+# right <- merge(offence_data, hospital_data, by = mergeCols, all.y = TRUE) #doesn't work for either codes above
 # 
 cross <- merge(offence_data, hospital_data, by = NULL)
 # natural <- merge(offence_data, hospital_data) #doesn't work
