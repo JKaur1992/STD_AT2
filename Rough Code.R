@@ -40,8 +40,9 @@ LGA_LHD_Map <- read_excel("LGAtoLHD.xlsx")
 
 ###############################################################################################################################################
 ## crime data by suburbs from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
-## suburbdata <- read_csv("9_SuburbData2018.csv")
-
+## 
+suburbdata <- read_csv("9_SuburbData2018.csv")
+###############################################################################################################################################
 ####### other ways to load RCI data
 
 ## 1. load directly from website
@@ -262,6 +263,19 @@ alcohol_freq_hosp_death  <-   filter (alcohol_freq_hosp_death, !( year =="2001-2
 # alcohol_freq_hosp_death  <-   filter (alcohol_freq_hosp_death, LHD == 'Sydney LHD')
 alcohol_freq_hosp_death
 
+#Merge Postcode/LGA and LHD/LGA files
+mapping <- rename(mapping, LGA =  'LGA region')
+mergeCols <- c("LGA")
+inner <- merge(LGA_LHD_Map, mapping, by = mergeCols)
+
+#Merge mapping and violence files
+mergeCols <- c("Postcode")
+inner <- merge(alcohol_offences, mapping, by = mergeCols)
+
+#Merge LGA_LHD_Map with hospital data
+mergeCols <- c("Postcode")
+inner <- merge(alcohol_offences, mapping, by = mergeCols)
+
 # Merge hospital data and offence data
 names(alcohol_freq_hosp_death)
 names(alcohol_offences)
@@ -272,9 +286,6 @@ mergeCols <- c("year") #year variable needs to be in the same format for it to w
 inner <- merge(alcohol_offences, alcohol_freq_hosp_death, by = year)
 # left  <- merge(alcohol_offences, alcohol_freq_hosp_death, by = mergeCols, all.x = TRUE) #wouldn't work untile column renamed
 # right <- merge(alcohol_offences, alcohol_freq_hosp_death, by = mergeCols, all.y = TRUE) #wouldn't work untile column renamed
-cross <- merge(alcohol_freq_hosp_death, alcohol_offences, by = NULL)
-natural <- merge(alcohol_freq_hosp_death, alcohol_offences)
+# cross <- merge(alcohol_freq_hosp_death, alcohol_offences, by = NULL) #not giving the outpu we need
+natural <- merge(alcohol_freq_hosp_death, alcohol_offences) #not giving the outpu we need
 
-#Merge mapping and violence files
-mergeCols <- c("Postcode")
-inner <- merge(alcohol_offences, mapping, by = mergeCols)
