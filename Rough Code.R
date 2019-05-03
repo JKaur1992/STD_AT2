@@ -34,6 +34,7 @@ postcode_data <- read_csv("7_PostcodeData2018.csv")
 
 # crime data by LGA from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
 RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") ## to download as excel. 
+RCIdata <- read_excel("RCI_offencebymonth.xlsm")
 #forgot that this dataset is changing dates into random numbers. 
 #either resolve this or exclude this data
 
