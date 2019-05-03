@@ -146,7 +146,8 @@ alcohol_hospitalisations <- rename(alcohol_hospitalisations, hospitalisation_num
 alcohol_hospitalisations <- rename(alcohol_hospitalisations, hospitalisation_rate = "Rate per 100,000 population")
 alcohol_hospitalisations <- rename(alcohol_hospitalisations, LHD = "Local Health Districts")
 
-#####################################################
+########NEXT DATASET####################################
+
 # Clean the "alcohol deaths" data
 # Remove the NA's /blank data (from all the comments at the end of the csv file)
 alcohol_deaths <- alcohol_deaths %>%
@@ -172,7 +173,8 @@ alcohol_consumption <- alcohol_consumption %>%
 #Consumption data is by year... the other two are by financial year... let's forget using consumption for now and use the freq instead
 #####################################################################
 
-#####################################################################
+########NEXT DATASET####################################
+
 names(alcohol_frequency)
 # Clean the alcohol frequency data
 # Remove the NA's /blank data (from all the comments at the end of the csv file)
@@ -216,7 +218,8 @@ alcohol_hospitalisations <- alcohol_hospitalisations %>%
 
 alcohol_hospitalisations
 
-#subset/filter postcode_data to keep data from Jan-08 to Dec-18
+########NEXT DATASET####################################
+
 #filter postcode_data to keep data from Jan-08 to Dec-18 and then filter further for liquor offences
 names(postcode_data)
 subset = select(postcode_data, Postcode, Offence, "Jan-08" : "Dec-18")
@@ -228,8 +231,24 @@ alcohol_offences <- alcohol_offences %>%
   gather(key = year, value = violence_count, "Jan-08" : "Dec-18")
 alcohol_offences
 
-# Bring RCI data into same format as offences data
+########NEXT DATASET####################################
 
+#filter suburbdata to keep data from Jan-08 to Dec-18 and then filter further for liquor offences
+names(suburbdata)
+suburbdata <- rename(suburbdata, offence =  'Offence category')
+unique (suburbdata$offence)
+suburb_subset = select(suburbdata, Suburb, offence, "Jan 2008" : "Dec 2018")
+alcoholoffences <- filter(suburb_subset, offence == 'Liquor offences')
+alcoholoffences
+
+# Use "gather" to create a new variable / column for year - this will bring hospital and violence data into same format time wise
+alcoholoffences <- alcoholoffences %>% 
+  gather(key = year, value = violence_count, "Jan 2008" : "Dec 2018")
+alcoholoffences
+
+########NEXT DATASET####################################
+
+# Bring RCI data into same format as offences data
 RCIdata <- rename(RCIdata, offence =  'Offence category') # rename the variable so it's more friendly.
 RCIdata = select(RCIdata, LGA, offence, "Jan-08" : "Dec-18")
 RCIdata <- filter(RCIdata, offence == 'Liquor offences')
@@ -238,6 +257,7 @@ RCIdata
 RCIdata <- RCIdata %>% 
   gather(key = year, value = violence_count, "Jan-08" : "Dec-18")
 RCIdata
+##############################################################################
 
 # I also need to split months and years into separate columns so it aligns - SHOULD I and HOW????
 
@@ -263,18 +283,33 @@ alcohol_freq_hosp_death  <-   filter (alcohol_freq_hosp_death, !( year =="2001-2
 # alcohol_freq_hosp_death  <-   filter (alcohol_freq_hosp_death, LHD == 'Sydney LHD')
 alcohol_freq_hosp_death
 
+########NEXT DATASET####################################
+
 #Merge Postcode/LGA and LHD/LGA files
 mapping <- rename(mapping, LGA =  'LGA region')
 mergeCol.1 <- c("LGA")
 basic_merge <- merge(LGA_LHD_Map, mapping, by = mergeCol.1)
 
-#Merge this merged file into violence files
+########NEXT DATASET####################################
+
+#Merge this merged file into Postcode violence data
 mergeCol.2 <- c("Postcode")
 offence_data <- merge(alcohol_offences, basic_merge, by = mergeCol.2)
+
+########NEXT DATASET####################################
 
 #Merge this merged file into hospital data
 mergeCol.3 <- c("LHD")
 hospital_data <- merge(alcohol_freq_hosp_death, basic_merge, by = mergeCol.3)
+
+########NEXT DATASET####################################
+
+#Merge this merged file into Suburb violence data
+alcoholoffences <- rename(alcoholoffences, LGA =  'Suburb')
+mergeCol.4 <- c("LGA")
+offencedata <- merge(alcoholoffences, basic_merge, by = mergeCol.4)
+
+########NEXT DATASET####################################
 
 # Merge hospital data and offence data
 mergeCols <- c("year","LGA", "LHD", "Postcode", "State") #year variable needs to be in the same format for it to work. atm, none of the merge codes below work
