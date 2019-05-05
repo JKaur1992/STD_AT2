@@ -13,3 +13,90 @@ twitter_data <- twitter_data %>% rowwise() %>% mutate(real_date_aest = as.POSIXc
 twitter_data <- twitter_data %>% mutate(real_date = if_else(!is.na(real_date_aest), real_date_aest, real_date_aedt))
 
 twitter_data["real_date"]
+twitter_data$real_date = as.Date(twitter_data$real_date, format = "%d/%m/%y")
+
+#############################################################################################################################################
+library(tidytext)
+library(dplyr)       #used for data cleaning and manipulation
+library(stringr)     #used for data manipulation
+library(ggplot2)     #used for plotting any graphs
+
+#library(janeaustenr) #dataset being used for analysis, included in tidytext
+sentiments           #dataset of various sentiments, included in tidytext
+
+original_books <- austen_books() %>%
+  group_by(book) %>%
+  mutate(linenumber = row_number(),
+         chapter = cumsum(str_detect(text, regex("^chapter [\\divxlc]",
+                                                 ignore_case = TRUE)))) %>%
+  ungroup()
+
+original_books
+
+tidy_books <- original_books %>%
+  unnest_tokens(word, text)
+
+tidy_books
+
+data(stop_words)
+
+twitter_data <- twitter_data$text %>%
+  anti_join(stop_words)
+
+tidy_books %>%
+  count(word, sort = TRUE) 
+
+tidy_books %>%
+  count(word, sort = TRUE) %>%
+  filter(n > 600) %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(word, n)) +
+  geom_col() +
+  xlab(NULL) +
+  coord_flip()
+
+get_sentiments("afinn")
+get_sentiments("bing")
+get_sentiments("nrc")
+
+bing_word_counts <- tidy_books %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(word, sentiment, sort = TRUE) %>%
+  ungroup()
+
+bing_word_counts
+
+bing_word_counts %>%
+  group_by(sentiment) %>%
+  top_n(10) %>%
+  ungroup() %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(word, n, fill = sentiment)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~sentiment, scales = "free_y") +
+  labs(y = "Contribution to sentiment",
+       x = NULL) +
+  coord_flip()
+
+##############################################################################################################################################
+
+library(lubridate)
+library(ggplot2)
+library(dplyr)
+library(readr)
+
+#tweets_julia <- read_csv("data/tweets_julia.csv")
+#tweets_dave <- read_csv("data/tweets_dave.csv")
+#tweets <- bind_rows(twitter_data %>% 
+#                      mutate(person = "Julia"),
+#                    tweets_dave %>% 
+#                      mutate(person = "David")) %>%
+#  mutate(timestamp = ymd_hms(timestamp))
+
+ggplot(twitter_data, aes(x = real_date, fill = search_string)) +
+  geom_histogram(position = "identity", bins = 20, show.legend = FALSE) +
+  facet_wrap(~search_string, ncol = 1)
+
+unique(twitter_data$search_string) #change all these names with one item
+
+
