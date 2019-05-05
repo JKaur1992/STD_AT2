@@ -26,11 +26,9 @@ alcohol_deaths <-  read_csv("beh_alcafdth_lhn_trend.csv")
 # crime data by postcode from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
 postcode_data <- read_csv("7_PostcodeData2018.csv")
 
-# crime data by LGA from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
-RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") ## to download as excel. 
-RCIdata <- read_excel("RCI_offencebymonth.xlsm")
-#forgot that this dataset is changing dates into random numbers. 
-#either resolve this or exclude this data
+## crime data by suburbs from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
+## 
+suburbdata <- read_csv("9_SuburbData2018.csv")
 
 # LGA and Postcode mapping file
 mapping <- read_csv("Australia_lga_postcode_mappings_2016.csv")
@@ -39,10 +37,13 @@ mapping <- read_csv("Australia_lga_postcode_mappings_2016.csv")
 LGA_LHD_Map <- read_excel("LGAtoLHD.xlsx") 
 
 ###############################################################################################################################################
-## crime data by suburbs from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
-## 
-suburbdata <- read_csv("9_SuburbData2018.csv")
-###############################################################################################################################################
+
+# crime data by LGA from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
+RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") ## to download as excel. 
+RCIdata <- read_excel("RCI_offencebymonth.xlsm")
+#forgot that this dataset is changing dates into random numbers. 
+#either resolve this or exclude this data
+
 ####### other ways to load RCI data
 
 ## 1. load directly from website
@@ -246,8 +247,12 @@ alcoholoffences <- alcoholoffences %>%
   gather(key = year, value = violence_count, "Jan 2008" : "Dec 2018")
 alcoholoffences
 
-########NEXT DATASET####################################
+# I also need to split months and years into separate columns so it aligns - SHOULD I and HOW????
 
+# filter mapping data for NSW
+mapping <- filter(mapping, State == 'New South Wales')
+
+########NEXT DATASET#########################################################
 # Bring RCI data into same format as offences data
 RCIdata <- rename(RCIdata, offence =  'Offence category') # rename the variable so it's more friendly.
 RCIdata = select(RCIdata, LGA, offence, "Jan-08" : "Dec-18")
@@ -258,11 +263,6 @@ RCIdata <- RCIdata %>%
   gather(key = year, value = violence_count, "Jan-08" : "Dec-18")
 RCIdata
 ##############################################################################
-
-# I also need to split months and years into separate columns so it aligns - SHOULD I and HOW????
-
-# filter mapping data for NSW
-mapping <- filter(mapping, State == 'New South Wales')
 
 ##################################################
 ## Merging Datasets
