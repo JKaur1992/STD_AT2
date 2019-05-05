@@ -337,3 +337,5 @@ inner <- merge(offence_data, hospital_data, by = mergeCols)
 cross <- merge(offence_data, hospital_data, by = NULL)
 # natural <- merge(offence_data, hospital_data) #doesn't work
 
+# Export to .csv Files 
+write_csv(offencedata, path = "offencedata.csv")
