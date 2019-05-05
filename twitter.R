@@ -15,8 +15,12 @@ twitter_data <- twitter_data %>% mutate(real_date = if_else(!is.na(real_date_aes
 
 twitter_data["real_date"]
 twitter_data$real_date = as.Date(twitter_data$real_date, format = "%d/%m/%y")
-#this data starts from 2007 so has a lot of items that don;t relate to Sydney lock-out laws. the first mention is on 2014-01-22. so need to remove all data form before that.
-##############################################################################################################################################
+
+#this data starts from 2007 so has a lot of items that don;t relate to Sydney lock-out laws. the first mention is on 2014-01-22. 
+#so need to remove all data form before that.
+twitter_data <- filter(twitter_data, real_date == '2014')
+
+#############################################################################################################################################
 
 library(lubridate)
 library(ggplot2)
