@@ -30,6 +30,9 @@ postcode_data <- read_csv("7_PostcodeData2018.csv")
 ## 
 suburbdata <- read_csv("9_SuburbData2018.csv")
 
+# Unemployment data by LGA from https://docs.jobs.gov.au/documents/unsmoothed-small-area-labour-markets-local-government-area-lga-series-december-quarter
+unemployment_LGA <- read_csv("salm_unsmoothed_lga_datafiles_-_december_quarter_2018 (1).csv")
+
 # LGA and Postcode mapping file
 mapping <- read_csv("Australia_lga_postcode_mappings_2016.csv")
 
@@ -130,6 +133,13 @@ missmap(alcohol_deaths, main = "Missing values vs observed")
 ########################################
 ##Data Cleaning and Prep
 ########################################
+
+# Clean unemployment data
+unemployment_LGA2 <- unemployment_LGA %>%
+  filter(.$'Data item' == "Unsmoothed unemployment rate (%)") %>%
+  gather(., key = "QuarterYear", value = "unemploy_Rate", -c('Data item', 'Local Government Area (LGA)', 'LGA Code')) %>%
+  select(.,c('Local Government Area (LGA)', 'LGA Code', 'QuarterYear', 'unemploy_Rate')) %>%
+  separate(.,"QuarterYear",c("Quarter","Year"),sep ="-")
 
 # Clean the "alcohol hospitalisations" data
 # Remove the NA's /blank data (from all the comments at the end of the csv file)
