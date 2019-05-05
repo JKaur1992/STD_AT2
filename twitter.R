@@ -2,6 +2,7 @@
 setwd("/cloud/project/STD_AT2")
 library(tidyverse)
 library(lubridate)
+
 # read and remove duplicate
 twitter_data <- read_delim('twitter_search_result.psv', delim="|")
 twitter_data <- twitter_data %>% distinct() %>% mutate(geo_location = NULL)
@@ -14,6 +15,33 @@ twitter_data <- twitter_data %>% mutate(real_date = if_else(!is.na(real_date_aes
 
 twitter_data["real_date"]
 twitter_data$real_date = as.Date(twitter_data$real_date, format = "%d/%m/%y")
+#this data starts from 2007 so has a lot of items that don;t relate to Sydney lock-out laws. the first mention is on 2014-01-22. so need to remove all data form before that.
+##############################################################################################################################################
+
+library(lubridate)
+library(ggplot2)
+library(dplyr)
+library(readr)
+
+#######################
+#EDA
+#######################
+ggplot(twitter_data, aes(x = real_date, fill = search_string)) +
+  geom_histogram(position = "identity", bins = 20, show.legend = FALSE) +
+  facet_wrap(~search_string, ncol = 1)
+
+unique(twitter_data$search_string) #change all these names with one item
+
+remove_reg <- "&amp;|&lt;|&gt;"
+tidy_tweets <- twitter_data %>%
+  filter(!str_detect(text, "^RT")) %>%
+  mutate(text = str_remove_all(text, remove_reg)) %>%
+  unnest_tokens(word, text, token = "tweets") %>%
+  filter(!word %in% stop_words$word,
+         !word %in% str_remove_all(stop_words$word, "'"),
+         str_detect(word, "[a-z]"))
+
+
 
 #############################################################################################################################################
 library(tidytext)
@@ -78,25 +106,6 @@ bing_word_counts %>%
        x = NULL) +
   coord_flip()
 
-##############################################################################################################################################
 
-library(lubridate)
-library(ggplot2)
-library(dplyr)
-library(readr)
-
-#tweets_julia <- read_csv("data/tweets_julia.csv")
-#tweets_dave <- read_csv("data/tweets_dave.csv")
-#tweets <- bind_rows(twitter_data %>% 
-#                      mutate(person = "Julia"),
-#                    tweets_dave %>% 
-#                      mutate(person = "David")) %>%
-#  mutate(timestamp = ymd_hms(timestamp))
-
-ggplot(twitter_data, aes(x = real_date, fill = search_string)) +
-  geom_histogram(position = "identity", bins = 20, show.legend = FALSE) +
-  facet_wrap(~search_string, ncol = 1)
-
-unique(twitter_data$search_string) #change all these names with one item
 
 
