@@ -339,8 +339,3 @@ cross <- merge(offence_data, hospital_data, by = NULL)
 
 # Export to .csv Files 
 write_csv(offence_data, path = "offence_data.csv")
-
-###########################################################
-##EDA
-###########################################################
-
