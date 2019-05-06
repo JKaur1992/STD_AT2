@@ -99,7 +99,7 @@ SydneyBI$Description <- substr(SydneyBI$Description,1,nchar(SydneyBI$Description
 
 
 
-####  Cleaning of new data set ####
+####  Cleaning of new data set POPULATION####
 Population <- read_csv("demographics/Population.csv")
 
 # Delete extra Data columns 
@@ -107,6 +107,8 @@ Population <- Population[,-c(79:108)]
 
 #Delete extra rows
 Population <- Population[-c(1:6),]
+Population <- Population[-c(3919:3925),]
+
 
 
 #Change column Names
@@ -136,3 +138,6 @@ colnames(Population)[51:69] <- paste("Person_Population_Number", colnames(Popula
 
 #Delete extra words in LGA names 
 Population$LGA<- gsub("\\s*\\([^\\)]+\\)","",as.character(Population$LGA))
+
+#Export
+write.csv(Population,":Population.csv")
