@@ -33,10 +33,10 @@ suburbdata <- read_csv("9_SuburbData2018.csv")
 # Unemployment data by LGA from https://docs.jobs.gov.au/documents/unsmoothed-small-area-labour-markets-local-government-area-lga-series-december-quarter
 unemployment_LGA <- read_csv("salm_unsmoothed_lga_datafiles_-_december_quarter_2018 (1).csv")
 
-# LGA and Postcode mapping file
+# LGA and Postcode mapping file Cuong created
 mapping <- read_csv("Australia_lga_postcode_mappings_2016.csv")
 
-# LGA to LHD mapping file
+# LGA to LHD mapping file Michael created
 LGA_LHD_Map <- read_excel("LGAtoLHD.xlsx") 
 
 ###############################################################################################################################################
@@ -140,6 +140,8 @@ unemployment_LGA2 <- unemployment_LGA %>%
   gather(., key = "QuarterYear", value = "unemploy_Rate", -c('Data item', 'Local Government Area (LGA)', 'LGA Code')) %>%
   select(.,c('Local Government Area (LGA)', 'LGA Code', 'QuarterYear', 'unemploy_Rate')) %>%
   separate(.,"QuarterYear",c("Quarter","Year"),sep ="-")
+
+########NEXT DATASET####################################
 
 # Clean the "alcohol hospitalisations" data
 # Remove the NA's /blank data (from all the comments at the end of the csv file)
@@ -335,3 +337,5 @@ inner <- merge(offence_data, hospital_data, by = mergeCols)
 cross <- merge(offence_data, hospital_data, by = NULL)
 # natural <- merge(offence_data, hospital_data) #doesn't work
 
+# Export to .csv Files 
+write_csv(offencedata, path = "offencedata.csv")

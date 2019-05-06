@@ -1,4 +1,8 @@
+library(tidyverse)
+library(dplyr)
 library(stringr)
+library(tau)
+library(tm)
 
 # DEMOGRAPHICS #
 ## Sydney Demographics ####
@@ -95,4 +99,45 @@ SydneyBI$Description <- substr(SydneyBI$Description,1,nchar(SydneyBI$Description
 
 
 
+####  Cleaning of new data set POPULATION####
+Population <- read_csv("demographics/Population.csv")
 
+# Delete extra Data columns 
+Population <- Population[,-c(79:108)]
+
+#Delete extra rows
+Population <- Population[-c(1:6),]
+Population <- Population[-c(3919:3925),]
+
+
+
+#Change column Names
+colnames(Population)[colnames(Population)=="X1"] <- "Code"
+colnames(Population)[colnames(Population)=="Australian Bureau of Statistics"] <- "LGA"
+colnames(Population)[colnames(Population)=="X3"] <- "Year"
+colnames(Population)[colnames(Population)=="X71"] <- "Male_Median_Age"
+colnames(Population)[colnames(Population)=="X72"] <- "Female_Median_Age"
+colnames(Population)[colnames(Population)=="X73"] <- "Person_Median_Age"
+colnames(Population)[colnames(Population)=="X74"] <- "Births"
+Population$X75<- NULL # Delete Total Fertility Rate (per female)
+colnames(Population)[colnames(Population)=="X76"] <- "Deaths"
+Population$X77<- NULL # Delete Standardised_Death_Rate_per_1000_population)
+colnames(Population)[colnames(Population)=="X78"] <- "Population_Density"
+
+# Add prefixes in coulmns 
+colnames(Population)[4:70]<- Population[1,4:70] # the first row will be the header
+Population <- Population [-c(1:2),] # Remove firts row
+
+colnames(Population)[4:12] <- paste("Person_Population_Rate", colnames(Population[,c(4:12)]), sep = "_") # Add a prefix to Person Population Rate 
+
+colnames(Population)[13:31] <- paste("Male_Population_Number", colnames(Population[,c(13:31)]), sep = "_") # Add a prefix to Male Population Number 
+
+colnames(Population)[32:50] <- paste("Female_Population_Number", colnames(Population[,c(32:50)]), sep = "_") # Add a prefix to Female Population Number 
+
+colnames(Population)[51:69] <- paste("Person_Population_Number", colnames(Population[,c(51:69)]), sep = "_") # Add a prefix to Person Population Number 
+
+#Delete extra words in LGA names 
+Population$LGA<- gsub("\\s*\\([^\\)]+\\)","",as.character(Population$LGA))
+
+#Export
+write.csv(Population,":Population.csv")
