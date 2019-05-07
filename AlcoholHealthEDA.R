@@ -23,9 +23,13 @@ sydney_LHDs <- alcohol_freq_hosp_death %>%
 
 ggplot(sydney_LHDs, aes(date)) + 
   geom_line(aes(y = freq_daily, colour = "daily")) + 
+  geom_point(aes(y = freq_daily, colour = "daily", shape = lockout),size = 3)+
   geom_line(aes(y = freq_weekly, colour = "weekly")) +
+  geom_point(aes(y = freq_weekly, colour = "weekly", shape = lockout),size = 3)+
   geom_line(aes(y= freq_less_weekly, colour = "less than weekly")) +
+  geom_point(aes(y = freq_less_weekly, colour = "less than weekly", shape = lockout),size = 3)+
   geom_line(aes(y= freq_never, colour = "never"))+
+  geom_point(aes(y = freq_never, colour = "never", shape = lockout),size = 3)+
   geom_vline(xintercept = as.numeric(as.Date("2014-02-01")), linetype="dotted", 
                   color = "black", size=1.5)+
   facet_wrap(~LHD)+
