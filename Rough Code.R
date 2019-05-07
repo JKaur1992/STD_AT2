@@ -294,6 +294,8 @@ str(alcohol_freq_hosp_death)
 alcohol_freq_hosp_death  <-   filter (alcohol_freq_hosp_death, !( year =="2001-2002" | year == "2002-2003"| year == "2003-2004"| year =="2004-2005" | year =="2005-2006" | year =="2006-2007" ))
 # alcohol_freq_hosp_death  <-   filter (alcohol_freq_hosp_death, LHD == 'Sydney LHD')
 alcohol_freq_hosp_death
+write_csv(alcohol_freq_hosp_death, path = "alcohol_freq_hosp_death.csv")
+
 
 ########NEXT DATASET####################################
 
