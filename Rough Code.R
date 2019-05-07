@@ -26,23 +26,26 @@ alcohol_deaths <-  read_csv("beh_alcafdth_lhn_trend.csv")
 # crime data by postcode from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
 postcode_data <- read_csv("7_PostcodeData2018.csv")
 
-# crime data by LGA from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
-RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") ## to download as excel. 
-RCIdata <- read_excel("RCI_offencebymonth.xlsm")
-#forgot that this dataset is changing dates into random numbers. 
-#either resolve this or exclude this data
+## crime data by suburbs from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
+## suburbdata <- read_csv("9_SuburbData2018.csv")
 
-# LGA and Postcode mapping file
+# Unemployment data by LGA from https://docs.jobs.gov.au/documents/unsmoothed-small-area-labour-markets-local-government-area-lga-series-december-quarter
+unemployment_LGA <- read_csv("salm_unsmoothed_lga_datafiles_-_december_quarter_2018 (1).csv")
+
+# LGA and Postcode mapping file Cuong created
 mapping <- read_csv("Australia_lga_postcode_mappings_2016.csv")
 
-# LGA to LHD mapping file
+# LGA to LHD mapping file Michael created
 LGA_LHD_Map <- read_excel("LGAtoLHD.xlsx") 
 
 ###############################################################################################################################################
-## crime data by suburbs from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
-## 
-suburbdata <- read_csv("9_SuburbData2018.csv")
-###############################################################################################################################################
+
+# crime data by LGA from https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Datasets-.aspx
+#RCIdata <- read_excel("8_RCI_offencebymonth.xlsm") ## to download as excel. 
+#RCIdata <- read_excel("RCI_offencebymonth.xlsm")
+#forgot that this dataset is changing dates into random numbers. 
+#either resolve this or exclude this data
+
 ####### other ways to load RCI data
 
 ## 1. load directly from website
@@ -89,7 +92,7 @@ organization_list()
 
 ## method 3
 ## RCIurl <- GET (url = "https://data.nsw.gov.au/data/api/3/action/datastore_create?resource_id=1d5b2851-52e9-4327-a81b-19149c63f736") # to create API
-## RCIurl <- GET (url = "http://www.data.gov.au/api/3/action/datastore_search?resource_id=1d5b2851-52e9-4327-a81b-19149c63f736&limit=5") # to insert API
+## RCIurl <- GET (url = "http://www.data.gov.au/api/3/action/datastore_search?resource_id=1d5b2851-52e9-4327-a81b-19149c63f736&limit=5") # to insert API####
 
 ################################################################################################################################################
 
@@ -129,6 +132,15 @@ missmap(alcohol_deaths, main = "Missing values vs observed")
 ########################################
 ##Data Cleaning and Prep
 ########################################
+
+# Clean unemployment data
+unemployment_LGA2 <- unemployment_LGA %>%
+  filter(.$'Data item' == "Unsmoothed unemployment rate (%)") %>%
+  gather(., key = "QuarterYear", value = "unemploy_Rate", -c('Data item', 'Local Government Area (LGA)', 'LGA Code')) %>%
+  select(.,c('Local Government Area (LGA)', 'LGA Code', 'QuarterYear', 'unemploy_Rate')) %>%
+  separate(.,"QuarterYear",c("Quarter","Year"),sep ="-")
+
+########NEXT DATASET####################################
 
 # Clean the "alcohol hospitalisations" data
 # Remove the NA's /blank data (from all the comments at the end of the csv file)
@@ -220,6 +232,11 @@ alcohol_hospitalisations
 
 ########NEXT DATASET####################################
 
+# filter mapping data for NSW
+mapping <- filter(mapping, State == 'New South Wales')
+
+# I also need to split months and years into separate columns so it aligns - SHOULD I and HOW????
+
 #filter postcode_data to keep data from Jan-08 to Dec-18 and then filter further for liquor offences
 names(postcode_data)
 subset = select(postcode_data, Postcode, Offence, "Jan-08" : "Dec-18")
@@ -246,8 +263,8 @@ alcoholoffences <- alcoholoffences %>%
   gather(key = year, value = violence_count, "Jan 2008" : "Dec 2018")
 alcoholoffences
 
-########NEXT DATASET####################################
 
+########NEXT DATASET#########################################################
 # Bring RCI data into same format as offences data
 RCIdata <- rename(RCIdata, offence =  'Offence category') # rename the variable so it's more friendly.
 RCIdata = select(RCIdata, LGA, offence, "Jan-08" : "Dec-18")
@@ -258,11 +275,6 @@ RCIdata <- RCIdata %>%
   gather(key = year, value = violence_count, "Jan-08" : "Dec-18")
 RCIdata
 ##############################################################################
-
-# I also need to split months and years into separate columns so it aligns - SHOULD I and HOW????
-
-# filter mapping data for NSW
-mapping <- filter(mapping, State == 'New South Wales')
 
 ##################################################
 ## Merging Datasets
@@ -325,3 +337,5 @@ inner <- merge(offence_data, hospital_data, by = mergeCols)
 cross <- merge(offence_data, hospital_data, by = NULL)
 # natural <- merge(offence_data, hospital_data) #doesn't work
 
+# Export to .csv Files 
+write_csv(offence_data, path = "offence_data.csv")
