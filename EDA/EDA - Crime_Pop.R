@@ -38,6 +38,9 @@ str(offence_data_ag)
 #offencedata <- merge(offence_data_ag, population_subset, by = mergeCol)
 offence_data_EDA <- full_join(offence_data_ag, population_subset, by = c("Year", "LGA"))
 
+# Export to .csv Files 
+write_csv(offence_data_EDA, path = "offence_data_EDA.csv")
+
 ###########################################################
 ##EDA
 ###########################################################
