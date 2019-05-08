@@ -235,8 +235,6 @@ alcohol_hospitalisations
 # filter mapping data for NSW
 mapping <- filter(mapping, State == 'New South Wales')
 
-# I also need to split months and years into separate columns so it aligns - SHOULD I and HOW????
-
 #filter postcode_data to keep data from Jan-08 to Dec-18 and then filter further for liquor offences
 names(postcode_data)
 subset = select(postcode_data, Postcode, Offence, "Jan-08" : "Dec-18")
@@ -247,6 +245,16 @@ alcohol_offences
 alcohol_offences <- alcohol_offences %>% 
   gather(key = year, value = violence_count, "Jan-08" : "Dec-18")
 alcohol_offences
+
+#change year from 2-digits to 4-digits
+offence_data$year <- parse_date_time('Jan-08',orders='my')
+
+#split date into 2 columns
+offence_data <- offence_data %>%
+  separate(.,"year",c("Year","Month"),sep="-")
+
+#combine the data from monthly to annual
+offence_data_ag=aggregate(violence_count ~ Postcode + Offence + Year + State + LGA, data = offence_data, FUN = sum)
 
 ########NEXT DATASET####################################
 
@@ -294,6 +302,8 @@ str(alcohol_freq_hosp_death)
 alcohol_freq_hosp_death  <-   filter (alcohol_freq_hosp_death, !( year =="2001-2002" | year == "2002-2003"| year == "2003-2004"| year =="2004-2005" | year =="2005-2006" | year =="2006-2007" ))
 # alcohol_freq_hosp_death  <-   filter (alcohol_freq_hosp_death, LHD == 'Sydney LHD')
 alcohol_freq_hosp_death
+write_csv(alcohol_freq_hosp_death, path = "alcohol_freq_hosp_death.csv")
+
 
 ########NEXT DATASET####################################
 
