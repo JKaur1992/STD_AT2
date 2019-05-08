@@ -20,6 +20,9 @@ offence_data <- offence_data %>%
 #combine the data from monthly to annual
 offence_data_ag=aggregate(violence_count ~ Postcode + Offence + Year + State + LGA, data = offence_data, FUN = sum)
 
+#change year from character to number so both merging datasets have same structure
+offence_data_ag[3:3] = lapply(offence_data_ag[3:3], as.numeric)
+
 ####
 population <- read_csv("Population_Clean.csv")
 colnames(population)
@@ -27,11 +30,16 @@ colnames(population)
 #subset the population data for total and density
 population_subset = select(population, LGA, Year, Person_Population_Number_Total, Population_Density)
 colnames(population_subset)
+str(population_subset)
+str(offence_data_ag)
 
 #merge these datasets
-mergeCol <- c("LGA", "Year")
-offencedata <- merge(offence_data, population_subset, by = mergeCol)
+#mergeCol <- c("LGA", "Year")
+#offencedata <- merge(offence_data_ag, population_subset, by = mergeCol)
+offence_data_EDA <- full_join(offence_data_ag, population_subset, by = c("Year", "LGA"))
 
 ###########################################################
 ##EDA
 ###########################################################
+
+missmap(offence_data_EDA, main = "Missing values vs observed") #checking for missing values
