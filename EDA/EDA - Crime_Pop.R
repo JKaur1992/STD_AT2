@@ -7,24 +7,31 @@ library(dplyr)
 library(tidyr)
 library(lubridate)
 
-###########################################################
-##EDA
-###########################################################
 offence_data <- read_csv("offence_data.csv")
-population <- read_csv("Population_Clean.csv")
-
-colnames(population)
 colnames(offence_data)
 
-offence_data$year <- as.POSIXct("Jan-08", "%b-%g")
+#change year from 2-digits to 4-digits
 offence_data$year <- parse_date_time('Jan-08',orders='my')
 
 #split date into 2 columns
-offence_data_convert <- offence_data %>%
-  separate(.,"year",c("Month","Year"),sep="-")
+offence_data <- offence_data %>%
+  separate(.,"year",c("Year","Month"),sep="-")
+
+#combine the data from monthly to annual
+offence_data_ag=aggregate(violence_count ~ Postcode + Offence + Year + State + LGA, data = offence_data, FUN = sum)
+
+####
+population <- read_csv("Population_Clean.csv")
+colnames(population)
 
 #subset the population data for total and density
 population_subset = select(population, LGA, Year, Person_Population_Number_Total, Population_Density)
+colnames(population_subset)
 
-mergeCol <- c("LGA")
+#merge these datasets
+mergeCol <- c("LGA", "Year")
 offencedata <- merge(offence_data, population_subset, by = mergeCol)
+
+###########################################################
+##EDA
+###########################################################
