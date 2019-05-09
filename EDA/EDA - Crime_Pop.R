@@ -72,7 +72,7 @@ ggplot(data = offence_data_ag_filter6) +
 
 ################################################################################
 ##Filter out the important LGAs based on above analysis
-#LGAs with noticable changes - Randwick, North Sydney, Hornsby, Mosman (slightly), Uninc.NSW, Liverpool?, 
+#LGAs with noticable changes - Randwick?, North Sydney, Hornsby, Mosman (slightly), Uninc.NSW, Liverpool?, 
 #Burwood, Sydney (obviously), Parramatta, Central darling, Bayside, Canterbury-bankstown, Inner-west, Strathfield
 
 offence_data_ag <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Randwick' | LGA == 'Canterbury-Bankstown' | 
@@ -80,7 +80,9 @@ offence_data_ag <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Randwick'
                                                LGA == 'Inner West' | LGA == 'Hornsby' | LGA == 'Strathfield' | LGA == 'Burwood' | 
                                                LGA == 'Mosman' | LGA == 'Bayside'))
 
-offence_data_ag1 <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Inner West')) #just to filter it further
+offence_data_ag1 <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Inner West' | LGA == 'Bayside' | 
+                                                LGA == 'Canterbury-Bankstown' | LGA == 'Hornsby' | 
+                                                LGA == 'North Sydney' | LGA == 'Parramatta' |  )) #just to filter it further and better
 
 unique(offence_data_ag$LGA)
 
@@ -106,13 +108,16 @@ colnames(population_subset)
 str(population_subset)
 
 #MERGE these datasets
-#mergeCol <- c("LGA", "Year")
-#offencedata <- merge(offence_data_ag, population_subset, by = mergeCol)
 offence_data_EDA_full <- full_join(offence_data_ag, population_subset, by = c("Year", "LGA")) 
 missmap(offence_data_EDA_full, main = "Missing values vs observed") #checking for missing values.
 #above code still has some missing values so to have data without missing values, try Inner join
+
 offence_data_EDA <- inner_join(offence_data_ag, population_subset, by = c("Year", "LGA"))
-missmap(offence_data_EDA, main = "Missing values vs observed") #checking for missing values.
+missmap(offence_data_EDA, main = "Missing values vs observed") #data looks good.
+#check the structure of the data 
+str(offence_data_EDA) #not good - change it
+offence_data_EDA[4:5] = lapply(offence_data_EDA[4:5], as.numeric)
+str(offence_data_EDA) #sorted
 
 # Export to .csv Files 
 write_csv(offence_data_EDA, path = "offence_data_EDA.csv")
@@ -121,6 +126,6 @@ write_csv(offence_data_EDA, path = "offence_data_EDA.csv")
 ##EDA
 ###########################################################
 
-offence_data_ag <- filter(offence_data_ag, LGA == 'Sydney')
+offence_pop <- filter(offence_data_EDA, LGA == 'Sydney')
 ggplot(data = offence_data_ag) + 
   geom_point(mapping = aes(x = Year, y = violence_count))
