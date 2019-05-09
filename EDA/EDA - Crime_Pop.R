@@ -39,10 +39,6 @@ offence_data_ag_filter2 <- filter(offence_data_ag, LGA == 'Burwood')
 offence_data_ag_filter3 <- filter(offence_data_ag, LGA == 'Central Darling')
 offence_data_ag_filter4 <- filter(offence_data_ag, LGA == 'Parramatta')
 
-plot(offence_data_ag$Year)
-plot(offence_data_ag$LGA)
-plot(offence_data_ag$violence_count)
-
 ggplot(data = offence_data_ag_filter1) + 
   geom_line(mapping = aes(x = Year, y = violence_count))
 
@@ -54,6 +50,11 @@ ggplot(data = offence_data_ag_filter3) +
 
 ggplot(data = offence_data_ag_filter4) + 
   geom_line(mapping = aes(x = Year, y = violence_count))
+
+ggplot(offence_data_ag,aes(x = `Year`, y = `Violence Count`, color=LGA)) +
+  geom_point() +
+  facet_wrap(vars(LGA)) +
+  geom_smooth(method = 'lm')
 
 ggplot(data = offence_data_ag) +
   geom_bar(mapping = aes(x = LGA))
