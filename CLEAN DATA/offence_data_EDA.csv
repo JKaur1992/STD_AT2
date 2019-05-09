@@ -1,0 +1,4433 @@
+Year,LGA,violence_count,Person_Population_Number_Total,Population_Density
+2008,Albury,315,NA,NA
+2009,Albury,179,NA,NA
+2010,Albury,166,NA,NA
+2011,Albury,119,-,-
+2012,Albury,95,"49,785",162.7
+2013,Albury,199,"50,338",164.5
+2014,Albury,180,"50,990",166.7
+2015,Albury,102,"51,486",168.3
+2016,Albury,123,"52,171",170.5
+2017,Albury,91,"52,949",173.1
+2018,Albury,69,NA,NA
+2008,Armidale Regional,368,NA,NA
+2009,Armidale Regional,394,NA,NA
+2010,Armidale Regional,352,NA,NA
+2011,Armidale Regional,359,-,-
+2012,Armidale Regional,301,"29,836",3.5
+2013,Armidale Regional,248,"29,983",3.5
+2014,Armidale Regional,212,"30,085",3.5
+2015,Armidale Regional,162,"30,193",3.5
+2016,Armidale Regional,150,"30,313",3.5
+2017,Armidale Regional,171,"30,594",3.5
+2018,Armidale Regional,141,NA,NA
+2008,Ballina,499,NA,NA
+2009,Ballina,574,NA,NA
+2010,Ballina,505,NA,NA
+2011,Ballina,492,-,-
+2012,Ballina,682,"41,118",84.8
+2013,Ballina,543,"41,510",85.6
+2014,Ballina,384,"41,881",86.4
+2015,Ballina,303,"42,336",87.3
+2016,Ballina,264,"42,993",88.7
+2017,Ballina,302,"43,457",89.6
+2018,Ballina,273,NA,NA
+2008,Balranald,33,NA,NA
+2009,Balranald,35,NA,NA
+2010,Balranald,32,NA,NA
+2011,Balranald,43,-,-
+2012,Balranald,23,"2,363",0.1
+2013,Balranald,17,"2,381",0.1
+2014,Balranald,77,"2,376",0.1
+2015,Balranald,70,"2,364",0.1
+2016,Balranald,50,"2,330",0.1
+2017,Balranald,49,"2,341",0.1
+2018,Balranald,43,NA,NA
+2008,Bathurst Regional,323,NA,NA
+2009,Bathurst Regional,364,NA,NA
+2010,Bathurst Regional,271,NA,NA
+2011,Bathurst Regional,268,-,-
+2012,Bathurst Regional,215,"40,301",10.6
+2013,Bathurst Regional,207,"40,727",10.7
+2014,Bathurst Regional,158,"41,157",10.8
+2015,Bathurst Regional,142,"41,694",10.9
+2016,Bathurst Regional,114,"42,244",11.1
+2017,Bathurst Regional,281,"42,779",11.2
+2018,Bathurst Regional,260,NA,NA
+2008,Bayside,232,NA,NA
+2009,Bayside,262,NA,NA
+2010,Bayside,330,NA,NA
+2011,Bayside,255,-,-
+2011,Bayside,255,-,-
+2012,Bayside,297,"148,028",2967.1
+2012,Bayside,297,"96,971",2606
+2013,Bayside,196,"151,309",3032.8
+2013,Bayside,196,"98,252",2640.4
+2014,Bayside,177,"154,980",3106.4
+2014,Bayside,177,"99,797",2681.9
+2015,Bayside,211,"159,222",3191.4
+2015,Bayside,211,"101,268",2721.4
+2016,Bayside,210,"164,534",3297.9
+2016,Bayside,210,"102,912",2765.6
+2017,Bayside,191,"170,089",3409.3
+2017,Bayside,191,"104,274",2802.2
+2018,Bayside,333,NA,NA
+2008,Bega Valley,300,NA,NA
+2009,Bega Valley,244,NA,NA
+2010,Bega Valley,149,NA,NA
+2011,Bega Valley,165,-,-
+2012,Bega Valley,153,"33,288",5.3
+2013,Bega Valley,272,"33,430",5.3
+2014,Bega Valley,209,"33,562",5.3
+2015,Bega Valley,113,"33,713",5.4
+2016,Bega Valley,88,"33,941",5.4
+2017,Bega Valley,68,"34,102",5.4
+2018,Bega Valley,67,NA,NA
+2008,Bellingen,232,NA,NA
+2009,Bellingen,242,NA,NA
+2010,Bellingen,257,NA,NA
+2011,Bellingen,216,-,-
+2012,Bellingen,184,"12,909",8.1
+2013,Bellingen,218,"12,920",8.1
+2014,Bellingen,196,"12,929",8.1
+2015,Bellingen,120,"12,936",8.1
+2016,Bellingen,151,"12,951",8.1
+2017,Bellingen,197,"12,946",8.1
+2018,Bellingen,184,NA,NA
+2008,Berrigan,93,NA,NA
+2009,Berrigan,118,NA,NA
+2010,Berrigan,93,NA,NA
+2011,Berrigan,57,-,-
+2012,Berrigan,48,"8,365",4
+2013,Berrigan,36,"8,436",4.1
+2014,Berrigan,51,"8,519",4.1
+2015,Berrigan,38,"8,568",4.1
+2016,Berrigan,36,"8,609",4.2
+2017,Berrigan,47,"8,664",4.2
+2018,Berrigan,42,NA,NA
+2008,Blacktown,438,NA,NA
+2009,Blacktown,494,NA,NA
+2010,Blacktown,558,NA,NA
+2011,Blacktown,512,-,-
+2012,Blacktown,421,"317,735",1323.6
+2013,Blacktown,418,"324,797",1353
+2014,Blacktown,411,"331,825",1382.3
+2015,Blacktown,388,"339,449",1414.1
+2016,Blacktown,379,"348,030",1449.8
+2017,Blacktown,303,"357,479",1489.2
+2018,Blacktown,359,NA,NA
+2008,Bland,252,NA,NA
+2009,Bland,310,NA,NA
+2010,Bland,163,NA,NA
+2011,Bland,135,-,-
+2012,Bland,101,"6,034",0.7
+2013,Bland,144,"6,028",0.7
+2014,Bland,383,"6,034",0.7
+2015,Bland,217,"6,027",0.7
+2016,Bland,130,"6,024",0.7
+2017,Bland,50,"5,985",0.7
+2018,Bland,99,NA,NA
+2008,Blayney,228,NA,NA
+2009,Blayney,265,NA,NA
+2010,Blayney,179,NA,NA
+2011,Blayney,141,-,-
+2012,Blayney,137,"7,274",4.8
+2013,Blayney,131,"7,303",4.8
+2014,Blayney,75,"7,322",4.8
+2015,Blayney,60,"7,322",4.8
+2016,Blayney,72,"7,343",4.8
+2017,Blayney,212,"7,344",4.8
+2018,Blayney,222,NA,NA
+2008,Blue Mountains,354,NA,NA
+2009,Blue Mountains,354,NA,NA
+2010,Blue Mountains,469,NA,NA
+2011,Blue Mountains,323,-,-
+2012,Blue Mountains,209,"78,532",54.9
+2013,Blue Mountains,133,"78,705",55
+2014,Blue Mountains,150,"78,867",55.1
+2015,Blue Mountains,151,"78,889",55.1
+2016,Blue Mountains,127,"78,835",55.1
+2017,Blue Mountains,147,"78,968",55.2
+2018,Blue Mountains,141,NA,NA
+2008,Bogan,405,NA,NA
+2009,Bogan,269,NA,NA
+2010,Bogan,205,NA,NA
+2011,Bogan,225,-,-
+2012,Bogan,160,"2,982",0.2
+2013,Bogan,109,"2,926",0.2
+2014,Bogan,83,"2,894",0.2
+2015,Bogan,60,"2,846",0.2
+2016,Bogan,35,"2,764",0.2
+2017,Bogan,64,"2,664",0.2
+2018,Bogan,55,NA,NA
+2008,Bourke,271,NA,NA
+2009,Bourke,192,NA,NA
+2010,Bourke,181,NA,NA
+2011,Bourke,165,-,-
+2012,Bourke,112,"2,998",0.1
+2013,Bourke,56,"2,903",0.1
+2014,Bourke,27,"2,870",0.1
+2015,Bourke,36,"2,801",0.1
+2016,Bourke,39,"2,762",0.1
+2017,Bourke,28,"2,695",0.1
+2018,Bourke,19,NA,NA
+2008,Brewarrina,274,NA,NA
+2009,Brewarrina,262,NA,NA
+2010,Brewarrina,224,NA,NA
+2011,Brewarrina,197,-,-
+2012,Brewarrina,109,"1,821",0.1
+2013,Brewarrina,49,"1,830",0.1
+2014,Brewarrina,53,"1,786",0.1
+2015,Brewarrina,47,"1,762",0.1
+2016,Brewarrina,41,"1,710",0.1
+2017,Brewarrina,31,"1,670",0.1
+2018,Brewarrina,35,NA,NA
+2008,Broken Hill,104,NA,NA
+2009,Broken Hill,137,NA,NA
+2010,Broken Hill,80,NA,NA
+2011,Broken Hill,88,-,-
+2012,Broken Hill,51,"18,985",111.6
+2013,Broken Hill,19,"18,802",110.5
+2014,Broken Hill,43,"18,627",109.5
+2015,Broken Hill,65,"18,360",107.9
+2016,Broken Hill,27,"18,114",106.5
+2017,Broken Hill,40,"17,873",105.1
+2018,Broken Hill,29,NA,NA
+2008,Burwood,25,NA,NA
+2009,Burwood,77,NA,NA
+2010,Burwood,109,NA,NA
+2011,Burwood,66,-,-
+2012,Burwood,114,"35,095",4923.5
+2013,Burwood,60,"36,145",5070.8
+2014,Burwood,55,"37,200",5218.8
+2015,Burwood,104,"37,822",5306
+2016,Burwood,105,"38,536",5406.2
+2017,Burwood,123,"39,310",5514.8
+2018,Burwood,279,NA,NA
+2008,Byron,488,NA,NA
+2009,Byron,558,NA,NA
+2010,Byron,481,NA,NA
+2011,Byron,475,-,-
+2012,Byron,697,"31,210",55.2
+2013,Byron,537,"31,756",56.1
+2014,Byron,358,"32,263",57
+2015,Byron,284,"32,803",58
+2016,Byron,277,"33,399",59
+2017,Byron,287,"33,987",60.1
+2018,Byron,242,NA,NA
+2008,Cabonne,516,NA,NA
+2009,Cabonne,633,NA,NA
+2010,Cabonne,531,NA,NA
+2011,Cabonne,483,-,-
+2012,Cabonne,330,"13,322",2.2
+2013,Cabonne,326,"13,473",2.2
+2014,Cabonne,254,"13,506",2.2
+2015,Cabonne,267,"13,511",2.2
+2016,Cabonne,198,"13,577",2.3
+2017,Cabonne,405,"13,605",2.3
+2018,Cabonne,384,NA,NA
+2008,Camden,144,NA,NA
+2009,Camden,86,NA,NA
+2010,Camden,88,NA,NA
+2011,Camden,101,-,-
+2012,Camden,146,"61,127",304.1
+2013,Camden,141,"64,093",318.8
+2014,Camden,96,"68,642",341.5
+2015,Camden,63,"74,100",368.6
+2016,Camden,127,"80,264",399.3
+2017,Camden,136,"87,068",433.1
+2018,Camden,244,NA,NA
+2008,Campbelltown,431,NA,NA
+2009,Campbelltown,530,NA,NA
+2010,Campbelltown,481,NA,NA
+2011,Campbelltown,538,-,-
+2011,Campbelltown,538,-,-
+2012,Campbelltown,478,"152,452",488.8
+2012,Campbelltown,478,"50,244",2063.5
+2013,Campbelltown,524,"154,348",494.8
+2013,Campbelltown,524,"50,476",2073.1
+2014,Campbelltown,446,"156,292",501.1
+2014,Campbelltown,446,"50,717",2083
+2015,Campbelltown,272,"158,589",508.4
+2015,Campbelltown,272,"50,937",2092
+2016,Campbelltown,481,"161,566",518
+2016,Campbelltown,481,"51,080",2097.9
+2017,Campbelltown,466,"164,508",527.4
+2017,Campbelltown,466,"51,165",2101.4
+2018,Campbelltown,406,NA,NA
+2008,Canada Bay,84,NA,NA
+2009,Canada Bay,118,NA,NA
+2010,Canada Bay,259,NA,NA
+2011,Canada Bay,175,-,-
+2012,Canada Bay,225,"82,636",4147.7
+2013,Canada Bay,158,"85,568",4294.9
+2014,Canada Bay,124,"88,565",4445.3
+2015,Canada Bay,204,"90,467",4540.8
+2016,Canada Bay,276,"92,534",4644.5
+2017,Canada Bay,213,"94,150",4725.6
+2018,Canada Bay,373,NA,NA
+2008,Canterbury-Bankstown,516,NA,NA
+2009,Canterbury-Bankstown,877,NA,NA
+2010,Canterbury-Bankstown,710,NA,NA
+2011,Canterbury-Bankstown,832,-,-
+2012,Canterbury-Bankstown,872,"340,387",3087
+2013,Canterbury-Bankstown,581,"345,692",3135.1
+2014,Canterbury-Bankstown,590,"350,922",3182.6
+2015,Canterbury-Bankstown,402,"356,328",3231.6
+2016,Canterbury-Bankstown,707,"361,862",3281.8
+2017,Canterbury-Bankstown,605,"368,045",3337.9
+2018,Canterbury-Bankstown,780,NA,NA
+2008,Carrathool,534,NA,NA
+2009,Carrathool,368,NA,NA
+2010,Carrathool,250,NA,NA
+2011,Carrathool,280,-,-
+2012,Carrathool,257,"2,668",0.1
+2013,Carrathool,143,"2,797",0.1
+2014,Carrathool,374,"2,800",0.1
+2015,Carrathool,140,"2,766",0.1
+2016,Carrathool,146,"2,793",0.1
+2017,Carrathool,147,"2,796",0.1
+2018,Carrathool,134,NA,NA
+2008,Central Coast,689,NA,NA
+2009,Central Coast,427,NA,NA
+2010,Central Coast,485,NA,NA
+2011,Central Coast,400,-,-
+2011,Central Coast,400,-,-
+2012,Central Coast,287,"325,163",193.4
+2012,Central Coast,287,"22,245",23.8
+2013,Central Coast,430,"327,745",195
+2013,Central Coast,430,"22,122",23.7
+2014,Central Coast,392,"330,377",196.5
+2014,Central Coast,392,"21,989",23.6
+2015,Central Coast,336,"333,264",198.2
+2015,Central Coast,336,"21,847",23.4
+2016,Central Coast,244,"336,611",200.2
+2016,Central Coast,244,"21,736",23.3
+2017,Central Coast,267,"339,196",201.8
+2017,Central Coast,267,"21,835",23.4
+2018,Central Coast,277,NA,NA
+2008,Central Darling,401,NA,NA
+2009,Central Darling,442,NA,NA
+2010,Central Darling,260,NA,NA
+2011,Central Darling,280,-,-
+2012,Central Darling,188,"2,015",-
+2013,Central Darling,82,"1,979",-
+2014,Central Darling,132,"1,934",-
+2015,Central Darling,182,"1,923",-
+2016,Central Darling,107,"1,881",-
+2017,Central Darling,102,"1,846",-
+2018,Central Darling,64,NA,NA
+2008,Cessnock,454,NA,NA
+2009,Cessnock,409,NA,NA
+2010,Cessnock,454,NA,NA
+2011,Cessnock,372,-,-
+2012,Cessnock,264,"53,318",27.1
+2013,Cessnock,342,"54,303",27.6
+2014,Cessnock,300,"55,103",28
+2015,Cessnock,243,"55,888",28.4
+2016,Cessnock,268,"56,720",28.9
+2017,Cessnock,257,"57,521",29.3
+2018,Cessnock,316,NA,NA
+2008,Clarence Valley,426,NA,NA
+2009,Clarence Valley,397,NA,NA
+2010,Clarence Valley,409,NA,NA
+2011,Clarence Valley,347,-,-
+2012,Clarence Valley,296,"51,350",4.9
+2013,Clarence Valley,288,"51,443",4.9
+2014,Clarence Valley,333,"51,498",4.9
+2015,Clarence Valley,228,"51,547",4.9
+2016,Clarence Valley,280,"51,622",5
+2017,Clarence Valley,322,"51,570",4.9
+2018,Clarence Valley,299,NA,NA
+2008,Cobar,465,NA,NA
+2009,Cobar,422,NA,NA
+2010,Cobar,232,NA,NA
+2011,Cobar,281,-,-
+2012,Cobar,209,"4,857",0.1
+2013,Cobar,129,"4,835",0.1
+2014,Cobar,130,"4,821",0.1
+2015,Cobar,118,"4,794",0.1
+2016,Cobar,84,"4,775",0.1
+2017,Cobar,71,"4,729",0.1
+2018,Cobar,68,NA,NA
+2008,Coffs Harbour,345,NA,NA
+2009,Coffs Harbour,320,NA,NA
+2010,Coffs Harbour,329,NA,NA
+2011,Coffs Harbour,268,-,-
+2012,Coffs Harbour,228,"71,564",61
+2013,Coffs Harbour,225,"72,303",61.6
+2014,Coffs Harbour,264,"73,016",62.2
+2015,Coffs Harbour,167,"73,739",62.8
+2016,Coffs Harbour,185,"74,670",63.6
+2017,Coffs Harbour,239,"75,503",64.3
+2018,Coffs Harbour,240,NA,NA
+2008,Coolamon,884,NA,NA
+2009,Coolamon,828,NA,NA
+2010,Coolamon,389,NA,NA
+2011,Coolamon,225,-,-
+2012,Coolamon,432,"4,278",1.8
+2013,Coolamon,842,"4,328",1.8
+2014,Coolamon,595,"4,357",1.8
+2015,Coolamon,455,"4,366",1.8
+2016,Coolamon,198,"4,390",1.8
+2017,Coolamon,211,"4,390",1.8
+2018,Coolamon,131,NA,NA
+2008,Coonamble,357,NA,NA
+2009,Coonamble,248,NA,NA
+2010,Coonamble,277,NA,NA
+2011,Coonamble,217,-,-
+2012,Coonamble,138,"4,194",0.4
+2013,Coonamble,101,"4,168",0.4
+2014,Coonamble,81,"4,134",0.4
+2015,Coonamble,61,"4,091",0.4
+2016,Coonamble,44,"4,051",0.4
+2017,Coonamble,65,"4,031",0.4
+2018,Coonamble,47,NA,NA
+2008,Cowra,338,NA,NA
+2009,Cowra,390,NA,NA
+2010,Cowra,292,NA,NA
+2011,Cowra,227,-,-
+2012,Cowra,169,"12,529",4.5
+2013,Cowra,173,"12,511",4.5
+2014,Cowra,147,"12,556",4.5
+2015,Cowra,117,"12,604",4.5
+2016,Cowra,124,"12,659",4.5
+2017,Cowra,248,"12,694",4.5
+2018,Cowra,262,NA,NA
+2008,Cumberland,643,NA,NA
+2009,Cumberland,737,NA,NA
+2010,Cumberland,753,NA,NA
+2011,Cumberland,819,-,-
+2012,Cumberland,917,"207,528",2900.4
+2013,Cumberland,796,"212,450",2969.2
+2014,Cumberland,854,"216,864",3030.9
+2015,Cumberland,704,"221,152",3090.8
+2016,Cumberland,758,"225,691",3154.3
+2017,Cumberland,589,"231,443",3234.7
+2018,Cumberland,651,NA,NA
+2008,Dungog,197,NA,NA
+2009,Dungog,192,NA,NA
+2010,Dungog,214,NA,NA
+2011,Dungog,175,-,-
+2012,Dungog,149,"8,657",3.8
+2013,Dungog,141,"8,791",3.9
+2014,Dungog,132,"8,918",4
+2015,Dungog,92,"9,008",4
+2016,Dungog,80,"9,101",4
+2017,Dungog,108,"9,188",4.1
+2018,Dungog,137,NA,NA
+2008,Edward River,123,NA,NA
+2009,Edward River,159,NA,NA
+2010,Edward River,170,NA,NA
+2011,Edward River,98,-,-
+2012,Edward River,95,"8,913",1
+2013,Edward River,206,"8,929",1
+2014,Edward River,133,"8,962",1
+2015,Edward River,76,"9,012",1
+2016,Edward River,70,"8,991",1
+2017,Edward River,73,"8,949",1
+2018,Edward River,65,NA,NA
+2008,Eurobodalla,420,NA,NA
+2009,Eurobodalla,325,NA,NA
+2010,Eurobodalla,298,NA,NA
+2011,Eurobodalla,206,-,-
+2012,Eurobodalla,178,"37,141",10.8
+2013,Eurobodalla,325,"37,270",10.9
+2014,Eurobodalla,289,"37,483",10.9
+2015,Eurobodalla,125,"37,733",11
+2016,Eurobodalla,119,"37,919",11.1
+2017,Eurobodalla,101,"38,083",11.1
+2018,Eurobodalla,86,NA,NA
+2008,Fairfield,655,NA,NA
+2009,Fairfield,883,NA,NA
+2010,Fairfield,691,NA,NA
+2011,Fairfield,973,-,-
+2012,Fairfield,790,"198,106",1951.6
+2013,Fairfield,702,"200,098",1971.3
+2014,Fairfield,887,"201,788",1987.9
+2015,Fairfield,371,"203,490",2004.7
+2016,Fairfield,632,"205,675",2026.2
+2017,Fairfield,457,"208,468",2053.7
+2018,Fairfield,484,NA,NA
+2008,Federation,467,NA,NA
+2009,Federation,268,NA,NA
+2010,Federation,215,NA,NA
+2011,Federation,145,-,-
+2012,Federation,208,"12,510",2.2
+2013,Federation,274,"12,508",2.2
+2014,Federation,231,"12,499",2.2
+2015,Federation,128,"12,470",2.2
+2016,Federation,215,"12,445",2.2
+2017,Federation,148,"12,444",2.2
+2018,Federation,108,NA,NA
+2008,Forbes,224,NA,NA
+2009,Forbes,252,NA,NA
+2010,Forbes,167,NA,NA
+2011,Forbes,224,-,-
+2012,Forbes,125,"9,529",2
+2013,Forbes,129,"9,608",2
+2014,Forbes,133,"9,698",2.1
+2015,Forbes,108,"9,750",2.1
+2016,Forbes,71,"9,817",2.1
+2017,Forbes,91,"9,859",2.1
+2018,Forbes,106,NA,NA
+2008,Georges River,167,NA,NA
+2009,Georges River,217,NA,NA
+2010,Georges River,282,NA,NA
+2011,Georges River,245,-,-
+2012,Georges River,180,"144,159",3762.1
+2013,Georges River,100,"146,604",3825.9
+2014,Georges River,95,"148,882",3885.3
+2015,Georges River,85,"151,069",3942.4
+2016,Georges River,87,"153,161",3997
+2017,Georges River,73,"156,293",4078.7
+2018,Georges River,168,NA,NA
+2008,Gilgandra,193,NA,NA
+2009,Gilgandra,194,NA,NA
+2010,Gilgandra,235,NA,NA
+2011,Gilgandra,221,-,-
+2012,Gilgandra,142,"4,464",0.9
+2013,Gilgandra,167,"4,428",0.9
+2014,Gilgandra,88,"4,382",0.9
+2015,Gilgandra,100,"4,342",0.9
+2016,Gilgandra,75,"4,298",0.9
+2017,Gilgandra,76,"4,247",0.9
+2018,Gilgandra,66,NA,NA
+2008,Glen Innes Severn,174,NA,NA
+2009,Glen Innes Severn,158,NA,NA
+2010,Glen Innes Severn,178,NA,NA
+2011,Glen Innes Severn,176,-,-
+2012,Glen Innes Severn,120,"8,905",1.6
+2013,Glen Innes Severn,125,"8,909",1.6
+2014,Glen Innes Severn,128,"8,919",1.6
+2015,Glen Innes Severn,87,"8,926",1.6
+2016,Glen Innes Severn,90,"8,934",1.6
+2017,Glen Innes Severn,109,"8,919",1.6
+2018,Glen Innes Severn,78,NA,NA
+2008,Goulburn Mulwaree,302,NA,NA
+2009,Goulburn Mulwaree,286,NA,NA
+2010,Goulburn Mulwaree,277,NA,NA
+2011,Goulburn Mulwaree,172,-,-
+2012,Goulburn Mulwaree,282,"28,730",8.9
+2013,Goulburn Mulwaree,327,"29,187",9.1
+2014,Goulburn Mulwaree,248,"29,486",9.2
+2015,Goulburn Mulwaree,206,"29,815",9.3
+2016,Goulburn Mulwaree,136,"30,261",9.4
+2017,Goulburn Mulwaree,172,"30,556",9.5
+2018,Goulburn Mulwaree,180,NA,NA
+2008,Greater Hume Shire,1142,NA,NA
+2009,Greater Hume Shire,810,NA,NA
+2010,Greater Hume Shire,526,NA,NA
+2011,Greater Hume Shire,301,-,-
+2012,Greater Hume Shire,484,"10,161",1.8
+2013,Greater Hume Shire,1041,"10,220",1.8
+2014,Greater Hume Shire,495,"10,318",1.8
+2015,Greater Hume Shire,401,"10,441",1.8
+2016,Greater Hume Shire,295,"10,519",1.8
+2017,Greater Hume Shire,298,"10,602",1.8
+2018,Greater Hume Shire,175,NA,NA
+2008,Griffith,245,NA,NA
+2009,Griffith,181,NA,NA
+2010,Griffith,159,NA,NA
+2011,Griffith,85,-,-
+2012,Griffith,177,"25,614",15.6
+2013,Griffith,75,"25,705",15.7
+2014,Griffith,323,"25,942",15.8
+2015,Griffith,81,"26,171",16
+2016,Griffith,101,"26,356",16.1
+2017,Griffith,113,"26,586",16.2
+2018,Griffith,85,NA,NA
+2008,Gundagai,1215,NA,NA
+2009,Gundagai,1007,NA,NA
+2010,Gundagai,573,NA,NA
+2011,Gundagai,387,-,-
+2012,Gundagai,547,"11,312",2.8
+2013,Gundagai,965,"11,313",2.8
+2014,Gundagai,516,"11,305",2.8
+2015,Gundagai,510,"11,302",2.8
+2016,Gundagai,235,"11,291",2.8
+2017,Gundagai,254,"11,244",2.8
+2018,Gundagai,285,NA,NA
+2008,Gunnedah,320,NA,NA
+2009,Gunnedah,229,NA,NA
+2010,Gunnedah,289,NA,NA
+2011,Gunnedah,263,-,-
+2012,Gunnedah,178,"12,514",2.5
+2013,Gunnedah,195,"12,481",2.5
+2014,Gunnedah,173,"12,468",2.5
+2015,Gunnedah,156,"12,447",2.5
+2016,Gunnedah,104,"12,491",2.5
+2017,Gunnedah,143,"12,579",2.5
+2018,Gunnedah,93,NA,NA
+2008,Gwydir,166,NA,NA
+2009,Gwydir,183,NA,NA
+2010,Gwydir,147,NA,NA
+2011,Gwydir,214,-,-
+2012,Gwydir,134,"5,172",0.6
+2013,Gwydir,134,"5,218",0.6
+2014,Gwydir,117,"5,250",0.6
+2015,Gwydir,128,"5,302",0.6
+2016,Gwydir,86,"5,326",0.6
+2017,Gwydir,89,"5,314",0.6
+2018,Gwydir,72,NA,NA
+2008,Hawkesbury,384,NA,NA
+2009,Hawkesbury,357,NA,NA
+2010,Hawkesbury,408,NA,NA
+2011,Hawkesbury,348,-,-
+2012,Hawkesbury,216,"64,670",23.3
+2013,Hawkesbury,272,"65,145",23.5
+2014,Hawkesbury,263,"65,503",23.6
+2015,Hawkesbury,216,"65,890",23.7
+2016,Hawkesbury,218,"66,346",23.9
+2017,Hawkesbury,225,"66,623",24
+2018,Hawkesbury,255,NA,NA
+2008,Hay,82,NA,NA
+2009,Hay,102,NA,NA
+2010,Hay,120,NA,NA
+2011,Hay,80,-,-
+2012,Hay,77,"3,029",0.3
+2013,Hay,176,"3,016",0.3
+2014,Hay,79,"3,005",0.3
+2015,Hay,61,"2,994",0.3
+2016,Hay,67,"2,984",0.3
+2017,Hay,72,"2,979",0.3
+2018,Hay,60,NA,NA
+2008,Hilltops,295,NA,NA
+2009,Hilltops,361,NA,NA
+2010,Hilltops,252,NA,NA
+2011,Hilltops,232,-,-
+2012,Hilltops,132,"18,807",2.6
+2013,Hilltops,161,"18,783",2.6
+2014,Hilltops,230,"18,776",2.6
+2015,Hilltops,222,"18,760",2.6
+2016,Hilltops,120,"18,756",2.6
+2017,Hilltops,93,"18,753",2.6
+2018,Hilltops,156,NA,NA
+2008,Hornsby,207,NA,NA
+2009,Hornsby,250,NA,NA
+2010,Hornsby,251,NA,NA
+2011,Hornsby,161,-,-
+2012,Hornsby,119,"143,754",315.9
+2013,Hornsby,99,"144,458",317.5
+2014,Hornsby,111,"145,262",319.2
+2015,Hornsby,187,"146,147",321.2
+2016,Hornsby,142,"147,385",323.9
+2017,Hornsby,134,"149,113",327.7
+2018,Hornsby,164,NA,NA
+2008,Hunters Hill,15,NA,NA
+2009,Hunters Hill,18,NA,NA
+2010,Hunters Hill,43,NA,NA
+2011,Hunters Hill,125,-,-
+2012,Hunters Hill,23,"14,070",2461.1
+2013,Hunters Hill,16,"14,242",2491.2
+2014,Hunters Hill,19,"14,428",2523.7
+2015,Hunters Hill,5,"14,540",2543.3
+2016,Hunters Hill,13,"14,656",2563.6
+2017,Hunters Hill,17,"14,747",2579.5
+2018,Hunters Hill,14,NA,NA
+2008,Inner West,348,NA,NA
+2009,Inner West,350,NA,NA
+2010,Inner West,353,NA,NA
+2011,Inner West,439,-,-
+2012,Inner West,372,"182,041",5146.6
+2013,Inner West,286,"184,297",5210.4
+2014,Inner West,279,"186,495",5272.5
+2015,Inner West,384,"188,711",5335.1
+2016,Inner West,450,"191,194",5405.3
+2017,Inner West,376,"194,564",5500.6
+2018,Inner West,502,NA,NA
+2008,Inverell,120,NA,NA
+2009,Inverell,145,NA,NA
+2010,Inverell,149,NA,NA
+2011,Inverell,144,-,-
+2012,Inverell,77,"16,614",1.9
+2013,Inverell,90,"16,627",1.9
+2014,Inverell,78,"16,676",1.9
+2015,Inverell,70,"16,731",1.9
+2016,Inverell,66,"16,812",2
+2017,Inverell,80,"16,815",2
+2018,Inverell,52,NA,NA
+2008,Junee,1003,NA,NA
+2009,Junee,800,NA,NA
+2010,Junee,428,NA,NA
+2011,Junee,275,-,-
+2012,Junee,471,"6,135",3
+2013,Junee,871,"6,213",3.1
+2014,Junee,445,"6,283",3.1
+2015,Junee,464,"6,336",3.1
+2016,Junee,188,"6,414",3.2
+2017,Junee,213,"6,511",3.2
+2018,Junee,179,NA,NA
+2008,Kempsey,779,NA,NA
+2009,Kempsey,795,NA,NA
+2010,Kempsey,680,NA,NA
+2011,Kempsey,666,-,-
+2012,Kempsey,510,"29,223",8.7
+2013,Kempsey,461,"29,284",8.7
+2014,Kempsey,415,"29,351",8.7
+2015,Kempsey,348,"29,379",8.7
+2016,Kempsey,265,"29,431",8.7
+2017,Kempsey,279,"29,534",8.7
+2018,Kempsey,252,NA,NA
+2008,Kiama,258,NA,NA
+2009,Kiama,311,NA,NA
+2010,Kiama,337,NA,NA
+2011,Kiama,253,-,-
+2012,Kiama,140,"21,004",81.5
+2013,Kiama,138,"21,262",82.5
+2014,Kiama,198,"21,612",83.9
+2015,Kiama,147,"21,890",85
+2016,Kiama,186,"22,110",85.8
+2017,Kiama,109,"22,450",87.1
+2018,Kiama,113,NA,NA
+2008,Ku-ring-gai,198,NA,NA
+2009,Ku-ring-gai,234,NA,NA
+2010,Ku-ring-gai,250,NA,NA
+2011,Ku-ring-gai,205,-,-
+2012,Ku-ring-gai,160,"116,339",1362.1
+2013,Ku-ring-gai,83,"118,195",1383.9
+2014,Ku-ring-gai,100,"119,851",1403.2
+2015,Ku-ring-gai,183,"121,315",1420.4
+2016,Ku-ring-gai,93,"122,472",1433.9
+2017,Ku-ring-gai,139,"124,444",1457
+2018,Ku-ring-gai,178,NA,NA
+2008,Kyogle,424,NA,NA
+2009,Kyogle,293,NA,NA
+2010,Kyogle,298,NA,NA
+2011,Kyogle,232,-,-
+2012,Kyogle,184,"9,416",2.6
+2013,Kyogle,187,"9,345",2.6
+2014,Kyogle,179,"9,288",2.6
+2015,Kyogle,139,"9,197",2.6
+2016,Kyogle,135,"9,114",2.5
+2017,Kyogle,197,"8,979",2.5
+2018,Kyogle,150,NA,NA
+2008,Lachlan,291,NA,NA
+2009,Lachlan,259,NA,NA
+2010,Lachlan,119,NA,NA
+2011,Lachlan,175,-,-
+2012,Lachlan,131,"6,651",0.4
+2013,Lachlan,166,"6,586",0.4
+2014,Lachlan,134,"6,530",0.4
+2015,Lachlan,99,"6,450",0.4
+2016,Lachlan,81,"6,356",0.4
+2017,Lachlan,57,"6,225",0.4
+2018,Lachlan,73,NA,NA
+2008,Lake Macquarie,362,NA,NA
+2009,Lake Macquarie,308,NA,NA
+2010,Lake Macquarie,303,NA,NA
+2011,Lake Macquarie,194,-,-
+2012,Lake Macquarie,163,"197,693",304.8
+2013,Lake Macquarie,130,"198,953",306.7
+2014,Lake Macquarie,155,"200,249",308.7
+2015,Lake Macquarie,96,"201,240",310.2
+2016,Lake Macquarie,131,"202,332",311.9
+2017,Lake Macquarie,129,"203,376",313.5
+2018,Lake Macquarie,187,NA,NA
+2008,Lane Cove,116,NA,NA
+2009,Lane Cove,78,NA,NA
+2010,Lane Cove,135,NA,NA
+2011,Lane Cove,125,-,-
+2012,Lane Cove,100,"33,728",3218.5
+2013,Lane Cove,97,"34,261",3269.4
+2014,Lane Cove,100,"35,196",3358.6
+2015,Lane Cove,153,"36,402",3473.7
+2016,Lane Cove,125,"37,694",3597
+2017,Lane Cove,173,"38,742",3697
+2018,Lane Cove,127,NA,NA
+2008,Leeton,249,NA,NA
+2009,Leeton,209,NA,NA
+2010,Leeton,163,NA,NA
+2011,Leeton,90,-,-
+2012,Leeton,126,"11,430",9.8
+2013,Leeton,100,"11,413",9.8
+2014,Leeton,331,"11,408",9.8
+2015,Leeton,88,"11,411",9.8
+2016,Leeton,114,"11,407",9.8
+2017,Leeton,126,"11,417",9.8
+2018,Leeton,103,NA,NA
+2008,Lismore,426,NA,NA
+2009,Lismore,277,NA,NA
+2010,Lismore,256,NA,NA
+2011,Lismore,200,-,-
+2012,Lismore,181,"44,388",34.5
+2013,Lismore,173,"44,408",34.5
+2014,Lismore,175,"44,327",34.4
+2015,Lismore,137,"44,212",34.3
+2016,Lismore,125,"44,122",34.3
+2017,Lismore,206,"43,905",34.1
+2018,Lismore,151,NA,NA
+2008,Lithgow,345,NA,NA
+2009,Lithgow,370,NA,NA
+2010,Lithgow,329,NA,NA
+2011,Lithgow,280,-,-
+2012,Lithgow,203,"21,000",4.7
+2013,Lithgow,178,"21,118",4.7
+2014,Lithgow,179,"21,283",4.7
+2015,Lithgow,158,"21,400",4.7
+2016,Lithgow,126,"21,484",4.8
+2017,Lithgow,189,"21,565",4.8
+2018,Lithgow,165,NA,NA
+2008,Liverpool,459,NA,NA
+2009,Liverpool,670,NA,NA
+2010,Liverpool,466,NA,NA
+2011,Liverpool,666,-,-
+2012,Liverpool,601,"191,799",627.3
+2013,Liverpool,502,"196,122",641.5
+2014,Liverpool,527,"200,725",656.5
+2015,Liverpool,188,"206,205",674.4
+2016,Liverpool,434,"211,983",693.3
+2017,Liverpool,385,"217,586",711.7
+2018,Liverpool,442,NA,NA
+2008,Liverpool Plains,258,NA,NA
+2009,Liverpool Plains,185,NA,NA
+2010,Liverpool Plains,299,NA,NA
+2011,Liverpool Plains,221,-,-
+2012,Liverpool Plains,131,"7,786",1.5
+2013,Liverpool Plains,161,"7,812",1.5
+2014,Liverpool Plains,146,"7,831",1.5
+2015,Liverpool Plains,153,"7,837",1.5
+2016,Liverpool Plains,101,"7,847",1.5
+2017,Liverpool Plains,148,"7,867",1.5
+2018,Liverpool Plains,102,NA,NA
+2008,Lockhart,795,NA,NA
+2009,Lockhart,586,NA,NA
+2010,Lockhart,335,NA,NA
+2011,Lockhart,161,-,-
+2012,Lockhart,367,"3,085",1.1
+2013,Lockhart,829,"3,096",1.1
+2014,Lockhart,328,"3,117",1.1
+2015,Lockhart,284,"3,121",1.1
+2016,Lockhart,152,"3,173",1.1
+2017,Lockhart,185,"3,237",1.1
+2018,Lockhart,91,NA,NA
+2008,Maitland,138,NA,NA
+2009,Maitland,157,NA,NA
+2010,Maitland,153,NA,NA
+2011,Maitland,111,-,-
+2012,Maitland,129,"72,012",183.9
+2013,Maitland,101,"73,870",188.7
+2014,Maitland,79,"75,695",193.3
+2015,Maitland,75,"77,374",197.6
+2016,Maitland,73,"79,063",201.9
+2017,Maitland,70,"80,989",206.9
+2018,Maitland,116,NA,NA
+2008,Mid-Coast,360,NA,NA
+2009,Mid-Coast,319,NA,NA
+2010,Mid-Coast,325,NA,NA
+2011,Mid-Coast,248,-,-
+2012,Mid-Coast,238,"89,308",8.9
+2013,Mid-Coast,154,"89,940",8.9
+2014,Mid-Coast,149,"90,468",9
+2015,Mid-Coast,138,"91,038",9.1
+2016,Mid-Coast,115,"91,801",9.1
+2017,Mid-Coast,148,"92,462",9.2
+2018,Mid-Coast,137,NA,NA
+2008,Mid-Western Regional,427,NA,NA
+2009,Mid-Western Regional,413,NA,NA
+2010,Mid-Western Regional,399,NA,NA
+2011,Mid-Western Regional,323,-,-
+2012,Mid-Western Regional,265,"23,343",2.7
+2013,Mid-Western Regional,240,"23,742",2.7
+2014,Mid-Western Regional,188,"24,059",2.7
+2015,Mid-Western Regional,186,"24,374",2.8
+2016,Mid-Western Regional,146,"24,546",2.8
+2017,Mid-Western Regional,319,"24,815",2.8
+2018,Mid-Western Regional,326,NA,NA
+2008,Moree Plains,127,NA,NA
+2009,Moree Plains,154,NA,NA
+2010,Moree Plains,105,NA,NA
+2011,Moree Plains,174,-,-
+2012,Moree Plains,105,"13,980",0.8
+2013,Moree Plains,102,"13,925",0.8
+2014,Moree Plains,85,"13,853",0.8
+2015,Moree Plains,96,"13,735",0.8
+2016,Moree Plains,70,"13,627",0.8
+2017,Moree Plains,71,"13,451",0.8
+2018,Moree Plains,57,NA,NA
+2008,Mosman,352,NA,NA
+2009,Mosman,139,NA,NA
+2010,Mosman,61,NA,NA
+2011,Mosman,143,-,-
+2012,Mosman,117,"29,481",3408.1
+2013,Mosman,93,"29,641",3426.6
+2014,Mosman,29,"29,846",3450.3
+2015,Mosman,45,"30,045",3473.3
+2016,Mosman,18,"30,260",3498.1
+2017,Mosman,30,"30,564",3533.3
+2018,Mosman,23,NA,NA
+2008,Murray River,131,NA,NA
+2009,Murray River,190,NA,NA
+2010,Murray River,183,NA,NA
+2011,Murray River,158,-,-
+2012,Murray River,139,"11,382",1
+2013,Murray River,211,"11,515",1
+2014,Murray River,142,"11,642",1
+2015,Murray River,120,"11,755",1
+2016,Murray River,87,"11,872",1
+2017,Murray River,98,"11,956",1
+2018,Murray River,86,NA,NA
+2008,Murrumbidgee,380,NA,NA
+2009,Murrumbidgee,350,NA,NA
+2010,Murrumbidgee,312,NA,NA
+2011,Murrumbidgee,193,-,-
+2012,Murrumbidgee,224,"3,882",0.6
+2013,Murrumbidgee,294,"3,920",0.6
+2014,Murrumbidgee,287,"3,900",0.6
+2015,Murrumbidgee,164,"3,893",0.6
+2016,Murrumbidgee,186,"3,929",0.6
+2017,Murrumbidgee,207,"3,952",0.6
+2018,Murrumbidgee,164,NA,NA
+2008,Muswellbrook,142,NA,NA
+2009,Muswellbrook,135,NA,NA
+2010,Muswellbrook,208,NA,NA
+2011,Muswellbrook,99,-,-
+2012,Muswellbrook,52,"16,398",4.8
+2013,Muswellbrook,63,"16,415",4.8
+2014,Muswellbrook,127,"16,431",4.8
+2015,Muswellbrook,49,"16,435",4.8
+2016,Muswellbrook,53,"16,462",4.8
+2017,Muswellbrook,78,"16,431",4.8
+2018,Muswellbrook,88,NA,NA
+2008,Nambucca,243,NA,NA
+2009,Nambucca,210,NA,NA
+2010,Nambucca,162,NA,NA
+2011,Nambucca,137,-,-
+2012,Nambucca,144,"19,310",12.9
+2013,Nambucca,135,"19,428",13
+2014,Nambucca,101,"19,501",13.1
+2015,Nambucca,54,"19,541",13.1
+2016,Nambucca,85,"19,580",13.1
+2017,Nambucca,101,"19,688",13.2
+2018,Nambucca,61,NA,NA
+2008,Narrabri,284,NA,NA
+2009,Narrabri,206,NA,NA
+2010,Narrabri,235,NA,NA
+2011,Narrabri,261,-,-
+2012,Narrabri,182,"13,433",1
+2013,Narrabri,179,"13,489",1
+2014,Narrabri,139,"13,480",1
+2015,Narrabri,131,"13,459",1
+2016,Narrabri,89,"13,367",1
+2017,Narrabri,86,"13,278",1
+2018,Narrabri,77,NA,NA
+2008,Narrandera,924,NA,NA
+2009,Narrandera,672,NA,NA
+2010,Narrandera,413,NA,NA
+2011,Narrandera,197,-,-
+2012,Narrandera,437,"6,086",1.5
+2013,Narrandera,893,"6,054",1.5
+2014,Narrandera,541,"6,015",1.5
+2015,Narrandera,333,"5,978",1.5
+2016,Narrandera,204,"5,949",1.4
+2017,Narrandera,237,"5,931",1.4
+2018,Narrandera,131,NA,NA
+2008,Narromine,147,NA,NA
+2009,Narromine,196,NA,NA
+2010,Narromine,222,NA,NA
+2011,Narromine,217,-,-
+2012,Narromine,134,"6,795",1.3
+2013,Narromine,157,"6,761",1.3
+2014,Narromine,88,"6,721",1.3
+2015,Narromine,92,"6,668",1.3
+2016,Narromine,65,"6,617",1.3
+2017,Narromine,62,"6,578",1.3
+2018,Narromine,61,NA,NA
+2008,Newcastle,352,NA,NA
+2009,Newcastle,334,NA,NA
+2010,Newcastle,371,NA,NA
+2011,Newcastle,358,-,-
+2012,Newcastle,393,"156,451",837.7
+2013,Newcastle,326,"157,477",843.2
+2014,Newcastle,379,"158,683",849.7
+2015,Newcastle,221,"159,680",855
+2016,Newcastle,218,"160,707",860.5
+2017,Newcastle,228,"162,358",869.4
+2018,Newcastle,170,NA,NA
+2008,North Sydney,1102,NA,NA
+2009,North Sydney,571,NA,NA
+2010,North Sydney,523,NA,NA
+2011,North Sydney,815,-,-
+2012,North Sydney,581,"67,630",6449.7
+2013,North Sydney,380,"68,666",6548.5
+2014,North Sydney,275,"69,754",6652.3
+2015,North Sydney,422,"70,860",6757.8
+2016,North Sydney,238,"71,809",6848.3
+2017,North Sydney,361,"73,032",6964.9
+2018,North Sydney,225,NA,NA
+2008,Northern Beaches,522,NA,NA
+2009,Northern Beaches,425,NA,NA
+2010,Northern Beaches,514,NA,NA
+2011,Northern Beaches,461,-,-
+2012,Northern Beaches,405,"254,115",999.6
+2013,Northern Beaches,412,"257,020",1011.1
+2014,Northern Beaches,355,"259,723",1021.7
+2015,Northern Beaches,343,"262,593",1033
+2016,Northern Beaches,291,"265,468",1044.3
+2017,Northern Beaches,339,"268,666",1056.9
+2018,Northern Beaches,277,NA,NA
+2008,Oberon,325,NA,NA
+2009,Oberon,353,NA,NA
+2010,Oberon,281,NA,NA
+2011,Oberon,236,-,-
+2012,Oberon,227,"5,235",1.4
+2013,Oberon,239,"5,300",1.5
+2014,Oberon,223,"5,318",1.5
+2015,Oberon,165,"5,329",1.5
+2016,Oberon,120,"5,349",1.5
+2017,Oberon,193,"5,382",1.5
+2018,Oberon,165,NA,NA
+2008,Orange,89,NA,NA
+2009,Orange,104,NA,NA
+2010,Orange,79,NA,NA
+2011,Orange,73,-,-
+2012,Orange,65,"39,769",139.9
+2013,Orange,73,"40,167",141.3
+2014,Orange,30,"40,619",142.9
+2015,Orange,34,"40,837",143.7
+2016,Orange,52,"41,210",145
+2017,Orange,167,"41,468",145.9
+2018,Orange,169,NA,NA
+2008,Parkes,93,NA,NA
+2009,Parkes,191,NA,NA
+2010,Parkes,162,NA,NA
+2011,Parkes,145,-,-
+2012,Parkes,66,"15,048",2.5
+2013,Parkes,86,"15,022",2.5
+2014,Parkes,88,"14,991",2.5
+2015,Parkes,71,"14,954",2.5
+2016,Parkes,45,"14,924",2.5
+2017,Parkes,85,"14,906",2.5
+2018,Parkes,74,NA,NA
+2008,Parramatta,398,NA,NA
+2009,Parramatta,467,NA,NA
+2010,Parramatta,545,NA,NA
+2011,Parramatta,455,-,-
+2012,Parramatta,633,"208,182",2483.4
+2013,Parramatta,563,"214,537",2559.2
+2014,Parramatta,500,"221,107",2637.6
+2015,Parramatta,620,"227,649",2715.6
+2016,Parramatta,536,"234,444",2796.7
+2017,Parramatta,461,"243,276",2902
+2018,Parramatta,502,NA,NA
+2008,Penrith,385,NA,NA
+2009,Penrith,460,NA,NA
+2010,Penrith,606,NA,NA
+2011,Penrith,430,-,-
+2012,Penrith,250,"187,281",462.8
+2013,Penrith,220,"190,527",470.8
+2014,Penrith,238,"193,765",478.8
+2015,Penrith,240,"197,678",488.5
+2016,Penrith,222,"201,597",498.1
+2017,Penrith,187,"205,043",506.7
+2018,Penrith,209,NA,NA
+2008,Port Macquarie-Hastings,724,NA,NA
+2009,Port Macquarie-Hastings,671,NA,NA
+2010,Port Macquarie-Hastings,539,NA,NA
+2011,Port Macquarie-Hastings,500,-,-
+2012,Port Macquarie-Hastings,331,"76,271",20.7
+2013,Port Macquarie-Hastings,315,"77,043",20.9
+2014,Port Macquarie-Hastings,289,"78,048",21.2
+2015,Port Macquarie-Hastings,283,"78,997",21.4
+2016,Port Macquarie-Hastings,217,"80,073",21.7
+2017,Port Macquarie-Hastings,229,"81,404",22.1
+2018,Port Macquarie-Hastings,201,NA,NA
+2008,Port Stephens,199,NA,NA
+2009,Port Stephens,192,NA,NA
+2010,Port Stephens,214,NA,NA
+2011,Port Stephens,149,-,-
+2012,Port Stephens,136,"68,012",79.2
+2013,Port Stephens,144,"68,750",80.1
+2014,Port Stephens,126,"69,537",81
+2015,Port Stephens,115,"70,257",81.8
+2016,Port Stephens,130,"71,115",82.8
+2017,Port Stephens,127,"71,736",83.6
+2018,Port Stephens,120,NA,NA
+2008,Queanbeyan-Palerang Regional,511,NA,NA
+2009,Queanbeyan-Palerang Regional,470,NA,NA
+2010,Queanbeyan-Palerang Regional,409,NA,NA
+2011,Queanbeyan-Palerang Regional,292,-,-
+2012,Queanbeyan-Palerang Regional,305,"55,408",10.4
+2013,Queanbeyan-Palerang Regional,444,"55,920",10.5
+2014,Queanbeyan-Palerang Regional,437,"56,537",10.6
+2015,Queanbeyan-Palerang Regional,256,"57,130",10.7
+2016,Queanbeyan-Palerang Regional,196,"57,790",10.9
+2017,Queanbeyan-Palerang Regional,218,"58,771",11
+2018,Queanbeyan-Palerang Regional,213,NA,NA
+2008,Randwick,495,NA,NA
+2009,Randwick,540,NA,NA
+2010,Randwick,764,NA,NA
+2011,Randwick,838,-,-
+2012,Randwick,632,"139,836",3848.9
+2013,Randwick,519,"142,459",3921.1
+2014,Randwick,490,"144,814",3986
+2015,Randwick,447,"146,908",4043.6
+2016,Randwick,658,"148,922",4099
+2017,Randwick,616,"151,996",4183.6
+2018,Randwick,527,NA,NA
+2008,Richmond Valley,485,NA,NA
+2009,Richmond Valley,356,NA,NA
+2010,Richmond Valley,331,NA,NA
+2011,Richmond Valley,276,-,-
+2012,Richmond Valley,222,"22,848",7.5
+2013,Richmond Valley,217,"22,981",7.5
+2014,Richmond Valley,244,"23,087",7.6
+2015,Richmond Valley,178,"23,148",7.6
+2016,Richmond Valley,176,"23,256",7.6
+2017,Richmond Valley,259,"23,317",7.7
+2018,Richmond Valley,192,NA,NA
+2008,Ryde,161,NA,NA
+2009,Ryde,155,NA,NA
+2010,Ryde,226,NA,NA
+2011,Ryde,273,-,-
+2012,Ryde,137,"111,156",2746.3
+2013,Ryde,114,"113,547",2805.4
+2014,Ryde,119,"115,843",2862.1
+2015,Ryde,196,"118,499",2927.7
+2016,Ryde,116,"121,270",2996.2
+2017,Ryde,149,"124,497",3075.9
+2018,Ryde,160,NA,NA
+2008,Shellharbour,303,NA,NA
+2009,Shellharbour,377,NA,NA
+2010,Shellharbour,412,NA,NA
+2011,Shellharbour,268,-,-
+2012,Shellharbour,163,"66,840",453.4
+2013,Shellharbour,144,"67,701",459.2
+2014,Shellharbour,241,"68,658",465.7
+2015,Shellharbour,160,"69,474",471.3
+2016,Shellharbour,195,"70,391",477.5
+2017,Shellharbour,131,"70,994",481.6
+2018,Shellharbour,136,NA,NA
+2008,Shoalhaven,750,NA,NA
+2009,Shoalhaven,644,NA,NA
+2010,Shoalhaven,594,NA,NA
+2011,Shoalhaven,441,-,-
+2012,Shoalhaven,542,"97,166",21.3
+2013,Shoalhaven,626,"98,097",21.5
+2014,Shoalhaven,490,"99,292",21.7
+2015,Shoalhaven,333,"100,550",22
+2016,Shoalhaven,311,"101,942",22.3
+2017,Shoalhaven,328,"103,012",22.6
+2018,Shoalhaven,319,NA,NA
+2008,Singleton,249,NA,NA
+2009,Singleton,266,NA,NA
+2010,Singleton,307,NA,NA
+2011,Singleton,204,-,-
+2012,Singleton,128,"23,548",4.8
+2013,Singleton,147,"23,557",4.8
+2014,Singleton,184,"23,597",4.8
+2015,Singleton,99,"23,586",4.8
+2016,Singleton,142,"23,576",4.8
+2017,Singleton,145,"23,482",4.8
+2018,Singleton,223,NA,NA
+2008,Snowy Monaro Regional,502,NA,NA
+2009,Snowy Monaro Regional,434,NA,NA
+2010,Snowy Monaro Regional,304,NA,NA
+2011,Snowy Monaro Regional,239,-,-
+2012,Snowy Monaro Regional,259,"20,403",1.3
+2013,Snowy Monaro Regional,413,"20,433",1.3
+2014,Snowy Monaro Regional,407,"20,454",1.3
+2015,Snowy Monaro Regional,277,"20,473",1.4
+2016,Snowy Monaro Regional,182,"20,558",1.4
+2017,Snowy Monaro Regional,178,"20,655",1.4
+2018,Snowy Monaro Regional,166,NA,NA
+2008,Snowy Valleys,1426,NA,NA
+2009,Snowy Valleys,1104,NA,NA
+2010,Snowy Valleys,695,NA,NA
+2011,Snowy Valleys,436,-,-
+2012,Snowy Valleys,616,"14,741",1.6
+2013,Snowy Valleys,1183,"14,720",1.6
+2014,Snowy Valleys,674,"14,690",1.6
+2015,Snowy Valleys,551,"14,640",1.6
+2016,Snowy Valleys,358,"14,611",1.6
+2017,Snowy Valleys,420,"14,552",1.6
+2018,Snowy Valleys,349,NA,NA
+2008,Strathfield,64,NA,NA
+2009,Strathfield,101,NA,NA
+2010,Strathfield,230,NA,NA
+2011,Strathfield,189,-,-
+2012,Strathfield,222,"37,968",2711.8
+2013,Strathfield,161,"38,918",2779.7
+2014,Strathfield,151,"40,301",2878.5
+2015,Strathfield,202,"41,276",2948.1
+2016,Strathfield,190,"42,415",3029.4
+2017,Strathfield,216,"43,803",3128.6
+2018,Strathfield,341,NA,NA
+2008,Sutherland Shire,427,NA,NA
+2009,Sutherland Shire,504,NA,NA
+2010,Sutherland Shire,483,NA,NA
+2011,Sutherland Shire,488,-,-
+2012,Sutherland Shire,327,"221,220",663.1
+2013,Sutherland Shire,304,"222,549",667.1
+2014,Sutherland Shire,262,"223,921",671.2
+2015,Sutherland Shire,251,"225,218",675.1
+2016,Sutherland Shire,249,"226,461",678.9
+2017,Sutherland Shire,316,"227,546",682.1
+2018,Sutherland Shire,683,NA,NA
+2008,Sydney,3101,NA,NA
+2009,Sydney,3745,NA,NA
+2010,Sydney,4008,NA,NA
+2011,Sydney,3629,-,-
+2012,Sydney,3545,"189,543",7087.6
+2013,Sydney,3690,"196,318",7340.9
+2014,Sydney,3080,"204,516",7647.5
+2015,Sydney,3041,"214,037",8003.5
+2016,Sydney,3084,"222,717",8328.1
+2017,Sydney,2930,"232,926",8709.8
+2018,Sydney,3139,NA,NA
+2008,Tamworth Regional,339,NA,NA
+2009,Tamworth Regional,273,NA,NA
+2010,Tamworth Regional,362,NA,NA
+2011,Tamworth Regional,326,-,-
+2012,Tamworth Regional,215,"58,699",5.9
+2013,Tamworth Regional,241,"59,240",6
+2014,Tamworth Regional,243,"59,872",6.1
+2015,Tamworth Regional,197,"60,432",6.1
+2016,Tamworth Regional,139,"60,990",6.2
+2017,Tamworth Regional,195,"61,571",6.2
+2018,Tamworth Regional,110,NA,NA
+2008,Temora,241,NA,NA
+2009,Temora,244,NA,NA
+2010,Temora,119,NA,NA
+2011,Temora,114,-,-
+2012,Temora,177,"6,002",2.1
+2013,Temora,93,"6,055",2.2
+2014,Temora,349,"6,098",2.2
+2015,Temora,187,"6,165",2.2
+2016,Temora,93,"6,210",2.2
+2017,Temora,47,"6,236",2.2
+2018,Temora,82,NA,NA
+2008,Tenterfield,118,NA,NA
+2009,Tenterfield,113,NA,NA
+2010,Tenterfield,132,NA,NA
+2011,Tenterfield,123,-,-
+2012,Tenterfield,89,"6,925",0.9
+2013,Tenterfield,89,"6,834",0.9
+2014,Tenterfield,93,"6,769",0.9
+2015,Tenterfield,59,"6,713",0.9
+2016,Tenterfield,71,"6,697",0.9
+2017,Tenterfield,88,"6,656",0.9
+2018,Tenterfield,72,NA,NA
+2008,The Hills Shire,156,NA,NA
+2009,The Hills Shire,206,NA,NA
+2010,The Hills Shire,215,NA,NA
+2011,The Hills Shire,140,-,-
+2012,The Hills Shire,109,"149,939",388.3
+2013,The Hills Shire,167,"152,429",394.7
+2014,The Hills Shire,137,"155,366",402.3
+2015,The Hills Shire,162,"158,941",411.6
+2016,The Hills Shire,171,"162,975",422
+2017,The Hills Shire,146,"167,847",434.7
+2018,The Hills Shire,140,NA,NA
+2008,Tweed,398,NA,NA
+2009,Tweed,266,NA,NA
+2010,Tweed,267,NA,NA
+2011,Tweed,247,-,-
+2012,Tweed,245,"89,266",68.3
+2013,Tweed,220,"90,226",69
+2014,Tweed,190,"91,139",69.7
+2015,Tweed,144,"92,261",70.6
+2016,Tweed,174,"93,742",71.7
+2017,Tweed,200,"94,857",72.5
+2018,Tweed,145,NA,NA
+2008,Unincorporated NSW,189,NA,NA
+2009,Unincorporated NSW,316,NA,NA
+2010,Unincorporated NSW,168,NA,NA
+2011,Unincorporated NSW,165,-,-
+2012,Unincorporated NSW,130,"1,124",-
+2013,Unincorporated NSW,52,"1,127",-
+2014,Unincorporated NSW,107,"1,134",-
+2015,Unincorporated NSW,125,"1,106",-
+2016,Unincorporated NSW,70,"1,112",-
+2017,Unincorporated NSW,62,"1,084",-
+2018,Unincorporated NSW,48,NA,NA
+2008,Upper Hunter Shire,414,NA,NA
+2009,Upper Hunter Shire,385,NA,NA
+2010,Upper Hunter Shire,482,NA,NA
+2011,Upper Hunter Shire,359,-,-
+2012,Upper Hunter Shire,241,"14,388",1.8
+2013,Upper Hunter Shire,255,"14,514",1.8
+2014,Upper Hunter Shire,313,"14,508",1.8
+2015,Upper Hunter Shire,233,"14,412",1.8
+2016,Upper Hunter Shire,178,"14,344",1.8
+2017,Upper Hunter Shire,257,"14,265",1.8
+2018,Upper Hunter Shire,205,NA,NA
+2008,Upper Lachlan Shire,442,NA,NA
+2009,Upper Lachlan Shire,474,NA,NA
+2010,Upper Lachlan Shire,377,NA,NA
+2011,Upper Lachlan Shire,301,-,-
+2012,Upper Lachlan Shire,284,"7,571",1.1
+2013,Upper Lachlan Shire,356,"7,594",1.1
+2014,Upper Lachlan Shire,384,"7,722",1.1
+2015,Upper Lachlan Shire,265,"7,804",1.1
+2016,Upper Lachlan Shire,213,"7,853",1.1
+2017,Upper Lachlan Shire,278,"7,909",1.1
+2018,Upper Lachlan Shire,269,NA,NA
+2008,Uralla,126,NA,NA
+2009,Uralla,201,NA,NA
+2010,Uralla,188,NA,NA
+2011,Uralla,222,-,-
+2012,Uralla,182,"6,244",1.9
+2013,Uralla,148,"6,253",1.9
+2014,Uralla,127,"6,238",1.9
+2015,Uralla,98,"6,194",1.9
+2016,Uralla,56,"6,147",1.9
+2017,Uralla,93,"6,103",1.9
+2018,Uralla,67,NA,NA
+2008,Wagga Wagga,878,NA,NA
+2009,Wagga Wagga,780,NA,NA
+2010,Wagga Wagga,356,NA,NA
+2011,Wagga Wagga,194,-,-
+2012,Wagga Wagga,402,"62,104",12.9
+2013,Wagga Wagga,863,"62,416",12.9
+2014,Wagga Wagga,361,"62,776",13
+2015,Wagga Wagga,304,"63,327",13.1
+2016,Wagga Wagga,201,"63,906",13.2
+2017,Wagga Wagga,223,"64,265",13.3
+2018,Wagga Wagga,154,NA,NA
+2008,Walcha,448,NA,NA
+2009,Walcha,421,NA,NA
+2010,Walcha,445,NA,NA
+2011,Walcha,383,-,-
+2012,Walcha,343,"3,143",0.5
+2013,Walcha,307,"3,150",0.5
+2014,Walcha,244,"3,149",0.5
+2015,Walcha,225,"3,128",0.5
+2016,Walcha,141,"3,130",0.5
+2017,Walcha,214,"3,144",0.5
+2018,Walcha,168,NA,NA
+2008,Walgett,369,NA,NA
+2009,Walgett,312,NA,NA
+2010,Walgett,323,NA,NA
+2011,Walgett,280,-,-
+2012,Walgett,188,"6,701",0.3
+2013,Walgett,102,"6,595",0.3
+2014,Walgett,101,"6,512",0.3
+2015,Walgett,95,"6,419",0.3
+2016,Walgett,59,"6,317",0.3
+2017,Walgett,67,"6,190",0.3
+2018,Walgett,84,NA,NA
+2008,Warren,267,NA,NA
+2009,Warren,238,NA,NA
+2010,Warren,299,NA,NA
+2011,Warren,226,-,-
+2012,Warren,179,"2,857",0.3
+2013,Warren,185,"2,836",0.3
+2014,Warren,113,"2,809",0.3
+2015,Warren,102,"2,783",0.3
+2016,Warren,79,"2,797",0.3
+2017,Warren,92,"2,763",0.3
+2018,Warren,79,NA,NA
+2008,Warrumbungle Shire,415,NA,NA
+2009,Warrumbungle Shire,351,NA,NA
+2010,Warrumbungle Shire,465,NA,NA
+2011,Warrumbungle Shire,413,-,-
+2012,Warrumbungle Shire,274,"9,849",0.8
+2013,Warrumbungle Shire,269,"9,743",0.8
+2014,Warrumbungle Shire,200,"9,689",0.8
+2015,Warrumbungle Shire,233,"9,622",0.8
+2016,Warrumbungle Shire,153,"9,562",0.8
+2017,Warrumbungle Shire,158,"9,451",0.8
+2018,Warrumbungle Shire,133,NA,NA
+2008,Waverley,409,NA,NA
+2009,Waverley,495,NA,NA
+2010,Waverley,663,NA,NA
+2011,Waverley,736,-,-
+2012,Waverley,510,"69,294",7410.6
+2013,Waverley,501,"70,052",7491.6
+2014,Waverley,535,"70,742",7565.4
+2015,Waverley,462,"71,336",7628.9
+2016,Waverley,579,"72,013",7701.3
+2017,Waverley,510,"73,300",7839
+2018,Waverley,429,NA,NA
+2008,Weddin,220,NA,NA
+2009,Weddin,305,NA,NA
+2010,Weddin,173,NA,NA
+2011,Weddin,144,-,-
+2012,Weddin,90,"3,738",1.1
+2013,Weddin,120,"3,723",1.1
+2014,Weddin,208,"3,706",1.1
+2015,Weddin,201,"3,688",1.1
+2016,Weddin,104,"3,677",1.1
+2017,Weddin,52,"3,641",1.1
+2018,Weddin,91,NA,NA
+2008,Wentworth,127,NA,NA
+2009,Wentworth,160,NA,NA
+2010,Wentworth,102,NA,NA
+2011,Wentworth,121,-,-
+2012,Wentworth,62,"6,847",0.3
+2013,Wentworth,31,"6,848",0.3
+2014,Wentworth,83,"6,877",0.3
+2015,Wentworth,118,"6,890",0.3
+2016,Wentworth,47,"6,932",0.3
+2017,Wentworth,66,"6,972",0.3
+2018,Wentworth,47,NA,NA
+2008,Western Plains Regional,358,NA,NA
+2009,Western Plains Regional,395,NA,NA
+2010,Western Plains Regional,412,NA,NA
+2011,Western Plains Regional,421,-,-
+2012,Western Plains Regional,295,"49,397",6.6
+2013,Western Plains Regional,282,"49,757",6.6
+2014,Western Plains Regional,179,"50,322",6.7
+2015,Western Plains Regional,209,"50,847",6.7
+2016,Western Plains Regional,157,"51,404",6.8
+2017,Western Plains Regional,293,"52,090",6.9
+2018,Western Plains Regional,270,NA,NA
+2008,Willoughby,148,NA,NA
+2009,Willoughby,87,NA,NA
+2010,Willoughby,165,NA,NA
+2011,Willoughby,174,-,-
+2012,Willoughby,121,"72,119",3215.9
+2013,Willoughby,123,"73,072",3258.4
+2014,Willoughby,119,"74,238",3310.4
+2015,Willoughby,185,"75,970",3387.6
+2016,Willoughby,132,"77,888",3473.1
+2017,Willoughby,188,"79,681",3553.1
+2018,Willoughby,142,NA,NA
+2008,Wingecarribee,606,NA,NA
+2009,Wingecarribee,570,NA,NA
+2010,Wingecarribee,538,NA,NA
+2011,Wingecarribee,497,-,-
+2012,Wingecarribee,590,"46,467",17.3
+2013,Wingecarribee,729,"46,964",17.5
+2014,Wingecarribee,747,"47,470",17.7
+2015,Wingecarribee,513,"48,150",17.9
+2016,Wingecarribee,462,"48,998",18.2
+2017,Wingecarribee,485,"49,649",18.5
+2018,Wingecarribee,393,NA,NA
+2008,Wollondilly,520,NA,NA
+2009,Wollondilly,418,NA,NA
+2010,Wollondilly,402,NA,NA
+2011,Wollondilly,479,-,-
+2012,Wollondilly,485,"45,439",17.8
+2013,Wollondilly,577,"46,399",18.2
+2014,Wollondilly,549,"47,445",18.6
+2015,Wollondilly,385,"48,562",19
+2016,Wollondilly,433,"49,854",19.5
+2017,Wollondilly,487,"51,002",20
+2018,Wollondilly,406,NA,NA
+2008,Wollongong,873,NA,NA
+2009,Wollongong,945,NA,NA
+2010,Wollongong,917,NA,NA
+2011,Wollongong,775,-,-
+2012,Wollongong,632,"203,045",296.9
+2013,Wollongong,722,"204,707",299.3
+2014,Wollongong,835,"206,415",301.8
+2015,Wollongong,559,"208,313",304.6
+2016,Wollongong,634,"210,394",307.6
+2017,Wollongong,675,"213,132",311.6
+2018,Wollongong,499,NA,NA
+2008,Woollahra,1731,NA,NA
+2009,Woollahra,1981,NA,NA
+2010,Woollahra,2692,NA,NA
+2011,Woollahra,2295,-,-
+2012,Woollahra,2146,"56,601",4610.1
+2013,Woollahra,2294,"56,909",4635.2
+2014,Woollahra,2040,"57,253",4663.2
+2015,Woollahra,1743,"57,513",4684.4
+2016,Woollahra,1544,"57,744",4703.2
+2017,Woollahra,1630,"58,456",4761.2
+2018,Woollahra,1628,NA,NA
+2008,Yass Valley,187,NA,NA
+2009,Yass Valley,214,NA,NA
+2010,Yass Valley,154,NA,NA
+2011,Yass Valley,104,-,-
+2012,Yass Valley,89,"15,808",4
+2013,Yass Valley,103,"16,010",4
+2014,Yass Valley,96,"16,188",4.1
+2015,Yass Valley,89,"16,356",4.1
+2016,Yass Valley,83,"16,568",4.1
+2017,Yass Valley,72,"16,739",4.2
+2018,Yass Valley,103,NA,NA
+2012,No usual address,NA,-,-
+2013,No usual address,NA,-,-
+2014,No usual address,NA,-,-
+2015,No usual address,NA,-,-
+2016,No usual address,NA,-,-
+2017,No usual address,NA,-,-
+2012,Migratory - Offshore - Shipping,NA,-,-
+2013,Migratory - Offshore - Shipping,NA,-,-
+2014,Migratory - Offshore - Shipping,NA,-,-
+2015,Migratory - Offshore - Shipping,NA,-,-
+2016,Migratory - Offshore - Shipping,NA,-,-
+2017,Migratory - Offshore - Shipping,NA,-,-
+2011,Alpine,NA,-,-
+2012,Alpine,NA,"12,183",2.5
+2013,Alpine,NA,"12,283",2.6
+2014,Alpine,NA,"12,355",2.6
+2015,Alpine,NA,"12,429",2.6
+2016,Alpine,NA,"12,578",2.6
+2017,Alpine,NA,"12,639",2.6
+2011,Ararat,NA,-,-
+2012,Ararat,NA,"11,400",2.7
+2013,Ararat,NA,"11,490",2.7
+2014,Ararat,NA,"11,560",2.7
+2015,Ararat,NA,"11,644",2.8
+2016,Ararat,NA,"11,745",2.8
+2017,Ararat,NA,"11,757",2.8
+2011,Ballarat,NA,-,-
+2012,Ballarat,NA,"96,728",130.9
+2013,Ballarat,NA,"98,344",133.1
+2014,Ballarat,NA,"99,914",135.2
+2015,Ballarat,NA,"101,479",137.3
+2016,Ballarat,NA,"103,500",140
+2017,Ballarat,NA,"105,438",142.7
+2011,Banyule,NA,-,-
+2012,Banyule,NA,"123,584",1976.1
+2013,Banyule,NA,"124,314",1987.7
+2014,Banyule,NA,"125,107",2000.4
+2015,Banyule,NA,"126,088",2016.1
+2016,Banyule,NA,"127,447",2037.8
+2017,Banyule,NA,"129,125",2064.7
+2011,Bass Coast,NA,-,-
+2012,Bass Coast,NA,"30,811",35.6
+2013,Bass Coast,NA,"31,331",36.2
+2014,Bass Coast,NA,"31,917",36.9
+2015,Bass Coast,NA,"32,576",37.6
+2016,Bass Coast,NA,"33,464",38.7
+2017,Bass Coast,NA,"34,390",39.7
+2011,Baw Baw,NA,-,-
+2012,Baw Baw,NA,"44,506",11.1
+2013,Baw Baw,NA,"45,627",11.3
+2014,Baw Baw,NA,"46,644",11.6
+2015,Baw Baw,NA,"47,837",11.9
+2016,Baw Baw,NA,"49,296",12.2
+2017,Baw Baw,NA,"50,687",12.6
+2011,Benalla,NA,-,-
+2012,Benalla,NA,"13,849",5.9
+2013,Benalla,NA,"13,878",5.9
+2014,Benalla,NA,"13,898",5.9
+2015,Benalla,NA,"13,923",5.9
+2016,Benalla,NA,"13,982",5.9
+2017,Benalla,NA,"13,975",5.9
+2011,Boroondara,NA,-,-
+2012,Boroondara,NA,"168,483",2799.8
+2013,Boroondara,NA,"170,485",2833
+2014,Boroondara,NA,"172,660",2869.2
+2015,Boroondara,NA,"174,753",2904
+2016,Boroondara,NA,"177,276",2945.9
+2017,Boroondara,NA,"179,640",2985.2
+2011,Brimbank,NA,-,-
+2012,Brimbank,NA,"193,774",1570.3
+2013,Brimbank,NA,"196,169",1589.7
+2014,Brimbank,NA,"198,468",1608.3
+2015,Brimbank,NA,"200,860",1627.7
+2016,Brimbank,NA,"204,190",1654.7
+2017,Brimbank,NA,"207,009",1677.6
+2011,Buloke,NA,-,-
+2012,Buloke,NA,"6,434",0.8
+2013,Buloke,NA,"6,388",0.8
+2014,Buloke,NA,"6,335",0.8
+2015,Buloke,NA,"6,306",0.8
+2016,Buloke,NA,"6,284",0.8
+2017,Buloke,NA,"6,206",0.8
+2011,Campaspe,NA,-,-
+2012,Campaspe,NA,"37,041",8.2
+2013,Campaspe,NA,"37,213",8.2
+2014,Campaspe,NA,"37,338",8.3
+2015,Campaspe,NA,"37,429",8.3
+2016,Campaspe,NA,"37,595",8.3
+2017,Campaspe,NA,"37,602",8.3
+2011,Cardinia,NA,-,-
+2012,Cardinia,NA,"80,422",62.7
+2013,Cardinia,NA,"84,591",66
+2014,Cardinia,NA,"88,070",68.7
+2015,Cardinia,NA,"92,298",72
+2016,Cardinia,NA,"97,573",76.1
+2017,Cardinia,NA,"102,425",79.9
+2011,Casey,NA,-,-
+2012,Casey,NA,"269,240",657.6
+2013,Casey,NA,"278,023",679.1
+2014,Casey,NA,"287,937",703.3
+2015,Casey,NA,"299,528",731.6
+2016,Casey,NA,"312,789",764
+2017,Casey,NA,"326,820",798.2
+2011,Central Goldfields,NA,-,-
+2012,Central Goldfields,NA,"12,714",8.3
+2013,Central Goldfields,NA,"12,815",8.4
+2014,Central Goldfields,NA,"12,884",8.4
+2015,Central Goldfields,NA,"12,950",8.4
+2016,Central Goldfields,NA,"13,087",8.5
+2017,Central Goldfields,NA,"13,148",8.6
+2011,Colac-Otway,NA,-,-
+2012,Colac-Otway,NA,"20,902",6.1
+2013,Colac-Otway,NA,"21,035",6.1
+2014,Colac-Otway,NA,"21,131",6.1
+2015,Colac-Otway,NA,"21,230",6.2
+2016,Colac-Otway,NA,"21,362",6.2
+2017,Colac-Otway,NA,"21,432",6.2
+2011,Corangamite,NA,-,-
+2012,Corangamite,NA,"16,470",3.7
+2013,Corangamite,NA,"16,410",3.7
+2014,Corangamite,NA,"16,340",3.7
+2015,Corangamite,NA,"16,274",3.7
+2016,Corangamite,NA,"16,243",3.7
+2017,Corangamite,NA,"16,212",3.7
+2011,Darebin,NA,-,-
+2012,Darebin,NA,"144,986",2711.5
+2013,Darebin,NA,"147,272",2754.2
+2014,Darebin,NA,"149,511",2796.1
+2015,Darebin,NA,"151,974",2842.2
+2016,Darebin,NA,"155,126",2901.1
+2017,Darebin,NA,"158,745",2968.8
+2011,East Gippsland,NA,-,-
+2012,East Gippsland,NA,"43,329",2.1
+2013,East Gippsland,NA,"43,809",2.1
+2014,East Gippsland,NA,"44,277",2.1
+2015,East Gippsland,NA,"44,868",2.1
+2016,East Gippsland,NA,"45,600",2.2
+2017,East Gippsland,NA,"46,142",2.2
+2011,Frankston,NA,-,-
+2012,Frankston,NA,"132,194",1020
+2013,Frankston,NA,"134,351",1036.7
+2014,Frankston,NA,"136,181",1050.8
+2015,Frankston,NA,"137,790",1063.2
+2016,Frankston,NA,"139,502",1076.4
+2017,Frankston,NA,"140,739",1086
+2011,Gannawarra,NA,-,-
+2012,Gannawarra,NA,"10,498",2.8
+2013,Gannawarra,NA,"10,526",2.8
+2014,Gannawarra,NA,"10,534",2.8
+2015,Gannawarra,NA,"10,536",2.8
+2016,Gannawarra,NA,"10,567",2.8
+2017,Gannawarra,NA,"10,570",2.8
+2011,Glen Eira,NA,-,-
+2012,Glen Eira,NA,"139,116",3595.6
+2013,Glen Eira,NA,"141,260",3651
+2014,Glen Eira,NA,"143,694",3713.9
+2015,Glen Eira,NA,"145,924",3771.6
+2016,Glen Eira,NA,"148,583",3840.3
+2017,Glen Eira,NA,"151,439",3914.1
+2011,Glenelg,NA,-,-
+2012,Glenelg,NA,"19,825",3.2
+2013,Glenelg,NA,"19,797",3.2
+2014,Glenelg,NA,"19,755",3.2
+2015,Glenelg,NA,"19,722",3.2
+2016,Glenelg,NA,"19,759",3.2
+2017,Glenelg,NA,"19,695",3.2
+2011,Golden Plains,NA,-,-
+2012,Golden Plains,NA,"19,604",7.3
+2013,Golden Plains,NA,"20,362",7.5
+2014,Golden Plains,NA,"20,899",7.7
+2015,Golden Plains,NA,"21,388",7.9
+2016,Golden Plains,NA,"22,016",8.1
+2017,Golden Plains,NA,"22,574",8.4
+2011,Greater Bendigo,NA,-,-
+2012,Greater Bendigo,NA,"103,905",34.6
+2013,Greater Bendigo,NA,"105,957",35.3
+2014,Greater Bendigo,NA,"107,955",36
+2015,Greater Bendigo,NA,"109,908",36.6
+2016,Greater Bendigo,NA,"112,267",37.4
+2017,Greater Bendigo,NA,"114,111",38
+2011,Greater Dandenong,NA,-,-
+2012,Greater Dandenong,NA,"145,116",1120.2
+2013,Greater Dandenong,NA,"148,502",1146.3
+2014,Greater Dandenong,NA,"152,135",1174.4
+2015,Greater Dandenong,NA,"156,061",1204.7
+2016,Greater Dandenong,NA,"160,222",1236.8
+2017,Greater Dandenong,NA,"163,514",1262.2
+2011,Greater Geelong,NA,-,-
+2012,Greater Geelong,NA,"219,152",175.6
+2013,Greater Geelong,NA,"223,357",179
+2014,Greater Geelong,NA,"227,744",182.5
+2015,Greater Geelong,NA,"232,926",186.6
+2016,Greater Geelong,NA,"239,529",191.9
+2017,Greater Geelong,NA,"245,751",196.9
+2011,Greater Shepparton,NA,-,-
+2012,Greater Shepparton,NA,"62,562",25.8
+2013,Greater Shepparton,NA,"63,244",26.1
+2014,Greater Shepparton,NA,"63,919",26.4
+2015,Greater Shepparton,NA,"64,489",26.6
+2016,Greater Shepparton,NA,"65,072",26.9
+2017,Greater Shepparton,NA,"65,565",27.1
+2011,Hepburn,NA,-,-
+2012,Hepburn,NA,"14,825",10.1
+2013,Hepburn,NA,"15,022",10.2
+2014,Hepburn,NA,"15,184",10.3
+2015,Hepburn,NA,"15,334",10.4
+2016,Hepburn,NA,"15,525",10.5
+2017,Hepburn,NA,"15,629",10.6
+2011,Hindmarsh,NA,-,-
+2012,Hindmarsh,NA,"5,857",0.8
+2013,Hindmarsh,NA,"5,852",0.8
+2014,Hindmarsh,NA,"5,844",0.8
+2015,Hindmarsh,NA,"5,808",0.8
+2016,Hindmarsh,NA,"5,784",0.8
+2017,Hindmarsh,NA,"5,718",0.8
+2011,Hobsons Bay,NA,-,-
+2012,Hobsons Bay,NA,"88,339",1375.1
+2013,Hobsons Bay,NA,"89,188",1388.3
+2014,Hobsons Bay,NA,"90,417",1407.5
+2015,Hobsons Bay,NA,"91,674",1427
+2016,Hobsons Bay,NA,"93,445",1454.6
+2017,Hobsons Bay,NA,"95,078",1480
+2011,Horsham,NA,-,-
+2012,Horsham,NA,"19,608",4.6
+2013,Horsham,NA,"19,694",4.6
+2014,Horsham,NA,"19,748",4.6
+2015,Horsham,NA,"19,792",4.6
+2016,Horsham,NA,"19,884",4.7
+2017,Horsham,NA,"19,889",4.7
+2011,Hume,NA,-,-
+2012,Hume,NA,"179,202",355.7
+2013,Hume,NA,"184,873",366.9
+2014,Hume,NA,"191,278",379.6
+2015,Hume,NA,"198,176",393.3
+2016,Hume,NA,"207,041",410.9
+2017,Hume,NA,"215,260",427.2
+2011,Indigo,NA,-,-
+2012,Indigo,NA,"15,454",7.6
+2013,Indigo,NA,"15,605",7.6
+2014,Indigo,NA,"15,732",7.7
+2015,Indigo,NA,"15,922",7.8
+2016,Indigo,NA,"16,165",7.9
+2017,Indigo,NA,"16,335",8
+2011,Kingston,NA,-,-
+2012,Kingston,NA,"150,435",1646.5
+2013,Kingston,NA,"152,336",1667.3
+2014,Kingston,NA,"154,210",1687.8
+2015,Kingston,NA,"156,244",1710.1
+2016,Kingston,NA,"158,941",1739.6
+2017,Kingston,NA,"161,056",1762.7
+2011,Knox,NA,-,-
+2012,Knox,NA,"155,406",1364.3
+2013,Knox,NA,"156,347",1372.5
+2014,Knox,NA,"157,434",1382.1
+2015,Knox,NA,"158,700",1393.2
+2016,Knox,NA,"160,353",1407.7
+2017,Knox,NA,"161,842",1420.8
+2011,Latrobe,NA,-,-
+2012,Latrobe,NA,"74,004",51.9
+2013,Latrobe,NA,"74,124",52
+2014,Latrobe,NA,"74,134",52
+2015,Latrobe,NA,"74,266",52.1
+2016,Latrobe,NA,"74,622",52.3
+2017,Latrobe,NA,"74,921",52.6
+2011,Loddon,NA,-,-
+2012,Loddon,NA,"7,529",1.1
+2013,Loddon,NA,"7,518",1.1
+2014,Loddon,NA,"7,513",1.1
+2015,Loddon,NA,"7,531",1.1
+2016,Loddon,NA,"7,558",1.1
+2017,Loddon,NA,"7,507",1.1
+2011,Macedon Ranges,NA,-,-
+2012,Macedon Ranges,NA,"43,794",25
+2013,Macedon Ranges,NA,"44,595",25.5
+2014,Macedon Ranges,NA,"45,471",26
+2015,Macedon Ranges,NA,"46,373",26.5
+2016,Macedon Ranges,NA,"47,480",27.2
+2017,Macedon Ranges,NA,"48,430",27.7
+2011,Manningham,NA,-,-
+2012,Manningham,NA,"117,440",1036.1
+2013,Manningham,NA,"118,357",1044.2
+2014,Manningham,NA,"119,437",1053.7
+2015,Manningham,NA,"120,785",1065.6
+2016,Manningham,NA,"122,570",1081.4
+2017,Manningham,NA,"124,262",1096.3
+2011,Mansfield,NA,-,-
+2012,Mansfield,NA,"8,097",2.1
+2013,Mansfield,NA,"8,276",2.2
+2014,Mansfield,NA,"8,395",2.2
+2015,Mansfield,NA,"8,530",2.2
+2016,Mansfield,NA,"8,674",2.3
+2017,Mansfield,NA,"8,797",2.3
+2011,Maribyrnong,NA,-,-
+2012,Maribyrnong,NA,"77,179",2471.7
+2013,Maribyrnong,NA,"79,782",2555
+2014,Maribyrnong,NA,"82,463",2640.9
+2015,Maribyrnong,NA,"84,783",2715.2
+2016,Maribyrnong,NA,"86,942",2784.3
+2017,Maribyrnong,NA,"89,361",2861.8
+2011,Maroondah,NA,-,-
+2012,Maroondah,NA,"108,434",1765.7
+2013,Maroondah,NA,"109,781",1787.7
+2014,Maroondah,NA,"111,421",1814.4
+2015,Maroondah,NA,"113,023",1840.5
+2016,Maroondah,NA,"114,800",1869.4
+2017,Maroondah,NA,"116,332",1894.4
+2011,Melbourne,NA,-,-
+2012,Melbourne,NA,"107,578",2880.2
+2013,Melbourne,NA,"118,711",3178.2
+2014,Melbourne,NA,"127,975",3426.3
+2015,Melbourne,NA,"136,872",3664.5
+2016,Melbourne,NA,"146,096",3911.4
+2017,Melbourne,NA,"158,923",4254.8
+2011,Melton,NA,-,-
+2012,Melton,NA,"118,329",224.3
+2013,Melton,NA,"123,936",234.9
+2014,Melton,NA,"129,309",245.1
+2015,Melton,NA,"134,915",255.7
+2016,Melton,NA,"141,420",268.1
+2017,Melton,NA,"148,644",281.8
+2011,Mildura,NA,-,-
+2012,Mildura,NA,"52,475",2.4
+2013,Mildura,NA,"53,156",2.4
+2014,Mildura,NA,"53,737",2.4
+2015,Mildura,NA,"54,156",2.5
+2016,Mildura,NA,"54,658",2.5
+2017,Mildura,NA,"55,151",2.5
+2011,Mitchell,NA,-,-
+2012,Mitchell,NA,"36,384",12.7
+2013,Mitchell,NA,"37,788",13.2
+2014,Mitchell,NA,"39,084",13.7
+2015,Mitchell,NA,"40,264",14.1
+2016,Mitchell,NA,"41,795",14.6
+2017,Mitchell,NA,"42,910",15
+2011,Moira,NA,-,-
+2012,Moira,NA,"28,675",7.1
+2013,Moira,NA,"28,905",7.1
+2014,Moira,NA,"29,100",7.2
+2015,Moira,NA,"29,288",7.2
+2016,Moira,NA,"29,486",7.3
+2017,Moira,NA,"29,655",7.3
+2011,Monash,NA,-,-
+2012,Monash,NA,"180,312",2212.9
+2013,Monash,NA,"183,255",2249
+2014,Monash,NA,"186,150",2284.5
+2015,Monash,NA,"189,174",2321.6
+2016,Monash,NA,"192,625",2364
+2017,Monash,NA,"196,856",2415.9
+2011,Moonee Valley,NA,-,-
+2012,Moonee Valley,NA,"113,673",2635.1
+2013,Moonee Valley,NA,"115,464",2676.6
+2014,Moonee Valley,NA,"117,763",2729.9
+2015,Moonee Valley,NA,"120,231",2787.1
+2016,Moonee Valley,NA,"122,871",2848.3
+2017,Moonee Valley,NA,"125,415",2907.3
+2011,Moorabool,NA,-,-
+2012,Moorabool,NA,"29,363",13.9
+2013,Moorabool,NA,"30,410",14.4
+2014,Moorabool,NA,"31,066",14.7
+2015,Moorabool,NA,"31,748",15
+2016,Moorabool,NA,"32,672",15.5
+2017,Moorabool,NA,"33,448",15.8
+2011,Moreland,NA,-,-
+2012,Moreland,NA,"156,967",3080.7
+2013,Moreland,NA,"160,282",3145.8
+2014,Moreland,NA,"164,099",3220.7
+2015,Moreland,NA,"167,870",3294.7
+2016,Moreland,NA,"172,294",3381.5
+2017,Moreland,NA,"176,971",3473.3
+2011,Mornington Peninsula,NA,-,-
+2012,Mornington Peninsula,NA,"151,700",209.5
+2013,Mornington Peninsula,NA,"154,001",212.7
+2014,Mornington Peninsula,NA,"156,500",216.1
+2015,Mornington Peninsula,NA,"158,831",219.3
+2016,Mornington Peninsula,NA,"161,528",223.1
+2017,Mornington Peninsula,NA,"163,847",226.3
+2011,Mount Alexander,NA,-,-
+2012,Mount Alexander,NA,"18,053",11.8
+2013,Mount Alexander,NA,"18,247",11.9
+2014,Mount Alexander,NA,"18,501",12.1
+2015,Mount Alexander,NA,"18,794",12.3
+2016,Mount Alexander,NA,"19,097",12.5
+2017,Mount Alexander,NA,"19,298",12.6
+2011,Moyne,NA,-,-
+2012,Moyne,NA,"16,304",3
+2013,Moyne,NA,"16,431",3
+2014,Moyne,NA,"16,512",3
+2015,Moyne,NA,"16,591",3
+2016,Moyne,NA,"16,737",3.1
+2017,Moyne,NA,"16,794",3.1
+2011,Murrindindi,NA,-,-
+2012,Murrindindi,NA,"13,456",3.5
+2013,Murrindindi,NA,"13,563",3.5
+2014,Murrindindi,NA,"13,687",3.5
+2015,Murrindindi,NA,"13,848",3.6
+2016,Murrindindi,NA,"14,052",3.6
+2017,Murrindindi,NA,"14,234",3.7
+2011,Nillumbik,NA,-,-
+2012,Nillumbik,NA,"62,935",145.6
+2013,Nillumbik,NA,"63,174",146.1
+2014,Nillumbik,NA,"63,433",146.7
+2015,Nillumbik,NA,"63,675",147.3
+2016,Nillumbik,NA,"64,174",148.4
+2017,Nillumbik,NA,"64,626",149.5
+2011,Northern Grampians,NA,-,-
+2012,Northern Grampians,NA,"11,970",2.1
+2013,Northern Grampians,NA,"11,880",2.1
+2014,Northern Grampians,NA,"11,777",2.1
+2015,Northern Grampians,NA,"11,644",2
+2016,Northern Grampians,NA,"11,570",2
+2017,Northern Grampians,NA,"11,518",2
+2011,Port Phillip,NA,-,-
+2012,Port Phillip,NA,"99,893",4823.6
+2013,Port Phillip,NA,"102,156",4932.9
+2014,Port Phillip,NA,"104,451",5043.7
+2015,Port Phillip,NA,"106,381",5136.9
+2016,Port Phillip,NA,"108,627",5245.3
+2017,Port Phillip,NA,"110,634",5342.3
+2011,Pyrenees,NA,-,-
+2012,Pyrenees,NA,"6,860",2
+2013,Pyrenees,NA,"6,938",2
+2014,Pyrenees,NA,"7,047",2.1
+2015,Pyrenees,NA,"7,179",2.1
+2016,Pyrenees,NA,"7,316",2.1
+2017,Pyrenees,NA,"7,359",2.1
+2011,Queenscliffe,NA,-,-
+2012,Queenscliffe,NA,"3,057",354.8
+2013,Queenscliffe,NA,"3,002",348.4
+2014,Queenscliffe,NA,"2,970",344.7
+2015,Queenscliffe,NA,"2,933",340.4
+2016,Queenscliffe,NA,"2,929",339.9
+2017,Queenscliffe,NA,"2,960",343.5
+2011,South Gippsland,NA,-,-
+2012,South Gippsland,NA,"27,926",8.5
+2013,South Gippsland,NA,"28,273",8.6
+2014,South Gippsland,NA,"28,521",8.7
+2015,South Gippsland,NA,"28,781",8.7
+2016,South Gippsland,NA,"29,122",8.8
+2017,South Gippsland,NA,"29,324",8.9
+2011,Southern Grampians,NA,-,-
+2012,Southern Grampians,NA,"16,461",2.5
+2013,Southern Grampians,NA,"16,355",2.5
+2014,Southern Grampians,NA,"16,255",2.4
+2015,Southern Grampians,NA,"16,162",2.4
+2016,Southern Grampians,NA,"16,123",2.4
+2017,Southern Grampians,NA,"16,125",2.4
+2011,Stonnington,NA,-,-
+2012,Stonnington,NA,"101,410",3953.4
+2013,Stonnington,NA,"103,487",4034.4
+2014,Stonnington,NA,"105,894",4128.2
+2015,Stonnington,NA,"108,028",4211.4
+2016,Stonnington,NA,"111,003",4327.4
+2017,Stonnington,NA,"113,737",4433.9
+2011,Strathbogie,NA,-,-
+2012,Strathbogie,NA,"9,744",2.9
+2013,Strathbogie,NA,"9,867",3
+2014,Strathbogie,NA,"10,018",3
+2015,Strathbogie,NA,"10,175",3.1
+2016,Strathbogie,NA,"10,357",3.1
+2017,Strathbogie,NA,"10,485",3.2
+2011,Surf Coast,NA,-,-
+2012,Surf Coast,NA,"27,530",17.7
+2013,Surf Coast,NA,"28,228",18.2
+2014,Surf Coast,NA,"28,874",18.6
+2015,Surf Coast,NA,"29,625",19.1
+2016,Surf Coast,NA,"30,465",19.6
+2017,Surf Coast,NA,"31,350",20.2
+2011,Swan Hill,NA,-,-
+2012,Swan Hill,NA,"20,971",3.4
+2013,Swan Hill,NA,"21,003",3.4
+2014,Swan Hill,NA,"20,940",3.4
+2015,Swan Hill,NA,"20,893",3.4
+2016,Swan Hill,NA,"20,896",3.4
+2017,Swan Hill,NA,"20,850",3.4
+2011,Towong,NA,-,-
+2012,Towong,NA,"5,940",0.9
+2013,Towong,NA,"5,961",0.9
+2014,Towong,NA,"5,982",0.9
+2015,Towong,NA,"6,005",0.9
+2016,Towong,NA,"6,046",0.9
+2017,Towong,NA,"6,040",0.9
+2011,Wangaratta,NA,-,-
+2012,Wangaratta,NA,"27,438",7.5
+2013,Wangaratta,NA,"27,650",7.6
+2014,Wangaratta,NA,"27,862",7.6
+2015,Wangaratta,NA,"28,143",7.7
+2016,Wangaratta,NA,"28,592",7.8
+2017,Wangaratta,NA,"28,857",7.9
+2011,Warrnambool,NA,-,-
+2012,Warrnambool,NA,"33,059",273.3
+2013,Warrnambool,NA,"33,423",276.3
+2014,Warrnambool,NA,"33,729",278.9
+2015,Warrnambool,NA,"34,005",281.2
+2016,Warrnambool,NA,"34,242",283.1
+2017,Warrnambool,NA,"34,571",285.8
+2011,Wellington,NA,-,-
+2012,Wellington,NA,"42,445",3.9
+2013,Wellington,NA,"42,721",3.9
+2014,Wellington,NA,"42,948",4
+2015,Wellington,NA,"43,172",4
+2016,Wellington,NA,"43,530",4
+2017,Wellington,NA,"43,807",4
+2011,West Wimmera,NA,-,-
+2012,West Wimmera,NA,"4,214",0.5
+2013,West Wimmera,NA,"4,124",0.5
+2014,West Wimmera,NA,"4,038",0.4
+2015,West Wimmera,NA,"3,974",0.4
+2016,West Wimmera,NA,"3,937",0.4
+2017,West Wimmera,NA,"3,895",0.4
+2011,Whitehorse,NA,-,-
+2012,Whitehorse,NA,"159,661",2483.8
+2013,Whitehorse,NA,"162,081",2521.5
+2014,Whitehorse,NA,"164,320",2556.3
+2015,Whitehorse,NA,"166,679",2593
+2016,Whitehorse,NA,"169,641",2639.1
+2017,Whitehorse,NA,"173,233",2695
+2011,Whittlesea,NA,-,-
+2012,Whittlesea,NA,"169,993",347.1
+2013,Whittlesea,NA,"179,272",366.1
+2014,Whittlesea,NA,"187,899",383.7
+2015,Whittlesea,NA,"196,847",402
+2016,Whittlesea,NA,"207,058",422.8
+2017,Whittlesea,NA,"215,716",440.5
+2011,Wodonga,NA,-,-
+2012,Wodonga,NA,"36,758",85
+2013,Wodonga,NA,"37,575",86.8
+2014,Wodonga,NA,"38,369",88.7
+2015,Wodonga,NA,"39,223",90.6
+2016,Wodonga,NA,"40,100",92.7
+2017,Wodonga,NA,"40,819",94.3
+2011,Wyndham,NA,-,-
+2012,Wyndham,NA,"179,131",330.4
+2013,Wyndham,NA,"190,211",350.9
+2014,Wyndham,NA,"201,512",371.7
+2015,Wyndham,NA,"213,815",394.4
+2016,Wyndham,NA,"227,008",418.8
+2017,Wyndham,NA,"241,100",444.8
+2011,Yarra,NA,-,-
+2012,Yarra,NA,"81,268",4158.5
+2013,Yarra,NA,"83,962",4296.4
+2014,Yarra,NA,"87,228",4463.5
+2015,Yarra,NA,"89,923",4601.4
+2016,Yarra,NA,"92,894",4753.4
+2017,Yarra,NA,"95,981",4911.4
+2011,Yarra Ranges,NA,-,-
+2012,Yarra Ranges,NA,"149,864",60.7
+2013,Yarra Ranges,NA,"150,902",61.1
+2014,Yarra Ranges,NA,"151,968",61.6
+2015,Yarra Ranges,NA,"153,391",62.1
+2016,Yarra Ranges,NA,"155,226",62.9
+2017,Yarra Ranges,NA,"156,891",63.6
+2011,Yarriambiack,NA,-,-
+2012,Yarriambiack,NA,"7,095",1
+2013,Yarriambiack,NA,"7,032",1
+2014,Yarriambiack,NA,"6,924",0.9
+2015,Yarriambiack,NA,"6,826",0.9
+2016,Yarriambiack,NA,"6,743",0.9
+2017,Yarriambiack,NA,"6,684",0.9
+2011,Unincorporated Vic,NA,-,-
+2012,Unincorporated Vic,NA,797,2.8
+2013,Unincorporated Vic,NA,808,2.9
+2014,Unincorporated Vic,NA,835,3
+2015,Unincorporated Vic,NA,862,3
+2016,Unincorporated Vic,NA,892,3.2
+2017,Unincorporated Vic,NA,899,3.2
+2012,No usual address,NA,-,-
+2013,No usual address,NA,-,-
+2014,No usual address,NA,-,-
+2015,No usual address,NA,-,-
+2016,No usual address,NA,-,-
+2017,No usual address,NA,-,-
+2012,Migratory - Offshore - Shipping,NA,-,-
+2013,Migratory - Offshore - Shipping,NA,-,-
+2014,Migratory - Offshore - Shipping,NA,-,-
+2015,Migratory - Offshore - Shipping,NA,-,-
+2016,Migratory - Offshore - Shipping,NA,-,-
+2017,Migratory - Offshore - Shipping,NA,-,-
+2011,Aurukun,NA,-,-
+2012,Aurukun,NA,"1,372",0.2
+2013,Aurukun,NA,"1,350",0.2
+2014,Aurukun,NA,"1,332",0.2
+2015,Aurukun,NA,"1,321",0.2
+2016,Aurukun,NA,"1,323",0.2
+2017,Aurukun,NA,"1,343",0.2
+2011,Balonne,NA,-,-
+2012,Balonne,NA,"4,787",0.2
+2013,Balonne,NA,"4,776",0.2
+2014,Balonne,NA,"4,726",0.2
+2015,Balonne,NA,"4,610",0.1
+2016,Balonne,NA,"4,461",0.1
+2017,Balonne,NA,"4,374",0.1
+2011,Banana,NA,-,-
+2012,Banana,NA,"14,852",0.5
+2013,Banana,NA,"14,948",0.5
+2014,Banana,NA,"14,860",0.5
+2015,Banana,NA,"14,707",0.5
+2016,Banana,NA,"14,570",0.5
+2017,Banana,NA,"14,489",0.5
+2011,Barcaldine,NA,-,-
+2012,Barcaldine,NA,"3,249",0.1
+2013,Barcaldine,NA,"3,232",0.1
+2014,Barcaldine,NA,"3,166",0.1
+2015,Barcaldine,NA,"3,082",0.1
+2016,Barcaldine,NA,"2,909",0.1
+2017,Barcaldine,NA,"2,869",0.1
+2011,Barcoo,NA,-,-
+2012,Barcoo,NA,348,-
+2013,Barcoo,NA,333,-
+2014,Barcoo,NA,317,-
+2015,Barcoo,NA,296,-
+2016,Barcoo,NA,272,-
+2017,Barcoo,NA,267,-
+2011,Blackall-Tambo,NA,-,-
+2012,Blackall-Tambo,NA,"2,236",0.1
+2013,Blackall-Tambo,NA,"2,214",0.1
+2014,Blackall-Tambo,NA,"2,152",0.1
+2015,Blackall-Tambo,NA,"2,035",0.1
+2016,Blackall-Tambo,NA,"1,925",0.1
+2017,Blackall-Tambo,NA,"1,876",0.1
+2011,Boulia,NA,-,-
+2012,Boulia,NA,486,-
+2013,Boulia,NA,481,-
+2014,Boulia,NA,473,-
+2015,Boulia,NA,459,-
+2016,Boulia,NA,436,-
+2017,Boulia,NA,424,-
+2011,Brisbane,NA,-,-
+2012,Brisbane,NA,"1,111,798",828
+2013,Brisbane,NA,"1,131,996",843.1
+2014,Brisbane,NA,"1,149,107",855.8
+2015,Brisbane,NA,"1,165,437",868
+2016,Brisbane,NA,"1,184,752",882.4
+2017,Brisbane,NA,"1,209,322",900.7
+2011,Bulloo,NA,-,-
+2012,Bulloo,NA,410,-
+2013,Bulloo,NA,396,-
+2014,Bulloo,NA,388,-
+2015,Bulloo,NA,372,-
+2016,Bulloo,NA,356,-
+2017,Bulloo,NA,343,-
+2011,Bundaberg,NA,-,-
+2012,Bundaberg,NA,"93,293",14.5
+2013,Bundaberg,NA,"93,850",14.6
+2014,Bundaberg,NA,"94,025",14.6
+2015,Bundaberg,NA,"94,028",14.6
+2016,Bundaberg,NA,"94,256",14.7
+2017,Bundaberg,NA,"94,711",14.7
+2011,Burdekin,NA,-,-
+2012,Burdekin,NA,"17,862",3.5
+2013,Burdekin,NA,"17,754",3.5
+2014,Burdekin,NA,"17,695",3.5
+2015,Burdekin,NA,"17,566",3.5
+2016,Burdekin,NA,"17,326",3.4
+2017,Burdekin,NA,"17,235",3.4
+2011,Burke,NA,-,-
+2012,Burke,NA,551,-
+2013,Burke,NA,506,-
+2014,Burke,NA,450,-
+2015,Burke,NA,396,-
+2016,Burke,NA,342,-
+2017,Burke,NA,345,-
+2011,Cairns,NA,-,-
+2012,Cairns,NA,"154,041",91.2
+2013,Cairns,NA,"156,764",92.8
+2014,Cairns,NA,"158,574",93.9
+2015,Cairns,NA,"159,944",94.7
+2016,Cairns,NA,"161,573",95.6
+2017,Cairns,NA,"163,814",97
+2011,Carpentaria,NA,-,-
+2012,Carpentaria,NA,"2,170",-
+2013,Carpentaria,NA,"2,146",-
+2014,Carpentaria,NA,"2,112",-
+2015,Carpentaria,NA,"2,092",-
+2016,Carpentaria,NA,"2,051",-
+2017,Carpentaria,NA,"1,994",-
+2011,Cassowary Coast,NA,-,-
+2012,Cassowary Coast,NA,"28,880",6.2
+2013,Cassowary Coast,NA,"28,950",6.2
+2014,Cassowary Coast,NA,"29,038",6.2
+2015,Cassowary Coast,NA,"29,098",6.2
+2016,Cassowary Coast,NA,"29,287",6.2
+2017,Cassowary Coast,NA,"29,585",6.3
+2011,Central Highlands,NA,-,-
+2012,Central Highlands,NA,"29,741",0.5
+2013,Central Highlands,NA,"29,782",0.5
+2014,Central Highlands,NA,"29,598",0.5
+2015,Central Highlands,NA,"29,143",0.5
+2016,Central Highlands,NA,"28,690",0.5
+2017,Central Highlands,NA,"28,610",0.5
+2011,Charters Towers,NA,-,-
+2012,Charters Towers,NA,"12,403",0.2
+2013,Charters Towers,NA,"12,391",0.2
+2014,Charters Towers,NA,"12,367",0.2
+2015,Charters Towers,NA,"12,235",0.2
+2016,Charters Towers,NA,"12,087",0.2
+2017,Charters Towers,NA,"11,968",0.2
+2011,Cherbourg,NA,-,-
+2012,Cherbourg,NA,"1,283",40.6
+2013,Cherbourg,NA,"1,292",40.9
+2014,Cherbourg,NA,"1,300",41.1
+2015,Cherbourg,NA,"1,304",41.3
+2016,Cherbourg,NA,"1,293",40.9
+2017,Cherbourg,NA,"1,312",41.5
+2011,Cloncurry,NA,-,-
+2012,Cloncurry,NA,"3,359",0.1
+2013,Cloncurry,NA,"3,327",0.1
+2014,Cloncurry,NA,"3,270",0.1
+2015,Cloncurry,NA,"3,179",0.1
+2016,Cloncurry,NA,"3,125",0.1
+2017,Cloncurry,NA,"3,133",0.1
+2011,Cook,NA,-,-
+2012,Cook,NA,"4,205",-
+2013,Cook,NA,"4,222",-
+2014,Cook,NA,"4,065",-
+2015,Cook,NA,"4,217",-
+2016,Cook,NA,"4,302",-
+2017,Cook,NA,"4,345",-
+2011,Croydon,NA,-,-
+2012,Croydon,NA,317,-
+2013,Croydon,NA,308,-
+2014,Croydon,NA,303,-
+2015,Croydon,NA,297,-
+2016,Croydon,NA,296,-
+2017,Croydon,NA,292,-
+2011,Diamantina,NA,-,-
+2012,Diamantina,NA,295,-
+2013,Diamantina,NA,299,-
+2014,Diamantina,NA,303,-
+2015,Diamantina,NA,301,-
+2016,Diamantina,NA,296,-
+2017,Diamantina,NA,287,-
+2011,Doomadgee,NA,-,-
+2012,Doomadgee,NA,"1,368",0.7
+2013,Doomadgee,NA,"1,400",0.8
+2014,Doomadgee,NA,"1,422",0.8
+2015,Doomadgee,NA,"1,454",0.8
+2016,Doomadgee,NA,"1,475",0.8
+2017,Doomadgee,NA,"1,494",0.8
+2011,Douglas,NA,-,-
+2012,Douglas,NA,"11,380",4.7
+2013,Douglas,NA,"11,585",4.8
+2014,Douglas,NA,"11,757",4.8
+2015,Douglas,NA,"11,877",4.9
+2016,Douglas,NA,"12,070",5
+2017,Douglas,NA,"12,266",5.1
+2011,Etheridge,NA,-,-
+2012,Etheridge,NA,897,-
+2013,Etheridge,NA,864,-
+2014,Etheridge,NA,840,-
+2015,Etheridge,NA,818,-
+2016,Etheridge,NA,807,-
+2017,Etheridge,NA,807,-
+2011,Flinders,NA,-,-
+2012,Flinders,NA,"1,795",-
+2013,Flinders,NA,"1,754",-
+2014,Flinders,NA,"1,710",-
+2015,Flinders,NA,"1,643",-
+2016,Flinders,NA,"1,582",-
+2017,Flinders,NA,"1,519",-
+2011,Fraser Coast,NA,-,-
+2012,Fraser Coast,NA,"99,021",13.9
+2013,Fraser Coast,NA,"100,290",14.1
+2014,Fraser Coast,NA,"101,332",14.3
+2015,Fraser Coast,NA,"102,129",14.4
+2016,Fraser Coast,NA,"102,962",14.5
+2017,Fraser Coast,NA,"104,051",14.6
+2011,Gladstone,NA,-,-
+2012,Gladstone,NA,"60,521",5.8
+2013,Gladstone,NA,"62,158",5.9
+2014,Gladstone,NA,"63,367",6
+2015,Gladstone,NA,"63,697",6.1
+2016,Gladstone,NA,"63,017",6
+2017,Gladstone,NA,"62,814",6
+2011,Gold Coast,NA,-,-
+2012,Gold Coast,NA,"528,342",396.1
+2013,Gold Coast,NA,"540,687",405.4
+2014,Gold Coast,NA,"550,718",412.9
+2015,Gold Coast,NA,"561,629",421.1
+2016,Gold Coast,NA,"575,303",431.4
+2017,Gold Coast,NA,"591,356",443.4
+2011,Goondiwindi,NA,-,-
+2012,Goondiwindi,NA,"10,944",0.6
+2013,Goondiwindi,NA,"10,952",0.6
+2014,Goondiwindi,NA,"10,902",0.6
+2015,Goondiwindi,NA,"10,835",0.6
+2016,Goondiwindi,NA,"10,813",0.6
+2017,Goondiwindi,NA,"10,770",0.6
+2011,Gympie,NA,-,-
+2012,Gympie,NA,"47,786",6.9
+2013,Gympie,NA,"48,491",7
+2014,Gympie,NA,"49,089",7.1
+2015,Gympie,NA,"49,540",7.2
+2016,Gympie,NA,"50,327",7.3
+2017,Gympie,NA,"51,054",7.4
+2011,Hinchinbrook,NA,-,-
+2012,Hinchinbrook,NA,"11,763",4.2
+2013,Hinchinbrook,NA,"11,613",4.1
+2014,Hinchinbrook,NA,"11,412",4.1
+2015,Hinchinbrook,NA,"11,181",4
+2016,Hinchinbrook,NA,"10,968",3.9
+2017,Hinchinbrook,NA,"10,879",3.9
+2011,Hope Vale,NA,-,-
+2012,Hope Vale,NA,"1,059",1
+2013,Hope Vale,NA,"1,043",0.9
+2014,Hope Vale,NA,"1,030",0.9
+2015,Hope Vale,NA,"1,009",0.9
+2016,Hope Vale,NA,"1,014",0.9
+2017,Hope Vale,NA,"1,046",0.9
+2011,Ipswich,NA,-,-
+2012,Ipswich,NA,"178,215",164.3
+2013,Ipswich,NA,"183,688",169.3
+2014,Ipswich,NA,"189,195",174.4
+2015,Ipswich,NA,"194,274",179.1
+2016,Ipswich,NA,"200,103",184.4
+2017,Ipswich,NA,"206,549",190.4
+2011,Isaac,NA,-,-
+2012,Isaac,NA,"23,344",0.4
+2013,Isaac,NA,"23,284",0.4
+2014,Isaac,NA,"22,786",0.4
+2015,Isaac,NA,"22,173",0.4
+2016,Isaac,NA,"21,543",0.4
+2017,Isaac,NA,"21,185",0.4
+2011,Kowanyama,NA,-,-
+2012,Kowanyama,NA,"1,078",0.4
+2013,Kowanyama,NA,"1,042",0.4
+2014,Kowanyama,NA,"1,014",0.4
+2015,Kowanyama,NA,996,0.4
+2016,Kowanyama,NA,983,0.4
+2017,Kowanyama,NA,972,0.4
+2011,Livingstone,NA,-,-
+2012,Livingstone,NA,"34,381",2.9
+2013,Livingstone,NA,"35,279",3
+2014,Livingstone,NA,"36,063",3.1
+2015,Livingstone,NA,"36,579",3.1
+2016,Livingstone,NA,"36,950",3.1
+2017,Livingstone,NA,"37,290",3.2
+2011,Lockhart River,NA,-,-
+2012,Lockhart River,NA,579,0.2
+2013,Lockhart River,NA,626,0.2
+2014,Lockhart River,NA,671,0.2
+2015,Lockhart River,NA,697,0.2
+2016,Lockhart River,NA,746,0.2
+2017,Lockhart River,NA,760,0.2
+2011,Lockyer Valley,NA,-,-
+2012,Lockyer Valley,NA,"36,547",16.1
+2013,Lockyer Valley,NA,"37,682",16.6
+2014,Lockyer Valley,NA,"38,363",16.9
+2015,Lockyer Valley,NA,"38,861",17.1
+2016,Lockyer Valley,NA,"39,499",17.4
+2017,Lockyer Valley,NA,"40,229",17.7
+2011,Logan,NA,-,-
+2012,Logan,NA,"293,974",306.8
+2013,Logan,NA,"300,545",313.7
+2014,Logan,NA,"305,147",318.5
+2015,Logan,NA,"309,342",322.9
+2016,Logan,NA,"314,511",328.3
+2017,Logan,NA,"320,583",334.6
+2011,Longreach,NA,-,-
+2012,Longreach,NA,"4,217",0.1
+2013,Longreach,NA,"4,104",0.1
+2014,Longreach,NA,"4,027",0.1
+2015,Longreach,NA,"3,812",0.1
+2016,Longreach,NA,"3,727",0.1
+2017,Longreach,NA,"3,598",0.1
+2011,Mackay,NA,-,-
+2012,Mackay,NA,"117,495",15.4
+2013,Mackay,NA,"118,878",15.6
+2014,Mackay,NA,"118,916",15.6
+2015,Mackay,NA,"118,292",15.5
+2016,Mackay,NA,"117,218",15.4
+2017,Mackay,NA,"116,618",15.3
+2011,McKinlay,NA,-,-
+2012,McKinlay,NA,"1,041",-
+2013,McKinlay,NA,992,-
+2014,McKinlay,NA,943,-
+2015,McKinlay,NA,876,-
+2016,McKinlay,NA,816,-
+2017,McKinlay,NA,810,-
+2011,Mapoon,NA,-,-
+2012,Mapoon,NA,290,0.5
+2013,Mapoon,NA,293,0.5
+2014,Mapoon,NA,302,0.6
+2015,Mapoon,NA,304,0.6
+2016,Mapoon,NA,318,0.6
+2017,Mapoon,NA,322,0.6
+2011,Maranoa,NA,-,-
+2012,Maranoa,NA,"13,424",0.2
+2013,Maranoa,NA,"13,515",0.2
+2014,Maranoa,NA,"13,434",0.2
+2015,Maranoa,NA,"13,292",0.2
+2016,Maranoa,NA,"12,926",0.2
+2017,Maranoa,NA,"12,850",0.2
+2011,Mareeba,NA,-,-
+2012,Mareeba,NA,"20,953",0.4
+2013,Mareeba,NA,"21,379",0.4
+2014,Mareeba,NA,"21,542",0.4
+2015,Mareeba,NA,"21,812",0.4
+2016,Mareeba,NA,"22,038",0.4
+2017,Mareeba,NA,"22,209",0.4
+2011,Moreton Bay,NA,-,-
+2012,Moreton Bay,NA,"401,188",196.5
+2013,Moreton Bay,NA,"410,687",201.2
+2014,Moreton Bay,NA,"419,764",205.6
+2015,Moreton Bay,NA,"428,994",210.1
+2016,Moreton Bay,NA,"439,292",215.2
+2017,Moreton Bay,NA,"449,310",220.1
+2011,Mornington,NA,-,-
+2012,Mornington,NA,"1,218",1
+2013,Mornington,NA,"1,206",1
+2014,Mornington,NA,"1,202",1
+2015,Mornington,NA,"1,202",1
+2016,Mornington,NA,"1,197",1
+2017,Mornington,NA,"1,205",1
+2011,Mount Isa,NA,-,-
+2012,Mount Isa,NA,"21,958",0.5
+2013,Mount Isa,NA,"21,822",0.5
+2014,Mount Isa,NA,"21,261",0.5
+2015,Mount Isa,NA,"20,586",0.5
+2016,Mount Isa,NA,"19,606",0.4
+2017,Mount Isa,NA,"19,192",0.4
+2011,Murweh,NA,-,-
+2012,Murweh,NA,"4,737",0.1
+2013,Murweh,NA,"4,685",0.1
+2014,Murweh,NA,"4,639",0.1
+2015,Murweh,NA,"4,527",0.1
+2016,Murweh,NA,"4,386",0.1
+2017,Murweh,NA,"4,305",0.1
+2011,Napranum,NA,-,-
+2012,Napranum,NA,919,0.5
+2013,Napranum,NA,922,0.5
+2014,Napranum,NA,939,0.5
+2015,Napranum,NA,959,0.5
+2016,Napranum,NA,989,0.5
+2017,Napranum,NA,"1,019",0.5
+2011,Noosa,NA,-,-
+2012,Noosa,NA,"51,678",59.4
+2013,Noosa,NA,"52,360",60.2
+2014,Noosa,NA,"52,988",60.9
+2015,Noosa,NA,"53,497",61.5
+2016,Noosa,NA,"53,922",62
+2017,Noosa,NA,"54,654",62.8
+2011,North Burnett,NA,-,-
+2012,North Burnett,NA,"10,408",0.5
+2013,North Burnett,NA,"10,487",0.5
+2014,North Burnett,NA,"10,547",0.5
+2015,North Burnett,NA,"10,607",0.5
+2016,North Burnett,NA,"10,646",0.5
+2017,North Burnett,NA,"10,665",0.5
+2011,Northern Peninsula Area,NA,-,-
+2012,Northern Peninsula Area,NA,"2,547",2.4
+2013,Northern Peninsula Area,NA,"2,620",2.5
+2014,Northern Peninsula Area,NA,"2,741",2.6
+2015,Northern Peninsula Area,NA,"2,836",2.7
+2016,Northern Peninsula Area,NA,"2,945",2.8
+2017,Northern Peninsula Area,NA,"3,002",2.9
+2011,Palm Island,NA,-,-
+2012,Palm Island,NA,"2,539",35.3
+2013,Palm Island,NA,"2,529",35.1
+2014,Palm Island,NA,"2,527",35.1
+2015,Palm Island,NA,"2,550",35.4
+2016,Palm Island,NA,"2,581",35.9
+2017,Palm Island,NA,"2,613",36.3
+2011,Paroo,NA,-,-
+2012,Paroo,NA,"1,903",-
+2013,Paroo,NA,"1,849",-
+2014,Paroo,NA,"1,807",-
+2015,Paroo,NA,"1,734",-
+2016,Paroo,NA,"1,668",-
+2017,Paroo,NA,"1,649",-
+2011,Pormpuraaw,NA,-,-
+2012,Pormpuraaw,NA,730,0.2
+2013,Pormpuraaw,NA,737,0.2
+2014,Pormpuraaw,NA,747,0.2
+2015,Pormpuraaw,NA,764,0.2
+2016,Pormpuraaw,NA,785,0.2
+2017,Pormpuraaw,NA,819,0.2
+2011,Quilpie,NA,-,-
+2012,Quilpie,NA,983,-
+2013,Quilpie,NA,944,-
+2014,Quilpie,NA,915,-
+2015,Quilpie,NA,868,-
+2016,Quilpie,NA,825,-
+2017,Quilpie,NA,819,-
+2011,Redland,NA,-,-
+2012,Redland,NA,"145,719",271.3
+2013,Redland,NA,"147,328",274.3
+2014,Redland,NA,"148,833",277.1
+2015,Redland,NA,"150,107",279.4
+2016,Redland,NA,"152,216",283.4
+2017,Redland,NA,"154,617",287.8
+2011,Richmond,NA,-,-
+2012,Richmond,NA,841,-
+2013,Richmond,NA,839,-
+2014,Richmond,NA,838,-
+2015,Richmond,NA,820,-
+2016,Richmond,NA,806,-
+2017,Richmond,NA,802,-
+2011,Rockhampton,NA,-,-
+2012,Rockhampton,NA,"80,555",12.3
+2013,Rockhampton,NA,"81,745",12.4
+2014,Rockhampton,NA,"82,136",12.5
+2015,Rockhampton,NA,"82,026",12.5
+2016,Rockhampton,NA,"81,322",12.4
+2017,Rockhampton,NA,"81,206",12.4
+2011,Scenic Rim,NA,-,-
+2012,Scenic Rim,NA,"37,966",8.9
+2013,Scenic Rim,NA,"38,732",9.1
+2014,Scenic Rim,NA,"39,882",9.4
+2015,Scenic Rim,NA,"40,307",9.5
+2016,Scenic Rim,NA,"40,984",9.6
+2017,Scenic Rim,NA,"41,753",9.8
+2011,Somerset,NA,-,-
+2012,Somerset,NA,"22,761",4.2
+2013,Somerset,NA,"23,619",4.4
+2014,Somerset,NA,"24,459",4.6
+2015,Somerset,NA,"24,681",4.6
+2016,Somerset,NA,"25,153",4.7
+2017,Somerset,NA,"25,533",4.8
+2011,South Burnett,NA,-,-
+2012,South Burnett,NA,"32,340",3.9
+2013,South Burnett,NA,"32,647",3.9
+2014,South Burnett,NA,"32,606",3.9
+2015,South Burnett,NA,"32,589",3.9
+2016,South Burnett,NA,"32,625",3.9
+2017,South Burnett,NA,"32,575",3.9
+2011,Southern Downs,NA,-,-
+2012,Southern Downs,NA,"35,013",4.9
+2013,Southern Downs,NA,"35,501",5
+2014,Southern Downs,NA,"35,580",5
+2015,Southern Downs,NA,"35,566",5
+2016,Southern Downs,NA,"35,638",5
+2017,Southern Downs,NA,"35,570",5
+2011,Sunshine Coast,NA,-,-
+2012,Sunshine Coast,NA,"274,828",121.9
+2013,Sunshine Coast,NA,"281,969",125.1
+2014,Sunshine Coast,NA,"288,652",128.1
+2015,Sunshine Coast,NA,"295,317",131
+2016,Sunshine Coast,NA,"302,841",134.4
+2017,Sunshine Coast,NA,"311,211",138.1
+2011,Tablelands,NA,-,-
+2012,Tablelands,NA,"24,603",2.2
+2013,Tablelands,NA,"24,827",2.2
+2014,Tablelands,NA,"25,060",2.2
+2015,Tablelands,NA,"25,111",2.2
+2016,Tablelands,NA,"25,217",2.2
+2017,Tablelands,NA,"25,338",2.2
+2011,Toowoomba,NA,-,-
+2012,Toowoomba,NA,"157,884",12.2
+2013,Toowoomba,NA,"159,916",12.3
+2014,Toowoomba,NA,"161,523",12.5
+2015,Toowoomba,NA,"162,775",12.6
+2016,Toowoomba,NA,"164,168",12.7
+2017,Toowoomba,NA,"166,045",12.8
+2011,Torres,NA,-,-
+2012,Torres,NA,"3,567",4
+2013,Torres,NA,"3,647",4.1
+2014,Torres,NA,"3,717",4.2
+2015,Torres,NA,"3,753",4.2
+2016,Torres,NA,"3,799",4.3
+2017,Torres,NA,"3,809",4.3
+2011,Torres Strait Island,NA,-,-
+2012,Torres Strait Island,NA,"4,599",9.4
+2013,Torres Strait Island,NA,"4,614",9.4
+2014,Torres Strait Island,NA,"4,690",9.6
+2015,Torres Strait Island,NA,"4,731",9.7
+2016,Torres Strait Island,NA,"4,775",9.7
+2017,Torres Strait Island,NA,"4,861",9.9
+2011,Townsville,NA,-,-
+2012,Townsville,NA,"183,612",49.2
+2013,Townsville,NA,"186,519",50
+2014,Townsville,NA,"188,777",50.6
+2015,Townsville,NA,"190,011",50.9
+2016,Townsville,NA,"191,348",51.3
+2017,Townsville,NA,"192,988",51.7
+2011,Weipa,NA,-,-
+2012,Weipa,NA,"3,684",340.4
+2013,Weipa,NA,"3,811",352.2
+2014,Weipa,NA,"3,863",357
+2015,Weipa,NA,"3,964",366.3
+2016,Weipa,NA,"4,040",373.3
+2017,Weipa,NA,"4,157",384.1
+2011,Western Downs,NA,-,-
+2012,Western Downs,NA,"32,899",0.9
+2013,Western Downs,NA,"33,415",0.9
+2014,Western Downs,NA,"33,744",0.9
+2015,Western Downs,NA,"33,867",0.9
+2016,Western Downs,NA,"34,049",0.9
+2017,Western Downs,NA,"34,438",0.9
+2011,Whitsunday,NA,-,-
+2012,Whitsunday,NA,"33,397",1.4
+2013,Whitsunday,NA,"34,113",1.4
+2014,Whitsunday,NA,"34,362",1.4
+2015,Whitsunday,NA,"34,509",1.4
+2016,Whitsunday,NA,"34,538",1.5
+2017,Whitsunday,NA,"34,784",1.5
+2011,Winton,NA,-,-
+2012,Winton,NA,"1,345",-
+2013,Winton,NA,"1,312",-
+2014,Winton,NA,"1,276",-
+2015,Winton,NA,"1,222",-
+2016,Winton,NA,"1,154",-
+2017,Winton,NA,"1,148",-
+2011,Woorabinda,NA,-,-
+2012,Woorabinda,NA,984,2.5
+2013,Woorabinda,NA,986,2.5
+2014,Woorabinda,NA,990,2.5
+2015,Woorabinda,NA,989,2.5
+2016,Woorabinda,NA,999,2.6
+2017,Woorabinda,NA,998,2.6
+2011,Wujal Wujal,NA,-,-
+2012,Wujal Wujal,NA,287,24.2
+2013,Wujal Wujal,NA,289,24.4
+2014,Wujal Wujal,NA,291,24.6
+2015,Wujal Wujal,NA,287,24.2
+2016,Wujal Wujal,NA,292,24.7
+2017,Wujal Wujal,NA,298,25.2
+2011,Yarrabah,NA,-,-
+2012,Yarrabah,NA,"2,643",16.6
+2013,Yarrabah,NA,"2,686",16.9
+2014,Yarrabah,NA,"2,694",17
+2015,Yarrabah,NA,"2,695",17
+2016,Yarrabah,NA,"2,702",17
+2017,Yarrabah,NA,"2,800",17.6
+2012,No usual address,NA,-,-
+2013,No usual address,NA,-,-
+2014,No usual address,NA,-,-
+2015,No usual address,NA,-,-
+2016,No usual address,NA,-,-
+2017,No usual address,NA,-,-
+2012,Migratory - Offshore - Shipping,NA,-,-
+2013,Migratory - Offshore - Shipping,NA,-,-
+2014,Migratory - Offshore - Shipping,NA,-,-
+2015,Migratory - Offshore - Shipping,NA,-,-
+2016,Migratory - Offshore - Shipping,NA,-,-
+2017,Migratory - Offshore - Shipping,NA,-,-
+2011,Adelaide,NA,-,-
+2012,Adelaide,NA,"21,537",1382.9
+2013,Adelaide,NA,"22,143",1421.9
+2014,Adelaide,NA,"22,624",1452.7
+2015,Adelaide,NA,"23,085",1482.3
+2016,Adelaide,NA,"23,552",1512.3
+2017,Adelaide,NA,"24,193",1553.5
+2011,Adelaide Hills,NA,-,-
+2012,Adelaide Hills,NA,"39,720",50
+2013,Adelaide Hills,NA,"39,687",50
+2014,Adelaide Hills,NA,"39,657",49.9
+2015,Adelaide Hills,NA,"39,630",49.9
+2016,Adelaide Hills,NA,"39,632",49.9
+2017,Adelaide Hills,NA,"39,652",49.9
+2011,Alexandrina,NA,-,-
+2012,Alexandrina,NA,"24,693",13.5
+2013,Alexandrina,NA,"25,203",13.8
+2014,Alexandrina,NA,"25,705",14.1
+2015,Alexandrina,NA,"26,203",14.3
+2016,Alexandrina,NA,"26,562",14.5
+2017,Alexandrina,NA,"26,792",14.7
+2011,Anangu Pitjantjatjara,NA,-,-
+2012,Anangu Pitjantjatjara,NA,"2,651",-
+2013,Anangu Pitjantjatjara,NA,"2,622",-
+2014,Anangu Pitjantjatjara,NA,"2,605",-
+2015,Anangu Pitjantjatjara,NA,"2,568",-
+2016,Anangu Pitjantjatjara,NA,"2,498",-
+2017,Anangu Pitjantjatjara,NA,"2,523",-
+2011,Barossa,NA,-,-
+2012,Barossa,NA,"22,853",25.6
+2013,Barossa,NA,"23,138",25.9
+2014,Barossa,NA,"23,468",26.3
+2015,Barossa,NA,"23,829",26.7
+2016,Barossa,NA,"24,200",27.1
+2017,Barossa,NA,"24,482",27.4
+2011,Barunga West,NA,-,-
+2012,Barunga West,NA,"2,488",1.6
+2013,Barunga West,NA,"2,495",1.6
+2014,Barunga West,NA,"2,521",1.6
+2015,Barunga West,NA,"2,542",1.6
+2016,Barunga West,NA,"2,592",1.6
+2017,Barunga West,NA,"2,568",1.6
+2011,Berri and Barmera,NA,-,-
+2012,Berri and Barmera,NA,"10,779",22.6
+2013,Berri and Barmera,NA,"10,804",22.7
+2014,Berri and Barmera,NA,"10,847",22.8
+2015,Berri and Barmera,NA,"10,854",22.8
+2016,Berri and Barmera,NA,"10,835",22.8
+2017,Berri and Barmera,NA,"10,841",22.8
+2011,Burnside,NA,-,-
+2012,Burnside,NA,"44,282",1609.2
+2013,Burnside,NA,"44,457",1615.5
+2014,Burnside,NA,"44,678",1623.6
+2015,Burnside,NA,"44,938",1633
+2016,Burnside,NA,"45,216",1643.1
+2017,Burnside,NA,"45,491",1653.1
+2011,Ceduna,NA,-,-
+2012,Ceduna,NA,"3,594",0.7
+2013,Ceduna,NA,"3,574",0.7
+2014,Ceduna,NA,"3,577",0.7
+2015,Ceduna,NA,"3,574",0.7
+2016,Ceduna,NA,"3,566",0.7
+2017,Ceduna,NA,"3,549",0.7
+2011,Charles Sturt,NA,-,-
+2012,Charles Sturt,NA,"110,050",2008.7
+2013,Charles Sturt,NA,"111,324",2031.9
+2014,Charles Sturt,NA,"112,846",2059.7
+2015,Charles Sturt,NA,"114,125",2083
+2016,Charles Sturt,NA,"114,980",2098.7
+2017,Charles Sturt,NA,"116,009",2117.4
+2011,Clare and Gilbert Valleys,NA,-,-
+2012,Clare and Gilbert Valleys,NA,"8,963",4.7
+2013,Clare and Gilbert Valleys,NA,"9,068",4.8
+2014,Clare and Gilbert Valleys,NA,"9,138",4.8
+2015,Clare and Gilbert Valleys,NA,"9,204",4.9
+2016,Clare and Gilbert Valleys,NA,"9,244",4.9
+2017,Clare and Gilbert Valleys,NA,"9,317",4.9
+2011,Cleve,NA,-,-
+2012,Cleve,NA,"1,806",0.4
+2013,Cleve,NA,"1,806",0.4
+2014,Cleve,NA,"1,809",0.4
+2015,Cleve,NA,"1,803",0.4
+2016,Cleve,NA,"1,816",0.4
+2017,Cleve,NA,"1,820",0.4
+2011,Coober Pedy,NA,-,-
+2012,Coober Pedy,NA,"1,787",23
+2013,Coober Pedy,NA,"1,811",23.3
+2014,Coober Pedy,NA,"1,825",23.5
+2015,Coober Pedy,NA,"1,822",23.5
+2016,Coober Pedy,NA,"1,818",23.4
+2017,Coober Pedy,NA,"1,837",23.6
+2011,Copper Coast,NA,-,-
+2012,Copper Coast,NA,"13,466",17.4
+2013,Copper Coast,NA,"13,747",17.8
+2014,Copper Coast,NA,"14,024",18.1
+2015,Copper Coast,NA,"14,266",18.5
+2016,Copper Coast,NA,"14,472",18.7
+2017,Copper Coast,NA,"14,652",19
+2011,Elliston,NA,-,-
+2012,Elliston,NA,"1,066",0.2
+2013,Elliston,NA,"1,067",0.2
+2014,Elliston,NA,"1,068",0.2
+2015,Elliston,NA,"1,071",0.2
+2016,Elliston,NA,"1,070",0.2
+2017,Elliston,NA,"1,054",0.2
+2011,Flinders Ranges,NA,-,-
+2012,Flinders Ranges,NA,"1,721",0.4
+2013,Flinders Ranges,NA,"1,717",0.4
+2014,Flinders Ranges,NA,"1,710",0.4
+2015,Flinders Ranges,NA,"1,703",0.4
+2016,Flinders Ranges,NA,"1,693",0.4
+2017,Flinders Ranges,NA,"1,689",0.4
+2011,Franklin Harbour,NA,-,-
+2012,Franklin Harbour,NA,"1,281",0.5
+2013,Franklin Harbour,NA,"1,295",0.5
+2014,Franklin Harbour,NA,"1,307",0.5
+2015,Franklin Harbour,NA,"1,331",0.5
+2016,Franklin Harbour,NA,"1,334",0.5
+2017,Franklin Harbour,NA,"1,322",0.5
+2011,Gawler,NA,-,-
+2012,Gawler,NA,"21,274",517.1
+2013,Gawler,NA,"21,656",526.4
+2014,Gawler,NA,"22,275",541.5
+2015,Gawler,NA,"22,707",552
+2016,Gawler,NA,"23,355",567.7
+2017,Gawler,NA,"23,702",576.2
+2011,Goyder,NA,-,-
+2012,Goyder,NA,"4,245",0.6
+2013,Goyder,NA,"4,254",0.6
+2014,Goyder,NA,"4,256",0.6
+2015,Goyder,NA,"4,251",0.6
+2016,Goyder,NA,"4,240",0.6
+2017,Goyder,NA,"4,240",0.6
+2011,Grant,NA,-,-
+2012,Grant,NA,"7,946",4.2
+2013,Grant,NA,"7,993",4.2
+2014,Grant,NA,"8,144",4.3
+2015,Grant,NA,"8,282",4.4
+2016,Grant,NA,"8,417",4.4
+2017,Grant,NA,"8,483",4.5
+2011,Holdfast Bay,NA,-,-
+2012,Holdfast Bay,NA,"36,215",2633.4
+2013,Holdfast Bay,NA,"36,282",2638.3
+2014,Holdfast Bay,NA,"36,354",2643.5
+2015,Holdfast Bay,NA,"36,425",2648.7
+2016,Holdfast Bay,NA,"36,537",2656.8
+2017,Holdfast Bay,NA,"36,671",2666.6
+2011,Kangaroo Island,NA,-,-
+2012,Kangaroo Island,NA,"4,576",1
+2013,Kangaroo Island,NA,"4,630",1.1
+2014,Kangaroo Island,NA,"4,694",1.1
+2015,Kangaroo Island,NA,"4,761",1.1
+2016,Kangaroo Island,NA,"4,836",1.1
+2017,Kangaroo Island,NA,"4,877",1.1
+2011,Karoonda East Murray,NA,-,-
+2012,Karoonda East Murray,NA,"1,074",0.2
+2013,Karoonda East Murray,NA,"1,088",0.2
+2014,Karoonda East Murray,NA,"1,103",0.2
+2015,Karoonda East Murray,NA,"1,118",0.3
+2016,Karoonda East Murray,NA,"1,121",0.3
+2017,Karoonda East Murray,NA,"1,126",0.3
+2011,Kimba,NA,-,-
+2012,Kimba,NA,"1,109",0.2
+2013,Kimba,NA,"1,103",0.2
+2014,Kimba,NA,"1,097",0.2
+2015,Kimba,NA,"1,089",0.2
+2016,Kimba,NA,"1,083",0.2
+2017,Kimba,NA,"1,074",0.2
+2011,Kingston,NA,-,-
+2012,Kingston,NA,"2,370",0.7
+2013,Kingston,NA,"2,380",0.7
+2014,Kingston,NA,"2,392",0.7
+2015,Kingston,NA,"2,403",0.7
+2016,Kingston,NA,"2,415",0.7
+2017,Kingston,NA,"2,406",0.7
+2011,Light,NA,-,-
+2012,Light,NA,"14,220",11.1
+2013,Light,NA,"14,440",11.3
+2014,Light,NA,"14,644",11.5
+2015,Light,NA,"14,890",11.7
+2016,Light,NA,"15,048",11.8
+2017,Light,NA,"15,219",11.9
+2011,Lower Eyre Peninsula,NA,-,-
+2012,Lower Eyre Peninsula,NA,"5,186",1.1
+2013,Lower Eyre Peninsula,NA,"5,300",1.1
+2014,Lower Eyre Peninsula,NA,"5,426",1.1
+2015,Lower Eyre Peninsula,NA,"5,540",1.2
+2016,Lower Eyre Peninsula,NA,"5,661",1.2
+2017,Lower Eyre Peninsula,NA,"5,721",1.2
+2011,Loxton Waikerie,NA,-,-
+2012,Loxton Waikerie,NA,"11,511",1.5
+2013,Loxton Waikerie,NA,"11,571",1.5
+2014,Loxton Waikerie,NA,"11,671",1.5
+2015,Loxton Waikerie,NA,"11,716",1.5
+2016,Loxton Waikerie,NA,"11,730",1.5
+2017,Loxton Waikerie,NA,"11,745",1.5
+2011,Mallala,NA,-,-
+2012,Mallala,NA,"8,576",9.2
+2013,Mallala,NA,"8,646",9.3
+2014,Mallala,NA,"8,744",9.4
+2015,Mallala,NA,"8,819",9.5
+2016,Mallala,NA,"8,912",9.6
+2017,Mallala,NA,"8,983",9.6
+2011,Maralinga Tjarutja,NA,-,-
+2012,Maralinga Tjarutja,NA,78,-
+2013,Maralinga Tjarutja,NA,74,-
+2014,Maralinga Tjarutja,NA,70,-
+2015,Maralinga Tjarutja,NA,66,-
+2016,Maralinga Tjarutja,NA,62,-
+2017,Maralinga Tjarutja,NA,61,-
+2011,Marion,NA,-,-
+2012,Marion,NA,"86,863",1561.1
+2013,Marion,NA,"87,769",1577.4
+2014,Marion,NA,"88,652",1593.3
+2015,Marion,NA,"89,521",1608.9
+2016,Marion,NA,"90,508",1626.7
+2017,Marion,NA,"91,391",1642.5
+2011,Mid Murray,NA,-,-
+2012,Mid Murray,NA,"8,312",1.3
+2013,Mid Murray,NA,"8,448",1.3
+2014,Mid Murray,NA,"8,599",1.4
+2015,Mid Murray,NA,"8,718",1.4
+2016,Mid Murray,NA,"8,845",1.4
+2017,Mid Murray,NA,"8,884",1.4
+2011,Mitcham,NA,-,-
+2012,Mitcham,NA,"65,364",865.2
+2013,Mitcham,NA,"65,644",868.9
+2014,Mitcham,NA,"65,986",873.4
+2015,Mitcham,NA,"66,232",876.7
+2016,Mitcham,NA,"66,482",880
+2017,Mitcham,NA,"66,834",884.7
+2011,Mount Barker,NA,-,-
+2012,Mount Barker,NA,"31,042",52.2
+2013,Mount Barker,NA,"31,580",53.1
+2014,Mount Barker,NA,"32,386",54.5
+2015,Mount Barker,NA,"33,187",55.8
+2016,Mount Barker,NA,"33,897",57
+2017,Mount Barker,NA,"34,727",58.4
+2011,Mount Gambier,NA,-,-
+2012,Mount Gambier,NA,"26,147",771.4
+2013,Mount Gambier,NA,"26,425",779.6
+2014,Mount Gambier,NA,"26,710",788
+2015,Mount Gambier,NA,"26,931",794.6
+2016,Mount Gambier,NA,"27,061",798.4
+2017,Mount Gambier,NA,"27,036",797.7
+2011,Mount Remarkable,NA,-,-
+2012,Mount Remarkable,NA,"2,902",0.8
+2013,Mount Remarkable,NA,"2,913",0.9
+2014,Mount Remarkable,NA,"2,918",0.9
+2015,Mount Remarkable,NA,"2,927",0.9
+2016,Mount Remarkable,NA,"2,920",0.9
+2017,Mount Remarkable,NA,"2,902",0.8
+2011,Murray Bridge,NA,-,-
+2012,Murray Bridge,NA,"20,448",11.2
+2013,Murray Bridge,NA,"20,726",11.3
+2014,Murray Bridge,NA,"21,004",11.5
+2015,Murray Bridge,NA,"21,274",11.6
+2016,Murray Bridge,NA,"21,562",11.8
+2017,Murray Bridge,NA,"21,836",11.9
+2011,Naracoorte and Lucindale,NA,-,-
+2012,Naracoorte and Lucindale,NA,"8,433",1.9
+2013,Naracoorte and Lucindale,NA,"8,528",1.9
+2014,Naracoorte and Lucindale,NA,"8,585",1.9
+2015,Naracoorte and Lucindale,NA,"8,570",1.9
+2016,Naracoorte and Lucindale,NA,"8,544",1.9
+2017,Naracoorte and Lucindale,NA,"8,552",1.9
+2011,Northern Areas,NA,-,-
+2012,Northern Areas,NA,"4,590",1.5
+2013,Northern Areas,NA,"4,595",1.5
+2014,Northern Areas,NA,"4,610",1.5
+2015,Northern Areas,NA,"4,616",1.5
+2016,Northern Areas,NA,"4,623",1.5
+2017,Northern Areas,NA,"4,607",1.5
+2011,Norwood Payneham St Peters,NA,-,-
+2012,Norwood Payneham St Peters,NA,"36,343",2406.2
+2013,Norwood Payneham St Peters,NA,"36,347",2406.5
+2014,Norwood Payneham St Peters,NA,"36,361",2407.4
+2015,Norwood Payneham St Peters,NA,"36,369",2408
+2016,Norwood Payneham St Peters,NA,"36,396",2409.8
+2017,Norwood Payneham St Peters,NA,"36,553",2420.2
+2011,Onkaparinga,NA,-,-
+2012,Onkaparinga,NA,"165,034",318.5
+2013,Onkaparinga,NA,"166,244",320.9
+2014,Onkaparinga,NA,"167,376",323
+2015,Onkaparinga,NA,"168,433",325.1
+2016,Onkaparinga,NA,"169,372",326.9
+2017,Onkaparinga,NA,"170,404",328.9
+2011,Orroroo/Carrieton,NA,-,-
+2012,Orroroo/Carrieton,NA,894,0.3
+2013,Orroroo/Carrieton,NA,895,0.3
+2014,Orroroo/Carrieton,NA,900,0.3
+2015,Orroroo/Carrieton,NA,911,0.3
+2016,Orroroo/Carrieton,NA,912,0.3
+2017,Orroroo/Carrieton,NA,896,0.3
+2011,Peterborough,NA,-,-
+2012,Peterborough,NA,"1,740",0.6
+2013,Peterborough,NA,"1,728",0.6
+2014,Peterborough,NA,"1,717",0.6
+2015,Peterborough,NA,"1,706",0.6
+2016,Peterborough,NA,"1,712",0.6
+2017,Peterborough,NA,"1,721",0.6
+2011,Playford,NA,-,-
+2012,Playford,NA,"83,022",240.5
+2013,Playford,NA,"85,232",246.9
+2014,Playford,NA,"87,380",253.1
+2015,Playford,NA,"88,980",257.8
+2016,Playford,NA,"90,553",262.3
+2017,Playford,NA,"92,066",266.7
+2011,Port Adelaide Enfield,NA,-,-
+2012,Port Adelaide Enfield,NA,"118,185",1288
+2013,Port Adelaide Enfield,NA,"119,876",1306.4
+2014,Port Adelaide Enfield,NA,"121,422",1323.3
+2015,Port Adelaide Enfield,NA,"122,766",1337.9
+2016,Port Adelaide Enfield,NA,"124,007",1351.4
+2017,Port Adelaide Enfield,NA,"124,818",1360.3
+2011,Port Augusta,NA,-,-
+2012,Port Augusta,NA,"14,454",12.1
+2013,Port Augusta,NA,"14,496",12.1
+2014,Port Augusta,NA,"14,498",12.1
+2015,Port Augusta,NA,"14,442",12.1
+2016,Port Augusta,NA,"14,359",12
+2017,Port Augusta,NA,"14,267",11.9
+2011,Port Lincoln,NA,-,-
+2012,Port Lincoln,NA,"14,495",477.3
+2013,Port Lincoln,NA,"14,531",478.5
+2014,Port Lincoln,NA,"14,595",480.6
+2015,Port Lincoln,NA,"14,585",480.3
+2016,Port Lincoln,NA,"14,523",478.2
+2017,Port Lincoln,NA,"14,592",480.5
+2011,Port Pirie City and Dists,NA,-,-
+2012,Port Pirie City and Dists,NA,"17,714",10.1
+2013,Port Pirie City and Dists,NA,"17,793",10.1
+2014,Port Pirie City and Dists,NA,"17,870",10.1
+2015,Port Pirie City and Dists,NA,"17,826",10.1
+2016,Port Pirie City and Dists,NA,"17,767",10.1
+2017,Port Pirie City and Dists,NA,"17,718",10.1
+2011,Prospect,NA,-,-
+2012,Prospect,NA,"20,842",2675
+2013,Prospect,NA,"20,959",2690
+2014,Prospect,NA,"21,050",2701.7
+2015,Prospect,NA,"21,096",2707.6
+2016,Prospect,NA,"21,124",2711.2
+2017,Prospect,NA,"21,166",2716.6
+2011,Renmark Paringa,NA,-,-
+2012,Renmark Paringa,NA,"9,518",10.4
+2013,Renmark Paringa,NA,"9,588",10.5
+2014,Renmark Paringa,NA,"9,656",10.5
+2015,Renmark Paringa,NA,"9,722",10.6
+2016,Renmark Paringa,NA,"9,780",10.7
+2017,Renmark Paringa,NA,"9,850",10.8
+2011,Robe,NA,-,-
+2012,Robe,NA,"1,427",1.3
+2013,Robe,NA,"1,425",1.3
+2014,Robe,NA,"1,425",1.3
+2015,Robe,NA,"1,423",1.3
+2016,Robe,NA,"1,413",1.3
+2017,Robe,NA,"1,422",1.3
+2011,Roxby Downs,NA,-,-
+2012,Roxby Downs,NA,"4,728",42.8
+2013,Roxby Downs,NA,"4,609",41.7
+2014,Roxby Downs,NA,"4,418",40
+2015,Roxby Downs,NA,"4,327",39.2
+2016,Roxby Downs,NA,"4,052",36.7
+2017,Roxby Downs,NA,"4,010",36.3
+2011,Salisbury,NA,-,-
+2012,Salisbury,NA,"134,381",840.7
+2013,Salisbury,NA,"135,880",850.1
+2014,Salisbury,NA,"137,257",858.7
+2015,Salisbury,NA,"138,695",867.7
+2016,Salisbury,NA,"140,346",878
+2017,Salisbury,NA,"141,484",885.1
+2011,Southern Mallee,NA,-,-
+2012,Southern Mallee,NA,"2,107",0.4
+2013,Southern Mallee,NA,"2,088",0.4
+2014,Southern Mallee,NA,"2,073",0.4
+2015,Southern Mallee,NA,"2,058",0.4
+2016,Southern Mallee,NA,"2,063",0.4
+2017,Southern Mallee,NA,"2,070",0.4
+2011,Streaky Bay,NA,-,-
+2012,Streaky Bay,NA,"2,170",0.3
+2013,Streaky Bay,NA,"2,194",0.4
+2014,Streaky Bay,NA,"2,180",0.4
+2015,Streaky Bay,NA,"2,164",0.3
+2016,Streaky Bay,NA,"2,168",0.3
+2017,Streaky Bay,NA,"2,181",0.4
+2011,Tatiara,NA,-,-
+2012,Tatiara,NA,"6,774",1
+2013,Tatiara,NA,"6,789",1
+2014,Tatiara,NA,"6,811",1
+2015,Tatiara,NA,"6,821",1
+2016,Tatiara,NA,"6,817",1
+2017,Tatiara,NA,"6,773",1
+2011,Tea Tree Gully,NA,-,-
+2012,Tea Tree Gully,NA,"98,547",1035
+2013,Tea Tree Gully,NA,"98,558",1035.2
+2014,Tea Tree Gully,NA,"98,726",1036.9
+2015,Tea Tree Gully,NA,"98,983",1039.6
+2016,Tea Tree Gully,NA,"99,153",1041.4
+2017,Tea Tree Gully,NA,"99,405",1044.1
+2011,The Coorong,NA,-,-
+2012,The Coorong,NA,"5,632",0.6
+2013,The Coorong,NA,"5,602",0.6
+2014,The Coorong,NA,"5,572",0.6
+2015,The Coorong,NA,"5,545",0.6
+2016,The Coorong,NA,"5,525",0.6
+2017,The Coorong,NA,"5,479",0.6
+2011,Tumby Bay,NA,-,-
+2012,Tumby Bay,NA,"2,626",1
+2013,Tumby Bay,NA,"2,640",1
+2014,Tumby Bay,NA,"2,651",1
+2015,Tumby Bay,NA,"2,670",1
+2016,Tumby Bay,NA,"2,675",1
+2017,Tumby Bay,NA,"2,688",1
+2011,Unley,NA,-,-
+2012,Unley,NA,"38,514",2698.9
+2013,Unley,NA,"38,552",2701.6
+2014,Unley,NA,"38,695",2711.6
+2015,Unley,NA,"38,823",2720.5
+2016,Unley,NA,"38,939",2728.7
+2017,Unley,NA,"39,083",2738.8
+2011,Victor Harbor,NA,-,-
+2012,Victor Harbor,NA,"14,377",37.4
+2013,Victor Harbor,NA,"14,525",37.8
+2014,Victor Harbor,NA,"14,729",38.3
+2015,Victor Harbor,NA,"14,886",38.7
+2016,Victor Harbor,NA,"15,011",39
+2017,Victor Harbor,NA,"15,113",39.3
+2011,Wakefield,NA,-,-
+2012,Wakefield,NA,"6,778",2
+2013,Wakefield,NA,"6,841",2
+2014,Wakefield,NA,"6,896",2
+2015,Wakefield,NA,"6,932",2
+2016,Wakefield,NA,"6,950",2
+2017,Wakefield,NA,"6,919",2
+2011,Walkerville,NA,-,-
+2012,Walkerville,NA,"7,367",2087
+2013,Walkerville,NA,"7,399",2096
+2014,Walkerville,NA,"7,447",2109.6
+2015,Walkerville,NA,"7,732",2190.4
+2016,Walkerville,NA,"7,781",2204.2
+2017,Walkerville,NA,"7,859",2226.3
+2011,Wattle Range,NA,-,-
+2012,Wattle Range,NA,"11,880",3
+2013,Wattle Range,NA,"11,935",3
+2014,Wattle Range,NA,"11,982",3.1
+2015,Wattle Range,NA,"12,010",3.1
+2016,Wattle Range,NA,"12,022",3.1
+2017,Wattle Range,NA,"12,026",3.1
+2011,West Torrens,NA,-,-
+2012,West Torrens,NA,"57,632",1555.9
+2013,West Torrens,NA,"58,153",1570
+2014,West Torrens,NA,"58,627",1582.8
+2015,West Torrens,NA,"59,075",1594.9
+2016,West Torrens,NA,"59,408",1603.9
+2017,West Torrens,NA,"59,550",1607.7
+2011,Whyalla,NA,-,-
+2012,Whyalla,NA,"22,617",21.1
+2013,Whyalla,NA,"22,659",21.1
+2014,Whyalla,NA,"22,703",21.2
+2015,Whyalla,NA,"22,670",21.2
+2016,Whyalla,NA,"22,511",21
+2017,Whyalla,NA,"22,007",20.5
+2011,Wudinna,NA,-,-
+2012,Wudinna,NA,"1,271",0.3
+2013,Wudinna,NA,"1,272",0.3
+2014,Wudinna,NA,"1,276",0.3
+2015,Wudinna,NA,"1,279",0.3
+2016,Wudinna,NA,"1,279",0.3
+2017,Wudinna,NA,"1,292",0.3
+2011,Yankalilla,NA,-,-
+2012,Yankalilla,NA,"4,586",6.1
+2013,Yankalilla,NA,"4,759",6.3
+2014,Yankalilla,NA,"4,925",6.6
+2015,Yankalilla,NA,"5,095",6.8
+2016,Yankalilla,NA,"5,276",7
+2017,Yankalilla,NA,"5,401",7.2
+2011,Yorke Peninsula,NA,-,-
+2012,Yorke Peninsula,NA,"11,231",1.9
+2013,Yorke Peninsula,NA,"11,241",1.9
+2014,Yorke Peninsula,NA,"11,254",1.9
+2015,Yorke Peninsula,NA,"11,267",1.9
+2016,Yorke Peninsula,NA,"11,291",1.9
+2017,Yorke Peninsula,NA,"11,303",1.9
+2011,Unincorporated SA,NA,-,-
+2012,Unincorporated SA,NA,"4,377",-
+2013,Unincorporated SA,NA,"4,199",-
+2014,Unincorporated SA,NA,"4,027",-
+2015,Unincorporated SA,NA,"3,849",-
+2016,Unincorporated SA,NA,"3,639",-
+2017,Unincorporated SA,NA,"3,522",-
+2012,No usual address,NA,-,-
+2013,No usual address,NA,-,-
+2014,No usual address,NA,-,-
+2015,No usual address,NA,-,-
+2016,No usual address,NA,-,-
+2017,No usual address,NA,-,-
+2012,Migratory - Offshore - Shipping,NA,-,-
+2013,Migratory - Offshore - Shipping,NA,-,-
+2014,Migratory - Offshore - Shipping,NA,-,-
+2015,Migratory - Offshore - Shipping,NA,-,-
+2016,Migratory - Offshore - Shipping,NA,-,-
+2017,Migratory - Offshore - Shipping,NA,-,-
+2011,Albany,NA,-,-
+2012,Albany,NA,"35,643",8.3
+2013,Albany,NA,"36,318",8.4
+2014,Albany,NA,"36,919",8.6
+2015,Albany,NA,"37,206",8.6
+2016,Albany,NA,"37,285",8.6
+2017,Albany,NA,"37,561",8.7
+2011,Armadale,NA,-,-
+2012,Armadale,NA,"69,101",123.5
+2013,Armadale,NA,"72,662",129.9
+2014,Armadale,NA,"75,559",135
+2015,Armadale,NA,"78,848",140.9
+2016,Armadale,NA,"82,021",146.6
+2017,Armadale,NA,"84,698",151.4
+2011,Ashburton,NA,-,-
+2012,Ashburton,NA,"11,194",0.1
+2013,Ashburton,NA,"12,025",0.1
+2014,Ashburton,NA,"12,515",0.1
+2015,Ashburton,NA,"13,002",0.1
+2016,Ashburton,NA,"13,311",0.1
+2017,Ashburton,NA,"13,277",0.1
+2011,Augusta-Margaret River,NA,-,-
+2012,Augusta-Margaret River,NA,"12,870",6.1
+2013,Augusta-Margaret River,NA,"13,487",6.4
+2014,Augusta-Margaret River,NA,"13,996",6.6
+2015,Augusta-Margaret River,NA,"14,419",6.8
+2016,Augusta-Margaret River,NA,"14,819",7
+2017,Augusta-Margaret River,NA,"15,242",7.2
+2011,Bassendean,NA,-,-
+2012,Bassendean,NA,"15,527",1500.9
+2013,Bassendean,NA,"15,828",1530
+2014,Bassendean,NA,"16,003",1546.9
+2015,Bassendean,NA,"15,842",1531.4
+2016,Bassendean,NA,"15,613",1509.2
+2017,Bassendean,NA,"15,620",1509.9
+2011,Bayswater,NA,-,-
+2012,Bayswater,NA,"68,143",1968.5
+2013,Bayswater,NA,"69,083",1995.6
+2014,Bayswater,NA,"69,256",2000.6
+2015,Bayswater,NA,"69,136",1997.2
+2016,Bayswater,NA,"68,791",1987.2
+2017,Bayswater,NA,"68,532",1979.7
+2011,Belmont,NA,-,-
+2012,Belmont,NA,"38,791",978.3
+2013,Belmont,NA,"39,919",1006.7
+2014,Belmont,NA,"40,531",1022.2
+2015,Belmont,NA,"41,055",1035.4
+2016,Belmont,NA,"41,448",1045.3
+2017,Belmont,NA,"41,519",1047.1
+2011,Beverley,NA,-,-
+2012,Beverley,NA,"1,653",0.7
+2013,Beverley,NA,"1,692",0.7
+2014,Beverley,NA,"1,707",0.7
+2015,Beverley,NA,"1,732",0.7
+2016,Beverley,NA,"1,748",0.7
+2017,Beverley,NA,"1,746",0.7
+2011,Boddington,NA,-,-
+2012,Boddington,NA,"2,252",1.2
+2013,Boddington,NA,"2,225",1.2
+2014,Boddington,NA,"2,132",1.1
+2015,Boddington,NA,"2,031",1.1
+2016,Boddington,NA,"1,882",1
+2017,Boddington,NA,"1,850",1
+2011,Boyup Brook,NA,-,-
+2012,Boyup Brook,NA,"1,656",0.6
+2013,Boyup Brook,NA,"1,667",0.6
+2014,Boyup Brook,NA,"1,687",0.6
+2015,Boyup Brook,NA,"1,681",0.6
+2016,Boyup Brook,NA,"1,722",0.6
+2017,Boyup Brook,NA,"1,722",0.6
+2011,Bridgetown-Greenbushes,NA,-,-
+2012,Bridgetown-Greenbushes,NA,"4,546",3.4
+2013,Bridgetown-Greenbushes,NA,"4,647",3.5
+2014,Bridgetown-Greenbushes,NA,"4,687",3.5
+2015,Bridgetown-Greenbushes,NA,"4,727",3.5
+2016,Bridgetown-Greenbushes,NA,"4,697",3.5
+2017,Bridgetown-Greenbushes,NA,"4,708",3.5
+2011,Brookton,NA,-,-
+2012,Brookton,NA,992,0.6
+2013,Brookton,NA,998,0.6
+2014,Brookton,NA,"1,018",0.6
+2015,Brookton,NA,"1,010",0.6
+2016,Brookton,NA,"1,002",0.6
+2017,Brookton,NA,986,0.6
+2011,Broome,NA,-,-
+2012,Broome,NA,"16,389",0.3
+2013,Broome,NA,"17,185",0.3
+2014,Broome,NA,"17,100",0.3
+2015,Broome,NA,"17,060",0.3
+2016,Broome,NA,"16,959",0.3
+2017,Broome,NA,"16,987",0.3
+2011,Broomehill-Tambellup,NA,-,-
+2012,Broomehill-Tambellup,NA,"1,185",0.5
+2013,Broomehill-Tambellup,NA,"1,194",0.5
+2014,Broomehill-Tambellup,NA,"1,191",0.5
+2015,Broomehill-Tambellup,NA,"1,180",0.5
+2016,Broomehill-Tambellup,NA,"1,164",0.4
+2017,Broomehill-Tambellup,NA,"1,150",0.4
+2011,Bruce Rock,NA,-,-
+2012,Bruce Rock,NA,988,0.4
+2013,Bruce Rock,NA,988,0.4
+2014,Bruce Rock,NA,966,0.4
+2015,Bruce Rock,NA,955,0.4
+2016,Bruce Rock,NA,941,0.3
+2017,Bruce Rock,NA,945,0.3
+2011,Bunbury,NA,-,-
+2012,Bunbury,NA,"32,826",501.8
+2013,Bunbury,NA,"32,951",503.7
+2014,Bunbury,NA,"32,941",503.6
+2015,Bunbury,NA,"32,872",502.5
+2016,Bunbury,NA,"32,574",497.9
+2017,Bunbury,NA,"32,113",490.9
+2011,Busselton,NA,-,-
+2012,Busselton,NA,"33,211",22.8
+2013,Busselton,NA,"34,696",23.9
+2014,Busselton,NA,"35,917",24.7
+2015,Busselton,NA,"36,940",25.4
+2016,Busselton,NA,"37,766",26
+2017,Busselton,NA,"38,375",26.4
+2011,Cambridge,NA,-,-
+2012,Cambridge,NA,"27,244",1240.9
+2013,Cambridge,NA,"27,856",1268.8
+2014,Cambridge,NA,"27,940",1272.6
+2015,Cambridge,NA,"27,988",1274.8
+2016,Cambridge,NA,"27,991",1274.9
+2017,Cambridge,NA,"28,339",1290.8
+2011,Canning,NA,-,-
+2012,Canning,NA,"92,197",1421.1
+2013,Canning,NA,"93,491",1441
+2014,Canning,NA,"93,843",1446.4
+2015,Canning,NA,"93,959",1448.2
+2016,Canning,NA,"93,733",1444.7
+2017,Canning,NA,"93,274",1437.7
+2011,Capel,NA,-,-
+2012,Capel,NA,"15,759",28.2
+2013,Capel,NA,"16,483",29.5
+2014,Capel,NA,"16,934",30.4
+2015,Capel,NA,"17,250",30.9
+2016,Capel,NA,"17,375",31.1
+2017,Capel,NA,"17,738",31.8
+2011,Carnamah,NA,-,-
+2012,Carnamah,NA,561,0.2
+2013,Carnamah,NA,566,0.2
+2014,Carnamah,NA,566,0.2
+2015,Carnamah,NA,568,0.2
+2016,Carnamah,NA,564,0.2
+2017,Carnamah,NA,562,0.2
+2011,Carnarvon,NA,-,-
+2012,Carnarvon,NA,"6,057",0.1
+2013,Carnarvon,NA,"6,034",0.1
+2014,Carnarvon,NA,"5,951",0.1
+2015,Carnarvon,NA,"5,844",0.1
+2016,Carnarvon,NA,"5,713",0.1
+2017,Carnarvon,NA,"5,542",0.1
+2011,Chapman Valley,NA,-,-
+2012,Chapman Valley,NA,"1,293",0.3
+2013,Chapman Valley,NA,"1,349",0.3
+2014,Chapman Valley,NA,"1,379",0.3
+2015,Chapman Valley,NA,"1,413",0.4
+2016,Chapman Valley,NA,"1,441",0.4
+2017,Chapman Valley,NA,"1,472",0.4
+2011,Chittering,NA,-,-
+2012,Chittering,NA,"4,798",3.9
+2013,Chittering,NA,"5,112",4.2
+2014,Chittering,NA,"5,361",4.4
+2015,Chittering,NA,"5,500",4.5
+2016,Chittering,NA,"5,536",4.5
+2017,Chittering,NA,"5,622",4.6
+2011,Claremont,NA,-,-
+2012,Claremont,NA,"9,999",2017.7
+2013,Claremont,NA,"10,220",2062.3
+2014,Claremont,NA,"10,357",2090
+2015,Claremont,NA,"10,515",2121.8
+2016,Claremont,NA,"10,632",2145.5
+2017,Claremont,NA,"10,650",2149.1
+2011,Cockburn,NA,-,-
+2012,Cockburn,NA,"99,157",590.6
+2013,Cockburn,NA,"102,787",612.2
+2014,Cockburn,NA,"104,906",624.8
+2015,Cockburn,NA,"106,802",636.1
+2016,Cockburn,NA,"108,302",645
+2017,Cockburn,NA,"110,156",656.1
+2011,Collie,NA,-,-
+2012,Collie,NA,"9,426",5.5
+2013,Collie,NA,"9,464",5.5
+2014,Collie,NA,"9,369",5.5
+2015,Collie,NA,"9,132",5.3
+2016,Collie,NA,"8,856",5.2
+2017,Collie,NA,"8,795",5.1
+2011,Coolgardie,NA,-,-
+2012,Coolgardie,NA,"4,142",0.1
+2013,Coolgardie,NA,"4,196",0.1
+2014,Coolgardie,NA,"4,046",0.1
+2015,Coolgardie,NA,"3,904",0.1
+2016,Coolgardie,NA,"3,695",0.1
+2017,Coolgardie,NA,"3,637",0.1
+2011,Coorow,NA,-,-
+2012,Coorow,NA,"1,098",0.3
+2013,Coorow,NA,"1,099",0.3
+2014,Coorow,NA,"1,086",0.3
+2015,Coorow,NA,"1,077",0.3
+2016,Coorow,NA,"1,058",0.3
+2017,Coorow,NA,"1,035",0.2
+2011,Corrigin,NA,-,-
+2012,Corrigin,NA,"1,124",0.4
+2013,Corrigin,NA,"1,147",0.4
+2014,Corrigin,NA,"1,161",0.4
+2015,Corrigin,NA,"1,168",0.4
+2016,Corrigin,NA,"1,193",0.4
+2017,Corrigin,NA,"1,176",0.4
+2011,Cottesloe,NA,-,-
+2012,Cottesloe,NA,"8,328",2159.5
+2013,Cottesloe,NA,"8,409",2180.5
+2014,Cottesloe,NA,"8,370",2170.4
+2015,Cottesloe,NA,"8,267",2143.7
+2016,Cottesloe,NA,"8,109",2102.7
+2017,Cottesloe,NA,"8,148",2112.9
+2011,Cranbrook,NA,-,-
+2012,Cranbrook,NA,"1,119",0.3
+2013,Cranbrook,NA,"1,129",0.3
+2014,Cranbrook,NA,"1,131",0.3
+2015,Cranbrook,NA,"1,119",0.3
+2016,Cranbrook,NA,"1,107",0.3
+2017,Cranbrook,NA,"1,097",0.3
+2011,Cuballing,NA,-,-
+2012,Cuballing,NA,896,0.7
+2013,Cuballing,NA,901,0.8
+2014,Cuballing,NA,902,0.8
+2015,Cuballing,NA,900,0.8
+2016,Cuballing,NA,882,0.7
+2017,Cuballing,NA,880,0.7
+2011,Cue,NA,-,-
+2012,Cue,NA,276,-
+2013,Cue,NA,272,-
+2014,Cue,NA,251,-
+2015,Cue,NA,226,-
+2016,Cue,NA,199,-
+2017,Cue,NA,177,-
+2011,Cunderdin,NA,-,-
+2012,Cunderdin,NA,"1,373",0.7
+2013,Cunderdin,NA,"1,392",0.7
+2014,Cunderdin,NA,"1,411",0.8
+2015,Cunderdin,NA,"1,433",0.8
+2016,Cunderdin,NA,"1,469",0.8
+2017,Cunderdin,NA,"1,459",0.8
+2011,Dalwallinu,NA,-,-
+2012,Dalwallinu,NA,"1,342",0.2
+2013,Dalwallinu,NA,"1,375",0.2
+2014,Dalwallinu,NA,"1,405",0.2
+2015,Dalwallinu,NA,"1,435",0.2
+2016,Dalwallinu,NA,"1,454",0.2
+2017,Dalwallinu,NA,"1,432",0.2
+2011,Dandaragan,NA,-,-
+2012,Dandaragan,NA,"3,341",0.5
+2013,Dandaragan,NA,"3,308",0.5
+2014,Dandaragan,NA,"3,330",0.5
+2015,Dandaragan,NA,"3,298",0.5
+2016,Dandaragan,NA,"3,262",0.5
+2017,Dandaragan,NA,"3,297",0.5
+2011,Dardanup,NA,-,-
+2012,Dardanup,NA,"13,387",25.5
+2013,Dardanup,NA,"13,824",26.3
+2014,Dardanup,NA,"14,036",26.7
+2015,Dardanup,NA,"14,190",27
+2016,Dardanup,NA,"14,241",27.1
+2017,Dardanup,NA,"14,386",27.4
+2011,Denmark,NA,-,-
+2012,Denmark,NA,"5,593",3
+2013,Denmark,NA,"5,804",3.1
+2014,Denmark,NA,"5,872",3.2
+2015,Denmark,NA,"5,957",3.2
+2016,Denmark,NA,"6,018",3.2
+2017,Denmark,NA,"6,128",3.3
+2011,Derby-West Kimberley,NA,-,-
+2012,Derby-West Kimberley,NA,"9,336",0.1
+2013,Derby-West Kimberley,NA,"9,491",0.1
+2014,Derby-West Kimberley,NA,"8,864",0.1
+2015,Derby-West Kimberley,NA,"8,570",0.1
+2016,Derby-West Kimberley,NA,"8,364",0.1
+2017,Derby-West Kimberley,NA,"8,222",0.1
+2011,Donnybrook-Balingup,NA,-,-
+2012,Donnybrook-Balingup,NA,"5,628",3.6
+2013,Donnybrook-Balingup,NA,"5,803",3.7
+2014,Donnybrook-Balingup,NA,"5,903",3.8
+2015,Donnybrook-Balingup,NA,"5,949",3.8
+2016,Donnybrook-Balingup,NA,"5,956",3.8
+2017,Donnybrook-Balingup,NA,"6,007",3.9
+2011,Dowerin,NA,-,-
+2012,Dowerin,NA,703,0.4
+2013,Dowerin,NA,707,0.4
+2014,Dowerin,NA,706,0.4
+2015,Dowerin,NA,706,0.4
+2016,Dowerin,NA,699,0.4
+2017,Dowerin,NA,697,0.4
+2011,Dumbleyung,NA,-,-
+2012,Dumbleyung,NA,641,0.3
+2013,Dumbleyung,NA,653,0.3
+2014,Dumbleyung,NA,653,0.3
+2015,Dumbleyung,NA,663,0.3
+2016,Dumbleyung,NA,684,0.3
+2017,Dumbleyung,NA,679,0.3
+2011,Dundas,NA,-,-
+2012,Dundas,NA,"1,134",-
+2013,Dundas,NA,"1,069",-
+2014,Dundas,NA,979,-
+2015,Dundas,NA,894,-
+2016,Dundas,NA,788,-
+2017,Dundas,NA,763,-
+2011,East Fremantle,NA,-,-
+2012,East Fremantle,NA,"7,602",2422.3
+2013,East Fremantle,NA,"7,740",2466.2
+2014,East Fremantle,NA,"7,769",2475.5
+2015,East Fremantle,NA,"7,731",2463.4
+2016,East Fremantle,NA,"7,680",2447.1
+2017,East Fremantle,NA,"7,773",2476.7
+2011,East Pilbara,NA,-,-
+2012,East Pilbara,NA,"12,519",-
+2013,East Pilbara,NA,"12,570",-
+2014,East Pilbara,NA,"12,149",-
+2015,East Pilbara,NA,"11,529",-
+2016,East Pilbara,NA,"10,953",-
+2017,East Pilbara,NA,"11,005",-
+2011,Esperance,NA,-,-
+2012,Esperance,NA,"14,182",0.3
+2013,Esperance,NA,"14,422",0.3
+2014,Esperance,NA,"14,624",0.3
+2015,Esperance,NA,"14,734",0.3
+2016,Esperance,NA,"14,527",0.3
+2017,Esperance,NA,"14,423",0.3
+2011,Exmouth,NA,-,-
+2012,Exmouth,NA,"2,569",0.4
+2013,Exmouth,NA,"2,655",0.4
+2014,Exmouth,NA,"2,717",0.4
+2015,Exmouth,NA,"2,749",0.4
+2016,Exmouth,NA,"2,788",0.4
+2017,Exmouth,NA,"2,799",0.4
+2011,Fremantle,NA,-,-
+2012,Fremantle,NA,"29,562",1555.1
+2013,Fremantle,NA,"30,156",1586.3
+2014,Fremantle,NA,"30,361",1597.1
+2015,Fremantle,NA,"30,405",1599.4
+2016,Fremantle,NA,"30,310",1594.4
+2017,Fremantle,NA,"30,638",1611.7
+2011,Gingin,NA,-,-
+2012,Gingin,NA,"4,994",1.6
+2013,Gingin,NA,"5,267",1.6
+2014,Gingin,NA,"5,356",1.7
+2015,Gingin,NA,"5,351",1.7
+2016,Gingin,NA,"5,325",1.7
+2017,Gingin,NA,"5,308",1.7
+2011,Gnowangerup,NA,-,-
+2012,Gnowangerup,NA,"1,302",0.3
+2013,Gnowangerup,NA,"1,294",0.3
+2014,Gnowangerup,NA,"1,275",0.3
+2015,Gnowangerup,NA,"1,255",0.3
+2016,Gnowangerup,NA,"1,237",0.3
+2017,Gnowangerup,NA,"1,213",0.3
+2011,Goomalling,NA,-,-
+2012,Goomalling,NA,"1,030",0.6
+2013,Goomalling,NA,"1,038",0.6
+2014,Goomalling,NA,"1,044",0.6
+2015,Goomalling,NA,"1,050",0.6
+2016,Goomalling,NA,"1,045",0.6
+2017,Goomalling,NA,"1,033",0.6
+2011,Gosnells,NA,-,-
+2012,Gosnells,NA,"116,208",912.9
+2013,Gosnells,NA,"119,381",937.8
+2014,Gosnells,NA,"120,756",948.6
+2015,Gosnells,NA,"121,720",956.2
+2016,Gosnells,NA,"122,011",958.5
+2017,Gosnells,NA,"122,922",965.6
+2011,Greater Geraldton,NA,-,-
+2012,Greater Geraldton,NA,"39,084",3.9
+2013,Greater Geraldton,NA,"39,838",4
+2014,Greater Geraldton,NA,"40,114",4
+2015,Greater Geraldton,NA,"39,958",4
+2016,Greater Geraldton,NA,"39,567",4
+2017,Greater Geraldton,NA,"39,096",3.9
+2011,Halls Creek,NA,-,-
+2012,Halls Creek,NA,"3,850",-
+2013,Halls Creek,NA,"3,810",-
+2014,Halls Creek,NA,"3,734",-
+2015,Halls Creek,NA,"3,656",-
+2016,Halls Creek,NA,"3,593",-
+2017,Halls Creek,NA,"3,503",-
+2011,Harvey,NA,-,-
+2012,Harvey,NA,"24,839",14.4
+2013,Harvey,NA,"25,657",14.9
+2014,Harvey,NA,"26,186",15.2
+2015,Harvey,NA,"26,656",15.4
+2016,Harvey,NA,"26,890",15.6
+2017,Harvey,NA,"27,258",15.8
+2011,Irwin,NA,-,-
+2012,Irwin,NA,"3,738",1.6
+2013,Irwin,NA,"3,749",1.6
+2014,Irwin,NA,"3,702",1.6
+2015,Irwin,NA,"3,662",1.5
+2016,Irwin,NA,"3,604",1.5
+2017,Irwin,NA,"3,602",1.5
+2011,Jerramungup,NA,-,-
+2012,Jerramungup,NA,"1,102",0.2
+2013,Jerramungup,NA,"1,112",0.2
+2014,Jerramungup,NA,"1,120",0.2
+2015,Jerramungup,NA,"1,127",0.2
+2016,Jerramungup,NA,"1,127",0.2
+2017,Jerramungup,NA,"1,126",0.2
+2011,Joondalup,NA,-,-
+2012,Joondalup,NA,"163,581",1653.5
+2013,Joondalup,NA,"164,414",1661.9
+2014,Joondalup,NA,"163,894",1656.7
+2015,Joondalup,NA,"162,904",1646.7
+2016,Joondalup,NA,"160,918",1626.6
+2017,Joondalup,NA,"160,348",1620.8
+2011,Kalamunda,NA,-,-
+2012,Kalamunda,NA,"57,669",177.8
+2013,Kalamunda,NA,"58,622",180.8
+2014,Kalamunda,NA,"59,113",182.3
+2015,Kalamunda,NA,"59,298",182.9
+2016,Kalamunda,NA,"59,201",182.6
+2017,Kalamunda,NA,"59,218",182.6
+2011,Kalgoorlie/Boulder,NA,-,-
+2012,Kalgoorlie/Boulder,NA,"32,849",0.3
+2013,Kalgoorlie/Boulder,NA,"33,267",0.3
+2014,Kalgoorlie/Boulder,NA,"32,498",0.3
+2015,Kalgoorlie/Boulder,NA,"31,748",0.3
+2016,Kalgoorlie/Boulder,NA,"30,840",0.3
+2017,Kalgoorlie/Boulder,NA,"30,579",0.3
+2011,Karratha,NA,-,-
+2012,Karratha,NA,"24,042",1.6
+2013,Karratha,NA,"24,432",1.6
+2014,Karratha,NA,"23,985",1.6
+2015,Karratha,NA,"23,103",1.5
+2016,Karratha,NA,"22,211",1.5
+2017,Karratha,NA,"22,195",1.5
+2011,Katanning,NA,-,-
+2012,Katanning,NA,"4,368",2.9
+2013,Katanning,NA,"4,403",2.9
+2014,Katanning,NA,"4,389",2.9
+2015,Katanning,NA,"4,308",2.8
+2016,Katanning,NA,"4,200",2.8
+2017,Katanning,NA,"4,143",2.7
+2011,Kellerberrin,NA,-,-
+2012,Kellerberrin,NA,"1,236",0.6
+2013,Kellerberrin,NA,"1,251",0.7
+2014,Kellerberrin,NA,"1,251",0.7
+2015,Kellerberrin,NA,"1,249",0.7
+2016,Kellerberrin,NA,"1,242",0.6
+2017,Kellerberrin,NA,"1,221",0.6
+2011,Kent,NA,-,-
+2012,Kent,NA,540,0.1
+2013,Kent,NA,547,0.1
+2014,Kent,NA,556,0.1
+2015,Kent,NA,559,0.1
+2016,Kent,NA,568,0.1
+2017,Kent,NA,563,0.1
+2011,Kojonup,NA,-,-
+2012,Kojonup,NA,"2,042",0.7
+2013,Kojonup,NA,"2,044",0.7
+2014,Kojonup,NA,"2,029",0.7
+2015,Kojonup,NA,"2,027",0.7
+2016,Kojonup,NA,"2,010",0.7
+2017,Kojonup,NA,"2,001",0.7
+2011,Kondinin,NA,-,-
+2012,Kondinin,NA,"1,033",0.1
+2013,Kondinin,NA,985,0.1
+2014,Kondinin,NA,918,0.1
+2015,Kondinin,NA,929,0.1
+2016,Kondinin,NA,894,0.1
+2017,Kondinin,NA,880,0.1
+2011,Koorda,NA,-,-
+2012,Koorda,NA,447,0.2
+2013,Koorda,NA,446,0.2
+2014,Koorda,NA,440,0.2
+2015,Koorda,NA,437,0.2
+2016,Koorda,NA,428,0.2
+2017,Koorda,NA,420,0.1
+2011,Kulin,NA,-,-
+2012,Kulin,NA,849,0.2
+2013,Kulin,NA,831,0.2
+2014,Kulin,NA,804,0.2
+2015,Kulin,NA,787,0.2
+2016,Kulin,NA,783,0.2
+2017,Kulin,NA,777,0.2
+2011,Kwinana,NA,-,-
+2012,Kwinana,NA,"32,688",272.4
+2013,Kwinana,NA,"34,707",289.2
+2014,Kwinana,NA,"36,444",303.7
+2015,Kwinana,NA,"38,153",317.9
+2016,Kwinana,NA,"40,058",333.8
+2017,Kwinana,NA,"41,866",348.8
+2011,Lake Grace,NA,-,-
+2012,Lake Grace,NA,"1,399",0.1
+2013,Lake Grace,NA,"1,374",0.1
+2014,Lake Grace,NA,"1,329",0.1
+2015,Lake Grace,NA,"1,306",0.1
+2016,Lake Grace,NA,"1,300",0.1
+2017,Lake Grace,NA,"1,291",0.1
+2011,Laverton,NA,-,-
+2012,Laverton,NA,"1,410",-
+2013,Laverton,NA,"1,428",-
+2014,Laverton,NA,"1,367",-
+2015,Laverton,NA,"1,299",-
+2016,Laverton,NA,"1,222",-
+2017,Laverton,NA,"1,217",-
+2011,Leonora,NA,-,-
+2012,Leonora,NA,"2,566",0.1
+2013,Leonora,NA,"2,419",0.1
+2014,Leonora,NA,"2,122",0.1
+2015,Leonora,NA,"1,812",0.1
+2016,Leonora,NA,"1,491",-
+2017,Leonora,NA,"1,508",-
+2011,Mandurah,NA,-,-
+2012,Mandurah,NA,"76,562",437.8
+2013,Mandurah,NA,"79,292",453.4
+2014,Mandurah,NA,"80,927",462.7
+2015,Mandurah,NA,"82,202",470
+2016,Mandurah,NA,"83,322",476.4
+2017,Mandurah,NA,"84,214",481.5
+2011,Manjimup,NA,-,-
+2012,Manjimup,NA,"9,480",1.3
+2013,Manjimup,NA,"9,482",1.3
+2014,Manjimup,NA,"9,448",1.3
+2015,Manjimup,NA,"9,402",1.3
+2016,Manjimup,NA,"9,341",1.3
+2017,Manjimup,NA,"9,256",1.3
+2011,Meekatharra,NA,-,-
+2012,Meekatharra,NA,"1,437",-
+2013,Meekatharra,NA,"1,426",-
+2014,Meekatharra,NA,"1,335",-
+2015,Meekatharra,NA,"1,224",-
+2016,Meekatharra,NA,"1,110",-
+2017,Meekatharra,NA,"1,058",-
+2011,Melville,NA,-,-
+2012,Melville,NA,"103,569",1959.7
+2013,Melville,NA,"104,319",1973.8
+2014,Melville,NA,"104,073",1969.2
+2015,Melville,NA,"103,522",1958.8
+2016,Melville,NA,"102,342",1936.4
+2017,Melville,NA,"102,131",1932.4
+2011,Menzies,NA,-,-
+2012,Menzies,NA,450,-
+2013,Menzies,NA,486,-
+2014,Menzies,NA,499,-
+2015,Menzies,NA,510,-
+2016,Menzies,NA,518,-
+2017,Menzies,NA,515,-
+2011,Merredin,NA,-,-
+2012,Merredin,NA,"3,395",1
+2013,Merredin,NA,"3,379",1
+2014,Merredin,NA,"3,380",1
+2015,Merredin,NA,"3,385",1
+2016,Merredin,NA,"3,395",1
+2017,Merredin,NA,"3,423",1
+2011,Mingenew,NA,-,-
+2012,Mingenew,NA,488,0.3
+2013,Mingenew,NA,487,0.3
+2014,Mingenew,NA,482,0.2
+2015,Mingenew,NA,474,0.2
+2016,Mingenew,NA,465,0.2
+2017,Mingenew,NA,449,0.2
+2011,Moora,NA,-,-
+2012,Moora,NA,"2,548",0.7
+2013,Moora,NA,"2,527",0.7
+2014,Moora,NA,"2,504",0.7
+2015,Moora,NA,"2,505",0.7
+2016,Moora,NA,"2,477",0.7
+2017,Moora,NA,"2,451",0.7
+2011,Morawa,NA,-,-
+2012,Morawa,NA,892,0.3
+2013,Morawa,NA,872,0.2
+2014,Morawa,NA,835,0.2
+2015,Morawa,NA,800,0.2
+2016,Morawa,NA,765,0.2
+2017,Morawa,NA,731,0.2
+2011,Mosman Park,NA,-,-
+2012,Mosman Park,NA,"9,196",2115.4
+2013,Mosman Park,NA,"9,217",2120.2
+2014,Mosman Park,NA,"9,202",2116.8
+2015,Mosman Park,NA,"9,188",2113.5
+2016,Mosman Park,NA,"9,167",2108.7
+2017,Mosman Park,NA,"9,139",2102.3
+2011,Mount Magnet,NA,-,-
+2012,Mount Magnet,NA,669,-
+2013,Mount Magnet,NA,661,-
+2014,Mount Magnet,NA,615,-
+2015,Mount Magnet,NA,563,-
+2016,Mount Magnet,NA,507,-
+2017,Mount Magnet,NA,494,-
+2011,Mount Marshall,NA,-,-
+2012,Mount Marshall,NA,507,-
+2013,Mount Marshall,NA,523,0.1
+2014,Mount Marshall,NA,528,0.1
+2015,Mount Marshall,NA,531,0.1
+2016,Mount Marshall,NA,533,0.1
+2017,Mount Marshall,NA,529,0.1
+2011,Mukinbudin,NA,-,-
+2012,Mukinbudin,NA,528,0.2
+2013,Mukinbudin,NA,545,0.2
+2014,Mukinbudin,NA,549,0.2
+2015,Mukinbudin,NA,551,0.2
+2016,Mukinbudin,NA,553,0.2
+2017,Mukinbudin,NA,543,0.2
+2011,Mundaring,NA,-,-
+2012,Mundaring,NA,"39,064",60.7
+2013,Mundaring,NA,"39,644",61.6
+2014,Mundaring,NA,"39,651",61.6
+2015,Mundaring,NA,"39,563",61.5
+2016,Mundaring,NA,"39,217",61
+2017,Mundaring,NA,"38,976",60.6
+2011,Murchison,NA,-,-
+2012,Murchison,NA,133,-
+2013,Murchison,NA,146,-
+2014,Murchison,NA,150,-
+2015,Murchison,NA,155,-
+2016,Murchison,NA,158,-
+2017,Murchison,NA,163,-
+2011,Murray,NA,-,-
+2012,Murray,NA,"15,475",9.1
+2013,Murray,NA,"16,087",9.4
+2014,Murray,NA,"16,542",9.7
+2015,Murray,NA,"16,909",9.9
+2016,Murray,NA,"17,126",10.1
+2017,Murray,NA,"17,339",10.2
+2011,Nannup,NA,-,-
+2012,Nannup,NA,"1,326",0.4
+2013,Nannup,NA,"1,343",0.4
+2014,Nannup,NA,"1,350",0.4
+2015,Nannup,NA,"1,352",0.4
+2016,Nannup,NA,"1,339",0.4
+2017,Nannup,NA,"1,347",0.4
+2011,Narembeen,NA,-,-
+2012,Narembeen,NA,836,0.2
+2013,Narembeen,NA,826,0.2
+2014,Narembeen,NA,818,0.2
+2015,Narembeen,NA,820,0.2
+2016,Narembeen,NA,815,0.2
+2017,Narembeen,NA,829,0.2
+2011,Narrogin,NA,-,-
+2012,Narrogin,NA,"5,306",3.3
+2013,Narrogin,NA,"5,324",3.3
+2014,Narrogin,NA,"5,339",3.3
+2015,Narrogin,NA,"5,333",3.3
+2016,Narrogin,NA,"5,235",3.2
+2017,Narrogin,NA,"5,194",3.2
+2011,Nedlands,NA,-,-
+2012,Nedlands,NA,"22,423",1141.4
+2013,Nedlands,NA,"22,665",1153.7
+2014,Nedlands,NA,"22,686",1154.8
+2015,Nedlands,NA,"22,435",1142
+2016,Nedlands,NA,"22,108",1125.4
+2017,Nedlands,NA,"22,378",1139.1
+2011,Ngaanyatjarraku,NA,-,-
+2012,Ngaanyatjarraku,NA,"1,591",-
+2013,Ngaanyatjarraku,NA,"1,689",-
+2014,Ngaanyatjarraku,NA,"1,705",-
+2015,Ngaanyatjarraku,NA,"1,713",-
+2016,Ngaanyatjarraku,NA,"1,708",-
+2017,Ngaanyatjarraku,NA,"1,723",-
+2011,Northam,NA,-,-
+2012,Northam,NA,"11,169",7.8
+2013,Northam,NA,"11,472",8
+2014,Northam,NA,"11,570",8.1
+2015,Northam,NA,"11,420",8
+2016,Northam,NA,"11,238",7.9
+2017,Northam,NA,"11,230",7.8
+2011,Northampton,NA,-,-
+2012,Northampton,NA,"3,371",0.3
+2013,Northampton,NA,"3,432",0.3
+2014,Northampton,NA,"3,389",0.3
+2015,Northampton,NA,"3,357",0.3
+2016,Northampton,NA,"3,335",0.3
+2017,Northampton,NA,"3,205",0.3
+2011,Nungarin,NA,-,-
+2012,Nungarin,NA,246,0.2
+2013,Nungarin,NA,254,0.2
+2014,Nungarin,NA,256,0.2
+2015,Nungarin,NA,259,0.2
+2016,Nungarin,NA,259,0.2
+2017,Nungarin,NA,253,0.2
+2011,Peppermint Grove,NA,-,-
+2012,Peppermint Grove,NA,"1,688",1581
+2013,Peppermint Grove,NA,"1,694",1586.6
+2014,Peppermint Grove,NA,"1,707",1598.8
+2015,Peppermint Grove,NA,"1,709",1600.6
+2016,Peppermint Grove,NA,"1,708",1599.7
+2017,Peppermint Grove,NA,"1,719",1610
+2011,Perenjori,NA,-,-
+2012,Perenjori,NA,880,0.1
+2013,Perenjori,NA,830,0.1
+2014,Perenjori,NA,762,0.1
+2015,Perenjori,NA,696,0.1
+2016,Perenjori,NA,630,0.1
+2017,Perenjori,NA,617,0.1
+2011,Perth,NA,-,-
+2012,Perth,NA,"23,066",1681.3
+2013,Perth,NA,"24,317",1772.5
+2014,Perth,NA,"25,257",1841
+2015,Perth,NA,"26,096",1902.1
+2016,Perth,NA,"26,879",1959.2
+2017,Perth,NA,"27,340",1992.8
+2011,Pingelly,NA,-,-
+2012,Pingelly,NA,"1,206",0.9
+2013,Pingelly,NA,"1,205",0.9
+2014,Pingelly,NA,"1,187",0.9
+2015,Pingelly,NA,"1,202",0.9
+2016,Pingelly,NA,"1,183",0.9
+2017,Pingelly,NA,"1,169",0.9
+2011,Plantagenet,NA,-,-
+2012,Plantagenet,NA,"5,118",1
+2013,Plantagenet,NA,"5,172",1.1
+2014,Plantagenet,NA,"5,151",1.1
+2015,Plantagenet,NA,"5,130",1.1
+2016,Plantagenet,NA,"5,103",1
+2017,Plantagenet,NA,"5,168",1.1
+2011,Port Hedland,NA,-,-
+2012,Port Hedland,NA,"15,851",0.9
+2013,Port Hedland,NA,"15,951",0.9
+2014,Port Hedland,NA,"15,648",0.8
+2015,Port Hedland,NA,"15,387",0.8
+2016,Port Hedland,NA,"15,064",0.8
+2017,Port Hedland,NA,"14,963",0.8
+2011,Quairading,NA,-,-
+2012,Quairading,NA,"1,072",0.5
+2013,Quairading,NA,"1,066",0.5
+2014,Quairading,NA,"1,066",0.5
+2015,Quairading,NA,"1,060",0.5
+2016,Quairading,NA,"1,038",0.5
+2017,Quairading,NA,"1,018",0.5
+2011,Ravensthorpe,NA,-,-
+2012,Ravensthorpe,NA,"2,154",0.2
+2013,Ravensthorpe,NA,"2,118",0.2
+2014,Ravensthorpe,NA,"2,036",0.2
+2015,Ravensthorpe,NA,"1,906",0.2
+2016,Ravensthorpe,NA,"1,764",0.2
+2017,Ravensthorpe,NA,"1,679",0.2
+2011,Rockingham,NA,-,-
+2012,Rockingham,NA,"114,412",444.3
+2013,Rockingham,NA,"119,300",463.3
+2014,Rockingham,NA,"123,038",477.8
+2015,Rockingham,NA,"126,012",489.4
+2016,Rockingham,NA,"128,992",500.9
+2017,Rockingham,NA,"131,038",508.9
+2011,Sandstone,NA,-,-
+2012,Sandstone,NA,111,-
+2013,Sandstone,NA,112,-
+2014,Sandstone,NA,106,-
+2015,Sandstone,NA,100,-
+2016,Sandstone,NA,93,-
+2017,Sandstone,NA,85,-
+2011,Serpentine-Jarrahdale,NA,-,-
+2012,Serpentine-Jarrahdale,NA,"20,368",22.6
+2013,Serpentine-Jarrahdale,NA,"22,011",24.4
+2014,Serpentine-Jarrahdale,NA,"23,592",26.2
+2015,Serpentine-Jarrahdale,NA,"25,499",28.3
+2016,Serpentine-Jarrahdale,NA,"27,578",30.6
+2017,Serpentine-Jarrahdale,NA,"29,361",32.6
+2011,Shark Bay,NA,-,-
+2012,Shark Bay,NA,914,-
+2013,Shark Bay,NA,936,-
+2014,Shark Bay,NA,948,-
+2015,Shark Bay,NA,965,-
+2016,Shark Bay,NA,963,-
+2017,Shark Bay,NA,952,-
+2011,South Perth,NA,-,-
+2012,South Perth,NA,"44,099",2225.9
+2013,South Perth,NA,"44,348",2238.5
+2014,South Perth,NA,"44,251",2233.6
+2015,South Perth,NA,"44,096",2225.8
+2016,South Perth,NA,"43,879",2214.8
+2017,South Perth,NA,"43,689",2205.2
+2011,Stirling,NA,-,-
+2012,Stirling,NA,"214,240",2045.7
+2013,Stirling,NA,"218,043",2082
+2014,Stirling,NA,"219,372",2094.7
+2015,Stirling,NA,"220,152",2102.2
+2016,Stirling,NA,"220,073",2101.4
+2017,Stirling,NA,"219,988",2100.6
+2011,Subiaco,NA,-,-
+2012,Subiaco,NA,"16,159",2876.2
+2013,Subiaco,NA,"16,466",2930.8
+2014,Subiaco,NA,"16,700",2972.5
+2015,Subiaco,NA,"16,927",3012.9
+2016,Subiaco,NA,"17,018",3029.1
+2017,Subiaco,NA,"17,160",3054.4
+2011,Swan,NA,-,-
+2012,Swan,NA,"118,335",113.4
+2013,Swan,NA,"123,643",118.5
+2014,Swan,NA,"128,032",122.7
+2015,Swan,NA,"132,127",126.7
+2016,Swan,NA,"136,679",131
+2017,Swan,NA,"140,018",134.2
+2011,Tammin,NA,-,-
+2012,Tammin,NA,414,0.4
+2013,Tammin,NA,415,0.4
+2014,Tammin,NA,414,0.4
+2015,Tammin,NA,412,0.4
+2016,Tammin,NA,407,0.4
+2017,Tammin,NA,407,0.4
+2011,Three Springs,NA,-,-
+2012,Three Springs,NA,637,0.2
+2013,Three Springs,NA,638,0.2
+2014,Three Springs,NA,627,0.2
+2015,Three Springs,NA,619,0.2
+2016,Three Springs,NA,608,0.2
+2017,Three Springs,NA,610,0.2
+2011,Toodyay,NA,-,-
+2012,Toodyay,NA,"4,612",2.7
+2013,Toodyay,NA,"4,682",2.8
+2014,Toodyay,NA,"4,620",2.7
+2015,Toodyay,NA,"4,535",2.7
+2016,Toodyay,NA,"4,461",2.6
+2017,Toodyay,NA,"4,507",2.7
+2011,Trayning,NA,-,-
+2012,Trayning,NA,362,0.2
+2013,Trayning,NA,366,0.2
+2014,Trayning,NA,364,0.2
+2015,Trayning,NA,358,0.2
+2016,Trayning,NA,354,0.2
+2017,Trayning,NA,352,0.2
+2011,Upper Gascoyne,NA,-,-
+2012,Upper Gascoyne,NA,260,-
+2013,Upper Gascoyne,NA,270,-
+2014,Upper Gascoyne,NA,275,-
+2015,Upper Gascoyne,NA,278,-
+2016,Upper Gascoyne,NA,282,-
+2017,Upper Gascoyne,NA,278,-
+2011,Victoria Park,NA,-,-
+2012,Victoria Park,NA,"35,599",1984.4
+2013,Victoria Park,NA,"36,260",2021.2
+2014,Victoria Park,NA,"36,570",2038.5
+2015,Victoria Park,NA,"36,714",2046.5
+2016,Victoria Park,NA,"36,647",2042.8
+2017,Victoria Park,NA,"36,549",2037.3
+2011,Victoria Plains,NA,-,-
+2012,Victoria Plains,NA,934,0.4
+2013,Victoria Plains,NA,932,0.4
+2014,Victoria Plains,NA,934,0.4
+2015,Victoria Plains,NA,931,0.4
+2016,Victoria Plains,NA,924,0.4
+2017,Victoria Plains,NA,929,0.4
+2011,Vincent,NA,-,-
+2012,Vincent,NA,"34,733",3052.9
+2013,Vincent,NA,"35,442",3115.3
+2014,Vincent,NA,"35,631",3131.9
+2015,Vincent,NA,"35,663",3134.7
+2016,Vincent,NA,"35,674",3135.7
+2017,Vincent,NA,"35,768",3143.9
+2011,Wagin,NA,-,-
+2012,Wagin,NA,"1,924",1
+2013,Wagin,NA,"1,925",1
+2014,Wagin,NA,"1,921",1
+2015,Wagin,NA,"1,915",1
+2016,Wagin,NA,"1,884",1
+2017,Wagin,NA,"1,855",1
+2011,Wandering,NA,-,-
+2012,Wandering,NA,459,0.2
+2013,Wandering,NA,451,0.2
+2014,Wandering,NA,453,0.2
+2015,Wandering,NA,457,0.2
+2016,Wandering,NA,458,0.2
+2017,Wandering,NA,441,0.2
+2011,Wanneroo,NA,-,-
+2012,Wanneroo,NA,"168,832",247.1
+2013,Wanneroo,NA,"176,627",258.5
+2014,Wanneroo,NA,"182,385",266.9
+2015,Wanneroo,NA,"188,278",275.6
+2016,Wanneroo,NA,"194,779",285.1
+2017,Wanneroo,NA,"199,290",291.7
+2011,Waroona,NA,-,-
+2012,Waroona,NA,"3,820",4.6
+2013,Waroona,NA,"3,931",4.7
+2014,Waroona,NA,"4,057",4.9
+2015,Waroona,NA,"4,133",5
+2016,Waroona,NA,"4,162",5
+2017,Waroona,NA,"4,144",5
+2011,West Arthur,NA,-,-
+2012,West Arthur,NA,893,0.3
+2013,West Arthur,NA,884,0.3
+2014,West Arthur,NA,869,0.3
+2015,West Arthur,NA,855,0.3
+2016,West Arthur,NA,824,0.3
+2017,West Arthur,NA,804,0.3
+2011,Westonia,NA,-,-
+2012,Westonia,NA,293,0.1
+2013,Westonia,NA,302,0.1
+2014,Westonia,NA,305,0.1
+2015,Westonia,NA,306,0.1
+2016,Westonia,NA,306,0.1
+2017,Westonia,NA,310,0.1
+2011,Wickepin,NA,-,-
+2012,Wickepin,NA,771,0.4
+2013,Wickepin,NA,764,0.4
+2014,Wickepin,NA,744,0.4
+2015,Wickepin,NA,737,0.4
+2016,Wickepin,NA,740,0.4
+2017,Wickepin,NA,734,0.4
+2011,Williams,NA,-,-
+2012,Williams,NA,967,0.4
+2013,Williams,NA,977,0.4
+2014,Williams,NA,993,0.4
+2015,Williams,NA,"1,005",0.4
+2016,Williams,NA,"1,000",0.4
+2017,Williams,NA,"1,023",0.4
+2011,Wiluna,NA,-,-
+2012,Wiluna,NA,"1,175",-
+2013,Wiluna,NA,"1,131",-
+2014,Wiluna,NA,"1,020",-
+2015,Wiluna,NA,894,-
+2016,Wiluna,NA,767,-
+2017,Wiluna,NA,731,-
+2011,Wongan-Ballidu,NA,-,-
+2012,Wongan-Ballidu,NA,"1,483",0.4
+2013,Wongan-Ballidu,NA,"1,474",0.4
+2014,Wongan-Ballidu,NA,"1,433",0.4
+2015,Wongan-Ballidu,NA,"1,393",0.4
+2016,Wongan-Ballidu,NA,"1,354",0.4
+2017,Wongan-Ballidu,NA,"1,344",0.4
+2011,Woodanilling,NA,-,-
+2012,Woodanilling,NA,435,0.4
+2013,Woodanilling,NA,430,0.4
+2014,Woodanilling,NA,429,0.4
+2015,Woodanilling,NA,423,0.4
+2016,Woodanilling,NA,415,0.4
+2017,Woodanilling,NA,426,0.4
+2011,Wyalkatchem,NA,-,-
+2012,Wyalkatchem,NA,539,0.3
+2013,Wyalkatchem,NA,541,0.3
+2014,Wyalkatchem,NA,535,0.3
+2015,Wyalkatchem,NA,533,0.3
+2016,Wyalkatchem,NA,522,0.3
+2017,Wyalkatchem,NA,515,0.3
+2011,Wyndham-East Kimberley,NA,-,-
+2012,Wyndham-East Kimberley,NA,"8,228",0.1
+2013,Wyndham-East Kimberley,NA,"8,243",0.1
+2014,Wyndham-East Kimberley,NA,"8,020",0.1
+2015,Wyndham-East Kimberley,NA,"7,780",0.1
+2016,Wyndham-East Kimberley,NA,"7,478",0.1
+2017,Wyndham-East Kimberley,NA,"7,415",0.1
+2011,Yalgoo,NA,-,-
+2012,Yalgoo,NA,425,-
+2013,Yalgoo,NA,426,-
+2014,Yalgoo,NA,405,-
+2015,Yalgoo,NA,378,-
+2016,Yalgoo,NA,350,-
+2017,Yalgoo,NA,356,-
+2011,Yilgarn,NA,-,-
+2012,Yilgarn,NA,"1,612",0.1
+2013,Yilgarn,NA,"1,539",0.1
+2014,Yilgarn,NA,"1,426",-
+2015,Yilgarn,NA,"1,314",-
+2016,Yilgarn,NA,"1,213",-
+2017,Yilgarn,NA,"1,195",-
+2011,York,NA,-,-
+2012,York,NA,"3,547",1.7
+2013,York,NA,"3,619",1.7
+2014,York,NA,"3,609",1.7
+2015,York,NA,"3,599",1.7
+2016,York,NA,"3,605",1.7
+2017,York,NA,"3,608",1.7
+2012,No usual address,NA,-,-
+2013,No usual address,NA,-,-
+2014,No usual address,NA,-,-
+2015,No usual address,NA,-,-
+2016,No usual address,NA,-,-
+2017,No usual address,NA,-,-
+2012,Migratory - Offshore - Shipping,NA,-,-
+2013,Migratory - Offshore - Shipping,NA,-,-
+2014,Migratory - Offshore - Shipping,NA,-,-
+2015,Migratory - Offshore - Shipping,NA,-,-
+2016,Migratory - Offshore - Shipping,NA,-,-
+2017,Migratory - Offshore - Shipping,NA,-,-
+2011,Break O'Day,NA,-,-
+2012,Break O'Day,NA,"6,413",1.8
+2013,Break O'Day,NA,"6,353",1.8
+2014,Break O'Day,NA,"6,312",1.8
+2015,Break O'Day,NA,"6,254",1.8
+2016,Break O'Day,NA,"6,198",1.8
+2017,Break O'Day,NA,"6,186",1.8
+2011,Brighton,NA,-,-
+2012,Brighton,NA,"15,902",92.9
+2013,Brighton,NA,"16,046",93.7
+2014,Brighton,NA,"16,221",94.8
+2015,Brighton,NA,"16,448",96.1
+2016,Brighton,NA,"16,669",97.4
+2017,Brighton,NA,"16,960",99.1
+2011,Burnie,NA,-,-
+2012,Burnie,NA,"19,981",32.7
+2013,Burnie,NA,"19,755",32.3
+2014,Burnie,NA,"19,565",32
+2015,Burnie,NA,"19,408",31.8
+2016,Burnie,NA,"19,228",31.5
+2017,Burnie,NA,"19,210",31.4
+2011,Central Highlands,NA,-,-
+2012,Central Highlands,NA,"2,321",0.3
+2013,Central Highlands,NA,"2,278",0.3
+2014,Central Highlands,NA,"2,239",0.3
+2015,Central Highlands,NA,"2,203",0.3
+2016,Central Highlands,NA,"2,169",0.3
+2017,Central Highlands,NA,"2,148",0.3
+2011,Circular Head,NA,-,-
+2012,Circular Head,NA,"8,310",1.7
+2013,Circular Head,NA,"8,249",1.7
+2014,Circular Head,NA,"8,204",1.7
+2015,Circular Head,NA,"8,142",1.7
+2016,Circular Head,NA,"8,104",1.7
+2017,Circular Head,NA,"8,088",1.7
+2011,Clarence,NA,-,-
+2012,Clarence,NA,"53,214",140.8
+2013,Clarence,NA,"53,685",142
+2014,Clarence,NA,"54,219",143.5
+2015,Clarence,NA,"54,829",145.1
+2016,Clarence,NA,"55,465",146.8
+2017,Clarence,NA,"56,148",148.6
+2011,Derwent Valley,NA,-,-
+2012,Derwent Valley,NA,"9,945",2.4
+2013,Derwent Valley,NA,"9,977",2.4
+2014,Derwent Valley,NA,"10,013",2.4
+2015,Derwent Valley,NA,"10,048",2.4
+2016,Derwent Valley,NA,"10,087",2.5
+2017,Derwent Valley,NA,"10,170",2.5
+2011,Devonport,NA,-,-
+2012,Devonport,NA,"25,562",229.8
+2013,Devonport,NA,"25,407",228.4
+2014,Devonport,NA,"25,295",227.4
+2015,Devonport,NA,"25,162",226.2
+2016,Devonport,NA,"25,128",225.9
+2017,Devonport,NA,"25,212",226.6
+2011,Dorset,NA,-,-
+2012,Dorset,NA,"7,090",2.2
+2013,Dorset,NA,"7,010",2.2
+2014,Dorset,NA,"6,920",2.1
+2015,Dorset,NA,"6,816",2.1
+2016,Dorset,NA,"6,724",2.1
+2017,Dorset,NA,"6,704",2.1
+2011,Flinders,NA,-,-
+2012,Flinders,NA,827,0.4
+2013,Flinders,NA,845,0.4
+2014,Flinders,NA,871,0.4
+2015,Flinders,NA,900,0.5
+2016,Flinders,NA,939,0.5
+2017,Flinders,NA,957,0.5
+2011,George Town,NA,-,-
+2012,George Town,NA,"6,831",10.5
+2013,George Town,NA,"6,838",10.5
+2014,George Town,NA,"6,854",10.5
+2015,George Town,NA,"6,857",10.5
+2016,George Town,NA,"6,873",10.5
+2017,George Town,NA,"6,917",10.6
+2011,Glamorgan/Spring Bay,NA,-,-
+2012,Glamorgan/Spring Bay,NA,"4,422",1.7
+2013,Glamorgan/Spring Bay,NA,"4,425",1.7
+2014,Glamorgan/Spring Bay,NA,"4,430",1.7
+2015,Glamorgan/Spring Bay,NA,"4,433",1.7
+2016,Glamorgan/Spring Bay,NA,"4,451",1.7
+2017,Glamorgan/Spring Bay,NA,"4,499",1.7
+2011,Glenorchy,NA,-,-
+2012,Glenorchy,NA,"45,555",376
+2013,Glenorchy,NA,"45,745",377.6
+2014,Glenorchy,NA,"46,044",380.1
+2015,Glenorchy,NA,"46,307",382.2
+2016,Glenorchy,NA,"46,722",385.7
+2017,Glenorchy,NA,"47,214",389.7
+2011,Hobart,NA,-,-
+2012,Hobart,NA,"50,593",649.4
+2013,Hobart,NA,"50,839",652.5
+2014,Hobart,NA,"51,232",657.6
+2015,Hobart,NA,"51,591",662.2
+2016,Hobart,NA,"52,018",667.7
+2017,Hobart,NA,"52,785",677.5
+2011,Huon Valley,NA,-,-
+2012,Huon Valley,NA,"16,006",2.9
+2013,Huon Valley,NA,"16,111",2.9
+2014,Huon Valley,NA,"16,243",2.9
+2015,Huon Valley,NA,"16,361",3
+2016,Huon Valley,NA,"16,563",3
+2017,Huon Valley,NA,"16,870",3.1
+2011,Kentish,NA,-,-
+2012,Kentish,NA,"6,351",5.5
+2013,Kentish,NA,"6,334",5.5
+2014,Kentish,NA,"6,317",5.5
+2015,Kentish,NA,"6,286",5.4
+2016,Kentish,NA,"6,263",5.4
+2017,Kentish,NA,"6,296",5.4
+2011,King Island,NA,-,-
+2012,King Island,NA,"1,624",1.5
+2013,King Island,NA,"1,619",1.5
+2014,King Island,NA,"1,611",1.5
+2015,King Island,NA,"1,599",1.5
+2016,King Island,NA,"1,594",1.5
+2017,King Island,NA,"1,592",1.5
+2011,Kingborough,NA,-,-
+2012,Kingborough,NA,"35,021",48.6
+2013,Kingborough,NA,"35,351",49.1
+2014,Kingborough,NA,"35,723",49.6
+2015,Kingborough,NA,"36,140",50.2
+2016,Kingborough,NA,"36,544",50.7
+2017,Kingborough,NA,"37,133",51.6
+2011,Latrobe,NA,-,-
+2012,Latrobe,NA,"10,343",17.2
+2013,Latrobe,NA,"10,433",17.4
+2014,Latrobe,NA,"10,569",17.6
+2015,Latrobe,NA,"10,723",17.9
+2016,Latrobe,NA,"10,927",18.2
+2017,Latrobe,NA,"11,109",18.5
+2011,Launceston,NA,-,-
+2012,Launceston,NA,"66,942",47.4
+2013,Launceston,NA,"66,722",47.2
+2014,Launceston,NA,"66,576",47.1
+2015,Launceston,NA,"66,492",47
+2016,Launceston,NA,"66,518",47.1
+2017,Launceston,NA,"66,802",47.3
+2011,Meander Valley,NA,-,-
+2012,Meander Valley,NA,"19,581",5.9
+2013,Meander Valley,NA,"19,540",5.9
+2014,Meander Valley,NA,"19,519",5.9
+2015,Meander Valley,NA,"19,502",5.9
+2016,Meander Valley,NA,"19,553",5.9
+2017,Meander Valley,NA,"19,572",5.9
+2011,Northern Midlands,NA,-,-
+2012,Northern Midlands,NA,"12,739",2.5
+2013,Northern Midlands,NA,"12,765",2.5
+2014,Northern Midlands,NA,"12,819",2.5
+2015,Northern Midlands,NA,"12,873",2.5
+2016,Northern Midlands,NA,"12,972",2.5
+2017,Northern Midlands,NA,"13,084",2.5
+2011,Sorell,NA,-,-
+2012,Sorell,NA,"13,515",23.2
+2013,Sorell,NA,"13,736",23.5
+2014,Sorell,NA,"13,981",24
+2015,Sorell,NA,"14,200",24.3
+2016,Sorell,NA,"14,482",24.8
+2017,Sorell,NA,"14,771",25.3
+2011,Southern Midlands,NA,-,-
+2012,Southern Midlands,NA,"6,244",2.4
+2013,Southern Midlands,NA,"6,183",2.4
+2014,Southern Midlands,NA,"6,139",2.3
+2015,Southern Midlands,NA,"6,096",2.3
+2016,Southern Midlands,NA,"6,083",2.3
+2017,Southern Midlands,NA,"6,053",2.3
+2011,Tasman,NA,-,-
+2012,Tasman,NA,"2,436",3.7
+2013,Tasman,NA,"2,356",3.6
+2014,Tasman,NA,"2,389",3.6
+2015,Tasman,NA,"2,391",3.6
+2016,Tasman,NA,"2,389",3.6
+2017,Tasman,NA,"2,390",3.6
+2011,Waratah/Wynyard,NA,-,-
+2012,Waratah/Wynyard,NA,"14,163",4
+2013,Waratah/Wynyard,NA,"14,083",4
+2014,Waratah/Wynyard,NA,"14,014",4
+2015,Waratah/Wynyard,NA,"13,903",3.9
+2016,Waratah/Wynyard,NA,"13,813",3.9
+2017,Waratah/Wynyard,NA,"13,755",3.9
+2011,West Coast,NA,-,-
+2012,West Coast,NA,"4,750",0.5
+2013,West Coast,NA,"4,573",0.5
+2014,West Coast,NA,"4,392",0.5
+2015,West Coast,NA,"4,299",0.4
+2016,West Coast,NA,"4,210",0.4
+2017,West Coast,NA,"4,162",0.4
+2011,West Tamar,NA,-,-
+2012,West Tamar,NA,"22,798",33
+2013,West Tamar,NA,"22,851",33.1
+2014,West Tamar,NA,"22,921",33.2
+2015,West Tamar,NA,"23,007",33.3
+2016,West Tamar,NA,"23,092",33.4
+2017,West Tamar,NA,"23,530",34
+2012,No usual address,NA,-,-
+2013,No usual address,NA,-,-
+2014,No usual address,NA,-,-
+2015,No usual address,NA,-,-
+2016,No usual address,NA,-,-
+2017,No usual address,NA,-,-
+2012,Migratory - Offshore - Shipping,NA,-,-
+2013,Migratory - Offshore - Shipping,NA,-,-
+2014,Migratory - Offshore - Shipping,NA,-,-
+2015,Migratory - Offshore - Shipping,NA,-,-
+2016,Migratory - Offshore - Shipping,NA,-,-
+2017,Migratory - Offshore - Shipping,NA,-,-
+2011,Alice Springs,NA,-,-
+2012,Alice Springs,NA,"28,355",86.5
+2013,Alice Springs,NA,"28,124",85.8
+2014,Alice Springs,NA,"27,486",83.9
+2015,Alice Springs,NA,"26,843",81.9
+2016,Alice Springs,NA,"26,518",80.9
+2017,Alice Springs,NA,"26,549",81
+2011,Barkly,NA,-,-
+2012,Barkly,NA,"7,842",-
+2013,Barkly,NA,"7,810",-
+2014,Barkly,NA,"7,663",-
+2015,Barkly,NA,"7,572",-
+2016,Barkly,NA,"7,426",-
+2017,Barkly,NA,"7,411",-
+2011,Belyuen,NA,-,-
+2012,Belyuen,NA,202,4.9
+2013,Belyuen,NA,199,4.8
+2014,Belyuen,NA,188,4.5
+2015,Belyuen,NA,182,4.4
+2016,Belyuen,NA,175,4.2
+2017,Belyuen,NA,175,4.2
+2011,Central Desert,NA,-,-
+2012,Central Desert,NA,"4,322",-
+2013,Central Desert,NA,"4,363",-
+2014,Central Desert,NA,"4,316",-
+2015,Central Desert,NA,"4,259",-
+2016,Central Desert,NA,"4,165",-
+2017,Central Desert,NA,"4,174",-
+2011,Coomalie,NA,-,-
+2012,Coomalie,NA,"1,326",0.6
+2013,Coomalie,NA,"1,369",0.7
+2014,Coomalie,NA,"1,374",0.7
+2015,Coomalie,NA,"1,396",0.7
+2016,Coomalie,NA,"1,412",0.7
+2017,Coomalie,NA,"1,406",0.7
+2011,Darwin,NA,-,-
+2012,Darwin,NA,"80,437",722.9
+2013,Darwin,NA,"82,996",745.9
+2014,Darwin,NA,"83,098",746.8
+2015,Darwin,NA,"84,363",758.2
+2016,Darwin,NA,"85,323",766.8
+2017,Darwin,NA,"85,914",772.1
+2011,East Arnhem,NA,-,-
+2012,East Arnhem,NA,"10,526",0.3
+2013,East Arnhem,NA,"10,677",0.3
+2014,East Arnhem,NA,"10,469",0.3
+2015,East Arnhem,NA,"10,362",0.3
+2016,East Arnhem,NA,"10,252",0.3
+2017,East Arnhem,NA,"10,271",0.3
+2011,Katherine,NA,-,-
+2012,Katherine,NA,"10,639",1.4
+2013,Katherine,NA,"10,761",1.5
+2014,Katherine,NA,"10,744",1.4
+2015,Katherine,NA,"10,671",1.4
+2016,Katherine,NA,"10,541",1.4
+2017,Katherine,NA,"10,575",1.4
+2011,Litchfield,NA,-,-
+2012,Litchfield,NA,"21,122",7.3
+2013,Litchfield,NA,"22,195",7.6
+2014,Litchfield,NA,"23,256",8
+2015,Litchfield,NA,"24,757",8.5
+2016,Litchfield,NA,"25,355",8.7
+2017,Litchfield,NA,"25,549",8.8
+2011,MacDonnell,NA,-,-
+2012,MacDonnell,NA,"6,823",-
+2013,MacDonnell,NA,"6,911",-
+2014,MacDonnell,NA,"6,875",-
+2015,MacDonnell,NA,"6,859",-
+2016,MacDonnell,NA,"6,753",-
+2017,MacDonnell,NA,"6,766",-
+2011,Palmerston,NA,-,-
+2012,Palmerston,NA,"30,623",581.6
+2013,Palmerston,NA,"32,462",616.5
+2014,Palmerston,NA,"34,001",645.7
+2015,Palmerston,NA,"35,224",668.9
+2016,Palmerston,NA,"35,978",683.3
+2017,Palmerston,NA,"36,933",701.4
+2011,Roper Gulf,NA,-,-
+2012,Roper Gulf,NA,"7,141",-
+2013,Roper Gulf,NA,"7,207",-
+2014,Roper Gulf,NA,"7,272",-
+2015,Roper Gulf,NA,"7,335",-
+2016,Roper Gulf,NA,"7,329",-
+2017,Roper Gulf,NA,"7,357",-
+2011,Tiwi Islands,NA,-,-
+2012,Tiwi Islands,NA,"2,986",0.4
+2013,Tiwi Islands,NA,"3,001",0.4
+2014,Tiwi Islands,NA,"2,902",0.4
+2015,Tiwi Islands,NA,"2,848",0.4
+2016,Tiwi Islands,NA,"2,777",0.4
+2017,Tiwi Islands,NA,"2,763",0.4
+2011,Victoria Daly,NA,-,-
+2012,Victoria Daly,NA,"3,334",-
+2013,Victoria Daly,NA,"3,312",-
+2014,Victoria Daly,NA,"3,269",-
+2015,Victoria Daly,NA,"3,217",-
+2016,Victoria Daly,NA,"3,142",-
+2017,Victoria Daly,NA,"3,140",-
+2011,Wagait,NA,-,-
+2012,Wagait,NA,438,77.7
+2013,Wagait,NA,459,81.4
+2014,Wagait,NA,467,82.8
+2015,Wagait,NA,479,85
+2016,Wagait,NA,492,87.3
+2017,Wagait,NA,496,88
+2011,West Arnhem,NA,-,-
+2012,West Arnhem,NA,"7,214",0.1
+2013,West Arnhem,NA,"7,290",0.1
+2014,West Arnhem,NA,"7,157",0.1
+2015,West Arnhem,NA,"7,060",0.1
+2016,West Arnhem,NA,"6,941",0.1
+2017,West Arnhem,NA,"6,933",0.1
+2011,West Daly,NA,-,-
+2012,West Daly,NA,"3,546",0.3
+2013,West Daly,NA,"3,568",0.3
+2014,West Daly,NA,"3,587",0.3
+2015,West Daly,NA,"3,598",0.3
+2016,West Daly,NA,"3,601",0.3
+2017,West Daly,NA,"3,618",0.3
+2011,Unincorporated NT,NA,-,-
+2012,Unincorporated NT,NA,"9,039",0.5
+2013,Unincorporated NT,NA,"9,018",0.5
+2014,Unincorporated NT,NA,"8,770",0.4
+2015,Unincorporated NT,NA,"7,667",0.4
+2016,Unincorporated NT,NA,"7,498",0.4
+2017,Unincorporated NT,NA,"7,461",0.4
+2012,No usual address,NA,-,-
+2013,No usual address,NA,-,-
+2014,No usual address,NA,-,-
+2015,No usual address,NA,-,-
+2016,No usual address,NA,-,-
+2017,No usual address,NA,-,-
+2012,Migratory - Offshore - Shipping,NA,-,-
+2013,Migratory - Offshore - Shipping,NA,-,-
+2014,Migratory - Offshore - Shipping,NA,-,-
+2015,Migratory - Offshore - Shipping,NA,-,-
+2016,Migratory - Offshore - Shipping,NA,-,-
+2017,Migratory - Offshore - Shipping,NA,-,-
+2011,Unincorporated ACT,NA,-,-
+2012,Unincorporated ACT,NA,"376,539",159.7
+2013,Unincorporated ACT,NA,"383,257",162.5
+2014,Unincorporated ACT,NA,"388,799",164.9
+2015,Unincorporated ACT,NA,"395,813",167.8
+2016,Unincorporated ACT,NA,"403,104",170.9
+2017,Unincorporated ACT,NA,"411,667",174.6
+2012,No usual address,NA,-,-
+2013,No usual address,NA,-,-
+2014,No usual address,NA,-,-
+2015,No usual address,NA,-,-
+2016,No usual address,NA,-,-
+2017,No usual address,NA,-,-
+2012,Migratory - Offshore - Shipping,NA,-,-
+2013,Migratory - Offshore - Shipping,NA,-,-
+2014,Migratory - Offshore - Shipping,NA,-,-
+2015,Migratory - Offshore - Shipping,NA,-,-
+2016,Migratory - Offshore - Shipping,NA,-,-
+2017,Migratory - Offshore - Shipping,NA,-,-
+2011,Unincorp. Other Territories,NA,-,-
+2012,Unincorp. Other Territories,NA,"3,033",11.8
+2013,Unincorp. Other Territories,NA,"2,962",11.6
+2014,Unincorp. Other Territories,NA,"2,896",11.3
+2015,Unincorp. Other Territories,NA,"2,851",11.1
+2016,Unincorp. Other Territories,NA,"4,608",18
+2017,Unincorp. Other Territories,NA,"4,621",18
+2012,No usual address,NA,-,-
+2013,No usual address,NA,-,-
+2014,No usual address,NA,-,-
+2015,No usual address,NA,-,-
+2016,No usual address,NA,-,-
+2017,No usual address,NA,-,-
+2012,Migratory - Offshore - Shipping,NA,-,-
+2013,Migratory - Offshore - Shipping,NA,-,-
+2014,Migratory - Offshore - Shipping,NA,-,-
+2015,Migratory - Offshore - Shipping,NA,-,-
+2016,Migratory - Offshore - Shipping,NA,-,-
+2017,Migratory - Offshore - Shipping,NA,-,-
