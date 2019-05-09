@@ -148,12 +148,6 @@ missmap(offence_data_EDA_full, main = "Missing values vs observed") #checking fo
 #above code still has some missing values so to have data without missing values, try Inner join
 
 offence_data_EDA <- inner_join(offence_data_ag, population_subset, by = c("Year", "LGA"))
-missmap(offence_data_EDA, main = "Missing values vs observed") #data looks good.
-#check the structure of the data 
-str(offence_data_EDA) 
-#not good - change it but keep getting 
-#offence_data_EDA[4:5] = lapply(offence_data_EDA[4:5], as.numeric)
-#str(offence_data_EDA) #sorted
 
 # Export to .csv Files 
 write_csv(offence_data_EDA, path = "offence_data_EDA.csv")
@@ -161,6 +155,13 @@ write_csv(offence_data_EDA, path = "offence_data_EDA.csv")
 ###########################################################
 ##EDA for both
 ###########################################################
+
+missmap(offence_data_EDA, main = "Missing values vs observed") #data looks good.
+#check the structure of the data 
+str(offence_data_EDA) 
+#not good - change it but keep getting 
+#offence_data_EDA[4:5] = lapply(offence_data_EDA[4:5], as.numeric)
+#str(offence_data_EDA) #sorted
 
 offence_pop <- filter(offence_data_EDA, LGA == 'Sydney')
 ggplot(data = offence_data_ag) + 
