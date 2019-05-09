@@ -32,7 +32,7 @@ unique(offence_data_ag$Year) #check if this worked
 
 offence_data_ag <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Campbelltown' | LGA == 'Canterbury-Bankstown' | 
                                                LGA == 'Central Darling' | LGA == 'Strathfield' | LGA == 'Parramatta' | 
-                                               LGA == 'North Sydney' | LGA == 'Inner West' | LGA == 'Hornsby'))
+                                               LGA == 'North Sydney' | LGA == 'Inner West' | LGA == 'Hornsby' | LGA == 'Burwood'))
 unique(offence_data_ag$LGA)
 
 ######EDA for offence data alone########
@@ -43,20 +43,27 @@ max(offence_data_ag$violence_count)
 min(offence_data_ag$violence_count)
 
 ##############################################################################
-#filter <- c('Sydney', 'Burwood', 'Campbelltown', 'Canterbury-Bankstown', 'Central Darling', 'Hornsby', 'Inner West', 'North Sydney', 'Parramatta', 'Strathfield')
+#filter <- LGA(c('Sydney', 'Burwood', 'Campbelltown', 'Canterbury-Bankstown', 'Blacktown', 'Liverpool', 
+# 'Central Darling', 'Mid-Western Regional' , 'Unincorporated NSW', 'Hornsby', 'Inner West', 
+#'North Sydney', 'Parramatta', 'Strathfield', 'Mosman', 'Bayside', Northern Beaches', 'North Sydney', 'Randwick'))
+
+offence_data_ag_filter <- filter(offence_data_ag, LGA == 'Randwick')
+ggplot(data = offence_data_ag_filter) + geom_line(mapping = aes(x = Year, y = violence_count))
+#LGAs with noticable changes - Randwick, North Sydney, Hornsby, Mosman (slightly), Uninc.NSW, Liverpool?, 
+#Burwood, Sydney (obviously), Parramatta, Central darling, Bayside, Canterbury-bankstown, Inner-west
+
 offence_data_ag_filter1 <- filter(offence_data_ag, LGA == 'Sydney')
-offence_data_ag_filter2 <- filter(offence_data_ag, LGA == 'Burwood')
+offence_data_ag_filter2 <- filter(offence_data_ag, LGA == 'Bayside')
 offence_data_ag_filter3 <- filter(offence_data_ag, LGA == 'Central Darling')
 offence_data_ag_filter4 <- filter(offence_data_ag, LGA == 'Parramatta')
 offence_data_ag_filter5 <- filter(offence_data_ag, LGA == 'Canterbury-Bankstown')
 offence_data_ag_filter6 <- filter(offence_data_ag, LGA == 'Inner West')
 
-
 ggplot(data = offence_data_ag_filter1) + 
   geom_line(mapping = aes(x = Year, y = violence_count)) #Sydney
 
 ggplot(data = offence_data_ag_filter2) + 
-  geom_line(mapping = aes(x = Year, y = violence_count)) #Burwood
+  geom_line(mapping = aes(x = Year, y = violence_count)) #Bayside
 
 ggplot(data = offence_data_ag_filter3) + 
   geom_line(mapping = aes(x = Year, y = violence_count)) #Central darling
@@ -71,7 +78,7 @@ ggplot(data = offence_data_ag_filter6) +
   geom_line(mapping = aes(x = Year, y = violence_count)) #Inner-west
 
 ################################################################################
-#3 that work
+##3 that work
 
 ggplot(data = offence_data_ag) + 
   geom_line(mapping = aes(x = Year, y = violence_count, color = LGA)) + facet_wrap(vars(LGA))
