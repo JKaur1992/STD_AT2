@@ -26,14 +26,9 @@ str(offence_data_ag)
 offence_data_ag[1:1] = lapply(offence_data_ag[1:1], as.numeric)
 str(offence_data_ag)
 
-#filter for 2012-2017 data and only a handful of LGAs
+#filter for 2012-2017 data
 offence_data_ag <- filter(offence_data_ag, ( Year == 2012 | Year == 2013 | Year == 2014 | Year == 2015 | Year == 2016 | Year == 2017))
 unique(offence_data_ag$Year) #check if this worked
-
-offence_data_ag <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Campbelltown' | LGA == 'Canterbury-Bankstown' | 
-                                               LGA == 'Central Darling' | LGA == 'Strathfield' | LGA == 'Parramatta' | 
-                                               LGA == 'North Sydney' | LGA == 'Inner West' | LGA == 'Hornsby' | LGA == 'Burwood'))
-unique(offence_data_ag$LGA)
 
 ######EDA for offence data alone########
 missmap(offence_data_ag, main = "Missing values vs observed") #nothing missing obviously
@@ -42,15 +37,13 @@ median(offence_data_ag$violence_count)
 max(offence_data_ag$violence_count)
 min(offence_data_ag$violence_count)
 
-##############################################################################
-#filter <- LGA(c('Sydney', 'Burwood', 'Campbelltown', 'Canterbury-Bankstown', 'Blacktown', 'Liverpool', 
-# 'Central Darling', 'Mid-Western Regional' , 'Unincorporated NSW', 'Hornsby', 'Inner West', 
-#'North Sydney', 'Parramatta', 'Strathfield', 'Mosman', 'Bayside', Northern Beaches', 'North Sydney', 'Randwick'))
+#####further filtering required for LGAs#############################
+#to filter out LGAs, need to read through some of them to pick - 'Sydney', 'Burwood', 'Campbelltown', 'Canterbury-Bankstown', 'Blacktown', 
+#'Liverpool', 'Central Darling', 'Mid-Western Regional' , 'Unincorporated NSW', 'Hornsby', 'Inner West', 
+#'North Sydney', 'Parramatta', 'Strathfield', 'Mosman', 'Bayside', Northern Beaches', 'North Sydney', 'Randwick'
 
-offence_data_ag_filter <- filter(offence_data_ag, LGA == 'Randwick')
+offence_data_ag_filter <- filter(offence_data_ag, LGA == 'Strathfield')
 ggplot(data = offence_data_ag_filter) + geom_line(mapping = aes(x = Year, y = violence_count))
-#LGAs with noticable changes - Randwick, North Sydney, Hornsby, Mosman (slightly), Uninc.NSW, Liverpool?, 
-#Burwood, Sydney (obviously), Parramatta, Central darling, Bayside, Canterbury-bankstown, Inner-west
 
 offence_data_ag_filter1 <- filter(offence_data_ag, LGA == 'Sydney')
 offence_data_ag_filter2 <- filter(offence_data_ag, LGA == 'Bayside')
@@ -78,15 +71,27 @@ ggplot(data = offence_data_ag_filter6) +
   geom_line(mapping = aes(x = Year, y = violence_count)) #Inner-west
 
 ################################################################################
-##3 that work
+##Filter out the important LGAs based on above analysis
+#LGAs with noticable changes - Randwick, North Sydney, Hornsby, Mosman (slightly), Uninc.NSW, Liverpool?, 
+#Burwood, Sydney (obviously), Parramatta, Central darling, Bayside, Canterbury-bankstown, Inner-west, Strathfield
 
-ggplot(data = offence_data_ag) + 
+offence_data_ag <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Randwick' | LGA == 'Canterbury-Bankstown' | 
+                                               LGA == 'Central Darling' | LGA == 'Parramatta' | LGA == 'North Sydney' | 
+                                               LGA == 'Inner West' | LGA == 'Hornsby' | LGA == 'Strathfield' | LGA == 'Burwood' | 
+                                               LGA == 'Mosman' | LGA == 'Bayside'))
+
+offence_data_ag1 <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Inner West')) #just to filter it further
+
+unique(offence_data_ag$LGA)
+
+##plot 3 codes that work
+ggplot(data = offence_data_ag1) + 
   geom_line(mapping = aes(x = Year, y = violence_count, color = LGA)) + facet_wrap(vars(LGA))
 
-ggplot(offence_data_ag,aes(x = `Year`, y = `violence_count`, color=LGA)) +
-  geom_line() +
-  facet_wrap(vars(LGA)) +
-  geom_smooth()
+#ggplot(offence_data_ag,aes(x = `Year`, y = `violence_count`, color=LGA)) +
+#  geom_line() +
+#  facet_wrap(vars(LGA)) +
+#  geom_smooth()
 
 ggplot(data = offence_data_ag, mapping = aes(x = Year, y = violence_count, , colour = LGA)) + 
   geom_line()
@@ -103,7 +108,11 @@ str(population_subset)
 #MERGE these datasets
 #mergeCol <- c("LGA", "Year")
 #offencedata <- merge(offence_data_ag, population_subset, by = mergeCol)
-offence_data_EDA <- full_join(offence_data_ag, population_subset, by = c("Year", "LGA"))
+offence_data_EDA_full <- full_join(offence_data_ag, population_subset, by = c("Year", "LGA")) 
+missmap(offence_data_EDA_full, main = "Missing values vs observed") #checking for missing values.
+#above code still has some missing values so to have data without missing values, try Inner join
+offence_data_EDA <- inner_join(offence_data_ag, population_subset, by = c("Year", "LGA"))
+missmap(offence_data_EDA, main = "Missing values vs observed") #checking for missing values.
 
 # Export to .csv Files 
 write_csv(offence_data_EDA, path = "offence_data_EDA.csv")
@@ -111,8 +120,6 @@ write_csv(offence_data_EDA, path = "offence_data_EDA.csv")
 ###########################################################
 ##EDA
 ###########################################################
-
-missmap(offence_data_EDA, main = "Missing values vs observed") #checking for missing values. The merging didn't work
 
 offence_data_ag <- filter(offence_data_ag, LGA == 'Sydney')
 ggplot(data = offence_data_ag) + 
