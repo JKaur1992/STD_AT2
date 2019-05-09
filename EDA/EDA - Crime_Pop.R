@@ -51,7 +51,7 @@ ggplot(data = offence_data_ag_filter3) +
 ggplot(data = offence_data_ag_filter4) + 
   geom_line(mapping = aes(x = Year, y = violence_count))
 
-ggplot(offence_data_ag,aes(x = `Year`, y = `Violence Count`, color=LGA)) +
+ggplot(offence_data_ag,aes(x = `Year`, y = `violence_count`, color=LGA)) +
   geom_point() +
   facet_wrap(vars(LGA)) +
   geom_smooth(method = 'lm')
