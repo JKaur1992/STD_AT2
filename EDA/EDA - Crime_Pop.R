@@ -19,25 +19,35 @@ offence_data <- offence_data %>%
   separate(.,"year",c("Day","Month","Year"),sep="/")
 
 #combine the data from monthly to annual
-offence_data_ag=aggregate(violence_count ~ Year + LGA, data = offence_data, FUN = sum)
+offence_data_ag = aggregate(violence_count ~ Year + LGA, data = offence_data, FUN = sum)
 str(offence_data_ag)
 
 #change year from character to number so both merging datasets have same structure
 offence_data_ag[1:1] = lapply(offence_data_ag[1:1], as.numeric)
 str(offence_data_ag)
 
+#filter for 2012-2017 data and only a handful of LGAs
+offence_data_ag <- filter(offence_data_ag, ( Year == 2012 | Year == 2013 | Year == 2014 | Year == 2015 | Year == 2016 | Year == 2017))
+unique(offence_data_ag$Year) #check if this worked
+
+offence_data_ag <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Campbelltown' | LGA == 'Canterbury-Bankstown' | 
+                                               LGA == 'Central Darling' | LGA == 'Strathfield' | LGA == 'Parramatta' | 
+                                               LGA == 'North Sydney' | LGA == 'Inner West' | LGA == 'Hornsby'))
+unique(offence_data_ag$LGA)
+
 ######EDA for offence data alone########
 missmap(offence_data_ag, main = "Missing values vs observed") #nothing missing obviously
-unique(offence_data_ag$LGA)
 mean(offence_data_ag$violence_count)
 median(offence_data_ag$violence_count)
+max(offence_data_ag$violence_count)
+min(offence_data_ag$violence_count)
 
-#filter by LGA - 'Sydney','Campbelltown','Canterbury-Bankstown','Central Darling','Hornsby','Inner West','North Sydney','Parramatta','Strathfield'
 #filter <- c('Sydney', 'Burwood', 'Campbelltown', 'Canterbury-Bankstown', 'Central Darling', 'Hornsby', 'Inner West', 'North Sydney', 'Parramatta', 'Strathfield')
 offence_data_ag_filter1 <- filter(offence_data_ag, LGA == 'Sydney')
 offence_data_ag_filter2 <- filter(offence_data_ag, LGA == 'Burwood')
 offence_data_ag_filter3 <- filter(offence_data_ag, LGA == 'Central Darling')
 offence_data_ag_filter4 <- filter(offence_data_ag, LGA == 'Parramatta')
+
 
 ggplot(data = offence_data_ag_filter1) + 
   geom_line(mapping = aes(x = Year, y = violence_count))
