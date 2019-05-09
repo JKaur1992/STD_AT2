@@ -26,20 +26,43 @@ str(offence_data_ag)
 offence_data_ag[1:1] = lapply(offence_data_ag[1:1], as.numeric)
 str(offence_data_ag)
 
-##EDA for offence data alone
+######EDA for offence data alone########
 missmap(offence_data_ag, main = "Missing values vs observed") #nothing missing obviously
 unique(offence_data_ag$LGA)
 mean(offence_data_ag$violence_count)
 median(offence_data_ag$violence_count)
 
-offence_data_ag <- filter(offence_data_ag, LGA == 'Sydney') #filter by Sydney LGA
+#filter by LGA - 'Sydney','Campbelltown','Canterbury-Bankstown','Central Darling','Hornsby','Inner West','North Sydney','Parramatta','Strathfield'
+#filter <- c('Sydney', 'Burwood', 'Campbelltown', 'Canterbury-Bankstown', 'Central Darling', 'Hornsby', 'Inner West', 'North Sydney', 'Parramatta', 'Strathfield')
+offence_data_ag_filter1 <- filter(offence_data_ag, LGA == 'Sydney')
+offence_data_ag_filter2 <- filter(offence_data_ag, LGA == 'Burwood')
+offence_data_ag_filter3 <- filter(offence_data_ag, LGA == 'Central Darling')
+offence_data_ag_filter4 <- filter(offence_data_ag, LGA == 'Parramatta')
 
 plot(offence_data_ag$Year)
 plot(offence_data_ag$LGA)
 plot(offence_data_ag$violence_count)
 
-ggplot(data = offence_data_ag) + 
+ggplot(data = offence_data_ag_filter1) + 
   geom_line(mapping = aes(x = Year, y = violence_count))
+
+ggplot(data = offence_data_ag_filter2) + 
+  geom_line(mapping = aes(x = Year, y = violence_count))
+
+ggplot(data = offence_data_ag_filter3) + 
+  geom_line(mapping = aes(x = Year, y = violence_count))
+
+ggplot(data = offence_data_ag_filter4) + 
+  geom_line(mapping = aes(x = Year, y = violence_count))
+
+ggplot(data = offence_data_ag) +
+  geom_bar(mapping = aes(x = LGA))
+
+ggplot(data = offence_data_ag, mapping = aes(x = Year, colour = LGA)) +
+  geom_freqpoly(binwidth = 0.1) #i want Y to be violece count
+
+#ggplot(offence_data_ag, aes(Year)) + 
+  geom_line(aes(y = violence_count, colour = "LGA")), linetype="dotted", color = "black", size=1.5)
 
 ###############NEXT DATASET########################################
 population <- read_csv("Population_Clean.csv")
