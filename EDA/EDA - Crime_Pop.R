@@ -42,38 +42,47 @@ median(offence_data_ag$violence_count)
 max(offence_data_ag$violence_count)
 min(offence_data_ag$violence_count)
 
+##############################################################################
 #filter <- c('Sydney', 'Burwood', 'Campbelltown', 'Canterbury-Bankstown', 'Central Darling', 'Hornsby', 'Inner West', 'North Sydney', 'Parramatta', 'Strathfield')
 offence_data_ag_filter1 <- filter(offence_data_ag, LGA == 'Sydney')
 offence_data_ag_filter2 <- filter(offence_data_ag, LGA == 'Burwood')
 offence_data_ag_filter3 <- filter(offence_data_ag, LGA == 'Central Darling')
 offence_data_ag_filter4 <- filter(offence_data_ag, LGA == 'Parramatta')
+offence_data_ag_filter5 <- filter(offence_data_ag, LGA == 'Canterbury-Bankstown')
+offence_data_ag_filter6 <- filter(offence_data_ag, LGA == 'Inner West')
 
 
 ggplot(data = offence_data_ag_filter1) + 
-  geom_line(mapping = aes(x = Year, y = violence_count))
+  geom_line(mapping = aes(x = Year, y = violence_count)) #Sydney
 
 ggplot(data = offence_data_ag_filter2) + 
-  geom_line(mapping = aes(x = Year, y = violence_count))
+  geom_line(mapping = aes(x = Year, y = violence_count)) #Burwood
 
 ggplot(data = offence_data_ag_filter3) + 
-  geom_line(mapping = aes(x = Year, y = violence_count))
+  geom_line(mapping = aes(x = Year, y = violence_count)) #Central darling
 
 ggplot(data = offence_data_ag_filter4) + 
-  geom_line(mapping = aes(x = Year, y = violence_count))
+  geom_line(mapping = aes(x = Year, y = violence_count)) #Parramatta
+
+ggplot(data = offence_data_ag_filter5) + 
+  geom_line(mapping = aes(x = Year, y = violence_count)) #caterbury-bankstown
+
+ggplot(data = offence_data_ag_filter6) + 
+  geom_line(mapping = aes(x = Year, y = violence_count)) #Inner-west
+
+################################################################################
+#3 that work
+
+ggplot(data = offence_data_ag) + 
+  geom_line(mapping = aes(x = Year, y = violence_count, color = LGA)) + facet_wrap(vars(LGA))
 
 ggplot(offence_data_ag,aes(x = `Year`, y = `violence_count`, color=LGA)) +
-  geom_point() +
+  geom_line() +
   facet_wrap(vars(LGA)) +
-  geom_smooth(method = 'lm')
+  geom_smooth()
 
-ggplot(data = offence_data_ag) +
-  geom_bar(mapping = aes(x = LGA))
-
-ggplot(data = offence_data_ag, mapping = aes(x = Year, colour = LGA)) +
-  geom_freqpoly(binwidth = 0.1) #i want Y to be violece count
-
-#ggplot(offence_data_ag, aes(Year)) + 
-  geom_line(aes(y = violence_count, colour = "LGA")), linetype="dotted", color = "black", size=1.5)
+ggplot(data = offence_data_ag, mapping = aes(x = Year, y = violence_count, , colour = LGA)) + 
+  geom_line()
 
 ###############NEXT DATASET########################################
 population <- read_csv("Population_Clean.csv")
