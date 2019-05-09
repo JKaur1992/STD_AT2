@@ -30,7 +30,10 @@ str(offence_data_ag)
 offence_data_ag <- filter(offence_data_ag, ( Year == 2012 | Year == 2013 | Year == 2014 | Year == 2015 | Year == 2016 | Year == 2017))
 unique(offence_data_ag$Year) #check if this worked
 
-######EDA for offence data alone########
+############################################################################################
+###########EDA for offence data ONLY
+############################################################################################
+
 missmap(offence_data_ag, main = "Missing values vs observed") #nothing missing obviously
 mean(offence_data_ag$violence_count)
 median(offence_data_ag$violence_count)
@@ -79,15 +82,8 @@ offence_data_ag <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Randwick'
                                                LGA == 'Central Darling' | LGA == 'Parramatta' | LGA == 'North Sydney' | 
                                                LGA == 'Inner West' | LGA == 'Hornsby' | LGA == 'Strathfield' | LGA == 'Burwood' | 
                                                LGA == 'Mosman' | LGA == 'Bayside'))
-
-offence_data_ag1 <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Inner West' | LGA == 'Bayside' | 
-                                                LGA == 'Canterbury-Bankstown' | LGA == 'Hornsby' | 
-                                                LGA == 'North Sydney' | LGA == 'Parramatta' |  )) #just to filter it further and better
-
-unique(offence_data_ag$LGA)
-
 ##plot 3 codes that work
-ggplot(data = offence_data_ag1) + 
+ggplot(data = offence_data_ag) + 
   geom_line(mapping = aes(x = Year, y = violence_count, color = LGA)) + facet_wrap(vars(LGA))
 
 #ggplot(offence_data_ag,aes(x = `Year`, y = `violence_count`, color=LGA)) +
@@ -98,7 +94,46 @@ ggplot(data = offence_data_ag1) +
 ggplot(data = offence_data_ag, mapping = aes(x = Year, y = violence_count, , colour = LGA)) + 
   geom_line()
 
-###############NEXT DATASET########################################
+###########just to filter it further and better
+offence_data_ag1 <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Inner West' | LGA == 'Bayside' | 
+                                                LGA == 'Canterbury-Bankstown' | LGA == 'Hornsby' | 
+                                                LGA == 'North Sydney' | LGA == 'Parramatta' | LGA == 'Unincorporated NSW')) 
+
+unique(offence_data_ag1$LGA)
+
+##plot 3 codes that work
+ggplot(data = offence_data_ag1) + 
+  geom_line(mapping = aes(x = Year, y = violence_count, color = LGA)) + facet_wrap(vars(LGA))
+
+#ggplot(offence_data_ag1,aes(x = `Year`, y = `violence_count`, color=LGA)) +
+#  geom_line() +
+#  facet_wrap(vars(LGA)) +
+#  geom_smooth()
+
+ggplot(data = offence_data_ag1, mapping = aes(x = Year, y = violence_count, , colour = LGA)) + 
+  geom_line()
+
+###########just to filter it further and better
+offence_data_ag2 <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Inner West' | LGA == 'Bayside' | 
+                                                LGA == 'Hornsby' | LGA == 'Parramatta' | LGA == 'Unincorporated NSW'))
+
+unique(offence_data_ag2$LGA)
+
+##plot 3 codes that work
+ggplot(data = offence_data_ag2) + 
+  geom_line(mapping = aes(x = Year, y = violence_count, color = LGA)) + facet_wrap(vars(LGA))
+
+#ggplot(offence_data_ag2,aes(x = `Year`, y = `violence_count`, color=LGA)) +
+#  geom_line() +
+#  facet_wrap(vars(LGA)) +
+#  geom_smooth()
+
+ggplot(data = offence_data_ag2, mapping = aes(x = Year, y = violence_count, , colour = LGA)) + 
+  geom_line()
+
+############################################################################################
+########NEXT DATASET
+############################################################################################
 population <- read_csv("Population_Clean.csv")
 colnames(population)
 
@@ -115,15 +150,16 @@ missmap(offence_data_EDA_full, main = "Missing values vs observed") #checking fo
 offence_data_EDA <- inner_join(offence_data_ag, population_subset, by = c("Year", "LGA"))
 missmap(offence_data_EDA, main = "Missing values vs observed") #data looks good.
 #check the structure of the data 
-str(offence_data_EDA) #not good - change it
-offence_data_EDA[4:5] = lapply(offence_data_EDA[4:5], as.numeric)
-str(offence_data_EDA) #sorted
+str(offence_data_EDA) 
+#not good - change it but keep getting 
+#offence_data_EDA[4:5] = lapply(offence_data_EDA[4:5], as.numeric)
+#str(offence_data_EDA) #sorted
 
 # Export to .csv Files 
 write_csv(offence_data_EDA, path = "offence_data_EDA.csv")
 
 ###########################################################
-##EDA
+##EDA for both
 ###########################################################
 
 offence_pop <- filter(offence_data_EDA, LGA == 'Sydney')
