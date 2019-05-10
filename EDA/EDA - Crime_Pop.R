@@ -19,7 +19,7 @@ offence_data <- offence_data %>%
   separate(.,"year",c("Day","Month","Year"),sep="/")
 
 ####################################
-#filter data for 2014, Sydney
+#filter data for 2014, Sydney and plot it
 ####################################
 offence_data_2014 <- filter(offence_data, ( Year == 2014))
 offence_data_2014 <- filter(offence_data_2014, ( LGA == 'Sydney'))
@@ -37,7 +37,6 @@ str(offence_data_ag)
 #change year from character to number so both merging datasets have same structure
 offence_data_ag[1:1] = lapply(offence_data_ag[1:1], as.numeric)
 str(offence_data_ag)
-
 
 #filter for 2012-2017 data
 offence_data_ag <- filter(offence_data_ag, ( Year == 2012 | Year == 2013 | Year == 2014 | Year == 2015 | Year == 2016 | Year == 2017))
@@ -187,9 +186,17 @@ missmap(offence_data_EDA, main = "Missing values vs observed") #data looks good.
 str(offence_data_EDA) 
 #not good - change it but keep getting 
 offence_data_EDA[5:5] = lapply(offence_data_EDA[5:5], as.numeric)
-#need to change 4th column as well
-#str(offence_data_EDA) #sorted
+#need to change 4th column as well but not working!!!!
+
+#need to create a new variable for crime to pop ratio and then plot that against time and LGAs - use the LGA groupings from above
+offence_pop <- mutate(offence_data_EDA, Crime_Rate = Person_Population_Number_Total/violence_count)
+
 
 offence_pop <- filter(offence_data_EDA, LGA == 'Sydney')
-ggplot(data = offence_data_ag) + 
+
+ggplot(data = offence_pop) + 
   geom_point(mapping = aes(x = Year, y = violence_count))
+
+ggplot(data = offence_pop, mapping = aes(x = Year, y = violence_count, colour = LGA)) + 
+  geom_line() +
+  geom_point()
