@@ -39,7 +39,8 @@ offence_data_ag[1:1] = lapply(offence_data_ag[1:1], as.numeric)
 str(offence_data_ag)
 
 #filter for 2012-2017 data
-offence_data_ag <- filter(offence_data_ag, ( Year == 2012 | Year == 2013 | Year == 2014 | Year == 2015 | Year == 2016 | Year == 2017))
+offence_data_ag <- filter(offence_data_ag, ( Year == 2012 | Year == 2013 | Year == 2014 | 
+                                               Year == 2015 | Year == 2016 | Year == 2017))
 unique(offence_data_ag$Year) #check if this worked
 
 ############################################################################################
@@ -172,7 +173,6 @@ str(population_subset)
 offence_data_EDA_full <- full_join(offence_data_ag, population_subset, by = c("Year", "LGA")) 
 missmap(offence_data_EDA_full, main = "Missing values vs observed") #checking for missing values.
 #above code still has some missing values so to have data without missing values, try Inner join
-
 offence_data_EDA <- inner_join(offence_data_ag, population_subset, by = c("Year", "LGA"))
 
 # Export to .csv Files 
@@ -190,13 +190,28 @@ str(offence_data_EDA)
 #need to change 4th column as well but not working!!!!
 
 #need to create a new variable for crime to pop ratio and then plot that against time and LGAs - use the LGA groupings from above
-offence_pop <- mutate(offence_data_EDA, Crime_Rate = Person_Population_Number_Total/violence_count)
-
-offence_pop <- filter(offence_data_EDA, LGA == 'Sydney')
+offence_pop <- offence_data_EDA %>%
+  mutate(crime_rate = Person_Population_Number_Total/violence_count, lockout = ifelse(year<2014,"Pre","Post"))
 
 ggplot(data = offence_pop) + 
-  geom_point(mapping = aes(x = Year, y = violence_count))
+  geom_point(mapping = aes(x = Year, y = crime_rate)) + 
+  geom_line()
+#OR
+ggplot(data = offence_pop) + 
+  geom_point(mapping = aes(x = Year, y = crime_rate, shape = lockout), size = 3) + 
+  geom_line()
+#OR
+ggplot(data = offence_pop, mapping = aes(x = Year, y = crime_rate, colour = LGA)) + 
+  geom_line() +
+  geom_point()
 
-ggplot(data = offence_pop, mapping = aes(x = Year, y = violence_count, colour = LGA)) + 
+#######for SYD only
+offence_pop_syd <- filter(offence_pop, LGA == 'Sydney')
+
+ggplot(data = offence_pop_syd) + 
+  geom_point(mapping = aes(x = Year, y = crime_rate)) + 
+  geom_line()
+#OR
+ggplot(data = offence_pop_syd, mapping = aes(x = Year, y = crime_rate, colour = LGA)) + 
   geom_line() +
   geom_point()
