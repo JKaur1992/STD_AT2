@@ -167,7 +167,7 @@ colnames(population)
 population_subset = select(population, LGA, Year, Person_Population_Number_Total, Population_Density)
 colnames(population_subset)
 str(population_subset)
-#population_subset[3:4] = lapply(population_subset[3:4], as.numeric)
+population_subset[3:4] = lapply(population_subset[3:4], as.numeric)
 
 #MERGE these datasets
 offence_data_EDA_full <- full_join(offence_data_ag, population_subset, by = c("Year", "LGA")) 
