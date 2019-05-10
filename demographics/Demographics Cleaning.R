@@ -3,104 +3,12 @@ library(dplyr)
 library(stringr)
 library(tau)
 library(tm)
-
-# DEMOGRAPHICS #
-## Sydney Demographics ####
-Sydney <- read_csv("demographics/Sydney.csv")
-Sydney <- add_column(Sydney, Territory="Sydney", .before =1) #Identify territory for further merging (We should change to LGA or LHD)
-
-colnames(Sydney)[colnames(Sydney)=="Time"]<- "Year" #Change column neame to year 
-
-
-
-#Create a new data frame for Estimated Resident Population (ERP)
-SydneyERP<- Sydney[1:396,] #Select the rows that contain Estimated Resident Population data
-
-SydneyERP$Gender <- word(SydneyERP$Description, 1) #Column for gender
-
-SydneyERP$Parameter <- word(SydneyERP$Description, 5) #we have percentage and total (should we delete percentages?)
-
-SydneyERP$Age_Range <- word(SydneyERP$Description, 3) #Column for Age Range
-
-SydneyERP$Age_Range <- ifelse (SydneyERP$Age_Range ==85,"85 or more",SydneyERP$Age_Range) #add rannge to 20 or more
-
-
-
-
-#Create a new data frame for Births and Deaths (BD)
-SydneyBD<- Sydney[421:442,] #Select the rows that contain Births and deaths
-
-SydneyBD<- SydneyBD %>%
-  separate(Description, c("Description", "Description_2"), "-")
-
-SydneyBD$BirthOrDeath <- ifelse(SydneyBD$Description_2[grep("Births", SydneyBD$Description_2)]== SydneyBD$Description_2, 1,0) # Create dummy varibale for Births (1) and Deaths (0)
-
-
-
-
-# Data frame for Median Age (MA)
-SydneyMA<- Sydney[403:420,] #Select rows containing Median Age
-
-SydneyMA <- SydneyMA %>%
-  separate(Description, c("Description", "Description_2"), "-")  #Split Description
-
-SydneyMA <- SydneyMA %>%
-  separate(Description_2, c("x", "Gender"), " ")  # Create a colmn for gender 
-
-colnames(SydneyMA)[colnames(SydneyMA)=="Value"]<- "Median_Age" #Values are median age (change name)
-
-SydneyMA$x<-NULL #Delete extra column
-
-
-
-# Industry Data frame (In)
-SydneyIn<-Sydney[489:513,]
-
-SydneyIn$Description <- substr(SydneyIn$Description,1,nchar(SydneyIn$Description) -5) #Delete (no.)
-
-SydneyIn <- SydneyIn %>%
-  separate(Description, c("Description", "Number_Employees"), ":")  #Split Description
-
-SydneyIn$Number_Employees <- word(SydneyIn$Number_Employees, 2) # Delete "employees" 
-
-SydneyIn$Number_Employees[is.na(SydneyIn$Number_Employees)]<- "0"  #Change NA to 0
-
-SydneyIn$Number_Employees <- ifelse (SydneyIn$Number_Employees ==20,"20 or more",SydneyIn$Number_Employees) #add rannge to 20 or more
-
-colnames(SydneyIn)[colnames(SydneyIn)=="Value"]<- "Number_Businesses" #Values are number of businesses
-
-
-
-# Industry entries and exits (IEE)
-SydneyIEE<-Sydney[514:553,]
-
-SydneyIEE <- SydneyIEE %>%
-  separate(Description, c("Description", "Number_Employees"), ":")  #Split Description
-
-SydneyIEE$Number_Employees <- word(SydneyIEE$Number_Employees, 2) # Delete "employees"
-
-SydneyIEE$Number_Employees[is.na(SydneyIEE$Number_Employees)]<- "0"  #Change NA to 0
-
-SydneyIEE$Number_Employees <- ifelse (SydneyIEE$Number_Employees ==20,"20 or more",SydneyIEE$Number_Employees) #add rannge to 20 or more
-
-colnames(SydneyIEE)[colnames(SydneyIEE)=="Value"]<- "Number_Businesses" #Values are number of businesses
-
-
-SydneyIEE$EntryOrExit <- ifelse(SydneyIEE$Description[grep("entries", SydneyIEE$Description)]== SydneyIEE$Description, 1,0) # Create dummy varibale for entries (1) and exits (0)
-
-
-
-# Businesses by Industry (BI)
-SydneyBI<-Sydney[554:658,]
-
-colnames(SydneyBI)[colnames(SydneyBI)=="Value"]<- "Number_Businesses" #Values are number of businesses
-
-SydneyBI$Description <- substr(SydneyBI$Description,1,nchar(SydneyBI$Description) -5) #Delete (no.)
-
+library(ggplot2)
 
 
 ####  Cleaning of new data set POPULATION####
 Population <- read_csv("demographics/Population.csv")
+str(Population)
 
 # Delete extra Data columns 
 Population <- Population[,-c(79:108)]
@@ -139,5 +47,86 @@ colnames(Population)[51:69] <- paste("Person_Population_Number", colnames(Popula
 #Delete extra words in LGA names 
 Population$LGA<- gsub("\\s*\\([^\\)]+\\)","",as.character(Population$LGA))
 
+#Delte comas from data set
+Population <- as.data.frame(lapply(Population, function(y) gsub(",","", y)))  ##It changed all into factors
+
+
+#TRANFORM THE COULMNS THAT ARE GOING TO BE USED LATER ON IN THE MERGE AS.NUMBERS, WE HAVE THEM AS.CHARACTERS
+Population$Code<- as.numeric(as.character(Population$Code))
+Population$Year<- as.numeric(as.character(Population$Year))
+Population$Person_Population_Number_Total<- as.numeric(as.character(Population$Person_Population_Number_Total))
+
+# we first need to extract comas and then transform ESTOOOOOOOOO
+Population$Population_Density <- gsub(",","",Population$Population_Density)
+Population$Population_Density<- as.numeric(as.character(Population$Population_Density))
+
+
+
+
+library(magrittr)
+cols = c(1, 3, 4, 5)
+df[,cols] %<>% lapply(function(x) as.numeric(as.character(x)))
+
+
 #Export
-write.csv(Population,":Population.csv")
+write.csv(Population,"Population_Clean.csv")
+
+
+
+#### Population EDA ####
+
+#Extract Person_Population_Number_Total for merging with crime
+Population_Clean <- read_csv("CLEAN DATA/Population_Clean.csv")
+population_subset <- Population_Clean
+population_subset$X1<- NULL
+population_subset <- population_subset %>%
+  select(LGA, Year, Person_Population_Number_Total, Population_Density)
+
+# STRUCTURE
+str(population_subset)
+#Population[-c(2,3)]<- sapply(Population, as.numeric)
+population_subset <- gsub(",","",population_subset)
+
+population_subset$Person_Population_Number_Total<-as.numeric(as.character(population_subset$Person_Population_Number_Total))
+population_subset$Population_Density <-as.numeric(as.character(population_subset$Population_Density))
+
+
+
+
+
+
+
+
+######## Merge and EDA with crime DONALD's MERGING  ######
+offence_data <- read_csv("CLEAN DATA/offence_data.csv")
+offence_data <- offence_data %>%
+  separate(.,"year",c("Day","Month","Year"),sep="/")
+offence_data=aggregate(violence_count ~ Year + LGA, data = offence_data, FUN = sum)
+str(offence_data)
+offence_data[1:1] = lapply(offence_data_ag[1:1], as.numeric)
+str(offence_data)
+
+offence_data_EDA <- full_join(offence_data, population_subset, by = c("Year", "LGA"))
+
+####--------------------------------------------------------------------------
+
+
+offence_data_EDA2012_2017 <- offence_data_EDA 
+
+offence_data_EDA2012_2017$Person_Population_Number_Total<- as.numeric(offence_data_EDA2012_2017$Person_Population_Number_Total)
+
+offence_data_EDA2012_2017$Population_Density <- as.numeric(offence_data_EDA2012_2017$Population_Density)
+
+
+offence_data_EDA2012_2017%>%   # not taking Sydney??
+  filter(Year==2012:2017)
+
+offence_data_EDA2012_2017 %>%
+  filter(LGA=="Sydney") %>%
+  geom_line(mapping = aes(x =Year, y= Population_Density))
+  
+  
+  #%>%
+  facet_wrap(.~ LGA)
+  
+  
