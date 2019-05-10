@@ -166,6 +166,7 @@ colnames(population)
 population_subset = select(population, LGA, Year, Person_Population_Number_Total, Population_Density)
 colnames(population_subset)
 str(population_subset)
+#population_subset[3:4] = lapply(population_subset[3:4], as.numeric)
 
 #MERGE these datasets
 offence_data_EDA_full <- full_join(offence_data_ag, population_subset, by = c("Year", "LGA")) 
@@ -185,12 +186,11 @@ missmap(offence_data_EDA, main = "Missing values vs observed") #data looks good.
 #check the structure of the data 
 str(offence_data_EDA) 
 #not good - change it but keep getting 
-offence_data_EDA[5:5] = lapply(offence_data_EDA[5:5], as.numeric)
+#offence_data_EDA[5:5] = lapply(offence_data_EDA[5:5], as.numeric)
 #need to change 4th column as well but not working!!!!
 
 #need to create a new variable for crime to pop ratio and then plot that against time and LGAs - use the LGA groupings from above
 offence_pop <- mutate(offence_data_EDA, Crime_Rate = Person_Population_Number_Total/violence_count)
-
 
 offence_pop <- filter(offence_data_EDA, LGA == 'Sydney')
 
