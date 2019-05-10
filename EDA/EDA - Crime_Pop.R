@@ -24,7 +24,10 @@ offence_data <- offence_data %>%
 offence_data_2014 <- filter(offence_data, ( Year == 2014))
 offence_data_2014 <- filter(offence_data_2014, ( LGA == 'Sydney'))
 offence_data_2014 <- filter(offence_data_2014, ( Postcode == 2000))
-ggplot(data = offence_data_2014) + geom_bar(mapping = aes(x = Month, y = violence_count)) #find the right code
+#plot it
+ggplot(offence_data_2014, aes(x = Month, y = violence_count, group = 1)) +
+  geom_point() +
+  geom_line()
 
 ##############################################################
 #combine the data from monthly to annual
@@ -101,8 +104,9 @@ ggplot(data = offence_data_ag) +
 #  facet_wrap(vars(LGA)) +
 #  geom_smooth()
 
-ggplot(data = offence_data_ag, mapping = aes(x = Year, y = violence_count, , colour = LGA)) + 
-  geom_line()
+ggplot(data = offence_data_ag, mapping = aes(x = Year, y = violence_count, colour = LGA)) + 
+  geom_line() +
+  geom_point()
 
 ###########just to filter it further and better
 offence_data_ag1 <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Inner West' | LGA == 'Bayside' | 
@@ -120,8 +124,9 @@ ggplot(data = offence_data_ag1) +
 #  facet_wrap(vars(LGA)) +
 #  geom_smooth()
 
-ggplot(data = offence_data_ag1, mapping = aes(x = Year, y = violence_count, , colour = LGA)) + 
-  geom_line()
+ggplot(data = offence_data_ag1, mapping = aes(x = Year, y = violence_count, colour = LGA)) + 
+  geom_line() +
+  geom_point()
 
 ###########just to filter it further and better
 offence_data_ag2 <- filter(offence_data_ag, ( LGA == 'Sydney' | LGA == 'Inner West' | LGA == 'Bayside' | 
@@ -138,8 +143,19 @@ ggplot(data = offence_data_ag2) +
 #  facet_wrap(vars(LGA)) +
 #  geom_smooth()
 
-ggplot(data = offence_data_ag2, mapping = aes(x = Year, y = violence_count, , colour = LGA)) + 
-  geom_line()
+ggplot(data = offence_data_ag2, mapping = aes(x = Year, y = violence_count, colour = LGA)) + 
+  geom_line() +
+  geom_point()
+
+#Sydney vs rest
+offence_data_ag3 <- filter(offence_data_ag, ( LGA == 'Inner West' | LGA == 'Bayside' | LGA == 'North Sydney' | 
+                                                LGA == 'Hornsby' | LGA == 'Parramatta' | LGA == 'Unincorporated NSW'))
+ggplot(data = offence_data_ag3) + 
+  geom_line(mapping = aes(x = Year, y = violence_count, color = LGA)) + facet_wrap(vars(LGA))
+
+ggplot(data = offence_data_ag3, mapping = aes(x = Year, y = violence_count, colour = LGA)) + 
+  geom_line() +
+  geom_point()
 
 ############################################################################################
 ########NEXT DATASET
