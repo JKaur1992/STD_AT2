@@ -47,8 +47,15 @@ colnames(Population)[51:69] <- paste("Person_Population_Number", colnames(Popula
 #Delete extra words in LGA names 
 Population$LGA<- gsub("\\s*\\([^\\)]+\\)","",as.character(Population$LGA))
 
-#Delte comas from data set
-Population <- as.data.frame(lapply(Population, function(y) gsub(",","", y)))  ##It changed all into factors
+# we first need to extract comas and then transform. THIS IS WHAT WE NEED TO DO WITH ALL VARIABLES
+#Population$Population_Density <- gsub(",","",Population$Population_Density)
+#Population$Population_Density<- as.numeric(as.character(Population$Population_Density))
+
+#Delte comas from  ALL data set
+Population[,3:76] <- as.data.frame(lapply(Population[,3:76], function(y) gsub(",","", y)))  ##It changed all into factors
+
+
+Population[,3:76]<-as.numeric(as.character(Population[,3:76]))
 
 
 #TRANFORM THE COULMNS THAT ARE GOING TO BE USED LATER ON IN THE MERGE AS.NUMBERS, WE HAVE THEM AS.CHARACTERS
@@ -56,9 +63,7 @@ Population$Code<- as.numeric(as.character(Population$Code))
 Population$Year<- as.numeric(as.character(Population$Year))
 Population$Person_Population_Number_Total<- as.numeric(as.character(Population$Person_Population_Number_Total))
 
-# we first need to extract comas and then transform ESTOOOOOOOOO
-Population$Population_Density <- gsub(",","",Population$Population_Density)
-Population$Population_Density<- as.numeric(as.character(Population$Population_Density))
+
 
 
 
