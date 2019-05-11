@@ -102,6 +102,9 @@ Pop_Crime_Merge_DT <- Pop_Crime_Merge_DT %>%
 Pop_Crime_Merge_DT <- Pop_Crime_Merge_DT %>%
   mutate(CrimePerPerson_15_59 = violence_count/ PopDrinkingAge)
 
+Pop_Crime_Merge_DT <- Pop_Crime_Merge_DT %>%
+  mutate(CrimePerPerson_15_59_100000 = CrimePerPerson_15_59*100000)
+
 
 
 #missmap(Pop_Crime_Merge_DT, main = "Missing values vs observed") #checking for missing values.
@@ -150,6 +153,25 @@ ggplot(data = Pop_Crime_Merge_DT) +
   geom_vline(xintercept = (2014), linetype="dotted", color = "black", size=1.5) +
   labs(title="Crime Rate", subtitle = "Population between 15-59 Years") +
   theme_bw()
+
+#BY 100,000 POPULATION
+ggplot(data = Pop_Crime_Merge_DT) + 
+  geom_line(mapping = aes(x = Year, y = CrimePerPerson_15_59_100000 , color=LGA), show.legend = FALSE)+
+  xlab("Year") + ylab("Crime Rate per 100,000 Population*") +
+  facet_wrap(.~ LGA, scales = "free")+
+  geom_vline(xintercept = (2014), linetype="dotted", color = "black", size=1.5) +
+  labs(title="Crime Rate", subtitle = "Local Government Area") +
+  theme_bw()
+
+ggplot(data = Pop_Crime_Merge_DT) + 
+  geom_line(mapping = aes(x = Year, y = CrimePerPerson_15_59_100000 , color=LGA))+
+  xlab("Year") + ylab("Crime RatE per 100,000 Population*") +
+  geom_vline(xintercept = (2014), linetype="dotted", color = "black", size=1.5) +
+  labs(title="Crime Rate", subtitle = "Local Government Area") +
+  theme_bw()
+
+
+
 
 
 
