@@ -1,0 +1,1006 @@
+"","LGA","year","hosp_rate","death_rate"
+"1","Albury LGA","2003",471.1,28.5
+"2","Albury LGA","2004",415.2,22.5
+"3","Albury LGA","2005",427.6,23.1
+"4","Albury LGA","2006",447.6,23.8
+"5","Albury LGA","2007",504.6,23.2
+"6","Albury LGA","2008",540.9,24.7
+"7","Albury LGA","2009",554.7,20.6
+"8","Albury LGA","2010",571,18.7
+"9","Albury LGA","2011",570,22.9
+"10","Albury LGA","2012",552.5,25.7
+"11","Albury LGA","2013",474.9,23.1
+"12","Albury LGA","2014",444.4,19.2
+"13","Albury LGA","2015",434.7,17.9
+"14","Albury LGA","2016",428.9,22.5
+"15","Albury LGA","2017",468,NA
+"16","Armidale Regional LGA","2003",741.1,27.3
+"17","Armidale Regional LGA","2004",634.4,25.1
+"18","Armidale Regional LGA","2005",613.6,23.7
+"19","Armidale Regional LGA","2006",604.9,22.8
+"20","Armidale Regional LGA","2007",597.5,21.1
+"21","Armidale Regional LGA","2008",598,20.5
+"22","Armidale Regional LGA","2009",598.5,21.5
+"23","Armidale Regional LGA","2010",550.9,22.1
+"24","Armidale Regional LGA","2011",478.8,21.3
+"25","Armidale Regional LGA","2012",442.6,21.1
+"26","Armidale Regional LGA","2013",434.7,21.4
+"27","Armidale Regional LGA","2014",474.4,22
+"28","Armidale Regional LGA","2015",533.6,22.3
+"29","Armidale Regional LGA","2016",482.2,22.6
+"30","Armidale Regional LGA","2017",429.2,NA
+"31","Ballina LGA","2003",556.3,25.6
+"32","Ballina LGA","2004",522.3,24
+"33","Ballina LGA","2005",523.4,22.8
+"34","Ballina LGA","2006",587.3,23.4
+"35","Ballina LGA","2007",643.1,20.4
+"36","Ballina LGA","2008",604.4,18.8
+"37","Ballina LGA","2009",597.9,21.9
+"38","Ballina LGA","2010",602.3,22.5
+"39","Ballina LGA","2011",589.6,20
+"40","Ballina LGA","2012",564.8,18.2
+"41","Ballina LGA","2013",592.5,22.2
+"42","Ballina LGA","2014",633.2,24.3
+"43","Ballina LGA","2015",629.8,24.4
+"44","Ballina LGA","2016",636.2,23.9
+"45","Ballina LGA","2017",635.4,NA
+"46","Balranald LGA","2003",746.9,25.7
+"47","Balranald LGA","2004",761.6,23.7
+"48","Balranald LGA","2005",792,22.3
+"49","Balranald LGA","2006",768.6,21.9
+"50","Balranald LGA","2007",779.1,21.3
+"51","Balranald LGA","2008",755.4,19.2
+"52","Balranald LGA","2009",717.2,18.6
+"53","Balranald LGA","2010",720.9,19.9
+"54","Balranald LGA","2011",666.8,20.5
+"55","Balranald LGA","2012",674.4,19.6
+"56","Balranald LGA","2013",687.3,19.2
+"57","Balranald LGA","2014",611.8,18.4
+"58","Balranald LGA","2015",578.6,18.6
+"59","Balranald LGA","2016",558.7,20.3
+"60","Balranald LGA","2017",592.4,NA
+"61","Bathurst Regional LGA","2003",469.3,26.9
+"62","Bathurst Regional LGA","2004",479.2,24.4
+"63","Bathurst Regional LGA","2005",524,23.2
+"64","Bathurst Regional LGA","2006",655.1,22.8
+"65","Bathurst Regional LGA","2007",684.4,22
+"66","Bathurst Regional LGA","2008",656.3,20.2
+"67","Bathurst Regional LGA","2009",694.7,19.8
+"68","Bathurst Regional LGA","2010",669.1,21.5
+"69","Bathurst Regional LGA","2011",627.3,22.9
+"70","Bathurst Regional LGA","2012",555.2,22
+"71","Bathurst Regional LGA","2013",506.8,20
+"72","Bathurst Regional LGA","2014",454.8,20
+"73","Bathurst Regional LGA","2015",427.2,20.8
+"74","Bathurst Regional LGA","2016",479.9,21.6
+"75","Bathurst Regional LGA","2017",498.8,NA
+"76","Bega Valley LGA","2003",592,29.9
+"77","Bega Valley LGA","2004",530.1,28.1
+"78","Bega Valley LGA","2005",484.7,24
+"79","Bega Valley LGA","2006",500.7,22.9
+"80","Bega Valley LGA","2007",598.7,21.7
+"81","Bega Valley LGA","2008",685.6,21
+"82","Bega Valley LGA","2009",746.8,21.7
+"83","Bega Valley LGA","2010",796.6,21.6
+"84","Bega Valley LGA","2011",783.7,22.1
+"85","Bega Valley LGA","2012",685.5,22.2
+"86","Bega Valley LGA","2013",629.8,20.5
+"87","Bega Valley LGA","2014",652.1,19.5
+"88","Bega Valley LGA","2015",609,22.4
+"89","Bega Valley LGA","2016",562.7,22.6
+"90","Bega Valley LGA","2017",568.8,NA
+"91","Bellingen LGA","2003",934.5,27.3
+"92","Bellingen LGA","2004",907.7,25.3
+"93","Bellingen LGA","2005",838.4,23.3
+"94","Bellingen LGA","2006",791.6,22.4
+"95","Bellingen LGA","2007",725.4,21.7
+"96","Bellingen LGA","2008",617.1,21.9
+"97","Bellingen LGA","2009",621.1,22.4
+"98","Bellingen LGA","2010",661.4,22.5
+"99","Bellingen LGA","2011",657.7,21.5
+"100","Bellingen LGA","2012",611.2,21.5
+"101","Bellingen LGA","2013",617.5,21.9
+"102","Bellingen LGA","2014",634.1,22.9
+"103","Bellingen LGA","2015",561.3,23.1
+"104","Bellingen LGA","2016",512.9,22.6
+"105","Bellingen LGA","2017",496.9,NA
+"106","Berrigan LGA","2003",573.8,25.5
+"107","Berrigan LGA","2004",536.2,23.5
+"108","Berrigan LGA","2005",589.5,22.1
+"109","Berrigan LGA","2006",628.3,21.8
+"110","Berrigan LGA","2007",617.2,21.6
+"111","Berrigan LGA","2008",619.3,19.4
+"112","Berrigan LGA","2009",630.1,18.4
+"113","Berrigan LGA","2010",567.5,19.7
+"114","Berrigan LGA","2011",522.6,20.4
+"115","Berrigan LGA","2012",574.5,19.4
+"116","Berrigan LGA","2013",605,19
+"117","Berrigan LGA","2014",581.5,18.1
+"118","Berrigan LGA","2015",528.4,18.3
+"119","Berrigan LGA","2016",521.4,20
+"120","Berrigan LGA","2017",597.4,NA
+"121","Blacktown LGA","2003",552.8,24.9
+"122","Blacktown LGA","2004",530,24.5
+"123","Blacktown LGA","2005",489.2,25.6
+"124","Blacktown LGA","2006",444,23.6
+"125","Blacktown LGA","2007",454.6,20.6
+"126","Blacktown LGA","2008",462,21.6
+"127","Blacktown LGA","2009",507.4,22.1
+"128","Blacktown LGA","2010",510.9,22.5
+"129","Blacktown LGA","2011",461.2,23.1
+"130","Blacktown LGA","2012",469.2,21.3
+"131","Blacktown LGA","2013",506.4,18.9
+"132","Blacktown LGA","2014",516.2,18.3
+"133","Blacktown LGA","2015",526.8,19.1
+"134","Blacktown LGA","2016",532.7,19.2
+"135","Blacktown LGA","2017",558.6,NA
+"136","Bland LGA","2003",778.9,26.2
+"137","Bland LGA","2004",793,24.2
+"138","Bland LGA","2005",839.2,22.6
+"139","Bland LGA","2006",803.2,22.4
+"140","Bland LGA","2007",796.8,22.1
+"141","Bland LGA","2008",811.8,19.8
+"142","Bland LGA","2009",787.4,19.2
+"143","Bland LGA","2010",732.8,20.5
+"144","Bland LGA","2011",666.7,21.3
+"145","Bland LGA","2012",678.4,20.4
+"146","Bland LGA","2013",720.6,19.8
+"147","Bland LGA","2014",689.7,19.2
+"148","Bland LGA","2015",639.1,19.5
+"149","Bland LGA","2016",625.2,20.7
+"150","Bland LGA","2017",648,NA
+"151","Blayney LGA","2003",573.9,26.8
+"152","Blayney LGA","2004",543.3,24.2
+"153","Blayney LGA","2005",551.8,22.9
+"154","Blayney LGA","2006",592,23.1
+"155","Blayney LGA","2007",568.2,22
+"156","Blayney LGA","2008",558.4,19.6
+"157","Blayney LGA","2009",584.1,19.9
+"158","Blayney LGA","2010",568.3,21.4
+"159","Blayney LGA","2011",555.9,22.3
+"160","Blayney LGA","2012",535,22.4
+"161","Blayney LGA","2013",529,20.6
+"162","Blayney LGA","2014",501.6,19.6
+"163","Blayney LGA","2015",472.8,20.5
+"164","Blayney LGA","2016",489.3,21.8
+"165","Blayney LGA","2017",482.3,NA
+"166","Blue Mountains LGA","2003",586.5,28.3
+"167","Blue Mountains LGA","2004",532.1,26.2
+"168","Blue Mountains LGA","2005",516.6,24.3
+"169","Blue Mountains LGA","2006",527.8,21.9
+"170","Blue Mountains LGA","2007",559.5,22.6
+"171","Blue Mountains LGA","2008",576.3,22.4
+"172","Blue Mountains LGA","2009",559,21.4
+"173","Blue Mountains LGA","2010",530.3,21
+"174","Blue Mountains LGA","2011",511.5,20.3
+"175","Blue Mountains LGA","2012",520.9,19.8
+"176","Blue Mountains LGA","2013",600.8,19.5
+"177","Blue Mountains LGA","2014",651.9,19.8
+"178","Blue Mountains LGA","2015",710.1,19.6
+"179","Blue Mountains LGA","2016",760.4,19.1
+"180","Blue Mountains LGA","2017",770.1,NA
+"181","Bogan LGA","2003",1106.2,26.3
+"182","Bogan LGA","2004",1153.3,24.2
+"183","Bogan LGA","2005",1132,22.8
+"184","Bogan LGA","2006",1014.3,22.6
+"185","Bogan LGA","2007",999.4,21.6
+"186","Bogan LGA","2008",977.8,19.5
+"187","Bogan LGA","2009",932,19.3
+"188","Bogan LGA","2010",919.3,20.6
+"189","Bogan LGA","2011",830.8,20.9
+"190","Bogan LGA","2012",790.5,20.1
+"191","Bogan LGA","2013",805.9,19.9
+"192","Bogan LGA","2014",787,19.4
+"193","Bogan LGA","2015",732.3,19.5
+"194","Bogan LGA","2016",649.1,21.1
+"195","Bogan LGA","2017",658.5,NA
+"196","Botany Bay LGA","2003",498.6,26.3
+"197","Botany Bay LGA","2004",506.4,26.6
+"198","Botany Bay LGA","2005",547.9,25.4
+"199","Botany Bay LGA","2006",680.6,25.2
+"200","Botany Bay LGA","2007",676.1,24.1
+"201","Botany Bay LGA","2008",561.1,21.1
+"202","Botany Bay LGA","2009",534.4,20.2
+"203","Botany Bay LGA","2010",616,20
+"204","Botany Bay LGA","2011",659.5,18.7
+"205","Botany Bay LGA","2012",493.6,17.5
+"206","Botany Bay LGA","2013",438.8,17.6
+"207","Botany Bay LGA","2014",588.3,18.2
+"208","Botany Bay LGA","2015",714.8,18.9
+"209","Botany Bay LGA","2016",703.8,18
+"210","Botany Bay LGA","2017",640.1,NA
+"211","Bourke LGA","2003",1289.4,26.2
+"212","Bourke LGA","2004",1485.9,24.1
+"213","Bourke LGA","2005",1360.2,22.6
+"214","Bourke LGA","2006",1090.1,22.3
+"215","Bourke LGA","2007",1061.9,21.3
+"216","Bourke LGA","2008",1024.4,19.3
+"217","Bourke LGA","2009",986.6,19
+"218","Bourke LGA","2010",977.4,20.3
+"219","Bourke LGA","2011",849.2,20.7
+"220","Bourke LGA","2012",832.7,19.9
+"221","Bourke LGA","2013",846.3,19.8
+"222","Bourke LGA","2014",794.8,19.1
+"223","Bourke LGA","2015",744.9,19.2
+"224","Bourke LGA","2016",656.7,20.9
+"225","Bourke LGA","2017",694.6,NA
+"226","Brewarrina LGA","2003",1285.4,26.4
+"227","Brewarrina LGA","2004",1308.4,24.2
+"228","Brewarrina LGA","2005",1264.2,23
+"229","Brewarrina LGA","2006",1128.5,22.7
+"230","Brewarrina LGA","2007",1084.6,21.6
+"231","Brewarrina LGA","2008",1062.1,19.7
+"232","Brewarrina LGA","2009",991.8,19.5
+"233","Brewarrina LGA","2010",963.2,20.7
+"234","Brewarrina LGA","2011",847.8,20.8
+"235","Brewarrina LGA","2012",825.3,20.1
+"236","Brewarrina LGA","2013",850.7,20.1
+"237","Brewarrina LGA","2014",824.5,19.7
+"238","Brewarrina LGA","2015",770.4,19.7
+"239","Brewarrina LGA","2016",668.3,21.3
+"240","Brewarrina LGA","2017",676,NA
+"241","Broken Hill LGA","2003",771.9,26.2
+"242","Broken Hill LGA","2004",712.2,24.3
+"243","Broken Hill LGA","2005",741.6,21.9
+"244","Broken Hill LGA","2006",814.2,21.1
+"245","Broken Hill LGA","2007",906.9,19.7
+"246","Broken Hill LGA","2008",843.8,17.9
+"247","Broken Hill LGA","2009",873.9,18.2
+"248","Broken Hill LGA","2010",868.7,19.4
+"249","Broken Hill LGA","2011",680.8,19.9
+"250","Broken Hill LGA","2012",629,20.5
+"251","Broken Hill LGA","2013",619.1,20
+"252","Broken Hill LGA","2014",532.7,18.3
+"253","Broken Hill LGA","2015",524.1,18.3
+"254","Broken Hill LGA","2016",566.5,21.5
+"255","Broken Hill LGA","2017",634.1,NA
+"256","Burwood LGA","2003",634.3,25
+"257","Burwood LGA","2004",571.3,25.1
+"258","Burwood LGA","2005",455.4,23.1
+"259","Burwood LGA","2006",411.1,20.8
+"260","Burwood LGA","2007",365.2,19.6
+"261","Burwood LGA","2008",322.3,19
+"262","Burwood LGA","2009",334.6,17.6
+"263","Burwood LGA","2010",428.3,16.9
+"264","Burwood LGA","2011",446.3,16.8
+"265","Burwood LGA","2012",377.5,16.8
+"266","Burwood LGA","2013",405.5,16.1
+"267","Burwood LGA","2014",489.2,15.8
+"268","Burwood LGA","2015",556.6,15.9
+"269","Burwood LGA","2016",567.6,15.5
+"270","Burwood LGA","2017",664.1,NA
+"271","Byron LGA","2003",603.5,26.4
+"272","Byron LGA","2004",545.6,24.4
+"273","Byron LGA","2005",541.5,23.1
+"274","Byron LGA","2006",594.1,23.7
+"275","Byron LGA","2007",670.6,20.2
+"276","Byron LGA","2008",730.5,19.1
+"277","Byron LGA","2009",703.6,21.7
+"278","Byron LGA","2010",642.9,22.8
+"279","Byron LGA","2011",648.9,21.5
+"280","Byron LGA","2012",617,19.3
+"281","Byron LGA","2013",639.4,21.6
+"282","Byron LGA","2014",741.4,23.5
+"283","Byron LGA","2015",707.8,23.7
+"284","Byron LGA","2016",692.5,22.8
+"285","Byron LGA","2017",683.2,NA
+"286","Cabonne LGA","2003",606.2,26.7
+"287","Cabonne LGA","2004",565.4,24.3
+"288","Cabonne LGA","2005",611,23.1
+"289","Cabonne LGA","2006",631.9,23.3
+"290","Cabonne LGA","2007",600.3,22.2
+"291","Cabonne LGA","2008",591,19.7
+"292","Cabonne LGA","2009",591.4,19.8
+"293","Cabonne LGA","2010",597,21.2
+"294","Cabonne LGA","2011",581.2,21.8
+"295","Cabonne LGA","2012",580.2,21.4
+"296","Cabonne LGA","2013",589,20.4
+"297","Cabonne LGA","2014",543.2,19.8
+"298","Cabonne LGA","2015",497.1,20.3
+"299","Cabonne LGA","2016",471.7,21.6
+"300","Cabonne LGA","2017",457.7,NA
+"301","Camden LGA","2003",416.4,24.9
+"302","Camden LGA","2004",369.9,24.2
+"303","Camden LGA","2005",346.8,22.6
+"304","Camden LGA","2006",344.7,22.7
+"305","Camden LGA","2007",310.7,22.6
+"306","Camden LGA","2008",311,20
+"307","Camden LGA","2009",345,18.7
+"308","Camden LGA","2010",349,19.1
+"309","Camden LGA","2011",383.2,18.4
+"310","Camden LGA","2012",430.9,18.4
+"311","Camden LGA","2013",453.2,19.6
+"312","Camden LGA","2014",434.4,19.3
+"313","Camden LGA","2015",411.9,18.4
+"314","Camden LGA","2016",455.2,17.3
+"315","Camden LGA","2017",480.5,NA
+"316","Campbelltown LGA","2003",431.7,25.9
+"317","Campbelltown LGA","2004",395.9,24.6
+"318","Campbelltown LGA","2005",416.8,23.3
+"319","Campbelltown LGA","2006",426.9,23.1
+"320","Campbelltown LGA","2007",441.9,23.2
+"321","Campbelltown LGA","2008",447.3,22
+"322","Campbelltown LGA","2009",435,21.2
+"323","Campbelltown LGA","2010",428.6,19.6
+"324","Campbelltown LGA","2011",433.1,20
+"325","Campbelltown LGA","2012",443.7,22.2
+"326","Campbelltown LGA","2013",474.8,20.7
+"327","Campbelltown LGA","2014",494.7,19.5
+"328","Campbelltown LGA","2015",485.4,20.1
+"329","Campbelltown LGA","2016",473.4,20.1
+"330","Campbelltown LGA","2017",498.3,NA
+"331","Canada Bay LGA","2003",515,23.5
+"332","Canada Bay LGA","2004",504.6,23.7
+"333","Canada Bay LGA","2005",476.4,21.7
+"334","Canada Bay LGA","2006",402.8,20
+"335","Canada Bay LGA","2007",383,18.6
+"336","Canada Bay LGA","2008",409.4,17
+"337","Canada Bay LGA","2009",425.5,14.9
+"338","Canada Bay LGA","2010",458.8,15.1
+"339","Canada Bay LGA","2011",492.9,15.6
+"340","Canada Bay LGA","2012",512.3,15.1
+"341","Canada Bay LGA","2013",476.5,15.1
+"342","Canada Bay LGA","2014",490.4,13.5
+"343","Canada Bay LGA","2015",558.3,14.3
+"344","Canada Bay LGA","2016",606.6,15
+"345","Canada Bay LGA","2017",660.6,NA
+"346","Canterbury-Bankstown LGA","2003",408.7,25
+"347","Canterbury-Bankstown LGA","2004",364,24.1
+"348","Canterbury-Bankstown LGA","2005",366.8,22.2
+"349","Canterbury-Bankstown LGA","2006",377,20.6
+"350","Canterbury-Bankstown LGA","2007",363.5,19.7
+"351","Canterbury-Bankstown LGA","2008",367.2,19.1
+"352","Canterbury-Bankstown LGA","2009",373.3,19.3
+"353","Canterbury-Bankstown LGA","2010",383,18.7
+"354","Canterbury-Bankstown LGA","2011",403.1,17.5
+"355","Canterbury-Bankstown LGA","2012",402,17.3
+"356","Canterbury-Bankstown LGA","2013",420.7,17.1
+"357","Canterbury-Bankstown LGA","2014",435.4,17.7
+"358","Canterbury-Bankstown LGA","2015",440.8,17.8
+"359","Canterbury-Bankstown LGA","2016",471.3,16.7
+"360","Canterbury-Bankstown LGA","2017",464.8,NA
+"361","Carrathool LGA","2003",779.3,25.8
+"362","Carrathool LGA","2004",768.2,23.9
+"363","Carrathool LGA","2005",802.2,22.4
+"364","Carrathool LGA","2006",785.9,22
+"365","Carrathool LGA","2007",801.2,21.6
+"366","Carrathool LGA","2008",783.6,19.5
+"367","Carrathool LGA","2009",749.9,18.8
+"368","Carrathool LGA","2010",733,20.2
+"369","Carrathool LGA","2011",669.4,20.8
+"370","Carrathool LGA","2012",670.3,19.8
+"371","Carrathool LGA","2013",697.8,19.4
+"372","Carrathool LGA","2014",664.6,18.6
+"373","Carrathool LGA","2015",619,18.8
+"374","Carrathool LGA","2016",592.9,20.4
+"375","Carrathool LGA","2017",619.4,NA
+"376","Central Coast LGA","2003",633,27.5
+"377","Central Coast LGA","2004",657.5,26.8
+"378","Central Coast LGA","2005",666.1,25
+"379","Central Coast LGA","2006",679.5,24.8
+"380","Central Coast LGA","2007",712,24.7
+"381","Central Coast LGA","2008",669,21.9
+"382","Central Coast LGA","2009",631.8,21.9
+"383","Central Coast LGA","2010",637.8,23.1
+"384","Central Coast LGA","2011",635.9,23
+"385","Central Coast LGA","2012",638.1,23.5
+"386","Central Coast LGA","2013",633.1,23.4
+"387","Central Coast LGA","2014",627.7,22.6
+"388","Central Coast LGA","2015",662.3,21
+"389","Central Coast LGA","2016",681.7,20.3
+"390","Central Coast LGA","2017",701.5,NA
+"391","Central Darling LGA","2003",1003.3,25.9
+"392","Central Darling LGA","2004",1038.9,23.9
+"393","Central Darling LGA","2005",1023.6,22.4
+"394","Central Darling LGA","2006",911.3,22
+"395","Central Darling LGA","2007",944.7,21.3
+"396","Central Darling LGA","2008",917,19.2
+"397","Central Darling LGA","2009",878.4,18.8
+"398","Central Darling LGA","2010",868.4,20.1
+"399","Central Darling LGA","2011",740.3,20.6
+"400","Central Darling LGA","2012",726.9,19.8
+"401","Central Darling LGA","2013",733,19.5
+"402","Central Darling LGA","2014",675.1,18.7
+"403","Central Darling LGA","2015",638.8,18.8
+"404","Central Darling LGA","2016",600.9,20.6
+"405","Central Darling LGA","2017",640.4,NA
+"406","Cessnock LGA","2003",483.3,27.9
+"407","Cessnock LGA","2004",456.9,25.8
+"408","Cessnock LGA","2005",446.6,24.6
+"409","Cessnock LGA","2006",432.4,24.4
+"410","Cessnock LGA","2007",479.8,24.6
+"411","Cessnock LGA","2008",523.7,21.9
+"412","Cessnock LGA","2009",505.7,21.6
+"413","Cessnock LGA","2010",545.6,22.9
+"414","Cessnock LGA","2011",608.3,23
+"415","Cessnock LGA","2012",578,24
+"416","Cessnock LGA","2013",506.5,23.3
+"417","Cessnock LGA","2014",479.2,22.5
+"418","Cessnock LGA","2015",492.2,22.3
+"419","Cessnock LGA","2016",484.2,22
+"420","Cessnock LGA","2017",511.8,NA
+"421","Clarence Valley LGA","2003",580,27.7
+"422","Clarence Valley LGA","2004",584.4,25.5
+"423","Clarence Valley LGA","2005",590.3,23.8
+"424","Clarence Valley LGA","2006",707.3,23.4
+"425","Clarence Valley LGA","2007",796.2,21.7
+"426","Clarence Valley LGA","2008",808.6,22.9
+"427","Clarence Valley LGA","2009",845.7,25
+"428","Clarence Valley LGA","2010",843.9,23.6
+"429","Clarence Valley LGA","2011",785.8,22
+"430","Clarence Valley LGA","2012",729.3,21.8
+"431","Clarence Valley LGA","2013",702.6,22.6
+"432","Clarence Valley LGA","2014",677.8,23.5
+"433","Clarence Valley LGA","2015",656.1,23
+"434","Clarence Valley LGA","2016",702.6,23.2
+"435","Clarence Valley LGA","2017",751.4,NA
+"436","Cobar LGA","2003",1140,26.1
+"437","Cobar LGA","2004",1134.8,24
+"438","Cobar LGA","2005",1061.1,22.6
+"439","Cobar LGA","2006",967.5,22.3
+"440","Cobar LGA","2007",971.3,21.5
+"441","Cobar LGA","2008",961.2,19.4
+"442","Cobar LGA","2009",910,19
+"443","Cobar LGA","2010",871.2,20.4
+"444","Cobar LGA","2011",777.9,20.8
+"445","Cobar LGA","2012",783.2,19.9
+"446","Cobar LGA","2013",825.2,19.7
+"447","Cobar LGA","2014",806.5,19
+"448","Cobar LGA","2015",733.3,19.1
+"449","Cobar LGA","2016",638.6,20.8
+"450","Cobar LGA","2017",664.2,NA
+"451","Coffs Harbour LGA","2003",546.1,27.7
+"452","Coffs Harbour LGA","2004",470.8,26.1
+"453","Coffs Harbour LGA","2005",470.8,22.7
+"454","Coffs Harbour LGA","2006",497,21.1
+"455","Coffs Harbour LGA","2007",512.4,23.3
+"456","Coffs Harbour LGA","2008",530.5,25
+"457","Coffs Harbour LGA","2009",591.6,23.1
+"458","Coffs Harbour LGA","2010",602.8,22.7
+"459","Coffs Harbour LGA","2011",613.8,21.5
+"460","Coffs Harbour LGA","2012",632,22.8
+"461","Coffs Harbour LGA","2013",588.7,23.7
+"462","Coffs Harbour LGA","2014",577.8,25.2
+"463","Coffs Harbour LGA","2015",609.1,25.5
+"464","Coffs Harbour LGA","2016",600.1,23.4
+"465","Coffs Harbour LGA","2017",563.9,NA
+"466","Coolamon LGA","2003",645.5,26
+"467","Coolamon LGA","2004",611.6,24.1
+"468","Coolamon LGA","2005",641,22.5
+"469","Coolamon LGA","2006",662.6,22.5
+"470","Coolamon LGA","2007",709.9,22.6
+"471","Coolamon LGA","2008",731.8,20
+"472","Coolamon LGA","2009",739.6,18.8
+"473","Coolamon LGA","2010",725.2,20.2
+"474","Coolamon LGA","2011",681,21.5
+"475","Coolamon LGA","2012",687.9,20.7
+"476","Coolamon LGA","2013",694.6,19.8
+"477","Coolamon LGA","2014",686.1,19.2
+"478","Coolamon LGA","2015",655.2,19.4
+"479","Coolamon LGA","2016",646.7,20.4
+"480","Coolamon LGA","2017",686.5,NA
+"481","Coonamble LGA","2003",1020.8,26.7
+"482","Coonamble LGA","2004",906.5,24.5
+"483","Coonamble LGA","2005",883.8,23.6
+"484","Coonamble LGA","2006",890.9,23.3
+"485","Coonamble LGA","2007",925.5,21.8
+"486","Coonamble LGA","2008",900.7,20
+"487","Coonamble LGA","2009",804.4,19.8
+"488","Coonamble LGA","2010",764.8,21.1
+"489","Coonamble LGA","2011",705.2,20.9
+"490","Coonamble LGA","2012",686.4,20.1
+"491","Coonamble LGA","2013",700.8,20.5
+"492","Coonamble LGA","2014",677.3,20.4
+"493","Coonamble LGA","2015",649.1,20.2
+"494","Coonamble LGA","2016",584.2,21.6
+"495","Coonamble LGA","2017",580,NA
+"496","Cowra LGA","2003",753.8,26.8
+"497","Cowra LGA","2004",651.7,24.6
+"498","Cowra LGA","2005",677.4,22.9
+"499","Cowra LGA","2006",725.4,22.8
+"500","Cowra LGA","2007",720.6,22.1
+"501","Cowra LGA","2008",694.7,20
+"502","Cowra LGA","2009",620.7,19.8
+"503","Cowra LGA","2010",600.4,21.1
+"504","Cowra LGA","2011",617,21.9
+"505","Cowra LGA","2012",610.8,21.4
+"506","Cowra LGA","2013",730.8,20.2
+"507","Cowra LGA","2014",723.7,19.7
+"508","Cowra LGA","2015",545.2,20.2
+"509","Cowra LGA","2016",510.7,21.2
+"510","Cowra LGA","2017",539.6,NA
+"511","Cumberland LGA","2003",517.3,26.8
+"512","Cumberland LGA","2004",503.9,24.8
+"513","Cumberland LGA","2005",475.6,24.9
+"514","Cumberland LGA","2006",436.5,24.1
+"515","Cumberland LGA","2007",455.9,22.4
+"516","Cumberland LGA","2008",497.9,22.9
+"517","Cumberland LGA","2009",528.4,22.8
+"518","Cumberland LGA","2010",529.5,20
+"519","Cumberland LGA","2011",556.1,18.7
+"520","Cumberland LGA","2012",577,19.8
+"521","Cumberland LGA","2013",555.3,19.5
+"522","Cumberland LGA","2014",533.3,19.3
+"523","Cumberland LGA","2015",562.6,17.8
+"524","Cumberland LGA","2016",599.6,17.1
+"525","Cumberland LGA","2017",597.3,NA
+"526","Dungog LGA","2003",434.2,26.8
+"527","Dungog LGA","2004",385.6,24.7
+"528","Dungog LGA","2005",388.3,23.6
+"529","Dungog LGA","2006",433.3,22.9
+"530","Dungog LGA","2007",454.6,22.4
+"531","Dungog LGA","2008",453.3,20.6
+"532","Dungog LGA","2009",473.7,20
+"533","Dungog LGA","2010",471,21.5
+"534","Dungog LGA","2011",463,21.5
+"535","Dungog LGA","2012",488.9,20.8
+"536","Dungog LGA","2013",517.7,20.5
+"537","Dungog LGA","2014",509.2,21.3
+"538","Dungog LGA","2015",478.5,21.7
+"539","Dungog LGA","2016",473.7,21.7
+"540","Dungog LGA","2017",513.6,NA
+"541","Edward River LGA","2003",614.5,25.4
+"542","Edward River LGA","2004",601,23.5
+"543","Edward River LGA","2005",641.5,22.1
+"544","Edward River LGA","2006",618.5,21.7
+"545","Edward River LGA","2007",658.8,21.3
+"546","Edward River LGA","2008",626.2,19.2
+"547","Edward River LGA","2009",608.4,18.4
+"548","Edward River LGA","2010",571.8,19.8
+"549","Edward River LGA","2011",538.5,20.5
+"550","Edward River LGA","2012",572.6,19.5
+"551","Edward River LGA","2013",599.2,19
+"552","Edward River LGA","2014",637.9,18.1
+"553","Edward River LGA","2015",587.1,18.4
+"554","Edward River LGA","2016",574.5,20
+"555","Edward River LGA","2017",610.2,NA
+"556","Eurobodalla LGA","2003",762.4,32.4
+"557","Eurobodalla LGA","2004",727.6,28.1
+"558","Eurobodalla LGA","2005",715.4,23.7
+"559","Eurobodalla LGA","2006",669.9,22.8
+"560","Eurobodalla LGA","2007",643,22.2
+"561","Eurobodalla LGA","2008",714,21.8
+"562","Eurobodalla LGA","2009",813,22.7
+"563","Eurobodalla LGA","2010",863.4,22.2
+"564","Eurobodalla LGA","2011",818.2,22.7
+"565","Eurobodalla LGA","2012",768,22.8
+"566","Eurobodalla LGA","2013",800.2,21.6
+"567","Eurobodalla LGA","2014",807,21.4
+"568","Eurobodalla LGA","2015",786.6,23.2
+"569","Eurobodalla LGA","2016",755.8,23.4
+"570","Eurobodalla LGA","2017",807.4,NA
+"571","Fairfield LGA","2003",376.7,26.6
+"572","Fairfield LGA","2004",349.8,24.4
+"573","Fairfield LGA","2005",353.6,22.9
+"574","Fairfield LGA","2006",361.7,21.8
+"575","Fairfield LGA","2007",401,20.8
+"576","Fairfield LGA","2008",412.4,20.9
+"577","Fairfield LGA","2009",382.8,21.5
+"578","Fairfield LGA","2010",363.6,19.4
+"579","Fairfield LGA","2011",359.5,18.7
+"580","Fairfield LGA","2012",361.4,19.7
+"581","Fairfield LGA","2013",367.5,17.6
+"582","Fairfield LGA","2014",370.3,18.5
+"583","Fairfield LGA","2015",379.8,19.4
+"584","Fairfield LGA","2016",382.6,18.1
+"585","Fairfield LGA","2017",374.5,NA
+"586","Federation LGA","2003",599.3,25.8
+"587","Federation LGA","2004",507.6,23.6
+"588","Federation LGA","2005",535.5,22.3
+"589","Federation LGA","2006",560.1,22.2
+"590","Federation LGA","2007",618.9,22.1
+"591","Federation LGA","2008",613.4,20
+"592","Federation LGA","2009",559.2,18.9
+"593","Federation LGA","2010",586.5,19.8
+"594","Federation LGA","2011",614.6,20.9
+"595","Federation LGA","2012",603.9,20
+"596","Federation LGA","2013",580.1,19.4
+"597","Federation LGA","2014",576.6,18.5
+"598","Federation LGA","2015",552.9,18.8
+"599","Federation LGA","2016",548.9,20.5
+"600","Federation LGA","2017",595.7,NA
+"601","Forbes LGA","2003",715.1,26.6
+"602","Forbes LGA","2004",670.9,24.4
+"603","Forbes LGA","2005",690.3,22.8
+"604","Forbes LGA","2006",666.8,22.7
+"605","Forbes LGA","2007",705.3,22
+"606","Forbes LGA","2008",731.9,19.7
+"607","Forbes LGA","2009",665.4,19.6
+"608","Forbes LGA","2010",633.7,20.9
+"609","Forbes LGA","2011",630.2,21.4
+"610","Forbes LGA","2012",656.4,20.8
+"611","Forbes LGA","2013",690,20
+"612","Forbes LGA","2014",653.3,19.5
+"613","Forbes LGA","2015",584.1,19.9
+"614","Forbes LGA","2016",539.6,21.1
+"615","Forbes LGA","2017",531,NA
+"616","Georges River LGA","2003",378.9,22.8
+"617","Georges River LGA","2004",327.4,20.3
+"618","Georges River LGA","2005",354.8,18.1
+"619","Georges River LGA","2006",349.6,16.9
+"620","Georges River LGA","2007",355.8,18.7
+"621","Georges River LGA","2008",378.4,19.5
+"622","Georges River LGA","2009",412.3,17.3
+"623","Georges River LGA","2010",466,16.9
+"624","Georges River LGA","2011",418.6,15.9
+"625","Georges River LGA","2012",414.3,13.4
+"626","Georges River LGA","2013",462.9,13.8
+"627","Georges River LGA","2014",460.1,15.6
+"628","Georges River LGA","2015",444.5,15.4
+"629","Georges River LGA","2016",445.2,15
+"630","Georges River LGA","2017",435.8,NA
+"631","Gilgandra LGA","2003",828.4,26.7
+"632","Gilgandra LGA","2004",779.2,24.4
+"633","Gilgandra LGA","2005",771.2,23.6
+"634","Gilgandra LGA","2006",737.1,23.6
+"635","Gilgandra LGA","2007",729.5,22.1
+"636","Gilgandra LGA","2008",711.8,19.9
+"637","Gilgandra LGA","2009",668.5,19.8
+"638","Gilgandra LGA","2010",645.7,21.1
+"639","Gilgandra LGA","2011",604.1,21.1
+"640","Gilgandra LGA","2012",574.8,20
+"641","Gilgandra LGA","2013",583.6,20.4
+"642","Gilgandra LGA","2014",580.4,20.3
+"643","Gilgandra LGA","2015",559,20.1
+"644","Gilgandra LGA","2016",512.7,21.7
+"645","Gilgandra LGA","2017",509,NA
+"646","Glen Innes Severn LGA","2003",683.6,27.2
+"647","Glen Innes Severn LGA","2004",579.6,25.1
+"648","Glen Innes Severn LGA","2005",619.3,23.7
+"649","Glen Innes Severn LGA","2006",649.9,23.1
+"650","Glen Innes Severn LGA","2007",648.1,21.1
+"651","Glen Innes Severn LGA","2008",647.1,21.1
+"652","Glen Innes Severn LGA","2009",633.1,22.6
+"653","Glen Innes Severn LGA","2010",605.3,22.5
+"654","Glen Innes Severn LGA","2011",601.4,21.3
+"655","Glen Innes Severn LGA","2012",587.3,21.1
+"656","Glen Innes Severn LGA","2013",616.2,21.8
+"657","Glen Innes Severn LGA","2014",636.5,22.5
+"658","Glen Innes Severn LGA","2015",630.9,22.4
+"659","Glen Innes Severn LGA","2016",590,22.7
+"660","Glen Innes Severn LGA","2017",562.9,NA
+"661","Goulburn Mulwaree LGA","2003",463.7,30
+"662","Goulburn Mulwaree LGA","2004",468.2,26.2
+"663","Goulburn Mulwaree LGA","2005",523.7,23.4
+"664","Goulburn Mulwaree LGA","2006",556.4,24.2
+"665","Goulburn Mulwaree LGA","2007",536.6,23.3
+"666","Goulburn Mulwaree LGA","2008",584.6,21.8
+"667","Goulburn Mulwaree LGA","2009",703.6,22.9
+"668","Goulburn Mulwaree LGA","2010",712.9,22.3
+"669","Goulburn Mulwaree LGA","2011",665.9,22
+"670","Goulburn Mulwaree LGA","2012",607.8,22
+"671","Goulburn Mulwaree LGA","2013",548.8,21.1
+"672","Goulburn Mulwaree LGA","2014",576.4,21.2
+"673","Goulburn Mulwaree LGA","2015",599.2,22.1
+"674","Goulburn Mulwaree LGA","2016",514.4,22.2
+"675","Goulburn Mulwaree LGA","2017",511.7,NA
+"676","Greater Hume Shire LGA","2003",536.9,26.5
+"677","Greater Hume Shire LGA","2004",442.6,23.6
+"678","Greater Hume Shire LGA","2005",489.5,22.4
+"679","Greater Hume Shire LGA","2006",551.9,22.7
+"680","Greater Hume Shire LGA","2007",599.2,22.9
+"681","Greater Hume Shire LGA","2008",636.3,21
+"682","Greater Hume Shire LGA","2009",661,19
+"683","Greater Hume Shire LGA","2010",670.3,19.7
+"684","Greater Hume Shire LGA","2011",611.5,21.8
+"685","Greater Hume Shire LGA","2012",596.5,21.9
+"686","Greater Hume Shire LGA","2013",588.8,20.6
+"687","Greater Hume Shire LGA","2014",556.3,19.1
+"688","Greater Hume Shire LGA","2015",517.5,18.9
+"689","Greater Hume Shire LGA","2016",492.4,20.8
+"690","Greater Hume Shire LGA","2017",544,NA
+"691","Griffith LGA","2003",613.9,25.3
+"692","Griffith LGA","2004",551.4,23.5
+"693","Griffith LGA","2005",626.2,22.1
+"694","Griffith LGA","2006",730.1,21.5
+"695","Griffith LGA","2007",734.2,21.6
+"696","Griffith LGA","2008",620.2,19.5
+"697","Griffith LGA","2009",588.2,18.5
+"698","Griffith LGA","2010",596,20.2
+"699","Griffith LGA","2011",534,20.7
+"700","Griffith LGA","2012",533.3,18.9
+"701","Griffith LGA","2013",587.8,18.6
+"702","Griffith LGA","2014",566,17.9
+"703","Griffith LGA","2015",542.5,17.9
+"704","Griffith LGA","2016",544.6,19.5
+"705","Griffith LGA","2017",557.7,NA
+"706","Gundagai LGA","2003",608.3,26.6
+"707","Gundagai LGA","2004",600.4,24.5
+"708","Gundagai LGA","2005",620.2,22.6
+"709","Gundagai LGA","2006",600.3,22.6
+"710","Gundagai LGA","2007",711.9,22.6
+"711","Gundagai LGA","2008",809.8,20.2
+"712","Gundagai LGA","2009",865.6,19.1
+"713","Gundagai LGA","2010",873.4,20.4
+"714","Gundagai LGA","2011",774.3,21.6
+"715","Gundagai LGA","2012",729.7,20.9
+"716","Gundagai LGA","2013",740.5,19.9
+"717","Gundagai LGA","2014",765.1,19.4
+"718","Gundagai LGA","2015",728.4,19.8
+"719","Gundagai LGA","2016",693.5,20.6
+"720","Gundagai LGA","2017",721.2,NA
+"721","Gunnedah LGA","2003",605.7,26.6
+"722","Gunnedah LGA","2004",521.7,25.1
+"723","Gunnedah LGA","2005",517.9,24.5
+"724","Gunnedah LGA","2006",566,23.6
+"725","Gunnedah LGA","2007",595.5,21.8
+"726","Gunnedah LGA","2008",548.7,20.3
+"727","Gunnedah LGA","2009",542.8,19.9
+"728","Gunnedah LGA","2010",538.5,21
+"729","Gunnedah LGA","2011",509.7,20.7
+"730","Gunnedah LGA","2012",482.2,20.2
+"731","Gunnedah LGA","2013",452.1,20.7
+"732","Gunnedah LGA","2014",422.4,20.3
+"733","Gunnedah LGA","2015",434.1,20.3
+"734","Gunnedah LGA","2016",451.9,21.8
+"735","Gunnedah LGA","2017",435.8,NA
+"736","Gwydir LGA","2003",662,27
+"737","Gwydir LGA","2004",571.6,25.1
+"738","Gwydir LGA","2005",565.5,24.1
+"739","Gwydir LGA","2006",610.3,23.2
+"740","Gwydir LGA","2007",617.4,21.4
+"741","Gwydir LGA","2008",578.4,20.3
+"742","Gwydir LGA","2009",552.5,20.6
+"743","Gwydir LGA","2010",555.1,21.5
+"744","Gwydir LGA","2011",538.2,21
+"745","Gwydir LGA","2012",501.4,20.7
+"746","Gwydir LGA","2013",502.4,21.1
+"747","Gwydir LGA","2014",505.8,21.2
+"748","Gwydir LGA","2015",526.7,21.2
+"749","Gwydir LGA","2016",512.6,22.2
+"750","Gwydir LGA","2017",487.4,NA
+"751","Hawkesbury LGA","2003",390.3,25.4
+"752","Hawkesbury LGA","2004",361.7,24.2
+"753","Hawkesbury LGA","2005",396.8,23.8
+"754","Hawkesbury LGA","2006",427.7,22.9
+"755","Hawkesbury LGA","2007",481.7,22.8
+"756","Hawkesbury LGA","2008",519.3,22.8
+"757","Hawkesbury LGA","2009",483.9,21.7
+"758","Hawkesbury LGA","2010",451.9,21.8
+"759","Hawkesbury LGA","2011",495.5,21.2
+"760","Hawkesbury LGA","2012",690.7,20
+"761","Hawkesbury LGA","2013",767.5,19.7
+"762","Hawkesbury LGA","2014",779.3,20
+"763","Hawkesbury LGA","2015",747.2,20.7
+"764","Hawkesbury LGA","2016",564.3,20.1
+"765","Hawkesbury LGA","2017",485.9,NA
+"766","Hay LGA","2003",670.9,25.6
+"767","Hay LGA","2004",644.4,23.6
+"768","Hay LGA","2005",647.2,22.2
+"769","Hay LGA","2006",653.2,21.8
+"770","Hay LGA","2007",705.4,21.4
+"771","Hay LGA","2008",706.3,19.3
+"772","Hay LGA","2009",670.2,18.5
+"773","Hay LGA","2010",634.3,19.9
+"774","Hay LGA","2011",595.6,20.5
+"775","Hay LGA","2012",627.4,19.5
+"776","Hay LGA","2013",658.1,19.1
+"777","Hay LGA","2014",628,18.3
+"778","Hay LGA","2015",577.9,18.5
+"779","Hay LGA","2016",558.8,20.1
+"780","Hay LGA","2017",591,NA
+"781","Hilltops LGA","2003",686.5,26.9
+"782","Hilltops LGA","2004",654.7,24.6
+"783","Hilltops LGA","2005",646.9,22.7
+"784","Hilltops LGA","2006",600.9,22.6
+"785","Hilltops LGA","2007",654.6,22.3
+"786","Hilltops LGA","2008",701.7,20.3
+"787","Hilltops LGA","2009",736.9,19.7
+"788","Hilltops LGA","2010",745.1,20.9
+"789","Hilltops LGA","2011",682.9,21.6
+"790","Hilltops LGA","2012",675.3,20.9
+"791","Hilltops LGA","2013",763.4,20
+"792","Hilltops LGA","2014",757.6,19.7
+"793","Hilltops LGA","2015",650.4,20.3
+"794","Hilltops LGA","2016",629.7,21
+"795","Hilltops LGA","2017",656.1,NA
+"796","Hornsby LGA","2003",481.9,19.1
+"797","Hornsby LGA","2004",471.6,20.1
+"798","Hornsby LGA","2005",467.5,18.6
+"799","Hornsby LGA","2006",472.5,17.7
+"800","Hornsby LGA","2007",531.4,17.7
+"801","Hornsby LGA","2008",588.8,16.8
+"802","Hornsby LGA","2009",624,16.2
+"803","Hornsby LGA","2010",558.1,15.9
+"804","Hornsby LGA","2011",545.7,15.5
+"805","Hornsby LGA","2012",648.5,14.5
+"806","Hornsby LGA","2013",725,13.9
+"807","Hornsby LGA","2014",690,13.7
+"808","Hornsby LGA","2015",607.7,13.3
+"809","Hornsby LGA","2016",536.6,12.9
+"810","Hornsby LGA","2017",502.5,NA
+"811","Hunters Hill LGA","2003",452.9,20.8
+"812","Hunters Hill LGA","2004",608.7,19.3
+"813","Hunters Hill LGA","2005",553.7,18.1
+"814","Hunters Hill LGA","2006",406.7,17.2
+"815","Hunters Hill LGA","2007",522.8,16.3
+"816","Hunters Hill LGA","2008",671,16.5
+"817","Hunters Hill LGA","2009",780.6,16.1
+"818","Hunters Hill LGA","2010",864.1,15.5
+"819","Hunters Hill LGA","2011",932.4,14.7
+"820","Hunters Hill LGA","2012",746.8,13.2
+"821","Hunters Hill LGA","2013",545.9,12
+"822","Hunters Hill LGA","2014",614.2,11.6
+"823","Hunters Hill LGA","2015",775,12.1
+"824","Hunters Hill LGA","2016",852.6,12.5
+"825","Hunters Hill LGA","2017",892.4,NA
+"826","Inner West LGA","2003",628.4,29.9
+"827","Inner West LGA","2004",555.9,28.9
+"828","Inner West LGA","2005",514.2,26.1
+"829","Inner West LGA","2006",536.6,24
+"830","Inner West LGA","2007",568,23.1
+"831","Inner West LGA","2008",591,23.3
+"832","Inner West LGA","2009",629.6,20.6
+"833","Inner West LGA","2010",642.2,19.4
+"834","Inner West LGA","2011",638,19.7
+"835","Inner West LGA","2012",724.9,19.3
+"836","Inner West LGA","2013",784.7,18.1
+"837","Inner West LGA","2014",804,18.1
+"838","Inner West LGA","2015",818.2,18.7
+"839","Inner West LGA","2016",836.8,17.9
+"840","Inner West LGA","2017",866.8,NA
+"841","Inverell LGA","2003",545.8,26.9
+"842","Inverell LGA","2004",493.2,24.9
+"843","Inverell LGA","2005",515.5,23.8
+"844","Inverell LGA","2006",548.2,23.2
+"845","Inverell LGA","2007",592.3,21.1
+"846","Inverell LGA","2008",600.3,20.4
+"847","Inverell LGA","2009",557.5,21.4
+"848","Inverell LGA","2010",541.2,21.9
+"849","Inverell LGA","2011",537.7,21
+"850","Inverell LGA","2012",503.1,20.8
+"851","Inverell LGA","2013",495.3,21.3
+"852","Inverell LGA","2014",511.4,21.6
+"853","Inverell LGA","2015",551,21.9
+"854","Inverell LGA","2016",550.4,22.5
+"855","Inverell LGA","2017",528.6,NA
+"856","Junee LGA","2003",675.6,26.1
+"857","Junee LGA","2004",639.7,24.2
+"858","Junee LGA","2005",600.5,22.5
+"859","Junee LGA","2006",610.2,22.6
+"860","Junee LGA","2007",671.6,22.9
+"861","Junee LGA","2008",708.3,20.1
+"862","Junee LGA","2009",720.4,18.7
+"863","Junee LGA","2010",715.4,20.2
+"864","Junee LGA","2011",701.6,21.6
+"865","Junee LGA","2012",700.8,20.8
+"866","Junee LGA","2013",697.4,19.8
+"867","Junee LGA","2014",719.2,19.3
+"868","Junee LGA","2015",715.6,19.5
+"869","Junee LGA","2016",719.4,20.4
+"870","Junee LGA","2017",738.3,NA
+"871","Kempsey LGA","2003",822,27.4
+"872","Kempsey LGA","2004",731.3,24.9
+"873","Kempsey LGA","2005",744.6,24.1
+"874","Kempsey LGA","2006",761.7,22.7
+"875","Kempsey LGA","2007",796.1,20.2
+"876","Kempsey LGA","2008",922.5,19.2
+"877","Kempsey LGA","2009",1036.1,21
+"878","Kempsey LGA","2010",1039,22.4
+"879","Kempsey LGA","2011",1118.3,21.5
+"880","Kempsey LGA","2012",1103.3,21.8
+"881","Kempsey LGA","2013",923.4,21.4
+"882","Kempsey LGA","2014",766.2,22.4
+"883","Kempsey LGA","2015",669.7,21.9
+"884","Kempsey LGA","2016",637.4,21.7
+"885","Kempsey LGA","2017",683.6,NA
+"886","Kiama LGA","2003",461.8,27.5
+"887","Kiama LGA","2004",418.9,24.3
+"888","Kiama LGA","2005",402.4,22.4
+"889","Kiama LGA","2006",463.8,22.7
+"890","Kiama LGA","2007",499,22.3
+"891","Kiama LGA","2008",457,22.3
+"892","Kiama LGA","2009",448.9,22.9
+"893","Kiama LGA","2010",459.3,21.8
+"894","Kiama LGA","2011",475.5,20.8
+"895","Kiama LGA","2012",514,21.5
+"896","Kiama LGA","2013",582.7,20.7
+"897","Kiama LGA","2014",514.7,20.6
+"898","Kiama LGA","2015",480.9,22
+"899","Kiama LGA","2016",474,20.9
+"900","Kiama LGA","2017",430,NA
+"901","Ku-ring-gai LGA","2003",572.2,18.8
+"902","Ku-ring-gai LGA","2004",629.4,17.5
+"903","Ku-ring-gai LGA","2005",755.1,16.7
+"904","Ku-ring-gai LGA","2006",818.5,16.5
+"905","Ku-ring-gai LGA","2007",793.5,16.1
+"906","Ku-ring-gai LGA","2008",883.6,15.5
+"907","Ku-ring-gai LGA","2009",859.3,13.7
+"908","Ku-ring-gai LGA","2010",760.8,13.9
+"909","Ku-ring-gai LGA","2011",760.2,15.2
+"910","Ku-ring-gai LGA","2012",779.1,14.3
+"911","Ku-ring-gai LGA","2013",785.5,11.9
+"912","Ku-ring-gai LGA","2014",796.9,11
+"913","Ku-ring-gai LGA","2015",793.1,11.4
+"914","Ku-ring-gai LGA","2016",713.6,11.7
+"915","Ku-ring-gai LGA","2017",689.6,NA
+"916","Kyogle LGA","2003",842,27.2
+"917","Kyogle LGA","2004",773,25.1
+"918","Kyogle LGA","2005",808.7,23.6
+"919","Kyogle LGA","2006",957,23.6
+"920","Kyogle LGA","2007",1016.2,20.8
+"921","Kyogle LGA","2008",933.2,20.8
+"922","Kyogle LGA","2009",815.4,23.8
+"923","Kyogle LGA","2010",752.1,23.3
+"924","Kyogle LGA","2011",763.7,21.8
+"925","Kyogle LGA","2012",708.1,21.2
+"926","Kyogle LGA","2013",670.5,22.4
+"927","Kyogle LGA","2014",709.1,23.6
+"928","Kyogle LGA","2015",739.7,23.9
+"929","Kyogle LGA","2016",741.5,24.1
+"930","Kyogle LGA","2017",733.7,NA
+"931","Lachlan LGA","2003",1034.3,26.3
+"932","Lachlan LGA","2004",1072.7,24.2
+"933","Lachlan LGA","2005",1108.5,22.8
+"934","Lachlan LGA","2006",1007.3,22.7
+"935","Lachlan LGA","2007",934.2,21.8
+"936","Lachlan LGA","2008",932.8,19.6
+"937","Lachlan LGA","2009",871.1,19.4
+"938","Lachlan LGA","2010",832.8,20.7
+"939","Lachlan LGA","2011",768.5,21.1
+"940","Lachlan LGA","2012",734.9,20.2
+"941","Lachlan LGA","2013",796,19.9
+"942","Lachlan LGA","2014",783.6,19.4
+"943","Lachlan LGA","2015",698.9,19.5
+"944","Lachlan LGA","2016",632.4,21
+"945","Lachlan LGA","2017",627.1,NA
+"946","Lake Macquarie LGA","2003",402.8,25.1
+"947","Lake Macquarie LGA","2004",396.8,25.4
+"948","Lake Macquarie LGA","2005",429.2,24.3
+"949","Lake Macquarie LGA","2006",473.2,22.7
+"950","Lake Macquarie LGA","2007",503.8,24.2
+"951","Lake Macquarie LGA","2008",498.6,22.3
+"952","Lake Macquarie LGA","2009",501.1,22
+"953","Lake Macquarie LGA","2010",534.2,21.9
+"954","Lake Macquarie LGA","2011",535.3,20.9
+"955","Lake Macquarie LGA","2012",509.4,21.2
+"956","Lake Macquarie LGA","2013",507.7,20.9
+"957","Lake Macquarie LGA","2014",498.8,20.4
+"958","Lake Macquarie LGA","2015",476.7,21
+"959","Lake Macquarie LGA","2016",445,21.6
+"960","Lake Macquarie LGA","2017",428.6,NA
+"961","Lane Cove LGA","2003",559.5,18
+"962","Lane Cove LGA","2004",504.2,17.3
+"963","Lane Cove LGA","2005",599.3,15.7
+"964","Lane Cove LGA","2006",683.8,13.4
+"965","Lane Cove LGA","2007",894.2,12.8
+"966","Lane Cove LGA","2008",1042.5,12.9
+"967","Lane Cove LGA","2009",926.5,11.8
+"968","Lane Cove LGA","2010",736.5,11.2
+"969","Lane Cove LGA","2011",579.7,11.4
+"970","Lane Cove LGA","2012",655.1,11.2
+"971","Lane Cove LGA","2013",802.4,9.8
+"972","Lane Cove LGA","2014",916.8,9.2
+"973","Lane Cove LGA","2015",1045,10.3
+"974","Lane Cove LGA","2016",950.4,10.2
+"975","Lane Cove LGA","2017",788.4,NA
+"976","Leeton LGA","2003",580.7,25.4
+"977","Leeton LGA","2004",512.8,23.9
+"978","Leeton LGA","2005",566,22.2
+"979","Leeton LGA","2006",729.4,21.6
+"980","Leeton LGA","2007",866.3,21.6
+"981","Leeton LGA","2008",772.5,19.7
+"982","Leeton LGA","2009",680.7,18.9
+"983","Leeton LGA","2010",662.6,20
+"984","Leeton LGA","2011",562.4,20.6
+"985","Leeton LGA","2012",602.3,19.2
+"986","Leeton LGA","2013",691.6,18.8
+"987","Leeton LGA","2014",644.5,18
+"988","Leeton LGA","2015",598.5,18.2
+"989","Leeton LGA","2016",606.5,19.7
+"990","Leeton LGA","2017",586.1,NA
+"991","Lismore LGA","2003",678.5,28
+"992","Lismore LGA","2004",657.3,25.8
+"993","Lismore LGA","2005",652.6,23.9
+"994","Lismore LGA","2006",705.2,24.4
+"995","Lismore LGA","2007",756.2,20.5
+"996","Lismore LGA","2008",775.5,20
+"997","Lismore LGA","2009",754.6,23.8
+"998","Lismore LGA","2010",702.8,23.2
+"999","Lismore LGA","2011",692,21.3
+"1000","Lismore LGA","2012",663.8,20.6
+"1001","Lismore LGA","2013",675.9,22.5
+"1002","Lismore LGA","2014",772.8,24.1
+"1003","Lismore LGA","2015",833.5,24.8
+"1004","Lismore LGA","2016",789.9,24.5
+"1005","Lismore LGA","2017",701.9,NA
