@@ -1,5 +1,7 @@
+rm(list=ls())
 # change this to your current working directory - I use rstudio.cloud
 setwd("/cloud/project/STD_AT2")
+setwd("~/GitHub/STD_AT2")
 library(tidyverse)
 library(lubridate)
 
@@ -17,9 +19,14 @@ twitter_data["real_date"]
 twitter_data$real_date = as.Date(twitter_data$real_date, format = "%d/%m/%y")
 
 #this data starts from 2007 so has a lot of items that don;t relate to Sydney lock-out laws. the first mention is on 2014-01-22. 
-#so need to remove all data form before that.
-twitter_data <- filter(twitter_data, real_date == '2014')
+#so need to remove all data form before that. First, split the date into year and then remove data before 2014.
 
+twitter_data <- twitter_data %>%
+  separate(.,"real_date",c("Year","Month","Day"),sep="-")
+
+twitter_data <- filter(twitter_data, Year > '2013')
+str(twitter_data)
+twitter_data$Year = lapply(twitter_data$Year, as.numeric)
 #############################################################################################################################################
 
 library(lubridate)
@@ -30,7 +37,7 @@ library(readr)
 #######################
 #EDA
 #######################
-ggplot(twitter_data, aes(x = real_date, fill = search_string)) +
+ggplot(twitter_data, aes(x = Year, fill = search_string)) +
   geom_histogram(position = "identity", bins = 20, show.legend = FALSE) +
   facet_wrap(~search_string, ncol = 1)
 
