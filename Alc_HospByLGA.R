@@ -106,8 +106,19 @@ death_clean <- death_clean %>%
 alcohol_hsp_dth <- hosp_clean %>%
   left_join(death_clean)
 
+
+
 alcohol_hsp_dth  <- rename(alcohol_hsp_dth, LGA =  "Local Government Areas")
 names(alcohol_hsp_dth)
+
+length <- length(alcohol_hsp_dth$LGA)
+
+
+(alcohol_hsp_dth  <- alcohol_hsp_dth %>%
+  rowwise()%>%
+  mutate (LGA = substr(LGA,0,nchar(LGA)-4)))
+
+
 
 library(readr)
 
