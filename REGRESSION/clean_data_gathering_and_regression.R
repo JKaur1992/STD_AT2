@@ -44,6 +44,10 @@ get_hostpitalisation_by_LGA_year <- function() {
   return (read_csv('STD_AT2/CLEAN DATA/alcohol_hosp_death.csv'))
 }
 
+get_frequency_by_LGA_year <- function() {
+  return (read_csv('STD_AT2/CLEAN DATA/alcohol_freq_LGA.csv'))
+}
+
 rent <- get_clean_rent_data_by_LGA_year()
 
 income <- get_clean_median_income_by_LGA_year()
@@ -54,6 +58,8 @@ hospitalisation <- get_hostpitalisation_by_LGA_year();
 
 business <- get_business_entries_rate_by_LGA_year();
 
-joined_data <- inner_join(inner_join(inner_join(rent, income, by = c('LGA','year')), offence_pop, by = c('LGA', 'year')), business, by = c('LGA', 'year'))
+frequency <- get_frequency_by_LGA_year();
+
+joined_data <- inner_join(inner_join(inner_join(inner_join(inner_join(rent, income, by = c('LGA','year')), offence_pop, by = c('LGA', 'year')), business, by = c('LGA', 'year')), hospitalisation, by = c('LGA', 'year')), frequency, by = c('LGA', 'year'))
 
 glm(Average_rent_1_bedroom ~ Median_income + Population_Density, family = gaussian(), data = joined_data)

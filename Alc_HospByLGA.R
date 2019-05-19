@@ -15,9 +15,6 @@ alcohol_deaths_LGA <-  read_csv("beh_alcafdth_lga_trend.csv")
 
 names(alcohol_hosp_LGA)
 
-new_hosp_Nth_Syd <- (alcohol_hosp_LGA[,c(1:2,288)])
-new_hosp_Nth_Syd <- new_hosp_Nth_Syd %>% filter (new_hosp_Nth_Syd$`Local Government Areas` == "North Sydney LGA")
-                 
 rate_col_numb <- grep("_rate",names(alcohol_hosp_LGA))
 
 
@@ -29,8 +26,7 @@ new_hosp <- cbind(headers,rate_only)
 # There is no column data for Oberon LGA, so filter it out
 # Take out North Sydney LGA as the grep function later gets both Sydney and North Sydney
  
-new_hosp_Nth_Syd <- (new_hosp[,c(1:2,4)])
-new_hosp_Nth_Syd <- new_hosp_Nth_Syd %>% filter (new_hosp_Nth_Syd$`Local Government Areas` == "Ballina LGA")
+
 new_hosp <-  new_hosp[,-74] 
 new_hosp <-  new_hosp %>% filter (new_hosp$`Local Government Areas` != "North Sydney LGA")
 new_hosp <-  new_hosp %>% filter (new_hosp$`Local Government Areas` != "Oberon")
@@ -51,10 +47,6 @@ for (LGA in LGAs) {
   This_LGA = cbind(header,One_LGA)
   hosp_clean = rbind(hosp_clean,This_LGA)
 }
-
-# Do the above for North Sydney LGA
-
-
 
 
 # Filter out all the na rows
@@ -124,16 +116,37 @@ names(alcohol_hsp_dth)
 
 length <- length(alcohol_hsp_dth$LGA)
 
-
+#Remove "LGA" tag at end of LGA Names
 (alcohol_hsp_dth  <- alcohol_hsp_dth %>%
   rowwise()%>%
   mutate (LGA = substr(LGA,0,nchar(LGA)-4)))
 
 
+setwd("C:/Users/mjg07/OneDrive/Documents/MDSI/36103 Statistical Thinking for Data Science/Assignment 2/STD_AT2")
+
+alc_freq <- read_csv("alcohol_freq_hosp_death.csv")
+
+alc_freq <- alc_freq %>%
+  filter(Sex == "Persons") %>%
+  mutate(year = substr(year,6,9))
+
+alc_freq <-alc_freq[,c(1,5:9)]
+
+setwd("./CLEAN DATA")
+LGA_LHD_Map <- readxl::read_excel("LGAtoLHD.xlsx")
+head(LGA_LHD_Map)
+
+alc_freq_LGA <- LGA_LHD_Map %>%
+  left_join(alc_freq)
+
+alc_freq_LGA <- filter(alc_freq_LGA, LGA != "Albury")
+alc_freq_LGA <- alc_freq_LGA[,-2]
+
 
 library(readr)
 
-setwd("./CLEAN DATA")
+
 getwd()
 
 write.csv(alcohol_hsp_dth,"alcohol_hosp_death.csv")
+write.csv(alc_freq_LGA,"alcohol_freq_LGA.csv")
