@@ -1,7 +1,7 @@
 library(tidyverse) 
 library(lubridate)
 library(dplyr)
-
+setwd("C:/Users/mjg07/OneDrive/Documents/MDSI/36103 Statistical Thinking for Data Science/Assignment 2")
 get_clean_rent_data_by_LGA_year <- function() {
   rent <- read_csv('STD_AT2/CLEAN DATA/clean_rent.csv')
   rent <- (rent %>% 
@@ -61,5 +61,43 @@ business <- get_business_entries_rate_by_LGA_year();
 frequency <- get_frequency_by_LGA_year();
 
 joined_data <- inner_join(inner_join(inner_join(inner_join(inner_join(rent, income, by = c('LGA','year')), offence_pop, by = c('LGA', 'year')), business, by = c('LGA', 'year')), hospitalisation, by = c('LGA', 'year')), frequency, by = c('LGA', 'year'))
+
+hospitalisation <-filter (hospitalisation, LGA == "Sydney")
+hospitalisation <- filter(hospitalisation, year >2007)
+join_health <- inner_join(hospitalisation,frequency,by =c('LGA','year'))
+
+join_health <- inner_join(join_health, income, by =c('LGA','year'))
+join_health <- inner_join(join_health, offence_pop, by = c('LGA','year'))
+
+join_health <- join_health %>%
+  mutate(.,hosp_count = round(hosp_rate), death_count = round(death_rate), hosp_prob = hosp_rate / 100000, death_prob = death_rate / 100000)
+
+glm_base<-glm(hosp_count ~ Median_income + Population_Density, family = poisson(), data = join_health)
+glm_var<-glm(hosp_count ~ Median_income + Population_Density + freq_daily, family = poisson(), data = join_health)
+glm_var2<-glm(hosp_count ~ Median_income + Population_Density + freq_daily+freq_weekly, family = poisson(), data = join_health)
+
+glm_basevar<-glm(hosp_count ~ Population_Density + freq_daily+freq_weekly, family = poisson(), data = join_health)
+glm_basevar2<-glm(hosp_count ~ Population_Density + freq_daily+freq_weekly+freq_less_weekly, family = poisson(), data = join_health)
+glm_basevar3<-glm(hosp_count ~ Population_Density +freq_daily+freq_weekly+freq_less_weekly+freq_never, family = poisson(), data = join_health)
+
+glm_baseinter<-glm(hosp_count ~ Population_Density*freq_daily, family = poisson, data = join_health)
+glm_baseinter<-glm(hosp_count ~ Population_Density*freq_daily + Population_Density*freq_never, family = poisson, data = join_health)
+
+glm_baseinter<-glm(hosp_count ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = poisson, data = join_health)
+
+# glm_binom<-glm(hosp_prob ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = binomial(logit), data = join_health)  # Binomial not a good idea.... 
+
+summary(glm_base)
+summary(glm_var)
+summary(glm_var2)
+summary(glm_basevar)
+summary(glm_basevar2)
+summary(glm_basevar3)
+summary(glm_baseinter)
+
+# summary(glm_binom)
+
+step(glm,scope=~Median_income + Population_Density + freq_daily, direction="forward")
+
 
 glm(Average_rent_1_bedroom ~ Median_income + Population_Density, family = gaussian(), data = joined_data)
