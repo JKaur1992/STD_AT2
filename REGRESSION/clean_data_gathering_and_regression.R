@@ -1,7 +1,12 @@
 library(tidyverse) 
 library(lubridate)
 library(dplyr)
-setwd("C:/Users/mjg07/OneDrive/Documents/MDSI/36103 Statistical Thinking for Data Science/Assignment 2")
+# setwd("C:/Users/mjg07/OneDrive/Documents/MDSI/36103 Statistical Thinking for Data Science/Assignment 2")
+
+###################################
+# Functions to setup data imports #
+###################################
+
 get_clean_rent_data_by_LGA_year <- function() {
   rent <- read_csv('STD_AT2/CLEAN DATA/clean_rent.csv')
   rent <- (rent %>% 
@@ -48,6 +53,8 @@ get_frequency_by_LGA_year <- function() {
   return (read_csv('STD_AT2/CLEAN DATA/alcohol_freq_LGA.csv'))
 }
 
+# Import the data
+
 rent <- get_clean_rent_data_by_LGA_year()
 
 income <- get_clean_median_income_by_LGA_year()
@@ -60,18 +67,26 @@ business <- get_business_entries_rate_by_LGA_year();
 
 frequency <- get_frequency_by_LGA_year();
 
+# Join  all the data sets together
 joined_data <- inner_join(inner_join(inner_join(inner_join(inner_join(rent, income, by = c('LGA','year')), offence_pop, by = c('LGA', 'year')), business, by = c('LGA', 'year')), hospitalisation, by = c('LGA', 'year')), frequency, by = c('LGA', 'year'))
+# Joining all the data we end up with a very limited data set (down from 1200+ observations down to only 145....)
 
-hospitalisation <-filter (hospitalisation, LGA == "Sydney")
+# So we will join parts individual to minimise data loss.
+
+# Filter to >2007 and join health data to freq, income, offence_pop
 hospitalisation <- filter(hospitalisation, year >2007)
 join_health <- inner_join(hospitalisation,frequency,by =c('LGA','year'))
 
 join_health <- inner_join(join_health, income, by =c('LGA','year'))
 join_health <- inner_join(join_health, offence_pop, by = c('LGA','year'))
 
+
+# Convert "rate" to "counts" for death and hosp (was rate per 100,000 pop) so can do poisson regression model
 join_health <- join_health %>%
   mutate(.,hosp_count = round(hosp_rate), death_count = round(death_rate), hosp_prob = hosp_rate / 100000, death_prob = death_rate / 100000)
 
+
+# Run regression - on hosp count, trial forward and backward feature selection to optimise the model for the lowest AIC measure
 glm_base<-glm(hosp_count ~ Median_income + Population_Density, family = poisson(), data = join_health)
 glm_var<-glm(hosp_count ~ Median_income + Population_Density + freq_daily, family = poisson(), data = join_health)
 glm_var2<-glm(hosp_count ~ Median_income + Population_Density + freq_daily+freq_weekly, family = poisson(), data = join_health)
@@ -85,8 +100,10 @@ glm_baseinter<-glm(hosp_count ~ Population_Density*freq_daily + Population_Densi
 
 glm_baseinter<-glm(hosp_count ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = poisson, data = join_health)
 
-# glm_binom<-glm(hosp_prob ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = binomial(logit), data = join_health)  # Binomial not a good idea.... 
+# glm_binom<-glm(hosp_prob ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = binomial(logit), data = join_health)  # We tried a Binomial but  not a good idea.... 
 
+
+# Summary of the outputs of the various models 
 summary(glm_base)
 summary(glm_var)
 summary(glm_var2)
