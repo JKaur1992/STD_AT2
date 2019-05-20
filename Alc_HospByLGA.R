@@ -4,12 +4,12 @@ setwd("C:/Users/mjg07/OneDrive/Documents/MDSI/36103 Statistical Thinking for Dat
 library("tidyverse")
 
 # alcohol hospitalisations data from http://www.healthstats.nsw.gov.au/Indicator/beh_alcafhos/beh_alcafhos_lhn_trend
-alcohol_hosp_LGA <- read_csv("beh_alcafhos_lga_trend.csv")
+alcohol_hosp_LGA <- read.csv("beh_alcafhos_lga_trend.csv", check.names = FALSE)
 
-
+str(alcohol_hosp_LGA)
 
 # alcohol deaths data from http://www.healthstats.nsw.gov.au/Indicator/beh_alcafdth/beh_alcafdth_lhn_trend
-alcohol_deaths_LGA <-  read_csv("beh_alcafdth_lga_trend.csv")
+alcohol_deaths_LGA <-  read.csv("beh_alcafdth_lga_trend.csv", check.names = FALSE)
 
 
 
@@ -26,10 +26,17 @@ new_hosp <- cbind(headers,rate_only)
 # There is no column data for Oberon LGA, so filter it out
 # Take out North Sydney LGA as the grep function later gets both Sydney and North Sydney
  
+names(new_hosp)
+new_hosp  <- new_hosp %>%
+  mutate ("Local Government Areas" = str_trim(new_hosp$`Local Government Areas`))
+
+new_hosp_Nth_Syd <- new_hosp[,c(1,2,74)]
+new_hosp_Nth_Syd <- new_hosp_Nth_Syd %>%filter(new_hosp_Nth_Syd$`Local Government Areas` =="North Sydney LGA")
+new_hosp_Nth_Syd <- rename(new_hosp_Nth_Syd, hosp_rate = "North Sydney LGA_hos_rate")
 
 new_hosp <-  new_hosp[,-74] 
-new_hosp <-  new_hosp %>% filter (new_hosp$`Local Government Areas` != "North Sydney LGA")
-new_hosp <-  new_hosp %>% filter (new_hosp$`Local Government Areas` != "Oberon")
+new_hosp <-  new_hosp %>%  filter (new_hosp$`Local Government Areas` != "North Sydney LGA")
+new_hosp <-  new_hosp %>%  filter (new_hosp$`Local Government Areas` != "Oberon LGA")
 names(new_hosp)
 
 
@@ -52,13 +59,14 @@ for (LGA in LGAs) {
 # Filter out all the na rows
 hosp_clean <- hosp_clean[complete.cases(hosp_clean),]
 
+# Add back in North Sydney
+hosp_clean <- rbind(hosp_clean,new_hosp_Nth_Syd)
 
 # Fix up the year to standard format
 hosp_clean <- hosp_clean %>%
-  mutate(right_year = substr(hosp_clean$year,6,7),
+  mutate(right_year = substr(hosp_clean$year,7,8),
          year = paste0("20",right_year))
 hosp_clean <- hosp_clean[,-4]
-
 
 
 
@@ -75,17 +83,24 @@ headers <- alcohol_deaths_LGA[,c(1:2)]
 new_death <- cbind(headers,rate_only)
 names(new_death)
 
+#Trim spaces from Local Govt Area Names
+new_death  <- new_death %>%
+  mutate ("Local Government Areas" = str_trim(new_death$`Local Government Areas`))
 
-grep("Sydney", names(new_death))
+# Build the Nth Syd LGA data
+new_death_Nth_Syd <- new_death[,c(1,2,74)]
+new_death_Nth_Syd <- new_death_Nth_Syd %>%filter(new_death_Nth_Syd$`Local Government Areas` =="North Sydney LGA")
+new_death_Nth_Syd <- rename(new_death_Nth_Syd, death_rate = "North Sydney LGA_rate")
+
+# Exclude the Nth Syd LGA
 new_death <-  new_death[,-74] 
 new_death <-  new_death %>% filter (new_death$`Local Government Areas` != "North Sydney LGA")
-# new_hosp <-  new_hosp %>% filter (new_hosp$`Local Government Areas` != "Oberon")
 names(new_death)
 
 
 
 
-# programmatically apply the modelling process to all industries and locations
+# loop to filter to each LGA, select it's data column, rename the column and bind all the rows together
 death_clean = data.frame()
 LGAs = unique(new_death$`Local Government Areas`)
 
@@ -101,9 +116,12 @@ for (LGA in LGAs) {
 
 
 death_clean <- death_clean[complete.cases(death_clean),]
+death_clean <- rbind(death_clean,new_death_Nth_Syd)
+
+
 
 death_clean <- death_clean %>%
-  mutate(year= substring(death_clean$year,9,12))
+  mutate(year= substring(death_clean$year,10,13))
 
 
 alcohol_hsp_dth <- hosp_clean %>%
