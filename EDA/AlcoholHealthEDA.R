@@ -1,5 +1,11 @@
 ##library("lubridate")
 rm(list=ls()) #for clearing the environment
+library(tidyverse)
+library(readxl)
+library(Amelia)
+library(dplyr)
+library(tidyr)
+
 alcohol_freq_hosp_death <- read_csv("alcohol_freq_hosp_death.csv")
 
 
@@ -17,7 +23,7 @@ alcohol_freq_hosp_death <- alcohol_freq_hosp_death %>%
 
 sydney_LHDs <- alcohol_freq_hosp_death %>%
   filter(Sex =="Persons" & year_num > 2008)%>%
-  filter(LHD == "Sydney LHD" | LHD == "South Eastern Sydney LHD")## | LHD == "Western Sydney LHD" | LHD =="Northern Sydney LHD")
+  filter(LHD == "Sydney LHD" | LHD == "South Eastern Sydney LHD" | LHD == "Western Sydney LHD" | LHD =="Northern Sydney LHD")
 
 ## EDA Plot 1- Drinking Frequency in central sydney local health districts
 
@@ -38,7 +44,54 @@ ggplot(sydney_LHDs, aes(date)) +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
   
 
+syd_LHD <- alcohol_freq_hosp_death %>%
+  filter(Sex =="Persons" & year_num > 2008)%>%
+  filter(LHD == "Sydney LHD")
+
+syd_LHD_pre <- sydney_LHDs %>%
+  filter(Sex =="Persons" & year_num < 2014)%>%
+  filter(LHD == "Sydney LHD")
+
+# Simple linear models to predict death and hospitalisation trend from pre-lockout years into post-lockout years
+
+death_syd_lhd_lm <-  lm(formula = death_rate ~ year_num, data = syd_LHD_pre)
+summary(death_syd_lhd_lm)
+
+syd_LHD$death_prediction <- predict(death_syd_lhd_lm, newdata = (syd_LHD), type="response")
+summary(syd_LHD)
+
+
+hosp_syd_lhd_lm <-  lm(formula = hospitalisation_rate ~ year_num, data = syd_LHD_pre)
+summary(hosp_syd_lhd_lm)
+
+syd_LHD$hosp_prediction <- predict(hosp_syd_lhd_lm, newdata = (syd_LHD), type="response")
+summary(syd_LHD)
+
+# EDA Plots - Death and Hosp Rates for SYD LHD with Pre Lockout Trend Line
+
+ggplot(syd_LHD, aes(x = date)) + 
+  geom_col(aes (y = death_rate, fill = lockout)) +
+  scale_fill_manual(values = c("blue", "grey"))+
+  geom_line (aes (y = death_prediction, colour = "red"),size=2)+
+  scale_color_discrete(name = "trend", labels = ("pre-lockout trend"))+
+  facet_wrap(~LHD)+
+  labs(title = "Alcohol Related Deaths", subtitle = "Pre and Post Lockout Laws", y="Death rate per 100,000 population")+
+  theme_bw() +
+  theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
+
+ggplot(syd_LHD, aes(x = date)) + 
+  geom_col(aes (y = hospitalisation_rate, fill = lockout)) +
+  scale_fill_manual(values = c("blue", "grey"))+
+  geom_line (aes (y = hosp_prediction, colour = "black"),size = 2)+ 
+  scale_color_discrete(name = "trend", labels = ("pre-lockout trend"))+
+  facet_wrap(~LHD)+
+  labs(title = "Alcohol Related Hospitalisations", subtitle = "Pre and Post Lockout Laws", y="Hospitalisation rate per 100,000 population")+
+  theme_bw() +
+  theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
+
+
 ## EDA Plot 2 - Health Related incidents in central sydney local health districts
+
 
 ggplot(sydney_LHDs, aes(x = date, y = hospitalisation_rate, fill = lockout)) + 
   geom_col() +

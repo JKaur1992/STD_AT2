@@ -30,6 +30,7 @@ ggplot(offence_data_2014, aes(x = Month, y = violence_count, group = 1)) +
   geom_line()
 
 ##############################################################
+
 #combine the data from monthly to annual
 offence_data_ag = aggregate(violence_count ~ Year + LGA, data = offence_data, FUN = sum)
 str(offence_data_ag)

@@ -1,0 +1,1420 @@
+Year,LGA,violence_count
+2008,Albury,315
+2009,Albury,179
+2010,Albury,166
+2011,Albury,119
+2012,Albury,95
+2013,Albury,199
+2014,Albury,180
+2015,Albury,102
+2016,Albury,123
+2017,Albury,91
+2018,Albury,69
+2008,Armidale Regional,368
+2009,Armidale Regional,394
+2010,Armidale Regional,352
+2011,Armidale Regional,359
+2012,Armidale Regional,301
+2013,Armidale Regional,248
+2014,Armidale Regional,212
+2015,Armidale Regional,162
+2016,Armidale Regional,150
+2017,Armidale Regional,171
+2018,Armidale Regional,141
+2008,Ballina,499
+2009,Ballina,574
+2010,Ballina,505
+2011,Ballina,492
+2012,Ballina,682
+2013,Ballina,543
+2014,Ballina,384
+2015,Ballina,303
+2016,Ballina,264
+2017,Ballina,302
+2018,Ballina,273
+2008,Balranald,33
+2009,Balranald,35
+2010,Balranald,32
+2011,Balranald,43
+2012,Balranald,23
+2013,Balranald,17
+2014,Balranald,77
+2015,Balranald,70
+2016,Balranald,50
+2017,Balranald,49
+2018,Balranald,43
+2008,Bathurst Regional,323
+2009,Bathurst Regional,364
+2010,Bathurst Regional,271
+2011,Bathurst Regional,268
+2012,Bathurst Regional,215
+2013,Bathurst Regional,207
+2014,Bathurst Regional,158
+2015,Bathurst Regional,142
+2016,Bathurst Regional,114
+2017,Bathurst Regional,281
+2018,Bathurst Regional,260
+2008,Bayside,232
+2009,Bayside,262
+2010,Bayside,330
+2011,Bayside,255
+2012,Bayside,297
+2013,Bayside,196
+2014,Bayside,177
+2015,Bayside,211
+2016,Bayside,210
+2017,Bayside,191
+2018,Bayside,333
+2008,Bega Valley,300
+2009,Bega Valley,244
+2010,Bega Valley,149
+2011,Bega Valley,165
+2012,Bega Valley,153
+2013,Bega Valley,272
+2014,Bega Valley,209
+2015,Bega Valley,113
+2016,Bega Valley,88
+2017,Bega Valley,68
+2018,Bega Valley,67
+2008,Bellingen,232
+2009,Bellingen,242
+2010,Bellingen,257
+2011,Bellingen,216
+2012,Bellingen,184
+2013,Bellingen,218
+2014,Bellingen,196
+2015,Bellingen,120
+2016,Bellingen,151
+2017,Bellingen,197
+2018,Bellingen,184
+2008,Berrigan,93
+2009,Berrigan,118
+2010,Berrigan,93
+2011,Berrigan,57
+2012,Berrigan,48
+2013,Berrigan,36
+2014,Berrigan,51
+2015,Berrigan,38
+2016,Berrigan,36
+2017,Berrigan,47
+2018,Berrigan,42
+2008,Blacktown,438
+2009,Blacktown,494
+2010,Blacktown,558
+2011,Blacktown,512
+2012,Blacktown,421
+2013,Blacktown,418
+2014,Blacktown,411
+2015,Blacktown,388
+2016,Blacktown,379
+2017,Blacktown,303
+2018,Blacktown,359
+2008,Bland,252
+2009,Bland,310
+2010,Bland,163
+2011,Bland,135
+2012,Bland,101
+2013,Bland,144
+2014,Bland,383
+2015,Bland,217
+2016,Bland,130
+2017,Bland,50
+2018,Bland,99
+2008,Blayney,228
+2009,Blayney,265
+2010,Blayney,179
+2011,Blayney,141
+2012,Blayney,137
+2013,Blayney,131
+2014,Blayney,75
+2015,Blayney,60
+2016,Blayney,72
+2017,Blayney,212
+2018,Blayney,222
+2008,Blue Mountains,354
+2009,Blue Mountains,354
+2010,Blue Mountains,469
+2011,Blue Mountains,323
+2012,Blue Mountains,209
+2013,Blue Mountains,133
+2014,Blue Mountains,150
+2015,Blue Mountains,151
+2016,Blue Mountains,127
+2017,Blue Mountains,147
+2018,Blue Mountains,141
+2008,Bogan,405
+2009,Bogan,269
+2010,Bogan,205
+2011,Bogan,225
+2012,Bogan,160
+2013,Bogan,109
+2014,Bogan,83
+2015,Bogan,60
+2016,Bogan,35
+2017,Bogan,64
+2018,Bogan,55
+2008,Bourke,271
+2009,Bourke,192
+2010,Bourke,181
+2011,Bourke,165
+2012,Bourke,112
+2013,Bourke,56
+2014,Bourke,27
+2015,Bourke,36
+2016,Bourke,39
+2017,Bourke,28
+2018,Bourke,19
+2008,Brewarrina,274
+2009,Brewarrina,262
+2010,Brewarrina,224
+2011,Brewarrina,197
+2012,Brewarrina,109
+2013,Brewarrina,49
+2014,Brewarrina,53
+2015,Brewarrina,47
+2016,Brewarrina,41
+2017,Brewarrina,31
+2018,Brewarrina,35
+2008,Broken Hill,104
+2009,Broken Hill,137
+2010,Broken Hill,80
+2011,Broken Hill,88
+2012,Broken Hill,51
+2013,Broken Hill,19
+2014,Broken Hill,43
+2015,Broken Hill,65
+2016,Broken Hill,27
+2017,Broken Hill,40
+2018,Broken Hill,29
+2008,Burwood,25
+2009,Burwood,77
+2010,Burwood,109
+2011,Burwood,66
+2012,Burwood,114
+2013,Burwood,60
+2014,Burwood,55
+2015,Burwood,104
+2016,Burwood,105
+2017,Burwood,123
+2018,Burwood,279
+2008,Byron,488
+2009,Byron,558
+2010,Byron,481
+2011,Byron,475
+2012,Byron,697
+2013,Byron,537
+2014,Byron,358
+2015,Byron,284
+2016,Byron,277
+2017,Byron,287
+2018,Byron,242
+2008,Cabonne,516
+2009,Cabonne,633
+2010,Cabonne,531
+2011,Cabonne,483
+2012,Cabonne,330
+2013,Cabonne,326
+2014,Cabonne,254
+2015,Cabonne,267
+2016,Cabonne,198
+2017,Cabonne,405
+2018,Cabonne,384
+2008,Camden,144
+2009,Camden,86
+2010,Camden,88
+2011,Camden,101
+2012,Camden,146
+2013,Camden,141
+2014,Camden,96
+2015,Camden,63
+2016,Camden,127
+2017,Camden,136
+2018,Camden,244
+2008,Campbelltown,431
+2009,Campbelltown,530
+2010,Campbelltown,481
+2011,Campbelltown,538
+2012,Campbelltown,478
+2013,Campbelltown,524
+2014,Campbelltown,446
+2015,Campbelltown,272
+2016,Campbelltown,481
+2017,Campbelltown,466
+2018,Campbelltown,406
+2008,Canada Bay,84
+2009,Canada Bay,118
+2010,Canada Bay,259
+2011,Canada Bay,175
+2012,Canada Bay,225
+2013,Canada Bay,158
+2014,Canada Bay,124
+2015,Canada Bay,204
+2016,Canada Bay,276
+2017,Canada Bay,213
+2018,Canada Bay,373
+2008,Canterbury-Bankstown,516
+2009,Canterbury-Bankstown,877
+2010,Canterbury-Bankstown,710
+2011,Canterbury-Bankstown,832
+2012,Canterbury-Bankstown,872
+2013,Canterbury-Bankstown,581
+2014,Canterbury-Bankstown,590
+2015,Canterbury-Bankstown,402
+2016,Canterbury-Bankstown,707
+2017,Canterbury-Bankstown,605
+2018,Canterbury-Bankstown,780
+2008,Carrathool,534
+2009,Carrathool,368
+2010,Carrathool,250
+2011,Carrathool,280
+2012,Carrathool,257
+2013,Carrathool,143
+2014,Carrathool,374
+2015,Carrathool,140
+2016,Carrathool,146
+2017,Carrathool,147
+2018,Carrathool,134
+2008,Central Coast,689
+2009,Central Coast,427
+2010,Central Coast,485
+2011,Central Coast,400
+2012,Central Coast,287
+2013,Central Coast,430
+2014,Central Coast,392
+2015,Central Coast,336
+2016,Central Coast,244
+2017,Central Coast,267
+2018,Central Coast,277
+2008,Central Darling,401
+2009,Central Darling,442
+2010,Central Darling,260
+2011,Central Darling,280
+2012,Central Darling,188
+2013,Central Darling,82
+2014,Central Darling,132
+2015,Central Darling,182
+2016,Central Darling,107
+2017,Central Darling,102
+2018,Central Darling,64
+2008,Cessnock,454
+2009,Cessnock,409
+2010,Cessnock,454
+2011,Cessnock,372
+2012,Cessnock,264
+2013,Cessnock,342
+2014,Cessnock,300
+2015,Cessnock,243
+2016,Cessnock,268
+2017,Cessnock,257
+2018,Cessnock,316
+2008,Clarence Valley,426
+2009,Clarence Valley,397
+2010,Clarence Valley,409
+2011,Clarence Valley,347
+2012,Clarence Valley,296
+2013,Clarence Valley,288
+2014,Clarence Valley,333
+2015,Clarence Valley,228
+2016,Clarence Valley,280
+2017,Clarence Valley,322
+2018,Clarence Valley,299
+2008,Cobar,465
+2009,Cobar,422
+2010,Cobar,232
+2011,Cobar,281
+2012,Cobar,209
+2013,Cobar,129
+2014,Cobar,130
+2015,Cobar,118
+2016,Cobar,84
+2017,Cobar,71
+2018,Cobar,68
+2008,Coffs Harbour,345
+2009,Coffs Harbour,320
+2010,Coffs Harbour,329
+2011,Coffs Harbour,268
+2012,Coffs Harbour,228
+2013,Coffs Harbour,225
+2014,Coffs Harbour,264
+2015,Coffs Harbour,167
+2016,Coffs Harbour,185
+2017,Coffs Harbour,239
+2018,Coffs Harbour,240
+2008,Coolamon,884
+2009,Coolamon,828
+2010,Coolamon,389
+2011,Coolamon,225
+2012,Coolamon,432
+2013,Coolamon,842
+2014,Coolamon,595
+2015,Coolamon,455
+2016,Coolamon,198
+2017,Coolamon,211
+2018,Coolamon,131
+2008,Coonamble,357
+2009,Coonamble,248
+2010,Coonamble,277
+2011,Coonamble,217
+2012,Coonamble,138
+2013,Coonamble,101
+2014,Coonamble,81
+2015,Coonamble,61
+2016,Coonamble,44
+2017,Coonamble,65
+2018,Coonamble,47
+2008,Cowra,338
+2009,Cowra,390
+2010,Cowra,292
+2011,Cowra,227
+2012,Cowra,169
+2013,Cowra,173
+2014,Cowra,147
+2015,Cowra,117
+2016,Cowra,124
+2017,Cowra,248
+2018,Cowra,262
+2008,Cumberland,643
+2009,Cumberland,737
+2010,Cumberland,753
+2011,Cumberland,819
+2012,Cumberland,917
+2013,Cumberland,796
+2014,Cumberland,854
+2015,Cumberland,704
+2016,Cumberland,758
+2017,Cumberland,589
+2018,Cumberland,651
+2008,Dungog,197
+2009,Dungog,192
+2010,Dungog,214
+2011,Dungog,175
+2012,Dungog,149
+2013,Dungog,141
+2014,Dungog,132
+2015,Dungog,92
+2016,Dungog,80
+2017,Dungog,108
+2018,Dungog,137
+2008,Edward River,123
+2009,Edward River,159
+2010,Edward River,170
+2011,Edward River,98
+2012,Edward River,95
+2013,Edward River,206
+2014,Edward River,133
+2015,Edward River,76
+2016,Edward River,70
+2017,Edward River,73
+2018,Edward River,65
+2008,Eurobodalla,420
+2009,Eurobodalla,325
+2010,Eurobodalla,298
+2011,Eurobodalla,206
+2012,Eurobodalla,178
+2013,Eurobodalla,325
+2014,Eurobodalla,289
+2015,Eurobodalla,125
+2016,Eurobodalla,119
+2017,Eurobodalla,101
+2018,Eurobodalla,86
+2008,Fairfield,655
+2009,Fairfield,883
+2010,Fairfield,691
+2011,Fairfield,973
+2012,Fairfield,790
+2013,Fairfield,702
+2014,Fairfield,887
+2015,Fairfield,371
+2016,Fairfield,632
+2017,Fairfield,457
+2018,Fairfield,484
+2008,Federation,467
+2009,Federation,268
+2010,Federation,215
+2011,Federation,145
+2012,Federation,208
+2013,Federation,274
+2014,Federation,231
+2015,Federation,128
+2016,Federation,215
+2017,Federation,148
+2018,Federation,108
+2008,Forbes,224
+2009,Forbes,252
+2010,Forbes,167
+2011,Forbes,224
+2012,Forbes,125
+2013,Forbes,129
+2014,Forbes,133
+2015,Forbes,108
+2016,Forbes,71
+2017,Forbes,91
+2018,Forbes,106
+2008,Georges River,167
+2009,Georges River,217
+2010,Georges River,282
+2011,Georges River,245
+2012,Georges River,180
+2013,Georges River,100
+2014,Georges River,95
+2015,Georges River,85
+2016,Georges River,87
+2017,Georges River,73
+2018,Georges River,168
+2008,Gilgandra,193
+2009,Gilgandra,194
+2010,Gilgandra,235
+2011,Gilgandra,221
+2012,Gilgandra,142
+2013,Gilgandra,167
+2014,Gilgandra,88
+2015,Gilgandra,100
+2016,Gilgandra,75
+2017,Gilgandra,76
+2018,Gilgandra,66
+2008,Glen Innes Severn,174
+2009,Glen Innes Severn,158
+2010,Glen Innes Severn,178
+2011,Glen Innes Severn,176
+2012,Glen Innes Severn,120
+2013,Glen Innes Severn,125
+2014,Glen Innes Severn,128
+2015,Glen Innes Severn,87
+2016,Glen Innes Severn,90
+2017,Glen Innes Severn,109
+2018,Glen Innes Severn,78
+2008,Goulburn Mulwaree,302
+2009,Goulburn Mulwaree,286
+2010,Goulburn Mulwaree,277
+2011,Goulburn Mulwaree,172
+2012,Goulburn Mulwaree,282
+2013,Goulburn Mulwaree,327
+2014,Goulburn Mulwaree,248
+2015,Goulburn Mulwaree,206
+2016,Goulburn Mulwaree,136
+2017,Goulburn Mulwaree,172
+2018,Goulburn Mulwaree,180
+2008,Greater Hume Shire,1142
+2009,Greater Hume Shire,810
+2010,Greater Hume Shire,526
+2011,Greater Hume Shire,301
+2012,Greater Hume Shire,484
+2013,Greater Hume Shire,1041
+2014,Greater Hume Shire,495
+2015,Greater Hume Shire,401
+2016,Greater Hume Shire,295
+2017,Greater Hume Shire,298
+2018,Greater Hume Shire,175
+2008,Griffith,245
+2009,Griffith,181
+2010,Griffith,159
+2011,Griffith,85
+2012,Griffith,177
+2013,Griffith,75
+2014,Griffith,323
+2015,Griffith,81
+2016,Griffith,101
+2017,Griffith,113
+2018,Griffith,85
+2008,Gundagai,1215
+2009,Gundagai,1007
+2010,Gundagai,573
+2011,Gundagai,387
+2012,Gundagai,547
+2013,Gundagai,965
+2014,Gundagai,516
+2015,Gundagai,510
+2016,Gundagai,235
+2017,Gundagai,254
+2018,Gundagai,285
+2008,Gunnedah,320
+2009,Gunnedah,229
+2010,Gunnedah,289
+2011,Gunnedah,263
+2012,Gunnedah,178
+2013,Gunnedah,195
+2014,Gunnedah,173
+2015,Gunnedah,156
+2016,Gunnedah,104
+2017,Gunnedah,143
+2018,Gunnedah,93
+2008,Gwydir,166
+2009,Gwydir,183
+2010,Gwydir,147
+2011,Gwydir,214
+2012,Gwydir,134
+2013,Gwydir,134
+2014,Gwydir,117
+2015,Gwydir,128
+2016,Gwydir,86
+2017,Gwydir,89
+2018,Gwydir,72
+2008,Hawkesbury,384
+2009,Hawkesbury,357
+2010,Hawkesbury,408
+2011,Hawkesbury,348
+2012,Hawkesbury,216
+2013,Hawkesbury,272
+2014,Hawkesbury,263
+2015,Hawkesbury,216
+2016,Hawkesbury,218
+2017,Hawkesbury,225
+2018,Hawkesbury,255
+2008,Hay,82
+2009,Hay,102
+2010,Hay,120
+2011,Hay,80
+2012,Hay,77
+2013,Hay,176
+2014,Hay,79
+2015,Hay,61
+2016,Hay,67
+2017,Hay,72
+2018,Hay,60
+2008,Hilltops,295
+2009,Hilltops,361
+2010,Hilltops,252
+2011,Hilltops,232
+2012,Hilltops,132
+2013,Hilltops,161
+2014,Hilltops,230
+2015,Hilltops,222
+2016,Hilltops,120
+2017,Hilltops,93
+2018,Hilltops,156
+2008,Hornsby,207
+2009,Hornsby,250
+2010,Hornsby,251
+2011,Hornsby,161
+2012,Hornsby,119
+2013,Hornsby,99
+2014,Hornsby,111
+2015,Hornsby,187
+2016,Hornsby,142
+2017,Hornsby,134
+2018,Hornsby,164
+2008,Hunters Hill,15
+2009,Hunters Hill,18
+2010,Hunters Hill,43
+2011,Hunters Hill,125
+2012,Hunters Hill,23
+2013,Hunters Hill,16
+2014,Hunters Hill,19
+2015,Hunters Hill,5
+2016,Hunters Hill,13
+2017,Hunters Hill,17
+2018,Hunters Hill,14
+2008,Inner West,348
+2009,Inner West,350
+2010,Inner West,353
+2011,Inner West,439
+2012,Inner West,372
+2013,Inner West,286
+2014,Inner West,279
+2015,Inner West,384
+2016,Inner West,450
+2017,Inner West,376
+2018,Inner West,502
+2008,Inverell,120
+2009,Inverell,145
+2010,Inverell,149
+2011,Inverell,144
+2012,Inverell,77
+2013,Inverell,90
+2014,Inverell,78
+2015,Inverell,70
+2016,Inverell,66
+2017,Inverell,80
+2018,Inverell,52
+2008,Junee,1003
+2009,Junee,800
+2010,Junee,428
+2011,Junee,275
+2012,Junee,471
+2013,Junee,871
+2014,Junee,445
+2015,Junee,464
+2016,Junee,188
+2017,Junee,213
+2018,Junee,179
+2008,Kempsey,779
+2009,Kempsey,795
+2010,Kempsey,680
+2011,Kempsey,666
+2012,Kempsey,510
+2013,Kempsey,461
+2014,Kempsey,415
+2015,Kempsey,348
+2016,Kempsey,265
+2017,Kempsey,279
+2018,Kempsey,252
+2008,Kiama,258
+2009,Kiama,311
+2010,Kiama,337
+2011,Kiama,253
+2012,Kiama,140
+2013,Kiama,138
+2014,Kiama,198
+2015,Kiama,147
+2016,Kiama,186
+2017,Kiama,109
+2018,Kiama,113
+2008,Ku-ring-gai,198
+2009,Ku-ring-gai,234
+2010,Ku-ring-gai,250
+2011,Ku-ring-gai,205
+2012,Ku-ring-gai,160
+2013,Ku-ring-gai,83
+2014,Ku-ring-gai,100
+2015,Ku-ring-gai,183
+2016,Ku-ring-gai,93
+2017,Ku-ring-gai,139
+2018,Ku-ring-gai,178
+2008,Kyogle,424
+2009,Kyogle,293
+2010,Kyogle,298
+2011,Kyogle,232
+2012,Kyogle,184
+2013,Kyogle,187
+2014,Kyogle,179
+2015,Kyogle,139
+2016,Kyogle,135
+2017,Kyogle,197
+2018,Kyogle,150
+2008,Lachlan,291
+2009,Lachlan,259
+2010,Lachlan,119
+2011,Lachlan,175
+2012,Lachlan,131
+2013,Lachlan,166
+2014,Lachlan,134
+2015,Lachlan,99
+2016,Lachlan,81
+2017,Lachlan,57
+2018,Lachlan,73
+2008,Lake Macquarie,362
+2009,Lake Macquarie,308
+2010,Lake Macquarie,303
+2011,Lake Macquarie,194
+2012,Lake Macquarie,163
+2013,Lake Macquarie,130
+2014,Lake Macquarie,155
+2015,Lake Macquarie,96
+2016,Lake Macquarie,131
+2017,Lake Macquarie,129
+2018,Lake Macquarie,187
+2008,Lane Cove,116
+2009,Lane Cove,78
+2010,Lane Cove,135
+2011,Lane Cove,125
+2012,Lane Cove,100
+2013,Lane Cove,97
+2014,Lane Cove,100
+2015,Lane Cove,153
+2016,Lane Cove,125
+2017,Lane Cove,173
+2018,Lane Cove,127
+2008,Leeton,249
+2009,Leeton,209
+2010,Leeton,163
+2011,Leeton,90
+2012,Leeton,126
+2013,Leeton,100
+2014,Leeton,331
+2015,Leeton,88
+2016,Leeton,114
+2017,Leeton,126
+2018,Leeton,103
+2008,Lismore,426
+2009,Lismore,277
+2010,Lismore,256
+2011,Lismore,200
+2012,Lismore,181
+2013,Lismore,173
+2014,Lismore,175
+2015,Lismore,137
+2016,Lismore,125
+2017,Lismore,206
+2018,Lismore,151
+2008,Lithgow,345
+2009,Lithgow,370
+2010,Lithgow,329
+2011,Lithgow,280
+2012,Lithgow,203
+2013,Lithgow,178
+2014,Lithgow,179
+2015,Lithgow,158
+2016,Lithgow,126
+2017,Lithgow,189
+2018,Lithgow,165
+2008,Liverpool,459
+2009,Liverpool,670
+2010,Liverpool,466
+2011,Liverpool,666
+2012,Liverpool,601
+2013,Liverpool,502
+2014,Liverpool,527
+2015,Liverpool,188
+2016,Liverpool,434
+2017,Liverpool,385
+2018,Liverpool,442
+2008,Liverpool Plains,258
+2009,Liverpool Plains,185
+2010,Liverpool Plains,299
+2011,Liverpool Plains,221
+2012,Liverpool Plains,131
+2013,Liverpool Plains,161
+2014,Liverpool Plains,146
+2015,Liverpool Plains,153
+2016,Liverpool Plains,101
+2017,Liverpool Plains,148
+2018,Liverpool Plains,102
+2008,Lockhart,795
+2009,Lockhart,586
+2010,Lockhart,335
+2011,Lockhart,161
+2012,Lockhart,367
+2013,Lockhart,829
+2014,Lockhart,328
+2015,Lockhart,284
+2016,Lockhart,152
+2017,Lockhart,185
+2018,Lockhart,91
+2008,Maitland,138
+2009,Maitland,157
+2010,Maitland,153
+2011,Maitland,111
+2012,Maitland,129
+2013,Maitland,101
+2014,Maitland,79
+2015,Maitland,75
+2016,Maitland,73
+2017,Maitland,70
+2018,Maitland,116
+2008,Mid-Coast,360
+2009,Mid-Coast,319
+2010,Mid-Coast,325
+2011,Mid-Coast,248
+2012,Mid-Coast,238
+2013,Mid-Coast,154
+2014,Mid-Coast,149
+2015,Mid-Coast,138
+2016,Mid-Coast,115
+2017,Mid-Coast,148
+2018,Mid-Coast,137
+2008,Mid-Western Regional,427
+2009,Mid-Western Regional,413
+2010,Mid-Western Regional,399
+2011,Mid-Western Regional,323
+2012,Mid-Western Regional,265
+2013,Mid-Western Regional,240
+2014,Mid-Western Regional,188
+2015,Mid-Western Regional,186
+2016,Mid-Western Regional,146
+2017,Mid-Western Regional,319
+2018,Mid-Western Regional,326
+2008,Moree Plains,127
+2009,Moree Plains,154
+2010,Moree Plains,105
+2011,Moree Plains,174
+2012,Moree Plains,105
+2013,Moree Plains,102
+2014,Moree Plains,85
+2015,Moree Plains,96
+2016,Moree Plains,70
+2017,Moree Plains,71
+2018,Moree Plains,57
+2008,Mosman,352
+2009,Mosman,139
+2010,Mosman,61
+2011,Mosman,143
+2012,Mosman,117
+2013,Mosman,93
+2014,Mosman,29
+2015,Mosman,45
+2016,Mosman,18
+2017,Mosman,30
+2018,Mosman,23
+2008,Murray River,131
+2009,Murray River,190
+2010,Murray River,183
+2011,Murray River,158
+2012,Murray River,139
+2013,Murray River,211
+2014,Murray River,142
+2015,Murray River,120
+2016,Murray River,87
+2017,Murray River,98
+2018,Murray River,86
+2008,Murrumbidgee,380
+2009,Murrumbidgee,350
+2010,Murrumbidgee,312
+2011,Murrumbidgee,193
+2012,Murrumbidgee,224
+2013,Murrumbidgee,294
+2014,Murrumbidgee,287
+2015,Murrumbidgee,164
+2016,Murrumbidgee,186
+2017,Murrumbidgee,207
+2018,Murrumbidgee,164
+2008,Muswellbrook,142
+2009,Muswellbrook,135
+2010,Muswellbrook,208
+2011,Muswellbrook,99
+2012,Muswellbrook,52
+2013,Muswellbrook,63
+2014,Muswellbrook,127
+2015,Muswellbrook,49
+2016,Muswellbrook,53
+2017,Muswellbrook,78
+2018,Muswellbrook,88
+2008,Nambucca,243
+2009,Nambucca,210
+2010,Nambucca,162
+2011,Nambucca,137
+2012,Nambucca,144
+2013,Nambucca,135
+2014,Nambucca,101
+2015,Nambucca,54
+2016,Nambucca,85
+2017,Nambucca,101
+2018,Nambucca,61
+2008,Narrabri,284
+2009,Narrabri,206
+2010,Narrabri,235
+2011,Narrabri,261
+2012,Narrabri,182
+2013,Narrabri,179
+2014,Narrabri,139
+2015,Narrabri,131
+2016,Narrabri,89
+2017,Narrabri,86
+2018,Narrabri,77
+2008,Narrandera,924
+2009,Narrandera,672
+2010,Narrandera,413
+2011,Narrandera,197
+2012,Narrandera,437
+2013,Narrandera,893
+2014,Narrandera,541
+2015,Narrandera,333
+2016,Narrandera,204
+2017,Narrandera,237
+2018,Narrandera,131
+2008,Narromine,147
+2009,Narromine,196
+2010,Narromine,222
+2011,Narromine,217
+2012,Narromine,134
+2013,Narromine,157
+2014,Narromine,88
+2015,Narromine,92
+2016,Narromine,65
+2017,Narromine,62
+2018,Narromine,61
+2008,Newcastle,352
+2009,Newcastle,334
+2010,Newcastle,371
+2011,Newcastle,358
+2012,Newcastle,393
+2013,Newcastle,326
+2014,Newcastle,379
+2015,Newcastle,221
+2016,Newcastle,218
+2017,Newcastle,228
+2018,Newcastle,170
+2008,North Sydney,1102
+2009,North Sydney,571
+2010,North Sydney,523
+2011,North Sydney,815
+2012,North Sydney,581
+2013,North Sydney,380
+2014,North Sydney,275
+2015,North Sydney,422
+2016,North Sydney,238
+2017,North Sydney,361
+2018,North Sydney,225
+2008,Northern Beaches,522
+2009,Northern Beaches,425
+2010,Northern Beaches,514
+2011,Northern Beaches,461
+2012,Northern Beaches,405
+2013,Northern Beaches,412
+2014,Northern Beaches,355
+2015,Northern Beaches,343
+2016,Northern Beaches,291
+2017,Northern Beaches,339
+2018,Northern Beaches,277
+2008,Oberon,325
+2009,Oberon,353
+2010,Oberon,281
+2011,Oberon,236
+2012,Oberon,227
+2013,Oberon,239
+2014,Oberon,223
+2015,Oberon,165
+2016,Oberon,120
+2017,Oberon,193
+2018,Oberon,165
+2008,Orange,89
+2009,Orange,104
+2010,Orange,79
+2011,Orange,73
+2012,Orange,65
+2013,Orange,73
+2014,Orange,30
+2015,Orange,34
+2016,Orange,52
+2017,Orange,167
+2018,Orange,169
+2008,Parkes,93
+2009,Parkes,191
+2010,Parkes,162
+2011,Parkes,145
+2012,Parkes,66
+2013,Parkes,86
+2014,Parkes,88
+2015,Parkes,71
+2016,Parkes,45
+2017,Parkes,85
+2018,Parkes,74
+2008,Parramatta,398
+2009,Parramatta,467
+2010,Parramatta,545
+2011,Parramatta,455
+2012,Parramatta,633
+2013,Parramatta,563
+2014,Parramatta,500
+2015,Parramatta,620
+2016,Parramatta,536
+2017,Parramatta,461
+2018,Parramatta,502
+2008,Penrith,385
+2009,Penrith,460
+2010,Penrith,606
+2011,Penrith,430
+2012,Penrith,250
+2013,Penrith,220
+2014,Penrith,238
+2015,Penrith,240
+2016,Penrith,222
+2017,Penrith,187
+2018,Penrith,209
+2008,Port Macquarie-Hastings,724
+2009,Port Macquarie-Hastings,671
+2010,Port Macquarie-Hastings,539
+2011,Port Macquarie-Hastings,500
+2012,Port Macquarie-Hastings,331
+2013,Port Macquarie-Hastings,315
+2014,Port Macquarie-Hastings,289
+2015,Port Macquarie-Hastings,283
+2016,Port Macquarie-Hastings,217
+2017,Port Macquarie-Hastings,229
+2018,Port Macquarie-Hastings,201
+2008,Port Stephens,199
+2009,Port Stephens,192
+2010,Port Stephens,214
+2011,Port Stephens,149
+2012,Port Stephens,136
+2013,Port Stephens,144
+2014,Port Stephens,126
+2015,Port Stephens,115
+2016,Port Stephens,130
+2017,Port Stephens,127
+2018,Port Stephens,120
+2008,Queanbeyan-Palerang Regional,511
+2009,Queanbeyan-Palerang Regional,470
+2010,Queanbeyan-Palerang Regional,409
+2011,Queanbeyan-Palerang Regional,292
+2012,Queanbeyan-Palerang Regional,305
+2013,Queanbeyan-Palerang Regional,444
+2014,Queanbeyan-Palerang Regional,437
+2015,Queanbeyan-Palerang Regional,256
+2016,Queanbeyan-Palerang Regional,196
+2017,Queanbeyan-Palerang Regional,218
+2018,Queanbeyan-Palerang Regional,213
+2008,Randwick,495
+2009,Randwick,540
+2010,Randwick,764
+2011,Randwick,838
+2012,Randwick,632
+2013,Randwick,519
+2014,Randwick,490
+2015,Randwick,447
+2016,Randwick,658
+2017,Randwick,616
+2018,Randwick,527
+2008,Richmond Valley,485
+2009,Richmond Valley,356
+2010,Richmond Valley,331
+2011,Richmond Valley,276
+2012,Richmond Valley,222
+2013,Richmond Valley,217
+2014,Richmond Valley,244
+2015,Richmond Valley,178
+2016,Richmond Valley,176
+2017,Richmond Valley,259
+2018,Richmond Valley,192
+2008,Ryde,161
+2009,Ryde,155
+2010,Ryde,226
+2011,Ryde,273
+2012,Ryde,137
+2013,Ryde,114
+2014,Ryde,119
+2015,Ryde,196
+2016,Ryde,116
+2017,Ryde,149
+2018,Ryde,160
+2008,Shellharbour,303
+2009,Shellharbour,377
+2010,Shellharbour,412
+2011,Shellharbour,268
+2012,Shellharbour,163
+2013,Shellharbour,144
+2014,Shellharbour,241
+2015,Shellharbour,160
+2016,Shellharbour,195
+2017,Shellharbour,131
+2018,Shellharbour,136
+2008,Shoalhaven,750
+2009,Shoalhaven,644
+2010,Shoalhaven,594
+2011,Shoalhaven,441
+2012,Shoalhaven,542
+2013,Shoalhaven,626
+2014,Shoalhaven,490
+2015,Shoalhaven,333
+2016,Shoalhaven,311
+2017,Shoalhaven,328
+2018,Shoalhaven,319
+2008,Singleton,249
+2009,Singleton,266
+2010,Singleton,307
+2011,Singleton,204
+2012,Singleton,128
+2013,Singleton,147
+2014,Singleton,184
+2015,Singleton,99
+2016,Singleton,142
+2017,Singleton,145
+2018,Singleton,223
+2008,Snowy Monaro Regional,502
+2009,Snowy Monaro Regional,434
+2010,Snowy Monaro Regional,304
+2011,Snowy Monaro Regional,239
+2012,Snowy Monaro Regional,259
+2013,Snowy Monaro Regional,413
+2014,Snowy Monaro Regional,407
+2015,Snowy Monaro Regional,277
+2016,Snowy Monaro Regional,182
+2017,Snowy Monaro Regional,178
+2018,Snowy Monaro Regional,166
+2008,Snowy Valleys,1426
+2009,Snowy Valleys,1104
+2010,Snowy Valleys,695
+2011,Snowy Valleys,436
+2012,Snowy Valleys,616
+2013,Snowy Valleys,1183
+2014,Snowy Valleys,674
+2015,Snowy Valleys,551
+2016,Snowy Valleys,358
+2017,Snowy Valleys,420
+2018,Snowy Valleys,349
+2008,Strathfield,64
+2009,Strathfield,101
+2010,Strathfield,230
+2011,Strathfield,189
+2012,Strathfield,222
+2013,Strathfield,161
+2014,Strathfield,151
+2015,Strathfield,202
+2016,Strathfield,190
+2017,Strathfield,216
+2018,Strathfield,341
+2008,Sutherland Shire,427
+2009,Sutherland Shire,504
+2010,Sutherland Shire,483
+2011,Sutherland Shire,488
+2012,Sutherland Shire,327
+2013,Sutherland Shire,304
+2014,Sutherland Shire,262
+2015,Sutherland Shire,251
+2016,Sutherland Shire,249
+2017,Sutherland Shire,316
+2018,Sutherland Shire,683
+2008,Sydney,3101
+2009,Sydney,3745
+2010,Sydney,4008
+2011,Sydney,3629
+2012,Sydney,3545
+2013,Sydney,3690
+2014,Sydney,3080
+2015,Sydney,3041
+2016,Sydney,3084
+2017,Sydney,2930
+2018,Sydney,3139
+2008,Tamworth Regional,339
+2009,Tamworth Regional,273
+2010,Tamworth Regional,362
+2011,Tamworth Regional,326
+2012,Tamworth Regional,215
+2013,Tamworth Regional,241
+2014,Tamworth Regional,243
+2015,Tamworth Regional,197
+2016,Tamworth Regional,139
+2017,Tamworth Regional,195
+2018,Tamworth Regional,110
+2008,Temora,241
+2009,Temora,244
+2010,Temora,119
+2011,Temora,114
+2012,Temora,177
+2013,Temora,93
+2014,Temora,349
+2015,Temora,187
+2016,Temora,93
+2017,Temora,47
+2018,Temora,82
+2008,Tenterfield,118
+2009,Tenterfield,113
+2010,Tenterfield,132
+2011,Tenterfield,123
+2012,Tenterfield,89
+2013,Tenterfield,89
+2014,Tenterfield,93
+2015,Tenterfield,59
+2016,Tenterfield,71
+2017,Tenterfield,88
+2018,Tenterfield,72
+2008,The Hills Shire,156
+2009,The Hills Shire,206
+2010,The Hills Shire,215
+2011,The Hills Shire,140
+2012,The Hills Shire,109
+2013,The Hills Shire,167
+2014,The Hills Shire,137
+2015,The Hills Shire,162
+2016,The Hills Shire,171
+2017,The Hills Shire,146
+2018,The Hills Shire,140
+2008,Tweed,398
+2009,Tweed,266
+2010,Tweed,267
+2011,Tweed,247
+2012,Tweed,245
+2013,Tweed,220
+2014,Tweed,190
+2015,Tweed,144
+2016,Tweed,174
+2017,Tweed,200
+2018,Tweed,145
+2008,Unincorporated NSW,189
+2009,Unincorporated NSW,316
+2010,Unincorporated NSW,168
+2011,Unincorporated NSW,165
+2012,Unincorporated NSW,130
+2013,Unincorporated NSW,52
+2014,Unincorporated NSW,107
+2015,Unincorporated NSW,125
+2016,Unincorporated NSW,70
+2017,Unincorporated NSW,62
+2018,Unincorporated NSW,48
+2008,Upper Hunter Shire,414
+2009,Upper Hunter Shire,385
+2010,Upper Hunter Shire,482
+2011,Upper Hunter Shire,359
+2012,Upper Hunter Shire,241
+2013,Upper Hunter Shire,255
+2014,Upper Hunter Shire,313
+2015,Upper Hunter Shire,233
+2016,Upper Hunter Shire,178
+2017,Upper Hunter Shire,257
+2018,Upper Hunter Shire,205
+2008,Upper Lachlan Shire,442
+2009,Upper Lachlan Shire,474
+2010,Upper Lachlan Shire,377
+2011,Upper Lachlan Shire,301
+2012,Upper Lachlan Shire,284
+2013,Upper Lachlan Shire,356
+2014,Upper Lachlan Shire,384
+2015,Upper Lachlan Shire,265
+2016,Upper Lachlan Shire,213
+2017,Upper Lachlan Shire,278
+2018,Upper Lachlan Shire,269
+2008,Uralla,126
+2009,Uralla,201
+2010,Uralla,188
+2011,Uralla,222
+2012,Uralla,182
+2013,Uralla,148
+2014,Uralla,127
+2015,Uralla,98
+2016,Uralla,56
+2017,Uralla,93
+2018,Uralla,67
+2008,Wagga Wagga,878
+2009,Wagga Wagga,780
+2010,Wagga Wagga,356
+2011,Wagga Wagga,194
+2012,Wagga Wagga,402
+2013,Wagga Wagga,863
+2014,Wagga Wagga,361
+2015,Wagga Wagga,304
+2016,Wagga Wagga,201
+2017,Wagga Wagga,223
+2018,Wagga Wagga,154
+2008,Walcha,448
+2009,Walcha,421
+2010,Walcha,445
+2011,Walcha,383
+2012,Walcha,343
+2013,Walcha,307
+2014,Walcha,244
+2015,Walcha,225
+2016,Walcha,141
+2017,Walcha,214
+2018,Walcha,168
+2008,Walgett,369
+2009,Walgett,312
+2010,Walgett,323
+2011,Walgett,280
+2012,Walgett,188
+2013,Walgett,102
+2014,Walgett,101
+2015,Walgett,95
+2016,Walgett,59
+2017,Walgett,67
+2018,Walgett,84
+2008,Warren,267
+2009,Warren,238
+2010,Warren,299
+2011,Warren,226
+2012,Warren,179
+2013,Warren,185
+2014,Warren,113
+2015,Warren,102
+2016,Warren,79
+2017,Warren,92
+2018,Warren,79
+2008,Warrumbungle Shire,415
+2009,Warrumbungle Shire,351
+2010,Warrumbungle Shire,465
+2011,Warrumbungle Shire,413
+2012,Warrumbungle Shire,274
+2013,Warrumbungle Shire,269
+2014,Warrumbungle Shire,200
+2015,Warrumbungle Shire,233
+2016,Warrumbungle Shire,153
+2017,Warrumbungle Shire,158
+2018,Warrumbungle Shire,133
+2008,Waverley,409
+2009,Waverley,495
+2010,Waverley,663
+2011,Waverley,736
+2012,Waverley,510
+2013,Waverley,501
+2014,Waverley,535
+2015,Waverley,462
+2016,Waverley,579
+2017,Waverley,510
+2018,Waverley,429
+2008,Weddin,220
+2009,Weddin,305
+2010,Weddin,173
+2011,Weddin,144
+2012,Weddin,90
+2013,Weddin,120
+2014,Weddin,208
+2015,Weddin,201
+2016,Weddin,104
+2017,Weddin,52
+2018,Weddin,91
+2008,Wentworth,127
+2009,Wentworth,160
+2010,Wentworth,102
+2011,Wentworth,121
+2012,Wentworth,62
+2013,Wentworth,31
+2014,Wentworth,83
+2015,Wentworth,118
+2016,Wentworth,47
+2017,Wentworth,66
+2018,Wentworth,47
+2008,Western Plains Regional,358
+2009,Western Plains Regional,395
+2010,Western Plains Regional,412
+2011,Western Plains Regional,421
+2012,Western Plains Regional,295
+2013,Western Plains Regional,282
+2014,Western Plains Regional,179
+2015,Western Plains Regional,209
+2016,Western Plains Regional,157
+2017,Western Plains Regional,293
+2018,Western Plains Regional,270
+2008,Willoughby,148
+2009,Willoughby,87
+2010,Willoughby,165
+2011,Willoughby,174
+2012,Willoughby,121
+2013,Willoughby,123
+2014,Willoughby,119
+2015,Willoughby,185
+2016,Willoughby,132
+2017,Willoughby,188
+2018,Willoughby,142
+2008,Wingecarribee,606
+2009,Wingecarribee,570
+2010,Wingecarribee,538
+2011,Wingecarribee,497
+2012,Wingecarribee,590
+2013,Wingecarribee,729
+2014,Wingecarribee,747
+2015,Wingecarribee,513
+2016,Wingecarribee,462
+2017,Wingecarribee,485
+2018,Wingecarribee,393
+2008,Wollondilly,520
+2009,Wollondilly,418
+2010,Wollondilly,402
+2011,Wollondilly,479
+2012,Wollondilly,485
+2013,Wollondilly,577
+2014,Wollondilly,549
+2015,Wollondilly,385
+2016,Wollondilly,433
+2017,Wollondilly,487
+2018,Wollondilly,406
+2008,Wollongong,873
+2009,Wollongong,945
+2010,Wollongong,917
+2011,Wollongong,775
+2012,Wollongong,632
+2013,Wollongong,722
+2014,Wollongong,835
+2015,Wollongong,559
+2016,Wollongong,634
+2017,Wollongong,675
+2018,Wollongong,499
+2008,Woollahra,1731
+2009,Woollahra,1981
+2010,Woollahra,2692
+2011,Woollahra,2295
+2012,Woollahra,2146
+2013,Woollahra,2294
+2014,Woollahra,2040
+2015,Woollahra,1743
+2016,Woollahra,1544
+2017,Woollahra,1630
+2018,Woollahra,1628
+2008,Yass Valley,187
+2009,Yass Valley,214
+2010,Yass Valley,154
+2011,Yass Valley,104
+2012,Yass Valley,89
+2013,Yass Valley,103
+2014,Yass Valley,96
+2015,Yass Valley,89
+2016,Yass Valley,83
+2017,Yass Valley,72
+2018,Yass Valley,103
