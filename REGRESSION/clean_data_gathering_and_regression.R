@@ -85,23 +85,32 @@ join_health <- inner_join(join_health, offence_pop, by = c('LGA','year'))
 join_health <- join_health %>%
   mutate(.,hosp_count = round(hosp_rate), death_count = round(death_rate), hosp_prob = hosp_rate / 100000, death_prob = death_rate / 100000)
 
-
+#==== Regressions for Alcohol Related Hospitalizations ====
 # Run regression - on hosp count, trial forward and backward feature selection to optimise the model for the lowest AIC measure
 glm_base<-glm(hosp_count ~ Median_income + Population_Density, family = poisson(), data = join_health)
+
 glm_var<-glm(hosp_count ~ Median_income + Population_Density + freq_daily, family = poisson(), data = join_health)
+
 glm_var2<-glm(hosp_count ~ Median_income + Population_Density + freq_daily+freq_weekly, family = poisson(), data = join_health)
 
 glm_basevar<-glm(hosp_count ~ Population_Density + freq_daily+freq_weekly, family = poisson(), data = join_health)
+
 glm_basevar2<-glm(hosp_count ~ Population_Density + freq_daily+freq_weekly+freq_less_weekly, family = poisson(), data = join_health)
+
 glm_basevar3<-glm(hosp_count ~ Population_Density +freq_daily+freq_weekly+freq_less_weekly+freq_never, family = poisson(), data = join_health)
 
 glm_baseinter<-glm(hosp_count ~ Population_Density*freq_daily, family = poisson, data = join_health)
+
+
 glm_baseinter<-glm(hosp_count ~ Population_Density*freq_daily + Population_Density*freq_never, family = poisson, data = join_health)
 
+
+#--------------AIC 12717 --------------------#
 glm_baseinter<-glm(hosp_count ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = poisson, data = join_health)
+#-------------------------------------------#
+
 
 # glm_binom<-glm(hosp_prob ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = binomial(logit), data = join_health)  # We tried a Binomial but  not a good idea.... 
-
 
 # Summary of the outputs of the various models 
 summary(glm_base)
@@ -118,3 +127,74 @@ step(glm,scope=~Median_income + Population_Density + freq_daily, direction="forw
 
 
 glm(Average_rent_1_bedroom ~ Median_income + Population_Density, family = gaussian(), data = joined_data)
+
+
+# ==== Regression For Alcohol related Deaths ====
+linear_Hosp_death <- lm(hosp_count ~ death_count, data = join_health) #how similar hosp and death behaves 
+summary(linear_Hosp_death)
+
+#--------------AIC 2234 --------------------#
+glm_base_death<-glm(death_count ~ Median_income + Population_Density, family = poisson(), data = join_health)
+# ------------------------------------------#
+
+
+glm_var_death<-glm(death_count ~ Median_income + Population_Density + freq_daily, family = poisson(), data = join_health)
+
+glm_var2_death<-glm(death_count ~ Median_income + Population_Density +freq_weekly, family = poisson(), data = join_health)
+
+glm_var3_death<-glm(death_count ~ Median_income + Population_Density +freq_less_weekly, family = poisson(), data = join_health)
+
+glm_basevar_death<-glm(death_count ~ Median_income + Population_Density +freq_daily+freq_weekly+freq_less_weekly+freq_never, family = poisson(), data = join_health)
+
+
+
+glm_baseinter_death<-glm(death_count ~ Population_Density*freq_daily, family = poisson, data = join_health)
+
+glm_baseinter_death<-glm(death_count ~ Population_Density*freq_daily + Population_Density*freq_never, family = poisson, data = join_health)
+
+glm_baseinter_death<-glm(death_count ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = poisson, data = join_health)
+
+
+glm_time_death<-glm(death_count ~ Median_income + Population_Density + year*freq_weekly, family = poisson(), data = join_health)
+
+glm_timevar_death<-glm(death_count ~ Median_income + Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = poisson(), data = join_health)
+
+
+# Summary of the outputs of the various models deaths
+summary(glm_base_death)
+summary(glm_var_death)
+summary(glm_var2_death)
+summary(glm_var3_death)
+summary(glm_basevar_death)
+summary(glm_baseinter_death)
+summary(glm_time_death)
+summary(glm_timevar_death)
+
+
+#==== Regression for Violence count ====
+glm_base_violence<-glm(violence_count ~ Median_income + Population_Density, family = poisson(), data = join_health)
+
+glm_var_violence<-glm(violence_count ~ Median_income + Population_Density + freq_daily, family = poisson(), data = join_health)
+
+glm_var2_violence<-glm(violence_count ~ Median_income + Population_Density + freq_daily+ freq_weekly, family = poisson(), data = join_health)
+
+glm_var3_violence<-glm(violence_count ~ Median_income  + freq_daily+ freq_weekly + freq_never, family = poisson(), data = join_health)
+
+glm_baseint_violence<-glm(violence_count ~ Median_income + Population_Density*freq_daily, family = poisson(), data = join_health)
+
+glm_baseint_violence<-glm(violence_count ~ Median_income  + Population_Density*freq_daily+ Population_Density*freq_weekly + Population_Density*freq_never, family = poisson(), data = join_health)
+
+
+#--------------AIC 58701 --------------------#
+glm_basetime_violence<-glm(violence_count ~ Median_income + year*Population_Density + Population_Density*freq_daily+ Population_Density*freq_weekly + Population_Density*freq_never, family = poisson(), data = join_health)
+
+summary(glm_basetime_violence)
+#--------------------------------------------#
+
+
+summary(glm_base_violence)
+summary(glm_var_violence)
+summary(glm_var2_violence)
+summary(glm_var3_violence)
+summary(glm_baseint_violence)
+summary(glm_basetime_violence)
