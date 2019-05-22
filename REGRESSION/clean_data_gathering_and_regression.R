@@ -85,41 +85,63 @@ join_health <- inner_join(join_health, offence_pop, by = c('LGA','year'))
 join_health <- join_health %>%
   mutate(.,hosp_count = round(hosp_rate), death_count = round(death_rate), hosp_prob = hosp_rate / 100000, death_prob = death_rate / 100000)
 
+# Create a sum of all cinsumer (all freq)
+join_health <- join_health %>%
+  mutate(totcons = freq_daily + freq_less_weekly + freq_weekly)
+
+#Create an indicative variable for pre and post law 
+join_health$Postlaw<- ifelse(join_health$year > 2014, 1,0)
+
 #==== Regressions for Alcohol Related Hospitalizations ====
 # Run regression - on hosp count, trial forward and backward feature selection to optimise the model for the lowest AIC measure
-glm_base<-glm(hosp_count ~ Median_income + Population_Density, family = poisson(), data = join_health)
+hosp1<-glm(hosp_count ~ Median_income + Population_Density, family = poisson(), data = join_health)
+summary(hosp1)
 
-glm_var<-glm(hosp_count ~ Median_income + Population_Density + freq_daily, family = poisson(), data = join_health)
+hosp2<-glm(hosp_count ~ Median_income + Population_Density + freq_daily, family = poisson(), data = join_health)
+summary(hosp2)
 
-glm_var2<-glm(hosp_count ~ Median_income + Population_Density + freq_daily+freq_weekly, family = poisson(), data = join_health)
+hosp3<-glm(hosp_count ~ Median_income + Population_Density + freq_daily+freq_weekly, family = poisson(), data = join_health)
+summary(hosp3)
 
-glm_basevar<-glm(hosp_count ~ Population_Density + freq_daily+freq_weekly, family = poisson(), data = join_health)
+hosp4<-glm(hosp_count ~ Population_Density + freq_daily+freq_weekly, family = poisson(), data = join_health)
+summary(hosp4)
 
-glm_basevar2<-glm(hosp_count ~ Population_Density + freq_daily+freq_weekly+freq_less_weekly, family = poisson(), data = join_health)
+hosp5<-glm(hosp_count ~ Population_Density + freq_daily+freq_weekly+freq_less_weekly, family = poisson(), data = join_health)
+summary(hosp5)
 
-glm_basevar3<-glm(hosp_count ~ Population_Density +freq_daily+freq_weekly+freq_less_weekly+freq_never, family = poisson(), data = join_health)
+hosp6<-glm(hosp_count ~ Population_Density +freq_daily+freq_weekly+freq_less_weekly+freq_never, family = poisson(), data = join_health)
+summary(hosp6)
 
-glm_baseinter<-glm(hosp_count ~ Population_Density*freq_daily, family = poisson, data = join_health)
+hosp7<-glm(hosp_count ~ Population_Density*freq_daily, family = poisson, data = join_health)
+summary(hosp7)
 
 
-glm_baseinter<-glm(hosp_count ~ Population_Density*freq_daily + Population_Density*freq_never, family = poisson, data = join_health)
+hosp8<-glm(hosp_count ~ Population_Density*freq_daily + Population_Density*freq_never, family = poisson, data = join_health)
+summary(hosp8)
 
+# ------ BEST REGRESSION FOR HOSPITALIZATIONS WITHOUT 2014 INDICATIVE -------#
+hosp9<-glm(hosp_count ~ year + Population_Density + freq_daily+freq_weekly+freq_less_weekly, family = poisson(), data = join_health)
+summary(hosp9)
+#----------------------------------------------------#
 
-#--------------AIC 12717 --------------------#
-glm_baseinter<-glm(hosp_count ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = poisson, data = join_health)
-#-------------------------------------------#
+hosp10<-glm(hosp_count ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = poisson, data = join_health)
+summary(hosp10)
 
+hosp11<-glm(hosp_count ~ year + Population_Density + totcons, family = poisson(), data = join_health)
+summary(hosp11)
+
+hosp12<-glm(hosp_count ~ year + Population_Density + freq_daily+freq_weekly+freq_less_weekly + Postlaw, family = poisson(), data = join_health)
+summary(hosp12)
+# ------ BEST REGRESSION FOR HOSPITALIZATIONS -------#
+hosp13<-glm(hosp_count ~ Population_Density + freq_daily+freq_weekly+freq_less_weekly + Postlaw, family = poisson(), data = join_health)
+summary(hosp13)
+#----------------------------------------------------#
+
+hosp14<-glm(hosp_count ~ Population_Density +totcons +Postlaw, family = poisson(), data = join_health)
+summary(hosp14)
 
 # glm_binom<-glm(hosp_prob ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = binomial(logit), data = join_health)  # We tried a Binomial but  not a good idea.... 
 
-# Summary of the outputs of the various models 
-summary(glm_base)
-summary(glm_var)
-summary(glm_var2)
-summary(glm_basevar)
-summary(glm_basevar2)
-summary(glm_basevar3)
-summary(glm_baseinter)
 
 # summary(glm_binom)
 
@@ -133,9 +155,10 @@ glm(Average_rent_1_bedroom ~ Median_income + Population_Density, family = gaussi
 linear_Hosp_death <- lm(hosp_count ~ death_count, data = join_health) #how similar hosp and death behaves 
 summary(linear_Hosp_death)
 
-#--------------AIC 2234 --------------------#
-glm_base_death<-glm(death_count ~ Median_income + Population_Density, family = poisson(), data = join_health)
-# ------------------------------------------#
+
+
+death1<-glm(death_count ~ Median_income + Population_Density, family = poisson(), data = join_health)
+summary(death1)
 
 
 glm_var_death<-glm(death_count ~ Median_income + Population_Density + freq_daily, family = poisson(), data = join_health)
@@ -145,7 +168,6 @@ glm_var2_death<-glm(death_count ~ Median_income + Population_Density +freq_weekl
 glm_var3_death<-glm(death_count ~ Median_income + Population_Density +freq_less_weekly, family = poisson(), data = join_health)
 
 glm_basevar_death<-glm(death_count ~ Median_income + Population_Density +freq_daily+freq_weekly+freq_less_weekly+freq_never, family = poisson(), data = join_health)
-
 
 
 glm_baseinter_death<-glm(death_count ~ Population_Density*freq_daily, family = poisson, data = join_health)
@@ -158,6 +180,12 @@ glm_baseinter_death<-glm(death_count ~ year*Population_Density + freq_daily +fre
 glm_time_death<-glm(death_count ~ Median_income + Population_Density + year*freq_weekly, family = poisson(), data = join_health)
 
 glm_timevar_death<-glm(death_count ~ Median_income + Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = poisson(), data = join_health)
+
+deathXX<-glm(death_count ~ Median_income + Population_Density + totcons, family = poisson(), data = join_health)
+summary(deathXX)
+
+death20<-glm(death_count ~ Median_income + Population_Density + Postlaw, family = poisson(), data = join_health)
+summary(death20)
 
 
 # Summary of the outputs of the various models deaths
@@ -172,29 +200,136 @@ summary(glm_timevar_death)
 
 
 #==== Regression for Violence count ====
-glm_base_violence<-glm(violence_count ~ Median_income + Population_Density, family = poisson(), data = join_health)
+violence1<-glm(violence_count ~ Median_income + Population_Density, family = poisson(), data = join_health)
+summary(violence1)
 
-glm_var_violence<-glm(violence_count ~ Median_income + Population_Density + freq_daily, family = poisson(), data = join_health)
+violence2<-glm(violence_count ~ Median_income + Population_Density + freq_daily, family = poisson(), data = join_health)
+summary(violence2)
 
-glm_var2_violence<-glm(violence_count ~ Median_income + Population_Density + freq_daily+ freq_weekly, family = poisson(), data = join_health)
+violence3<-glm(violence_count ~ Median_income + Population_Density + freq_daily+ freq_weekly, family = poisson(), data = join_health)
+summary(violence3)
 
-glm_var3_violence<-glm(violence_count ~ Median_income  + freq_daily+ freq_weekly + freq_never, family = poisson(), data = join_health)
+violence4<-glm(violence_count ~ Population_Density + freq_daily+ freq_weekly + freq_never, family = poisson(), data = join_health)
+summary(violence4)
 
-glm_baseint_violence<-glm(violence_count ~ Median_income + Population_Density*freq_daily, family = poisson(), data = join_health)
+#--------------BEST REGRESSION FOR VIOLENCE WITHOUT 2014 INDICATIVE ------------------------------#
+violence5<-glm(violence_count ~ year +Population_Density  + freq_daily+ freq_weekly + freq_never, family = poisson(), data = join_health)
+summary(violence5)
 
-glm_baseint_violence<-glm(violence_count ~ Median_income  + Population_Density*freq_daily+ Population_Density*freq_weekly + Population_Density*freq_never, family = poisson(), data = join_health)
+violence6<- glm(violence_count ~ year +Population_Density  +totcons , family = poisson(), data = join_health)
+summary(violence6)
 
-
-#--------------AIC 58701 --------------------#
-glm_basetime_violence<-glm(violence_count ~ Median_income + year*Population_Density + Population_Density*freq_daily+ Population_Density*freq_weekly + Population_Density*freq_never, family = poisson(), data = join_health)
-
-summary(glm_basetime_violence)
+#--------------BEST REGRESSION FOR VIOLENCE ------------------------------#
+violence7<-glm(violence_count ~ year +Population_Density  + freq_daily+ freq_weekly + freq_never + Postlaw, family = poisson(), data = join_health)
+summary(violence7)
 #--------------------------------------------#
 
 
-summary(glm_base_violence)
-summary(glm_var_violence)
-summary(glm_var2_violence)
-summary(glm_var3_violence)
-summary(glm_baseint_violence)
-summary(glm_basetime_violence)
+
+
+
+# ====== PREDICTIONS =========#####
+# ---- Hospitalizatons -------#####
+#Sydnay LGA 
+PredHosp <- join_health %>%
+  select(LGA,hosp_count, year,Population_Density,freq_daily,freq_weekly,freq_less_weekly) 
+
+
+trainsetHosp <- PredHosp%>%
+  filter(year <= 2013)
+
+testsetHosp <- PredHosp%>%
+  filter(year > 2013)
+
+
+
+
+
+nrow(trainsetPHS)
+nrow(testsetPHS)
+nrow(PredHospSyd)
+
+SydneyHosp<- glm(hosp_count ~ year + Population_Density + freq_daily + freq_weekly + freq_less_weekly, family = poisson(), data = trainsetPHS)
+
+testsetPHS$Prediction <- predict(SydneyHosp, newdata=testsetPHS, type = "response" )
+view(testsetPHS)
+
+SydneyHospPredVsReal<- testsetPHS %>%
+  select(LGA, year ,hosp_count, Prediction)
+view(SydneyHospPredVsReal)
+
+PredHospSyd <- PredHospSyd %>%
+  left_join(SydneyHospPredVsReal, Prediction,by=c("LGA", "year", "hosp_count"))
+
+PredHospSyd <- transform(PredHospSyd, Pred2=ifelse(year==2014, hosp_count, Prediction))
+view(PredHospSyd)
+
+rmse(PredHospSyd$hosp_count, PredHospSyd$Prediction)
+
+
+#Plot the difference 
+ggplot(data = PredHospSyd) + 
+  geom_line(mapping = aes(x = year, y = hosp_count, color="Actual"), show.legend = TRUE)+
+  geom_line(mapping = aes(x = year, y = Pred2, color="Prediction"), show.legend = TRUE)+
+  xlab("Year") + ylab("Hospitalization") +
+  geom_vline(xintercept = (2014), linetype="dotted", color = "blue", size=0.5)  +
+  geom_text(aes(x=(2014), label="Law", y=750), colour="black", angle=90, vjust = 1.2) +
+  labs(title="Syndey Hospitalization Count", subtitle = "Predictions vs Real")  +
+  theme(plot.title = element_text(hjust=0.5),plot.subtitle  = element_text(hjust=0.5))+
+  theme_classic()
+  
+
+#  Parramata LGA
+PredHospPar <- join_health %>%
+  filter(LGA=="Parramatta")%>%
+  select(LGA,hosp_count, year,Population_Density,freq_daily,freq_weekly,freq_less_weekly) 
+
+trainsetPHP <- PredHospPar[1:3,]
+testsetPHP <- PredHospPar[4:5,]
+
+nrow(trainsetPHP)
+nrow(testsetPHP)
+nrow(PredHospPar)
+
+ParraHosp<- glm(hosp_count ~ year + Population_Density + freq_daily + freq_weekly + freq_less_weekly, family = poisson(), data = trainsetPHP)
+
+testsetPHP$Prediction <- predict(ParraHosp, newdata=testsetPHP, type = "response" )
+view(testsetPHP)
+
+ParramattaHospPredVsReal<- testsetPHP %>%
+  select(LGA, year ,hosp_count, Prediction)
+view(ParramattaHospPredVsReal)
+
+PredHospPar <- PredHospPar %>%
+  left_join(ParramattaHospPredVsReal, Prediction,by=c("LGA", "year", "hosp_count"))
+
+PredHospPar <- transform(PredHospPar, Pred2=ifelse(year==2014, hosp_count, Prediction))
+view(PredHospPar)
+
+#Plot the difference 
+ggplot(data = PredHospPar) + 
+  geom_line(mapping = aes(x = year, y = hosp_count, color="Actual"), show.legend = TRUE)+
+  geom_line(mapping = aes(x = year, y = Pred2, color="Predicted"), show.legend = TRUE)+
+  xlab("Year") + ylab("Hospitalization") +
+  geom_vline(xintercept = (2014), linetype="dotted", color = "blue", size=0.5)  +
+  geom_text(aes(x=(2014), label="Law", y=700), colour="black", angle=90, vjust = 1.2) +
+  labs(title="Parramatta Hospitalization Count", subtitle = "Predictions vs Real")  +
+  theme(plot.title = element_text(hjust=0.5),plot.subtitle  = element_text(hjust=0.5))+
+  theme_classic()
+
+
+# Inner West
+
+# ---- Death ---####
+PredHospSyd <- join_health %>%
+  filter(LGA=="Sydney")%>%
+  select(LGA,hosp_count, year,Population_Density,freq_daily,freq_weekly,freq_less_weekly) 
+
+trainsetPHS <- PredHospSyd[1:3,]
+testsetPHS <- PredHospSyd[4:5,]
+
+nrow(trainsetPHS)
+nrow(testsetPHS)
+nrow(PredHospSyd)
+
+SydneyHosp<- glm(hosp_count ~ year + Population_Density + freq_daily + freq_weekly + freq_less_weekly, family = poisson(), data = trainsetPHS)
