@@ -250,11 +250,11 @@ alcohol_offences
 offence_data$year <- parse_date_time('Jan-08',orders='my')
 
 #split date into 2 columns
-offence_data <- offence_data %>%
+offence_data <- alcohol_offences %>%
   separate(.,"year",c("Year","Month"),sep="-")
 
 #combine the data from monthly to annual
-offence_data_ag=aggregate(violence_count ~ Postcode + Offence + Year + State + LGA, data = offence_data, FUN = sum)
+offence_data_ag=aggregate(violence_count ~ Postcode + Offence + Year, data = offence_data, FUN = sum)
 
 ########NEXT DATASET####################################
 
