@@ -53,6 +53,23 @@ get_frequency_by_LGA_year <- function() {
   return (read_csv('STD_AT2/CLEAN DATA/alcohol_freq_LGA.csv'))
 }
 
+get_age_by_LGA_year <- function() {
+  return(read_csv('STD_AT2/CLEAN DATA/Population_Clean.csv') %>% 
+     select(LGA,Year,`Working Age Population (15-64 years)`,Male_Median_Age,Female_Median_Age,Person_Median_Age) %>%
+     rename('year' = 'Year') %>% rename('Working_Age_Population_15_64_years' = `Working Age Population (15-64 years)`) %>%
+    mutate(Working_Age_Population_15_64_years = as.numeric(Working_Age_Population_15_64_years)) %>%
+     mutate(Male_Median_Age = as.numeric(Male_Median_Age)) %>%
+     mutate(Female_Median_Age = as.numeric(Female_Median_Age)) %>%
+     mutate(Person_Median_Age = as.numeric(Person_Median_Age))
+   )
+ 
+}
+
+get_unemployment_rate_by_LGA_year <- function() {
+  return (read_csv('STD_AT2/CLEAN DATA/Unemployment.csv') %>%
+    rename('year' = 'YEAR') %>% mutate(Unemployment_rate = as.numeric(Unemployment_rate)))
+}
+
 # Import the data
 
 rent <- get_clean_rent_data_by_LGA_year()
@@ -66,6 +83,10 @@ hospitalisation <- get_hostpitalisation_by_LGA_year();
 business <- get_business_entries_rate_by_LGA_year();
 
 frequency <- get_frequency_by_LGA_year();
+
+age <- get_age_by_LGA_year();
+
+unemployment_rate <- get_unemployment_rate_by_LGA_year();
 
 # Join  all the data sets together
 joined_data <- inner_join(inner_join(inner_join(inner_join(inner_join(rent, income, by = c('LGA','year')), offence_pop, by = c('LGA', 'year')), business, by = c('LGA', 'year')), hospitalisation, by = c('LGA', 'year')), frequency, by = c('LGA', 'year'))

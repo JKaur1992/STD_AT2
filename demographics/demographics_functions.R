@@ -1,6 +1,13 @@
 library(tidyverse)
 library(readxl)
 Income <- read_excel('STD_AT2/demographics/Income.xls')
+Emp <- read_excel('STD_AT2/demographics/Employment1.xlsx')
+
+write_csv( x = Emp %>% filter(CODE >= 10000 & CODE < 20000)
+%>% rowwise() %>% mutate(LGA = (strsplit(LABEL,' ')[[1]][1]))
+%>% mutate(LABEL = NULL, CODE = NULL)
+%>% select(LGA,YEAR,`Unemployment rate`) %>% rename('Unemployment_rate' = `Unemployment rate`),'STD_AT2/CLEAN DATA/Unemployment.csv')
+
 
 View(Income %>% filter(CODE >= 10000 & CODE < 20000)
      %>% rowwise() %>% mutate(LGA = (strsplit(LABEL,' ')[[1]][1]))
@@ -13,3 +20,16 @@ write_csv(x = Income %>% filter(CODE >= 10000 & CODE < 20000)
           %>% mutate(LABEL = NULL, CODE = NULL)
           %>% select(LGA,YEAR,`Median Employee income $`)
           ,'STD_AT2/CLEAN DATA/Income.csv')
+
+Business <- read_excel('STD_AT2/demographics/Business_clean.xls')
+
+write_csv((Business %>% filter(CODE >= 10000 & CODE < 20000)
+  %>% rowwise() %>% mutate(LGA = (strsplit(LABEL,' ')[[1]][1]))
+  %>% mutate(LABEL = NULL, CODE = NULL) 
+  %>% select(LGA, YEAR, `Total number of business entries`, `Total number of business exits`)
+  %>% rename('Business_entries' = 'Total number of business entries')
+  %>% rename('Business_exits' = 'Total number of business exits')
+  %>% rename('year' = 'YEAR')
+  %>% mutate(Business_entries = as.numeric(Business_entries))
+  %>% mutate(Business_exits = as.numeric(Business_exits))
+  %>% mutate(New_business_entries_rate = (Business_entries - Business_exits)/Business_entries)), 'STD_AT2/CLEAN DATA/Business.csv')

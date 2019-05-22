@@ -6,13 +6,13 @@ Albury,2014,42894
 Albury,2015,44000
 Albury,2016,45382
 Albury,2017,-
-Armidale,2011,34393
-Armidale,2012,35297
-Armidale,2013,36810
-Armidale,2014,37646
-Armidale,2015,39261
-Armidale,2016,39733
-Armidale,2017,-
+Armidale Regional,2011,34393
+Armidale Regional,2012,35297
+Armidale Regional,2013,36810
+Armidale Regional,2014,37646
+Armidale Regional,2015,39261
+Armidale Regional,2016,39733
+Armidale Regional,2017,-
 Ballina,2011,33776
 Ballina,2012,35583
 Ballina,2013,36671
@@ -27,13 +27,13 @@ Balranald,2014,33586
 Balranald,2015,36575
 Balranald,2016,39057
 Balranald,2017,-
-Bathurst,2011,40870
-Bathurst,2012,42914
-Bathurst,2013,43769
-Bathurst,2014,44641
-Bathurst,2015,46378
-Bathurst,2016,47994
-Bathurst,2017,-
+Bathurst Regional,2011,40870
+Bathurst Regional,2012,42914
+Bathurst Regional,2013,43769
+Bathurst Regional,2014,44641
+Bathurst Regional,2015,46378
+Bathurst Regional,2016,47994
+Bathurst Regional,2017,-
 Bayside,2011,43616
 Bayside,2012,45857
 Bayside,2013,47780
@@ -41,13 +41,13 @@ Bayside,2014,49070
 Bayside,2015,50093
 Bayside,2016,51928
 Bayside,2017,-
-Bega,2011,32723
-Bega,2012,34345
-Bega,2013,35283
-Bega,2014,36506
-Bega,2015,37331
-Bega,2016,38672
-Bega,2017,-
+Bega Valley,2011,32723
+Bega Valley,2012,34345
+Bega Valley,2013,35283
+Bega Valley,2014,36506
+Bega Valley,2015,37331
+Bega Valley,2016,38672
+Bega Valley,2017,-
 Bellingen,2011,31200
 Bellingen,2012,33022
 Bellingen,2013,34358
@@ -83,13 +83,13 @@ Blayney,2014,43597
 Blayney,2015,44611
 Blayney,2016,46806
 Blayney,2017,-
-Blue,2011,44049
-Blue,2012,45916
-Blue,2013,47138
-Blue,2014,48125
-Blue,2015,49242
-Blue,2016,51018
-Blue,2017,-
+Blue Mountains,2011,44049
+Blue Mountains,2012,45916
+Blue Mountains,2013,47138
+Blue Mountains,2014,48125
+Blue Mountains,2015,49242
+Blue Mountains,2016,51018
+Blue Mountains,2017,-
 Bogan,2011,34452
 Bogan,2012,37024
 Bogan,2013,38542
@@ -111,13 +111,13 @@ Brewarrina,2014,39111
 Brewarrina,2015,39738
 Brewarrina,2016,43251
 Brewarrina,2017,-
-Broken,2011,38050
-Broken,2012,41540
-Broken,2013,43691
-Broken,2014,43597
-Broken,2015,45029
-Broken,2016,47574
-Broken,2017,-
+Broken Hill,2011,38050
+Broken Hill,2012,41540
+Broken Hill,2013,43691
+Broken Hill,2014,43597
+Broken Hill,2015,45029
+Broken Hill,2016,47574
+Broken Hill,2017,-
 Burwood,2011,34541
 Burwood,2012,36751
 Burwood,2013,38632
@@ -153,13 +153,13 @@ Campbelltown,2014,46373
 Campbelltown,2015,47615
 Campbelltown,2016,49499
 Campbelltown,2017,-
-Canada,2011,51519
-Canada,2012,53487
-Canada,2013,54750
-Canada,2014,55759
-Canada,2015,57129
-Canada,2016,58368
-Canada,2017,-
+Canada Bay,2011,51519
+Canada Bay,2012,53487
+Canada Bay,2013,54750
+Canada Bay,2014,55759
+Canada Bay,2015,57129
+Canada Bay,2016,58368
+Canada Bay,2017,-
 Canterbury-Bankstown,2011,39000
 Canterbury-Bankstown,2012,40405
 Canterbury-Bankstown,2013,41600
@@ -174,19 +174,19 @@ Carrathool,2014,34734
 Carrathool,2015,34521
 Carrathool,2016,36400
 Carrathool,2017,-
-Central,2011,39274
-Central,2012,41040
-Central,2013,42250
-Central,2014,43292
-Central,2015,44639
-Central,2016,46229
-Central,2011,30030
-Central,2012,25754
-Central,2013,27887
-Central,2014,36057
-Central,2015,37581
-Central,2016,36876
-Central,2017,-
+Central Coast,2011,39274
+Central Coast,2012,41040
+Central Coast,2013,42250
+Central Coast,2014,43292
+Central Coast,2015,44639
+Central Coast,2016,46229
+Central Darling,2011,30030
+Central Darling,2012,25754
+Central Darling,2013,27887
+Central Darling,2014,36057
+Central Darling,2015,37581
+Central Darling,2016,36876
+Central Darling,2017,-
 Cessnock,2011,39438
 Cessnock,2012,41710
 Cessnock,2013,42692
@@ -194,13 +194,13 @@ Cessnock,2014,43267
 Cessnock,2015,44052
 Cessnock,2016,45506
 Cessnock,2017,-
-Clarence,2011,32133
-Clarence,2012,33142
-Clarence,2013,35111
-Clarence,2014,36040
-Clarence,2015,37441
-Clarence,2016,39314
-Clarence,2017,-
+Clarence Valley,2011,32133
+Clarence Valley,2012,33142
+Clarence Valley,2013,35111
+Clarence Valley,2014,36040
+Clarence Valley,2015,37441
+Clarence Valley,2016,39314
+Clarence Valley,2017,-
 Cobar,2011,46627
 Cobar,2012,51234
 Cobar,2013,56861
@@ -208,13 +208,13 @@ Cobar,2014,56415
 Cobar,2015,60056
 Cobar,2016,58866
 Cobar,2017,-
-Coffs,2011,33236
-Coffs,2012,34426
-Coffs,2013,36052
-Coffs,2014,37348
-Coffs,2015,38502
-Coffs,2016,39993
-Coffs,2017,-
+Coffs Harbour,2011,33236
+Coffs Harbour,2012,34426
+Coffs Harbour,2013,36052
+Coffs Harbour,2014,37348
+Coffs Harbour,2015,38502
+Coffs Harbour,2016,39993
+Coffs Harbour,2017,-
 Coolamon,2011,33959
 Coolamon,2012,35756
 Coolamon,2013,36915
@@ -249,13 +249,13 @@ Dungog,2014,42792
 Dungog,2015,43354
 Dungog,2016,45167
 Dungog,2017,-
-Edward,2011,34183
-Edward,2012,36834
-Edward,2013,37786
-Edward,2014,39118
-Edward,2015,40207
-Edward,2016,41069
-Edward,2017,-
+Edward River,2011,34183
+Edward River,2012,36834
+Edward River,2013,37786
+Edward River,2014,39118
+Edward River,2015,40207
+Edward River,2016,41069
+Edward River,2017,-
 Eurobodalla,2011,29754
 Eurobodalla,2012,31478
 Eurobodalla,2013,32358
@@ -283,13 +283,13 @@ Forbes,2014,38438
 Forbes,2015,39799
 Forbes,2016,41955
 Forbes,2017,-
-Georges,2011,42330
-Georges,2012,44114
-Georges,2013,45010
-Georges,2014,45957
-Georges,2015,47026
-Georges,2016,48427
-Georges,2017,-
+Georges River,2011,42330
+Georges River,2012,44114
+Georges River,2013,45010
+Georges River,2014,45957
+Georges River,2015,47026
+Georges River,2016,48427
+Georges River,2017,-
 Gilgandra,2011,32448
 Gilgandra,2012,33114
 Gilgandra,2013,33743
@@ -297,27 +297,27 @@ Gilgandra,2014,35778
 Gilgandra,2015,35325
 Gilgandra,2016,36969
 Gilgandra,2017,-
-Glen,2011,28673
-Glen,2012,30479
-Glen,2013,30981
-Glen,2014,32363
-Glen,2015,34087
-Glen,2016,35000
-Glen,2017,-
-Goulburn,2011,40096
-Goulburn,2012,41665
-Goulburn,2013,42678
-Goulburn,2014,43744
-Goulburn,2015,45031
-Goulburn,2016,47548
-Goulburn,2017,-
-Greater,2011,34267
-Greater,2012,35181
-Greater,2013,36633
-Greater,2014,37500
-Greater,2015,38938
-Greater,2016,41117
-Greater,2017,-
+Glen Innes Severn,2011,28673
+Glen Innes Severn,2012,30479
+Glen Innes Severn,2013,30981
+Glen Innes Severn,2014,32363
+Glen Innes Severn,2015,34087
+Glen Innes Severn,2016,35000
+Glen Innes Severn,2017,-
+Goulburn Mulwaree,2011,40096
+Goulburn Mulwaree,2012,41665
+Goulburn Mulwaree,2013,42678
+Goulburn Mulwaree,2014,43744
+Goulburn Mulwaree,2015,45031
+Goulburn Mulwaree,2016,47548
+Goulburn Mulwaree,2017,-
+Greater Hume Shire,2011,34267
+Greater Hume Shire,2012,35181
+Greater Hume Shire,2013,36633
+Greater Hume Shire,2014,37500
+Greater Hume Shire,2015,38938
+Greater Hume Shire,2016,41117
+Greater Hume Shire,2017,-
 Griffith,2011,35836
 Griffith,2012,37085
 Griffith,2013,37705
@@ -373,19 +373,19 @@ Hornsby,2014,53559
 Hornsby,2015,54920
 Hornsby,2016,57303
 Hornsby,2017,-
-Hunters,2011,53222
-Hunters,2012,55690
-Hunters,2013,57654
-Hunters,2014,60000
-Hunters,2015,62282
-Hunters,2016,65042
-Hunters,2017,-
-Inner,2011,50000
-Inner,2012,52219
-Inner,2013,54170
-Inner,2014,55779
-Inner,2015,57536
-Inner,2016,59648
+Hunters Hill,2011,53222
+Hunters Hill,2012,55690
+Hunters Hill,2013,57654
+Hunters Hill,2014,60000
+Hunters Hill,2015,62282
+Hunters Hill,2016,65042
+Hunters Hill,2017,-
+Inner West,2011,50000
+Inner West,2012,52219
+Inner West,2013,54170
+Inner West,2014,55779
+Inner West,2015,57536
+Inner West,2016,59648
 Inverell,2011,33987
 Inverell,2012,35340
 Inverell,2013,36400
@@ -435,20 +435,20 @@ Lachlan,2014,35178
 Lachlan,2015,36050
 Lachlan,2016,38565
 Lachlan,2017,-
-Lake,2011,41526
-Lake,2012,43759
-Lake,2013,45127
-Lake,2014,45864
-Lake,2015,47078
-Lake,2016,48637
-Lake,2017,-
-Lane,2011,56273
-Lane,2012,58764
-Lane,2013,60010
-Lane,2014,61797
-Lane,2015,63928
-Lane,2016,67114
-Lane,2017,-
+Lake Macquarie,2011,41526
+Lake Macquarie,2012,43759
+Lake Macquarie,2013,45127
+Lake Macquarie,2014,45864
+Lake Macquarie,2015,47078
+Lake Macquarie,2016,48637
+Lake Macquarie,2017,-
+Lane Cove,2011,56273
+Lane Cove,2012,58764
+Lane Cove,2013,60010
+Lane Cove,2014,61797
+Lane Cove,2015,63928
+Lane Cove,2016,67114
+Lane Cove,2017,-
 Leeton,2011,36917
 Leeton,2012,38897
 Leeton,2013,40187
@@ -477,13 +477,13 @@ Liverpool,2014,46854
 Liverpool,2015,48276
 Liverpool,2016,49850
 Liverpool,2017,-
-Liverpool,2011,34411
-Liverpool,2012,36354
-Liverpool,2013,36529
-Liverpool,2014,37208
-Liverpool,2015,40005
-Liverpool,2016,41243
-Liverpool,2017,-
+Liverpool Plains,2011,34411
+Liverpool Plains,2012,36354
+Liverpool Plains,2013,36529
+Liverpool Plains,2014,37208
+Liverpool Plains,2015,40005
+Liverpool Plains,2016,41243
+Liverpool Plains,2017,-
 Lockhart,2011,33829
 Lockhart,2012,35355
 Lockhart,2013,36652
@@ -505,20 +505,20 @@ Mid-Coast,2014,35721
 Mid-Coast,2015,36943
 Mid-Coast,2016,39150
 Mid-Coast,2017,-
-Mid-Western,2011,36000
-Mid-Western,2012,39353
-Mid-Western,2013,40739
-Mid-Western,2014,41730
-Mid-Western,2015,42640
-Mid-Western,2016,44567
-Mid-Western,2017,-
-Moree,2011,36120
-Moree,2012,37143
-Moree,2013,40071
-Moree,2014,41458
-Moree,2015,42498
-Moree,2016,43896
-Moree,2017,-
+Mid-Western Regional,2011,36000
+Mid-Western Regional,2012,39353
+Mid-Western Regional,2013,40739
+Mid-Western Regional,2014,41730
+Mid-Western Regional,2015,42640
+Mid-Western Regional,2016,44567
+Mid-Western Regional,2017,-
+Moree Plains,2011,36120
+Moree Plains,2012,37143
+Moree Plains,2013,40071
+Moree Plains,2014,41458
+Moree Plains,2015,42498
+Moree Plains,2016,43896
+Moree Plains,2017,-
 Mosman,2011,57320
 Mosman,2012,60000
 Mosman,2013,61013
@@ -526,12 +526,12 @@ Mosman,2014,63182
 Mosman,2015,65703
 Mosman,2016,68812
 Mosman,2017,-
-Murray,2011,31832
-Murray,2012,34563
-Murray,2013,35285
-Murray,2014,36815
-Murray,2015,37604
-Murray,2016,40311
+Murray River,2011,31832
+Murray River,2012,34563
+Murray River,2013,35285
+Murray River,2014,36815
+Murray River,2015,37604
+Murray River,2016,40311
 Murrumbidgee,2011,32001
 Murrumbidgee,2012,32680
 Murrumbidgee,2013,34824
@@ -581,19 +581,19 @@ Newcastle,2014,47176
 Newcastle,2015,48294
 Newcastle,2016,49901
 Newcastle,2017,-
-North,2011,60237
-North,2012,63393
-North,2013,65676
-North,2014,67953
-North,2015,70518
-North,2016,73241
-North,2017,-
-Northern,2011,45519
-Northern,2012,47470
-Northern,2013,49047
-Northern,2014,51100
-Northern,2015,53000
-Northern,2016,55000
+North Sydney,2011,60237
+North Sydney,2012,63393
+North Sydney,2013,65676
+North Sydney,2014,67953
+North Sydney,2015,70518
+North Sydney,2016,73241
+North Sydney,2017,-
+Northern Beaches,2011,45519
+Northern Beaches,2012,47470
+Northern Beaches,2013,49047
+Northern Beaches,2014,51100
+Northern Beaches,2015,53000
+Northern Beaches,2016,55000
 Oberon,2011,40695
 Oberon,2012,41744
 Oberon,2013,42490
@@ -629,26 +629,26 @@ Penrith,2014,49418
 Penrith,2015,50754
 Penrith,2016,52417
 Penrith,2017,-
-Port,2011,34752
-Port,2012,36424
-Port,2013,37704
-Port,2014,38888
-Port,2015,40430
-Port,2016,42005
-Port,2017,-
-Port,2011,39013
-Port,2012,41624
-Port,2013,42418
-Port,2014,43031
-Port,2015,43976
-Port,2016,45317
-Port,2017,-
-Queanbeyan-Palerang,2011,52592
-Queanbeyan-Palerang,2012,55045
-Queanbeyan-Palerang,2013,57020
-Queanbeyan-Palerang,2014,58139
-Queanbeyan-Palerang,2015,59537
-Queanbeyan-Palerang,2016,61360
+Port Macquarie-Hastings,2011,34752
+Port Macquarie-Hastings,2012,36424
+Port Macquarie-Hastings,2013,37704
+Port Macquarie-Hastings,2014,38888
+Port Macquarie-Hastings,2015,40430
+Port Macquarie-Hastings,2016,42005
+Port Macquarie-Hastings,2017,-
+Port Stephens,2011,39013
+Port Stephens,2012,41624
+Port Stephens,2013,42418
+Port Stephens,2014,43031
+Port Stephens,2015,43976
+Port Stephens,2016,45317
+Port Stephens,2017,-
+Queanbeyan-Palerang Regional,2011,52592
+Queanbeyan-Palerang Regional,2012,55045
+Queanbeyan-Palerang Regional,2013,57020
+Queanbeyan-Palerang Regional,2014,58139
+Queanbeyan-Palerang Regional,2015,59537
+Queanbeyan-Palerang Regional,2016,61360
 Randwick,2011,47253
 Randwick,2012,49635
 Randwick,2013,51026
@@ -656,13 +656,13 @@ Randwick,2014,52730
 Randwick,2015,54979
 Randwick,2016,57011
 Randwick,2017,-
-Richmond,2011,35292
-Richmond,2012,36831
-Richmond,2013,37451
-Richmond,2014,39046
-Richmond,2015,40022
-Richmond,2016,41102
-Richmond,2017,-
+Richmond Valley,2011,35292
+Richmond Valley,2012,36831
+Richmond Valley,2013,37451
+Richmond Valley,2014,39046
+Richmond Valley,2015,40022
+Richmond Valley,2016,41102
+Richmond Valley,2017,-
 Ryde,2011,46032
 Ryde,2012,47821
 Ryde,2013,49599
@@ -691,19 +691,19 @@ Singleton,2014,54381
 Singleton,2015,53928
 Singleton,2016,55660
 Singleton,2017,-
-Snowy,2011,34506
-Snowy,2012,36611
-Snowy,2013,37449
-Snowy,2014,39130
-Snowy,2015,39688
-Snowy,2016,40654
-Snowy,2011,37665
-Snowy,2012,39933
-Snowy,2013,40967
-Snowy,2014,41333
-Snowy,2015,42576
-Snowy,2016,43776
-Snowy,2017,-
+Snowy Monaro Regional,2011,34506
+Snowy Monaro Regional,2012,36611
+Snowy Monaro Regional,2013,37449
+Snowy Monaro Regional,2014,39130
+Snowy Monaro Regional,2015,39688
+Snowy Monaro Regional,2016,40654
+Snowy Valleys,2011,37665
+Snowy Valleys,2012,39933
+Snowy Valleys,2013,40967
+Snowy Valleys,2014,41333
+Snowy Valleys,2015,42576
+Snowy Valleys,2016,43776
+Snowy Valleys,2017,-
 Strathfield,2011,38528
 Strathfield,2012,40808
 Strathfield,2013,42685
@@ -711,13 +711,13 @@ Strathfield,2014,43521
 Strathfield,2015,44535
 Strathfield,2016,45795
 Strathfield,2017,-
-Sutherland,2011,48002
-Sutherland,2012,50000
-Sutherland,2013,51161
-Sutherland,2014,52560
-Sutherland,2015,54169
-Sutherland,2016,56492
-Sutherland,2017,-
+Sutherland Shire,2011,48002
+Sutherland Shire,2012,50000
+Sutherland Shire,2013,51161
+Sutherland Shire,2014,52560
+Sutherland Shire,2015,54169
+Sutherland Shire,2016,56492
+Sutherland Shire,2017,-
 Sydney,2011,39091
 Sydney,2012,40936
 Sydney,2013,42857
@@ -725,13 +725,13 @@ Sydney,2014,44750
 Sydney,2015,47066
 Sydney,2016,48852
 Sydney,2017,-
-Tamworth,2011,38211
-Tamworth,2012,39527
-Tamworth,2013,40519
-Tamworth,2014,41585
-Tamworth,2015,43336
-Tamworth,2016,44882
-Tamworth,2017,-
+Tamworth Regional,2011,38211
+Tamworth Regional,2012,39527
+Tamworth Regional,2013,40519
+Tamworth Regional,2014,41585
+Tamworth Regional,2015,43336
+Tamworth Regional,2016,44882
+Tamworth Regional,2017,-
 Temora,2011,32298
 Temora,2012,35381
 Temora,2013,35360
@@ -746,13 +746,13 @@ Tenterfield,2014,32917
 Tenterfield,2015,35000
 Tenterfield,2016,34514
 Tenterfield,2017,-
-The,2011,49581
-The,2012,51129
-The,2013,52628
-The,2014,54075
-The,2015,55688
-The,2016,57669
-The,2017,-
+The Hills Shire,2011,49581
+The Hills Shire,2012,51129
+The Hills Shire,2013,52628
+The Hills Shire,2014,54075
+The Hills Shire,2015,55688
+The Hills Shire,2016,57669
+The Hills Shire,2017,-
 Tweed,2011,34496
 Tweed,2012,35873
 Tweed,2013,37666
@@ -760,20 +760,20 @@ Tweed,2014,38491
 Tweed,2015,39270
 Tweed,2016,40949
 Tweed,2017,-
-Upper,2011,39194
-Upper,2012,41981
-Upper,2013,43143
-Upper,2014,43905
-Upper,2015,43859
-Upper,2016,47118
-Upper,2017,-
-Upper,2011,35032
-Upper,2012,36502
-Upper,2013,37214
-Upper,2014,39118
-Upper,2015,40693
-Upper,2016,43002
-Upper,2017,-
+Upper Hunter Shire,2011,39194
+Upper Hunter Shire,2012,41981
+Upper Hunter Shire,2013,43143
+Upper Hunter Shire,2014,43905
+Upper Hunter Shire,2015,43859
+Upper Hunter Shire,2016,47118
+Upper Hunter Shire,2017,-
+Upper Lachlan Shire,2011,35032
+Upper Lachlan Shire,2012,36502
+Upper Lachlan Shire,2013,37214
+Upper Lachlan Shire,2014,39118
+Upper Lachlan Shire,2015,40693
+Upper Lachlan Shire,2016,43002
+Upper Lachlan Shire,2017,-
 Uralla,2011,33219
 Uralla,2012,34684
 Uralla,2013,36686
@@ -781,13 +781,13 @@ Uralla,2014,37933
 Uralla,2015,38845
 Uralla,2016,41282
 Uralla,2017,-
-Wagga,2011,40486
-Wagga,2012,41670
-Wagga,2013,43224
-Wagga,2014,44385
-Wagga,2015,45759
-Wagga,2016,47677
-Wagga,2017,-
+Wagga Wagga,2011,40486
+Wagga Wagga,2012,41670
+Wagga Wagga,2013,43224
+Wagga Wagga,2014,44385
+Wagga Wagga,2015,45759
+Wagga Wagga,2016,47677
+Wagga Wagga,2017,-
 Walcha,2011,29236
 Walcha,2012,31979
 Walcha,2013,31556
@@ -809,13 +809,13 @@ Warren,2014,39354
 Warren,2015,38545
 Warren,2016,41525
 Warren,2017,-
-Warrumbungle,2011,31296
-Warrumbungle,2012,32954
-Warrumbungle,2013,33498
-Warrumbungle,2014,34182
-Warrumbungle,2015,37187
-Warrumbungle,2016,38238
-Warrumbungle,2017,-
+Warrumbungle Shire,2011,31296
+Warrumbungle Shire,2012,32954
+Warrumbungle Shire,2013,33498
+Warrumbungle Shire,2014,34182
+Warrumbungle Shire,2015,37187
+Warrumbungle Shire,2016,38238
+Warrumbungle Shire,2017,-
 Waverley,2011,45067
 Waverley,2012,47913
 Waverley,2013,50000
@@ -837,13 +837,13 @@ Wentworth,2014,33006
 Wentworth,2015,29713
 Wentworth,2016,28166
 Wentworth,2017,-
-Western,2011,38631
-Western,2012,40127
-Western,2013,41412
-Western,2014,42609
-Western,2015,43663
-Western,2016,45510
-Western,2017,-
+Western Plains Regional,2011,38631
+Western Plains Regional,2012,40127
+Western Plains Regional,2013,41412
+Western Plains Regional,2014,42609
+Western Plains Regional,2015,43663
+Western Plains Regional,2016,45510
+Western Plains Regional,2017,-
 Willoughby,2011,50599
 Willoughby,2012,53000
 Willoughby,2013,54959
@@ -879,17 +879,17 @@ Woollahra,2014,58951
 Woollahra,2015,62000
 Woollahra,2016,64623
 Woollahra,2017,-
-Yass,2011,47655
-Yass,2012,50174
-Yass,2013,52676
-Yass,2014,53529
-Yass,2015,55195
-Yass,2016,57814
-Yass,2017,-
-Unincorporated,2011,30100
-Unincorporated,2012,28475
-Unincorporated,2013,31784
-Unincorporated,2014,28858
-Unincorporated,2015,30030
-Unincorporated,2016,33721
-Unincorporated,2017,-
+Yass Valley,2011,47655
+Yass Valley,2012,50174
+Yass Valley,2013,52676
+Yass Valley,2014,53529
+Yass Valley,2015,55195
+Yass Valley,2016,57814
+Yass Valley,2017,-
+Unincorporated NSW,2011,30100
+Unincorporated NSW,2012,28475
+Unincorporated NSW,2013,31784
+Unincorporated NSW,2014,28858
+Unincorporated NSW,2015,30030
+Unincorporated NSW,2016,33721
+Unincorporated NSW,2017,-
