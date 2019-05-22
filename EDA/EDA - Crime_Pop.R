@@ -10,7 +10,7 @@ library(ggplot2)
 library(ggthemes)
 
 setwd("~/GitHub/STD_AT2/CLEAN DATA")
-offence_data <- read_csv("offence_data.csv")
+offence_data <- read_csv("offence_data_monthly.csv")
 colnames(offence_data)
 str(offence_data)
 
@@ -34,10 +34,12 @@ ggplot(offence_data_2014, aes(x = Month, y = violence_count, group = 1)) +
 #combine the data from monthly to annual
 offence_data_ag = aggregate(violence_count ~ Year + LGA, data = offence_data, FUN = sum)
 str(offence_data_ag)
+summary(offence_data_ag)
 
 #change year from character to number so both merging datasets have same structure
 offence_data_ag[1:1] = lapply(offence_data_ag[1:1], as.numeric)
 str(offence_data_ag)
+summary(offence_data_ag)
 
 #filter for 2012-2017 data
 offence_data_ag <- filter(offence_data_ag, ( Year == 2012 | Year == 2013 | Year == 2014 | 
@@ -168,7 +170,6 @@ colnames(population)
 population_subset = select(population, LGA, Year, Person_Population_Number_Total, Population_Density)
 colnames(population_subset)
 str(population_subset)
-population_subset[3:4] = lapply(population_subset[3:4], as.numeric)
 
 #MERGE these datasets
 offence_data_EDA_full <- full_join(offence_data_ag, population_subset, by = c("Year", "LGA")) 
