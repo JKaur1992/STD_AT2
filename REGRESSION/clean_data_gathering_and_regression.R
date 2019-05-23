@@ -44,7 +44,6 @@ get_business_entries_rate_by_LGA_year <- function() {
   return (read_csv('STD_AT2/CLEAN DATA/Business.csv') %>% select(LGA, year, New_business_entries_rate))
 }
 
-
 get_hostpitalisation_by_LGA_year <- function() {
   return (read_csv('STD_AT2/CLEAN DATA/alcohol_hosp_death.csv'))
 }
@@ -96,10 +95,14 @@ joined_data <- inner_join(inner_join(inner_join(inner_join(inner_join(rent, inco
 
 # Filter to >2007 and join health data to freq, income, offence_pop
 hospitalisation <- filter(hospitalisation, year >2007)
-join_health <- inner_join(hospitalisation,frequency,by =c('LGA','year'))
 
+join_health <- inner_join(hospitalisation,frequency,by =c('LGA','year'))
 join_health <- inner_join(join_health, income, by =c('LGA','year'))
 join_health <- inner_join(join_health, offence_pop, by = c('LGA','year'))
+
+#new variables 
+join_health <- inner_join(join_health, age, by = c('LGA','year'))
+join_health <- inner_join(join_health, unemployment_rate, by = c('LGA','year'))
 
 
 # Convert "rate" to "counts" for death and hosp (was rate per 100,000 pop) so can do poisson regression model
@@ -140,26 +143,27 @@ summary(hosp7)
 hosp8<-glm(hosp_count ~ Population_Density*freq_daily + Population_Density*freq_never, family = poisson, data = join_health)
 summary(hosp8)
 
-# ------ BEST REGRESSION FOR HOSPITALIZATIONS WITHOUT 2014 INDICATIVE -------#
+
 hosp9<-glm(hosp_count ~ year + Population_Density + freq_daily+freq_weekly+freq_less_weekly, family = poisson(), data = join_health)
 summary(hosp9)
-#----------------------------------------------------#
 
-hosp10<-glm(hosp_count ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = poisson, data = join_health)
+# -----------------------#
+hosp10<-glm(hosp_count ~ year + Population_Density + freq_daily+ freq_weekly+freq_less_weekly+ Working_Age_Population_15_64_years, family = poisson(), data = join_health)
 summary(hosp10)
+# -----------------------#
 
-hosp11<-glm(hosp_count ~ year + Population_Density + totcons, family = poisson(), data = join_health)
+hosp11<-glm(hosp_count ~ year + Population_Density + freq_daily+ freq_weekly+freq_less_weekly+ Working_Age_Population_15_64_years + Postlaw, family = poisson(), data = join_health)
 summary(hosp11)
 
-hosp12<-glm(hosp_count ~ year + Population_Density + freq_daily+freq_weekly+freq_less_weekly + Postlaw, family = poisson(), data = join_health)
-summary(hosp12)
-# ------ BEST REGRESSION FOR HOSPITALIZATIONS -------#
-hosp13<-glm(hosp_count ~ Population_Density + freq_daily+freq_weekly+freq_less_weekly + Postlaw, family = poisson(), data = join_health)
-summary(hosp13)
-#----------------------------------------------------#
 
-hosp14<-glm(hosp_count ~ Population_Density +totcons +Postlaw, family = poisson(), data = join_health)
-summary(hosp14)
+# ------2014  indicative-----------------#
+hosp12<-glm(hosp_count ~  Population_Density + freq_daily+ freq_weekly+freq_less_weekly+ Working_Age_Population_15_64_years + Postlaw, family = poisson(), data = join_health)
+summary(hosp12)
+# -----------------------#
+
+
+
+
 
 # glm_binom<-glm(hosp_prob ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = binomial(logit), data = join_health)  # We tried a Binomial but  not a good idea.... 
 
@@ -177,36 +181,42 @@ linear_Hosp_death <- lm(hosp_count ~ death_count, data = join_health) #how simil
 summary(linear_Hosp_death)
 
 
-
 death1<-glm(death_count ~ Median_income + Population_Density, family = poisson(), data = join_health)
 summary(death1)
 
+death2<-glm(death_count ~ Median_income + Population_Density + freq_daily, family = poisson(), data = join_health)
+summary(death2)
 
-glm_var_death<-glm(death_count ~ Median_income + Population_Density + freq_daily, family = poisson(), data = join_health)
+death3<-glm(death_count ~ Median_income + Population_Density +freq_weekly, family = poisson(), data = join_health)
 
-glm_var2_death<-glm(death_count ~ Median_income + Population_Density +freq_weekly, family = poisson(), data = join_health)
+death4<-glm(death_count ~ Median_income + Population_Density +freq_less_weekly, family = poisson(), data = join_health)
 
-glm_var3_death<-glm(death_count ~ Median_income + Population_Density +freq_less_weekly, family = poisson(), data = join_health)
-
-glm_basevar_death<-glm(death_count ~ Median_income + Population_Density +freq_daily+freq_weekly+freq_less_weekly+freq_never, family = poisson(), data = join_health)
-
-
-glm_baseinter_death<-glm(death_count ~ Population_Density*freq_daily, family = poisson, data = join_health)
-
-glm_baseinter_death<-glm(death_count ~ Population_Density*freq_daily + Population_Density*freq_never, family = poisson, data = join_health)
-
-glm_baseinter_death<-glm(death_count ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = poisson, data = join_health)
+death5-glm(death_count ~ Median_income + Population_Density +freq_daily+freq_weekly+freq_less_weekly+freq_never, family = poisson(), data = join_health)
 
 
-glm_time_death<-glm(death_count ~ Median_income + Population_Density + year*freq_weekly, family = poisson(), data = join_health)
+death6<-glm(death_count ~ Population_Density*freq_daily, family = poisson, data = join_health)
 
-glm_timevar_death<-glm(death_count ~ Median_income + Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = poisson(), data = join_health)
+death7<-glm(death_count ~ Population_Density*freq_daily + Population_Density*freq_never, family = poisson, data = join_health)
 
-deathXX<-glm(death_count ~ Median_income + Population_Density + totcons, family = poisson(), data = join_health)
-summary(deathXX)
+death8<-glm(death_count ~ year*Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = poisson, data = join_health)
 
-death20<-glm(death_count ~ Median_income + Population_Density + Postlaw, family = poisson(), data = join_health)
-summary(death20)
+
+death9<-glm(death_count ~ Median_income + Population_Density + year*freq_weekly, family = poisson(), data = join_health)
+
+death10<-glm(death_count ~ Median_income + Population_Density + freq_daily +freq_weekly+freq_less_weekly + freq_never, family = poisson(), data = join_health)
+
+death11<-glm(death_count ~ Median_income + Population_Density + totcons, family = poisson(), data = join_health)
+summary(death11)
+
+# -----------------------#
+death12<-glm(death_count ~ Median_income + Population_Density + Working_Age_Population_15_64_years, family = poisson(), data = join_health)
+summary(death12)
+# -----------------------#
+
+# ------2014  indicative-----------------#
+death13<-glm(death_count ~ Median_income + Population_Density + Working_Age_Population_15_64_years + Postlaw, family = poisson(), data = join_health)
+summary(death13)
+# -----------------------#
 
 
 # Summary of the outputs of the various models deaths
@@ -236,13 +246,17 @@ summary(violence4)
 #--------------BEST REGRESSION FOR VIOLENCE WITHOUT 2014 INDICATIVE ------------------------------#
 violence5<-glm(violence_count ~ year +Population_Density  + freq_daily+ freq_weekly + freq_never, family = poisson(), data = join_health)
 summary(violence5)
+#
 
 violence6<- glm(violence_count ~ year +Population_Density  +totcons , family = poisson(), data = join_health)
 summary(violence6)
 
-#--------------BEST REGRESSION FOR VIOLENCE ------------------------------#
-violence7<-glm(violence_count ~ year +Population_Density  + freq_daily+ freq_weekly + freq_never + Postlaw, family = poisson(), data = join_health)
+violence7<-glm(violence_count ~ year +Population_Density  + freq_daily+ freq_weekly + freq_never + Working_Age_Population_15_64_years, family = poisson(), data = join_health)
 summary(violence7)
+
+#--------------BEST REGRESSION FOR VIOLENCE ------------------------------#
+violence8<-glm(violence_count ~ year +Population_Density  + freq_daily+ freq_weekly + freq_never + Working_Age_Population_15_64_years + Postlaw, family = poisson(), data = join_health)
+summary(violence8)
 #--------------------------------------------#
 
 
@@ -251,44 +265,45 @@ summary(violence7)
 
 # ====== PREDICTIONS =========#####
 # ---- Hospitalizatons -------#####
-#Sydnay LGA 
+#Use only variables important in the regression fro hosp
 PredHosp <- join_health %>%
-  select(LGA,hosp_count, year,Population_Density,freq_daily,freq_weekly,freq_less_weekly) 
+  select(LGA,hosp_count, year,Population_Density,freq_daily,freq_weekly,freq_less_weekly, Working_Age_Population_15_64_years) 
 
-
+#partitioning (2012-2013)/(2014-2016)
 trainsetHosp <- PredHosp%>%
   filter(year <= 2013)
 
 testsetHosp <- PredHosp%>%
   filter(year > 2013)
 
+nrow(trainsetHosp)
+nrow(testsetHosp)
+nrow(PredHosp)
+nrow(trainsetHosp) + nrow(testsetHosp) ==nrow(PredHosp)
+
+#Model
+Hosp_glm<- glm(hosp_count ~ year + Population_Density + freq_daily+ freq_weekly+freq_less_weekly+ Working_Age_Population_15_64_years, family = poisson(), data = trainsetHosp)
+
+testsetHosp$Prediction <- predict(Hosp_glm, newdata=testsetHosp, type = "response" )
+
+summary(Hosp_glm)
 
 
-
-
-nrow(trainsetPHS)
-nrow(testsetPHS)
-nrow(PredHospSyd)
-
-SydneyHosp<- glm(hosp_count ~ year + Population_Density + freq_daily + freq_weekly + freq_less_weekly, family = poisson(), data = trainsetPHS)
-
-testsetPHS$Prediction <- predict(SydneyHosp, newdata=testsetPHS, type = "response" )
-view(testsetPHS)
-
-SydneyHospPredVsReal<- testsetPHS %>%
+#Just to compare the actual vs prediction
+HospPredVsReal<- testsetHosp %>%
   select(LGA, year ,hosp_count, Prediction)
-view(SydneyHospPredVsReal)
 
-PredHospSyd <- PredHospSyd %>%
-  left_join(SydneyHospPredVsReal, Prediction,by=c("LGA", "year", "hosp_count"))
+#Join the preditions to the entire data set for plot
+PredHosp <- PredHosp %>%
+  left_join(HospPredVsReal, Prediction,by=c("LGA", "year","hosp_count"))  #this is droping some observations 
 
-PredHospSyd <- transform(PredHospSyd, Pred2=ifelse(year==2014, hosp_count, Prediction))
-view(PredHospSyd)
+PredHosp <- transform(PredHosp, Pred2=ifelse(year==2013, hosp_count, Prediction))
+view(PredHosp)
 
-rmse(PredHospSyd$hosp_count, PredHospSyd$Prediction)
+#Plot the difference for Sydney 
+PredHospSyd <- PredHosp %>%
+  filter(LGA == "Sydney")
 
-
-#Plot the difference 
 ggplot(data = PredHospSyd) + 
   geom_line(mapping = aes(x = year, y = hosp_count, color="Actual"), show.legend = TRUE)+
   geom_line(mapping = aes(x = year, y = Pred2, color="Prediction"), show.legend = TRUE)+
@@ -300,34 +315,10 @@ ggplot(data = PredHospSyd) +
   theme_classic()
   
 
-#  Parramata LGA
-PredHospPar <- join_health %>%
-  filter(LGA=="Parramatta")%>%
-  select(LGA,hosp_count, year,Population_Density,freq_daily,freq_weekly,freq_less_weekly) 
+#Plot the difference for Parramatta 
+PredHospPar <- PredHosp %>%
+  filter(LGA=="Parramatta")
 
-trainsetPHP <- PredHospPar[1:3,]
-testsetPHP <- PredHospPar[4:5,]
-
-nrow(trainsetPHP)
-nrow(testsetPHP)
-nrow(PredHospPar)
-
-ParraHosp<- glm(hosp_count ~ year + Population_Density + freq_daily + freq_weekly + freq_less_weekly, family = poisson(), data = trainsetPHP)
-
-testsetPHP$Prediction <- predict(ParraHosp, newdata=testsetPHP, type = "response" )
-view(testsetPHP)
-
-ParramattaHospPredVsReal<- testsetPHP %>%
-  select(LGA, year ,hosp_count, Prediction)
-view(ParramattaHospPredVsReal)
-
-PredHospPar <- PredHospPar %>%
-  left_join(ParramattaHospPredVsReal, Prediction,by=c("LGA", "year", "hosp_count"))
-
-PredHospPar <- transform(PredHospPar, Pred2=ifelse(year==2014, hosp_count, Prediction))
-view(PredHospPar)
-
-#Plot the difference 
 ggplot(data = PredHospPar) + 
   geom_line(mapping = aes(x = year, y = hosp_count, color="Actual"), show.legend = TRUE)+
   geom_line(mapping = aes(x = year, y = Pred2, color="Predicted"), show.legend = TRUE)+
@@ -338,19 +329,220 @@ ggplot(data = PredHospPar) +
   theme(plot.title = element_text(hjust=0.5),plot.subtitle  = element_text(hjust=0.5))+
   theme_classic()
 
+#Plot the difference for North Sydney
+PredHospNorth <- PredHosp %>%
+  filter(LGA=="North Sydney")
 
-# Inner West
+ggplot(data = PredHospNorth) + 
+  geom_line(mapping = aes(x = year, y = hosp_count, color="Actual"), show.legend = TRUE)+
+  geom_line(mapping = aes(x = year, y = Pred2, color="Predicted"), show.legend = TRUE)+
+  xlab("Year") + ylab("Hospitalization") +
+  geom_vline(xintercept = (2014), linetype="dotted", color = "blue", size=0.5)  +
+  geom_text(aes(x=(2014), label="Law", y=700), colour="black", angle=90, vjust = 1.2) +
+  labs(title="North Sydney Hospitalization Count", subtitle = "Predictions vs Real")  +
+  theme(plot.title = element_text(hjust=0.5),plot.subtitle  = element_text(hjust=0.5))+
+  theme_classic()
 
-# ---- Death ---####
-PredHospSyd <- join_health %>%
-  filter(LGA=="Sydney")%>%
-  select(LGA,hosp_count, year,Population_Density,freq_daily,freq_weekly,freq_less_weekly) 
 
-trainsetPHS <- PredHospSyd[1:3,]
-testsetPHS <- PredHospSyd[4:5,]
+#Plot the difference for North Sydney
+PredHospInner <- PredHosp %>%
+  filter(LGA=="Inner West")
 
-nrow(trainsetPHS)
-nrow(testsetPHS)
-nrow(PredHospSyd)
+ggplot(data = PredHospInner) + 
+  geom_line(mapping = aes(x = year, y = hosp_count, color="Actual"), show.legend = TRUE)+
+  geom_line(mapping = aes(x = year, y = Pred2, color="Predicted"), show.legend = TRUE)+
+  xlab("Year") + ylab("Hospitalization") +
+  geom_vline(xintercept = (2014), linetype="dotted", color = "blue", size=0.5)  +
+  geom_text(aes(x=(2014), label="Law", y=700), colour="black", angle=90, vjust = 1.2) +
+  labs(title="Inner West Hospitalization Count", subtitle = "Predictions vs Real")  +
+  theme(plot.title = element_text(hjust=0.5),plot.subtitle  = element_text(hjust=0.5))+
+  theme_classic()
 
-SydneyHosp<- glm(hosp_count ~ year + Population_Density + freq_daily + freq_weekly + freq_less_weekly, family = poisson(), data = trainsetPHS)
+# ---- Deaths ---- 
+PredDeaths <- join_health %>%
+  select(LGA,year,death_count, Median_income, Population_Density,Working_Age_Population_15_64_years ) 
+
+#partitioning (2012-2013)/(2014-2016)
+trainsetDeaths <- PredDeaths %>%
+  filter(year <= 2013)
+
+testsetDeaths <- PredDeaths%>%
+  filter(year > 2013)
+
+nrow(trainsetDeaths)
+nrow(testsetDeaths)
+nrow(PredDeaths)
+nrow(trainsetDeaths) + nrow(testsetDeaths) ==nrow(PredDeaths)
+
+#Model
+Deaths_glm<- glm(death_count ~ Median_income + Population_Density + Working_Age_Population_15_64_years, family = poisson(), data = trainsetDeaths)
+
+testsetDeaths$Prediction <- predict(Deaths_glm, newdata=testsetDeaths, type = "response" )
+
+summary(Deaths_glm)
+
+
+#Just to compare the actual vs prediction
+DeathsPredVsReal<- testsetDeaths %>%
+  select(LGA, year ,death_count, Prediction)
+
+#Join the preditions to the entire data set for plot
+PredDeaths <- PredDeaths %>%
+  left_join(DeathsPredVsReal, Prediction,by=c("LGA", "year","death_count"))  #this is droping some observations 
+
+PredDeaths <- transform(PredDeaths, Pred2=ifelse(year==2013, death_count, Prediction))
+view(PredDeaths)
+
+
+#Plot the difference for Sydney 
+PredDeathsSyd <- PredDeaths %>%
+  filter(LGA == "Sydney")
+
+ggplot(data = PredDeathsSyd) + 
+  geom_line(mapping = aes(x = year, y = death_count, color="Actual"), show.legend = TRUE)+
+  geom_line(mapping = aes(x = year, y = Pred2, color="Prediction"), show.legend = TRUE)+
+  xlab("Year") + ylab("Deaths") +
+  geom_vline(xintercept = (2014), linetype="dotted", color = "blue", size=0.5)  +
+  geom_text(aes(x=(2014), label="Law", y=30), colour="black", angle=90, vjust = 1.2) +
+  labs(title="Syndey Deaths Count", subtitle = "Predictions vs Real")  +
+  theme(plot.title = element_text(hjust=0.5),plot.subtitle  = element_text(hjust=0.5))+
+  theme_classic()
+
+
+#Plot the difference for Parramatta 
+PredDeathsPar <- PredDeaths %>%
+  filter(LGA=="Parramatta")
+
+ggplot(data = PredDeathsPar) + 
+  geom_line(mapping = aes(x = year, y = death_count, color="Actual"), show.legend = TRUE)+
+  geom_line(mapping = aes(x = year, y = Pred2, color="Predicted"), show.legend = TRUE)+
+  xlab("Year") + ylab("Deaths") +
+  geom_vline(xintercept = (2014), linetype="dotted", color = "blue", size=0.5)  +
+  geom_text(aes(x=(2014), label="Law", y=17.5), colour="black", angle=90, vjust = 1.2) +
+  labs(title="Parramatta Deaths Count", subtitle = "Predictions vs Real")  +
+  theme(plot.title = element_text(hjust=0.5),plot.subtitle  = element_text(hjust=0.5))+
+  theme_classic()
+
+#Plot the difference for North Sydney
+PredDeathsNorth <- PredDeaths %>%
+  filter(LGA=="North Sydney")
+
+ggplot(data = PredDeathsNorth) + 
+  geom_line(mapping = aes(x = year, y = death_count, color="Actual"), show.legend = TRUE)+
+  geom_line(mapping = aes(x = year, y = Pred2, color="Predicted"), show.legend = TRUE)+
+  xlab("Year") + ylab("Deaths") +
+  geom_vline(xintercept = (2014), linetype="dotted", color = "blue", size=0.5)  +
+  geom_text(aes(x=(2014), label="Law", y=13), colour="black", angle=90, vjust = 1.2) +
+  labs(title="North Sydney Deaths Count", subtitle = "Predictions vs Real")  +
+  theme(plot.title = element_text(hjust=0.5),plot.subtitle  = element_text(hjust=0.5))+
+  theme_classic()
+
+
+#Plot the difference for North Sydney
+PredDeathsInner <- PredDeaths %>%
+  filter(LGA=="Inner West")
+
+ggplot(data = PredDeathsInner) + 
+  geom_line(mapping = aes(x = year, y = death_count, color="Actual"), show.legend = TRUE)+
+  geom_line(mapping = aes(x = year, y = Pred2, color="Predicted"), show.legend = TRUE)+
+  xlab("Year") + ylab("Deaths") +
+  geom_vline(xintercept = (2014), linetype="dotted", color = "blue", size=0.5)  +
+  geom_text(aes(x=(2014), label="Law", y=20), colour="black", angle=90, vjust = 1.2) +
+  labs(title="Inner West Deaths Count", subtitle = "Predictions vs Real")  +
+  theme(plot.title = element_text(hjust=0.5),plot.subtitle  = element_text(hjust=0.5))+
+  theme_classic()
+
+# ---- Crime ----
+#Use only variables important in the regression fro hosp
+PredCrime <- join_health %>%
+  select(LGA,violence_count, year,Population_Density,freq_daily,freq_weekly,freq_never, Working_Age_Population_15_64_years) 
+
+#partitioning (2012-2013)/(2014-2016)
+trainsetCrime <- PredCrime%>%
+  filter(year <= 2013)
+
+testsetCrime <- PredCrime%>%
+  filter(year > 2013)
+
+nrow(trainsetCrime)
+nrow(testsetCrime)
+nrow(PredCrime)
+nrow(trainsetCrime) + nrow(testsetCrime) ==nrow(PredCrime)
+
+#Model
+Crime_glm<- glm(violence_count ~ year +Population_Density  + freq_daily+ freq_weekly + freq_never + Working_Age_Population_15_64_years, family = poisson(), data = trainsetCrime)
+
+testsetCrime$Prediction <- predict(Crime_glm, newdata=testsetCrime, type = "response" )
+
+summary(Crime_glm)
+
+
+#Just to compare the actual vs prediction
+CrimePredVsReal<- testsetCrime %>%
+  select(LGA, year ,violence_count, Prediction)
+
+#Join the preditions to the entire data set for plot
+PredCrime <- PredCrime %>%
+  left_join(CrimePredVsReal, Prediction,by=c("LGA", "year","violence_count"))  #this is droping some observations 
+
+PredCrime <- transform(PredCrime, Pred2=ifelse(year==2013, violence_count, Prediction))
+view(PredCrime)
+
+
+#Plot the difference for Sydney 
+PredCrimeSyd <- PredCrime %>%
+  filter(LGA == "Sydney")
+
+ggplot(data = PredCrimeSyd) + 
+  geom_line(mapping = aes(x = year, y = violence_count, color="Actual"), show.legend = TRUE)+
+  geom_line(mapping = aes(x = year, y = Pred2, color="Prediction"), show.legend = TRUE)+
+  xlab("Year") + ylab("Violence") +
+  geom_vline(xintercept = (2014), linetype="dotted", color = "blue", size=0.5)  +
+  geom_text(aes(x=(2014), label="Law", y=3500), colour="black", angle=90, vjust = 1.2) +
+  labs(title="Syndey Violence Count", subtitle = "Predictions vs Real")  +
+  theme(plot.title = element_text(hjust=0.5),plot.subtitle  = element_text(hjust=0.5))+
+  theme_classic()
+
+
+#Plot the difference for Parramatta 
+PredCrimePar <- PredCrime %>%
+  filter(LGA=="Parramatta")
+
+ggplot(data = PredCrimePar) + 
+  geom_line(mapping = aes(x = year, y = violence_count, color="Actual"), show.legend = TRUE)+
+  geom_line(mapping = aes(x = year, y = Pred2, color="Predicted"), show.legend = TRUE)+
+  xlab("Year") + ylab("Violence") +
+  geom_vline(xintercept = (2014), linetype="dotted", color = "blue", size=0.5)  +
+  geom_text(aes(x=(2014), label="Law", y=1000), colour="black", angle=90, vjust = 1.2) +
+  labs(title="Parramatta Violence Count", subtitle = "Predictions vs Real")  +
+  theme(plot.title = element_text(hjust=0.5),plot.subtitle  = element_text(hjust=0.5))+
+  theme_classic()
+
+#Plot the difference for North Sydney
+PredCrimeNorth <- PredCrime %>%
+  filter(LGA=="North Sydney")
+
+ggplot(data = PredCrimeNorth) + 
+  geom_line(mapping = aes(x = year, y = violence_count, color="Actual"), show.legend = TRUE)+
+  geom_line(mapping = aes(x = year, y = Pred2, color="Predicted"), show.legend = TRUE)+
+  xlab("Year") + ylab("Crime") +
+  geom_vline(xintercept = (2014), linetype="dotted", color = "blue", size=0.5)  +
+  geom_text(aes(x=(2014), label="Law", y=1200), colour="black", angle=90, vjust = 1.2) +
+  labs(title="North Sydney Crime Count", subtitle = "Predictions vs Real")  +
+  theme(plot.title = element_text(hjust=0.5),plot.subtitle  = element_text(hjust=0.5))+
+  theme_classic()
+
+
+#Plot the difference for North Sydney
+PredCrimeInner <- PredCrime %>%
+  filter(LGA=="Inner West")
+
+ggplot(data = PredCrimeInner) + 
+  geom_line(mapping = aes(x = year, y = violence_count, color="Actual"), show.legend = TRUE)+
+  geom_line(mapping = aes(x = year, y = Pred2, color="Predicted"), show.legend = TRUE)+
+  xlab("Year") + ylab("Violence") +
+  geom_vline(xintercept = (2014), linetype="dotted", color = "blue", size=0.5)  +
+  geom_text(aes(x=(2014), label="Law", y=1300), colour="black", angle=90, vjust = 1.2) +
+  labs(title="Inner West Violence Count", subtitle = "Predictions vs Real")  +
+  theme(plot.title = element_text(hjust=0.5),plot.subtitle  = element_text(hjust=0.5))+
+  theme_classic()
