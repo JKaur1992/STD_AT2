@@ -109,7 +109,7 @@ join_health <- inner_join(join_health, unemployment_rate, by = c('LGA','year'))
 join_health <- join_health %>%
   mutate(.,hosp_count = round(hosp_rate), death_count = round(death_rate), hosp_prob = hosp_rate / 100000, death_prob = death_rate / 100000)
 
-# Create a sum of all cinsumer (all freq)
+# Create a sum of all consumer (all freq od consumption)
 join_health <- join_health %>%
   mutate(totcons = freq_daily + freq_less_weekly + freq_weekly)
 
@@ -546,3 +546,30 @@ ggplot(data = PredCrimeInner) +
   labs(title="Inner West Violence Count", subtitle = "Predictions vs Real")  +
   theme(plot.title = element_text(hjust=0.5),plot.subtitle  = element_text(hjust=0.5))+
   theme_classic()
+
+
+# EXTRA TESTS ####
+install.packages("AER")
+library(AER)
+
+dispersiontest(Hosp_glm)
+dispersiontest(Deaths_glm)
+dispersiontest(Crime_glm)
+
+dispersiontest(hosp12)
+dispersiontest(death13)
+dispersiontest(violence8)
+
+
+
+ggplot(PredHosp)+geom_bar(aes(x=hosp_count))
+ggplot(PredDeaths)+geom_bar(aes(x=death_count))
+ggplot(PredCrime)+geom_bar(aes(x=violence_count))
+
+#has deaths a normal distr?
+deathN<-glm(death_count ~ Median_income + Population_Density + Working_Age_Population_15_64_years + Postlaw, family = binomial(), data = join_health)
+summary(deathN)
+
+
+hospN<-glm(hosp_count ~  Population_Density + freq_daily+ freq_weekly+ Working_Age_Population_15_64_years + Postlaw, family = inverse.gaussian(), data = join_health)
+summary(hospN)
